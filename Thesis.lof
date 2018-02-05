@@ -1,0 +1,8 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Semileptonic decay at tree level\relax }}{3}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces $R(D)/R(D^*)$ determinations from standard model and experiment \cite {HFAG}\relax }}{7}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Taste mixing at tree level.\relax }}{13}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Effective mass of $D_s$ correlation functions, one with local $D_s$ operators $\delimiter "426830A \Phi ^0\Phi ^0\delimiter "526930B $ and one with smeared $\delimiter "426830A \Phi ^1\Phi ^1\delimiter "526930B $.\relax }}{25}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Form factors for the $B\to D$ (left) and $B_s \to D_s$ (right) cases. Errors on data points are statistical. The bands are produced from a fit to the data using \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces 2.86\hbox {}\unskip \@@italiccorr )}} as the fit form. \relax }}{33}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Left: The speed of light against $D_s$ momentum. Discretization errors cause this to differ from unity. Right: On each ensemble, the speed of light at $\left \delimiter "026A30C a\mathaccentV {vec}17E{p}_{D_s} \right \delimiter "026A30C =0$ is extrapolated from the $a\mathaccentV {vec}17E{p}_{D_s}\not =0$ data (below $\left (a\mathaccentV {vec}17E{p}_{D_s}\right )^2 =0.5$), and plotted here. As can be seen, in the limit $am_c\to 0$, the speed of light tends towards unity, showing that discretization effects are controllable below $\left (a\mathaccentV {vec}17E{p}_{D_s}\right )^2 = 0.5$.\relax }}{34}
