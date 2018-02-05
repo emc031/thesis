@@ -1,0 +1,71 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: prog2.aux
+The style file: plain.bst
+Database file #1: prog2.bib
+Warning--entry type for "CorrFitter" isn't style-file defined
+--line 88 of file prog2.bib
+I was expecting a `,' or a `}'---line 96 of file prog2.bib
+ : 
+ : @online{HFAG,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "HFAG" isn't style-file defined
+--line 96 of file prog2.bib
+I was expecting a `,' or a `}'---line 105 of file prog2.bib
+ : 
+ : @article{Monahan:2012dq,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 321 of file prog2.bib
+ : @article{Bazavov:2012xda
+ :                         ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Monahan:2017ub"
+Warning--empty journal in Altmannshofer:2017yso
+Warning--empty publisher in DeGrand:2006zz
+Warning--empty journal in Monahan:2017uby
+Warning--empty journal in Narayanan:2011qj
+Warning--empty publisher in Peskin:1995ev
+You've used 33 entries,
+            2118 wiz_defined-function locations,
+            726 strings with 10527 characters,
+and the built_in function-call counts, 11076 in all, are:
+= -- 1019
+> -- 630
+< -- 2
++ -- 249
+- -- 216
+* -- 817
+:= -- 1928
+add.period$ -- 101
+call.type$ -- 33
+change.case$ -- 200
+chr.to.int$ -- 0
+cite$ -- 38
+duplicate$ -- 380
+empty$ -- 817
+format.name$ -- 216
+if$ -- 2248
+int.to.chr$ -- 0
+int.to.str$ -- 33
+missing$ -- 34
+newline$ -- 170
+num.names$ -- 66
+pop$ -- 195
+preamble$ -- 1
+purify$ -- 170
+quote$ -- 0
+skip$ -- 265
+stack$ -- 0
+substring$ -- 583
+swap$ -- 49
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 126
+warning$ -- 5
+while$ -- 93
+width$ -- 35
+write$ -- 355
+(There were 3 error messages)

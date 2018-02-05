@@ -1,0 +1,31 @@
+\contentsline {section}{\numberline {1}Introduction}{2}
+\contentsline {section}{\numberline {2}Semileptonic Decays, specifically $B_s \to D_s l \nu $}{2}
+\contentsline {subsection}{\numberline {2.1}Semileptonic Decays}{2}
+\contentsline {subsection}{\numberline {2.2}CKM Extraction}{3}
+\contentsline {subsection}{\numberline {2.3}Lepton Flavour Violation}{4}
+\contentsline {subsection}{\numberline {2.4}Kinematics and Form Factors}{5}
+\contentsline {section}{\numberline {3}Lattice QCD}{6}
+\contentsline {subsection}{\numberline {3.1}Discretization}{6}
+\contentsline {subsection}{\numberline {3.2}Meson Correlation Functions}{7}
+\contentsline {subsection}{\numberline {3.3}Gauge Action}{8}
+\contentsline {subsection}{\numberline {3.4}Fermion Actions}{8}
+\contentsline {subsubsection}{\numberline {3.4.1}Staggered Quarks}{9}
+\contentsline {subsubsection}{\numberline {3.4.2}Criticisms of Rooting}{9}
+\contentsline {subsubsection}{\numberline {3.4.3}Highly Improved Staggered Quarks}{9}
+\contentsline {subsubsection}{\numberline {3.4.4}NRQCD}{11}
+\contentsline {subsection}{\numberline {3.5}Correlation Functions from HISQ propagators and random walls}{12}
+\contentsline {subsubsection}{\numberline {3.5.1}Preliminaries}{12}
+\contentsline {subsubsection}{\numberline {3.5.2}2pt correlation functions}{13}
+\contentsline {subsubsection}{\numberline {3.5.3}3-point correlators}{14}
+\contentsline {subsection}{\numberline {3.6}Fitting Correlation Functions}{15}
+\contentsline {subsection}{\numberline {3.7}Renormalization of Currents}{16}
+\contentsline {section}{\numberline {4}Calculation Details}{17}
+\contentsline {subsection}{\numberline {4.1}Lattice Setup}{17}
+\contentsline {subsection}{\numberline {4.2}Correlator Fits}{19}
+\contentsline {subsection}{\numberline {4.3}Deduction of Form Factors}{21}
+\contentsline {subsubsection}{\numberline {4.3.1}Using only Scalar and Temporal Vector Currents}{22}
+\contentsline {subsection}{\numberline {4.4}Continuum \& Chiral Extrapolation}{23}
+\contentsline {section}{\numberline {5}Preliminary Results}{23}
+\contentsline {section}{\numberline {A}Chiral Currents and Ward Identities}{27}
+\contentsline {section}{\numberline {B}The Doubling Problem}{29}
+\contentsline {section}{\numberline {C}Signal/Noise Ratio}{30}

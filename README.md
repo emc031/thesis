@@ -1,1 +1,1 @@
-# thesis
+da gud progrs

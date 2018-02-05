@@ -1,0 +1,388 @@
+@article{Richman:1995wm,
+      author         = "Richman, Jeffrey D. and Burchat, Patricia R.",
+      title          = "{Leptonic and semileptonic decays of charm and bottom
+                        hadrons}",
+      journal        = "Rev. Mod. Phys.",
+      volume         = "67",
+      year           = "1995",
+      pages          = "893-976",
+      doi            = "10.1103/RevModPhys.67.893",
+      eprint         = "hep-ph/9508250",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "UCSB-HEP-95-08, STANFORD-HEP-95-01",
+      SLACcitation   = "%%CITATION = HEP-PH/9508250;%%"
+}
+
+@article{Foldy:1949wa,
+      author         = "Foldy, Leslie L. and Wouthuysen, Siegfried A.",
+      title          = "{On the Dirac theory of spin 1/2 particle and its
+                        nonrelativistic limit}",
+      journal        = "Phys. Rev.",
+      volume         = "78",
+      year           = "1950",
+      pages          = "29-36",
+      doi            = "10.1103/PhysRev.78.29",
+      SLACcitation   = "%%CITATION = PHRVA,78,29;%%"
+}
+
+@book{Schwartz:2013pla,
+      author         = "Schwartz, Matthew D.",
+      title          = "{Quantum Field Theory and the Standard Model}",
+      publisher      = "Cambridge University Press",
+      year           = "2014",
+      url            = "http://www.cambridge.org/us/academic/subjects/physics/theoretical-physics-and-mathematical-physics/quantum-field-theory-and-standard-model",
+      reportNumber   = "ISBN-9781107034730",
+      ISBN           = "1107034736, 9781107034730",
+      SLACcitation   = "%%CITATION = ISBN-9781107034730;%%"
+}
+
+@article{Perepelitsa:2008,
+      author         = "Dennis V. Perepelitsa",
+      title          = "{Sakharov Conditions for Baryogenesis}",
+      year           = "2008",
+}
+
+@book{DeGrand:2006zz,
+      author         = "DeGrand, Thomas and Detar, Carleton E.",
+      title          = "{Lattice methods for quantum chromodynamics}",
+      journal        = "New Jersey, USA: World Scientific (2006) 345 p",
+      year           = "2006",
+      SLACcitation   = "%%CITATION = INSPIRE-739893;%%"
+}
+
+@book{Peskin:1995ev,
+      author         = "Peskin, Michael E. and Schroeder, Daniel V.",
+      title          = "{An Introduction to quantum field theory}",
+      url            = "http://www.slac.stanford.edu/spires/find/books/www?cl=QC174.45%3AP4",
+      journal        = "Reading, USA: Addison-Wesley (1995) 842 p",
+      year           = "1995",
+      reportNumber   = "ISBN-9780201503975",
+      ISBN           = "9780201503975, 0201503972",
+      SLACcitation   = "%%CITATION = ISBN-9780201503975;%%"
+}
+
+@inproceedings{Lepage:1998dt,
+      author         = "Lepage, G. P.",
+      title          = "{Lattice QCD for novices}",
+      booktitle      = "{Strong interactions at low and intermediate energies.
+                        Proceedings, 13th Annual Hampton University Graduate
+                        Studies, HUGS'98, Newport News, USA, May 26-June 12,
+                        1998}",
+      year           = "1998",
+      pages          = "49-90",
+      eprint         = "hep-lat/0506036",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-lat",
+      SLACcitation   = "%%CITATION = HEP-LAT/0506036;%%"
+}
+
+@inproceedings{Munster:2000ez,
+      author         = "Munster, G. and Walzl, M.",
+      title          = "{Lattice gauge theory: A Short primer}",
+      booktitle      = "{Phenomenology of gauge interactions. Proceedings, Summer
+                        School, Zuoz, Switzerland, August 13-19, 2000}",
+      url            = "http://alice.cern.ch/format/showfull?sysnb=2233088",
+      year           = "2000",
+      pages          = "127-160",
+      eprint         = "hep-lat/0012005",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-lat",
+      reportNumber   = "MS-TPI-00-11",
+      SLACcitation   = "%%CITATION = HEP-LAT/0012005;%%"
+}
+
+@inproceedings{Weber:2013eba,
+      author         = "Wagner, Marc and Diehl, Stefan and Kuske, Till and Weber,
+                        Johannes",
+      title          = "{An introduction to lattice hadron spectroscopy for
+                        students without quantum field theoretical background}",
+      url            = "https://inspirehep.net/record/1257390/files/arXiv:1310.1760.pdf",
+      year           = "2013",
+      eprint         = "1310.1760",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-lat",
+      SLACcitation   = "%%CITATION = ARXIV:1310.1760;%%"
+}
+
+@article{Colquhoun:2015oha,
+      author         = "Colquhoun, B. and Davies, C. T. H. and Dowdall, R. J. and
+                        Kettle, J. and Koponen, J. and Lepage, G. P. and Lytle, A.
+                        T.",
+      title          = "{B-meson decay constants: a more complete picture from
+                        full lattice QCD}",
+      collaboration  = "HPQCD",
+      journal        = "Phys. Rev.",
+      volume         = "D91",
+      year           = "2015",
+      number         = "11",
+      pages          = "114509",
+      doi            = "10.1103/PhysRevD.91.114509",
+      eprint         = "1503.05762",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-lat",
+      SLACcitation   = "%%CITATION = ARXIV:1503.05762;%%"
+}
+
+@article{Follana:2006rc,
+      author         = "Follana, E. and Mason, Q. and Davies, C. and Hornbostel,
+                        K. and Lepage, G. P. and Shigemitsu, J. and Trottier, H.
+                        and Wong, K.",
+      title          = "{Highly improved staggered quarks on the lattice, with
+                        applications to charm physics}",
+      collaboration  = "HPQCD, UKQCD",
+      journal        = "Phys. Rev.",
+      volume         = "D75",
+      year           = "2007",
+      pages          = "054502",
+      doi            = "10.1103/PhysRevD.75.054502",
+      eprint         = "hep-lat/0610092",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-lat",
+      SLACcitation   = "%%CITATION = HEP-LAT/0610092;%%"
+}
+
+@article{Lepage:1998vj,
+      author         = "Lepage, G. Peter",
+      title          = "{Flavor symmetry restoration and Symanzik improvement for
+                        staggered quarks}",
+      journal        = "Phys. Rev.",
+      volume         = "D59",
+      year           = "1999",
+      pages          = "074502",
+      doi            = "10.1103/PhysRevD.59.074502",
+      eprint         = "hep-lat/9809157",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-lat",
+      SLACcitation   = "%%CITATION = HEP-LAT/9809157;%%"
+}
+
+@article{Lepage:1992tx,
+      author         = "Lepage, G. Peter and Magnea, Lorenzo and Nakhleh, Charles
+                        and Magnea, Ulrika and Hornbostel, Kent",
+      title          = "{Improved nonrelativistic QCD for heavy quark physics}",
+      journal        = "Phys. Rev.",
+      volume         = "D46",
+      year           = "1992",
+      pages          = "4052-4067",
+      doi            = "10.1103/PhysRevD.46.4052",
+      eprint         = "hep-lat/9205007",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-lat",
+      reportNumber   = "CLNS-92-1136, OHSTPY-HEP-T-92-001",
+      SLACcitation   = "%%CITATION = HEP-LAT/9205007;%%"
+}
+
+@article{Dowdall:2011wh,
+      author         = "Dowdall, R. J. and others",
+      title          = "{The Upsilon spectrum and the determination of the
+                        lattice spacing from lattice QCD including charm quarks in
+                        the sea}",
+      collaboration  = "HPQCD",
+      journal        = "Phys. Rev.",
+      volume         = "D85",
+      year           = "2012",
+      pages          = "054509",
+      doi            = "10.1103/PhysRevD.85.054509",
+      eprint         = "1110.6887",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-lat",
+      SLACcitation   = "%%CITATION = ARXIV:1110.6887;%%"
+}
+
+@article{Colquhoun:2015mfa,
+      author         = "Colquhoun, B. and Dowdall, R. J. and Koponen, J. and
+                        Davies, C. T. H. and Lepage, G. P.",
+      title          = "{$B\to\pi l\nu$ at zero recoil from lattice QCD with physical u/d quarks}",
+      journal        = "Phys. Rev.",
+      volume         = "D93",
+      year           = "2016",
+      number         = "3",
+      pages          = "034502",
+      doi            = "10.1103/PhysRevD.93.034502",
+      eprint         = "1510.07446",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-lat",
+      SLACcitation   = "%%CITATION = ARXIV:1510.07446;%%"
+}
+
+@article{Lepage:2001ym,
+      author         = "Lepage, G. P. and Clark, B. and Davies, C. T. H. and
+                        Hornbostel, K. and Mackenzie, P. B. and Morningstar, C.
+                        and Trottier, H.",
+      title          = "{Constrained curve fitting}",
+      booktitle      = "{Contents of lattice 2001 proceedings}",
+      journal        = "Nucl. Phys. Proc. Suppl.",
+      volume         = "106",
+      year           = "2002",
+      pages          = "12-20",
+      doi            = "10.1016/S0920-5632(01)01638-3",
+      note           = "[,12(2001)]",
+      eprint         = "hep-lat/0110175",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-lat",
+      reportNumber   = "FERMILAB-CONF-01-485-T",
+      SLACcitation   = "%%CITATION = HEP-LAT/0110175;%%"
+}
+
+@article{Morningstar:1997ep,
+      author         = "Morningstar, Colin J. and Shigemitsu, J.",
+      title          = "{One loop matching of lattice and continuum heavy light
+                        axial vector currents using NRQCD}",
+      journal        = "Phys. Rev.",
+      volume         = "D57",
+      year           = "1998",
+      pages          = "6741-6751",
+      doi            = "10.1103/PhysRevD.57.6741",
+      eprint         = "hep-lat/9712016",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-lat",
+      reportNumber   = "UCSD-PTH-97-33, OHSTPY-HEP-T-97-016",
+      SLACcitation   = "%%CITATION = HEP-LAT/9712016;%%"
+}
+
+@article{Borasoy:2007yi,
+      author         = "Borasoy, Bugra",
+      title          = "{Introduction to Chiral Perturbation Theory}",
+      booktitle      = "{Proceedings, 2nd International Summer School in High
+                        Energy Physics on The standard model and beyond}",
+      journal        = "Springer Proc. Phys.",
+      volume         = "118",
+      year           = "2008",
+      pages          = "1-26",
+      doi            = "10.1007/978-3-540-73621-9_1",
+      eprint         = "hep-ph/0703297",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "HISKP-TH-07-11",
+      SLACcitation   = "%%CITATION = HEP-PH/0703297;%%"
+}
+
+@article{Hasenfratz:1990fu,
+      author         = "Hasenfratz, A. and Jansen, K. and Jersak, J. and Kastrup,
+                        H. A. and Lang, C. B. and Leutwyler, H. and Neuhaus, T.",
+      title          = "{Goldstone bosons and finite size effects: A Numerical
+                        study of the O(4) model}",
+      journal        = "Nucl. Phys.",
+      volume         = "B356",
+      year           = "1991",
+      pages          = "332-366",
+      doi            = "10.1016/0550-3213(91)90153-O",
+      reportNumber   = "DESY-90-077, HLRZ-90-09, PITHA-90-1",
+      SLACcitation   = "%%CITATION = NUPHA,B356,332;%%"
+}
+
+@article{Shintani:2014vja,
+      author         = "Shintani, Eigo and Arthur, Rudy and Blum, Thomas and
+                        Izubuchi, Taku and Jung, Chulwoo and Lehner, Christoph",
+      title          = "{Covariant approximation averaging}",
+      journal        = "Phys. Rev.",
+      volume         = "D91",
+      year           = "2015",
+      number         = "11",
+      pages          = "114511",
+      doi            = "10.1103/PhysRevD.91.114511",
+      eprint         = "1402.0244",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-lat",
+      SLACcitation   = "%%CITATION = ARXIV:1402.0244;%%"
+}
+
+@article{Yoon:2016dij,
+      author         = "Yoon, Boram and others",
+      title          = "{Controlling Excited-State Contamination in Nucleon
+                        Matrix Elements}",
+      year           = "2016",
+      eprint         = "1602.07737",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-lat",
+      reportNumber   = "LA-UR-16-20524",
+      SLACcitation   = "%%CITATION = ARXIV:1602.07737;%%"
+}
+
+@article{Du:2015tda,
+      author         = "Du, Daping and El-Khadra, A. X. and Gottlieb, Steven and
+                        Kronfeld, A. S. and Laiho, J. and Lunghi, E. and Van de
+                        Water, R. S. and Zhou, Ran",
+      title          = "{Phenomenology of semileptonic B-meson decays with form
+                        factors from lattice QCD}",
+      journal        = "Phys. Rev.",
+      volume         = "D93",
+      year           = "2016",
+      number         = "3",
+      pages          = "034005",
+      doi            = "10.1103/PhysRevD.93.034005",
+      eprint         = "1510.02349",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "FERMILAB-PUB-15-425-T, NSF-KITP-15-134",
+      SLACcitation   = "%%CITATION = ARXIV:1510.02349;%%"
+}
+
+@article{Jager:2014rwa,
+      author         = "Jäger, Sebastian and Martin Camalich, Jorge",
+      title          = "{Reassessing the discovery potential of the $B \to K^{*}
+                        \ell^+\ell^-$ decays in the large-recoil region: SM
+                        challenges and BSM opportunities}",
+      journal        = "Phys. Rev.",
+      volume         = "D93",
+      year           = "2016",
+      number         = "1",
+      pages          = "014028",
+      doi            = "10.1103/PhysRevD.93.014028",
+      eprint         = "1412.3183",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1412.3183;%%"
+}
+
+@article{Gattringer:2001ia,
+      author         = "Gattringer, Christof and Gockeler, Meinulf and Rakow,
+                        Paul E. L. and Schaefer, Stefan and Schaefer, Andreas",
+      title          = "{A Comprehensive picture of topological excitations in
+                        finite temperature lattice QCD}",
+      journal        = "Nucl. Phys.",
+      volume         = "B618",
+      year           = "2001",
+      pages          = "205-240",
+      doi            = "10.1016/S0550-3213(01)00509-0",
+      eprint         = "hep-lat/0105023",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-lat",
+      SLACcitation   = "%%CITATION = HEP-LAT/0105023;%%"
+}
+
+@article{Bazavov:2009bb,
+      author         = "Bazavov, A. and others",
+      title          = "{Nonperturbative QCD Simulations with 2+1 Flavors of
+                        Improved Staggered Quarks}",
+      collaboration  = "MILC",
+      journal        = "Rev. Mod. Phys.",
+      volume         = "82",
+      year           = "2010",
+      pages          = "1349-1417",
+      doi            = "10.1103/RevModPhys.82.1349",
+      eprint         = "0903.3598",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-lat",
+      reportNumber   = "FERMILAB-PUB-09-674-T",
+      SLACcitation   = "%%CITATION = ARXIV:0903.3598;%%"
+}
+
+@article{Dowdall:2013tga,
+      author         = "Dowdall, R. J. and Davies, C. T. H. and Horgan, R. R. and
+                        Monahan, C. J. and Shigemitsu, J.",
+      title          = "{B-Meson Decay Constants from Improved Lattice
+                        Nonrelativistic QCD with Physical u, d, s, and c Quarks}",
+      collaboration  = "HPQCD",
+      journal        = "Phys. Rev. Lett.",
+      volume         = "110",
+      year           = "2013",
+      number         = "22",
+      pages          = "222003",
+      doi            = "10.1103/PhysRevLett.110.222003",
+      eprint         = "1302.2644",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-lat",
+      SLACcitation   = "%%CITATION = ARXIV:1302.2644;%%"
+}

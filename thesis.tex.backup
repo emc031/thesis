@@ -1,0 +1,622 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[inner=3cm,outer=2.5cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{ mathrsfs }
+\usepackage{slashed}
+\usepackage{color}
+\usepackage{mathtools}
+\usepackage{pgfplots}
+\usepackage{wrapfig}
+\usepackage{pgfgantt}
+
+\numberwithin{equation}{section}
+
+%opening
+\title{Lattice QCD and Semileptonic $B$ Decays}
+\author{Euan McLean}
+
+\textwidth = 450pt
+\textheight = 592pt
+
+\begin{document}
+
+\maketitle
+
+\vspace{0.5cm}
+
+\tableofcontents
+
+%-------------------------------------------------------------------------------------
+
+\section{Introduction}
+
+My research so far has been devoted to two consistency checks of the methods used by the HPQCD collaberation for deducing properties of heavy mesons in Lattice QCD.
+\begin{itemize}
+\item
+We use a non-relativistic effective field theory to compute propagators for a heavy $b$ quark. Then, observables such as the $B$ meson decay constant are modified with correction
+terms which a priori will mitigate the effect of neglecting relativistic effects in the $b$. I ran a study which tested this expectation.
+
+\item
+The finite spatial extent of the lattice has an influence on parameters deduced from a simulation. Luckily there is a well established way of understanding such effects,
+chiral perturbation theory (ChPT) in finite volume. I ran a calculation of the $B\to\pi$ amplitude at different lattice volumes to test if predictions of ChPT
+are valid in the context of our simulations.
+
+\end{itemize}
+
+%-------------------------------------------------------------------------------------
+
+\section{Background}
+
+$B$ mesons have turned out to have a rich phenomenology which can be used to probe values of the CKM matrix. The value of determining these values to high precision
+is addressed in sec. \ref{sec:cp}. This program requires both experimental and theoretical input, theoretical input being namely the calculation of hadronic
+matrix elements using lattice QCD, which is introduced in sec. \ref{sec:lat}.
+
+%-------------------------------------------------------------------------------------
+
+\subsection{The CKM matrix and B Physics}
+\label{sec:cp}
+
+\begin{wrapfigure}{R}{0.55\textwidth}
+  \begin{center}
+  \vspace{-25pt}
+    \includegraphics[width=0.5\textwidth]{semileptonic.png}
+     \vspace{-25pt}
+  \end{center}
+  \caption{Semileptonic decay at tree level}
+  \vspace{+10pt}
+  \label{fig:semileptonic}
+\end{wrapfigure}
+
+We are interested in the sector of the standard model (SM) which couples quarks to the weak force \cite{Richman:1995wm}:
+\begin{align}
+ \mathscr{L}_{W} & = {g\over\sqrt{2}} \left[ \quad V_{ij} J_{ij}^{\mu} W_{\mu}^+ + V^{\dagger}_{ij} J_{ij}^{\mu \dagger} W_{\mu}^- \quad \right]
+  \label{eq:weakL}
+\end{align}
+$J_{\mu}^{ij} = \bar{u}_i \gamma_{\mu} {1\over2}(1-\gamma_5) d_j$ are the weak currents,
+$\underline{u} = ( u, c, t )$ and $\underline{d} = ( d, s, b )$ are the quark fields, $g$ is the weak coupling constant, $W^{\pm}$ are the charged weak bosons, and $V$ is the (unitary)
+Cabibbo-Kobayashi-Maskawa (CKM) matrix. The latin indices are summed implicitly. $V_{ij}$ can be thought of as a matrix of couplings which dictate the probability
+of mixing between two quark flavours, for example the amplitude of a $b$ decaying to a $u$ (and emitting a $W$) is proportional to $V_{13} \equiv V_{ub}$.
+\\ \\
+$V$ is unitary by definition. However, if there were more than 3 generations of quark, requiring $V$ to be 4x4 or larger, the 3x3 submatrix which couples the 3 known generations
+would not itself be unitary in general (\cite{Schwartz:2013pla} ch. 29). Therefore, if one can deduce the elements of the 3x3 $V$ to high enough precision to show it is not unitary, this would be indirect
+evidence for new physics. More precise values for the $V$ elements than what we have now may uncover such a non-unitarity. 
+\\ \\
+A number of theory/experiment tensions have already been uncovered, for example a $\sim3\sigma$ deviation in $B\to K^* l^+l^-$ data \cite{Jager:2014rw}.
+\\ \\
+A good reason for expecting new physics in this sector is that it is the only part of the SM in which  (charge-parity (CP) violation is possible. C is the exchange of particles
+with their antiparticles, and P is a spacial reflection (see \cite{Schwartz:2013pla} ch. 11). The combined operation on the fermion ($\psi$) and boson fields are (for spinors in the Dirac representation);
+\begin{equation}
+ CP: \psi \to -i\gamma_0\gamma_2\psi^* \quad , \quad W^{\pm} \to W^{\mp}.
+ \label{eq:cp}
+\end{equation}
+One can show that if $V^*_{ij} = V_{ij}$, the couplings in \eqref{eq:weakL} violate CP, i.e. this part of the SM lagrangian is not invariant under \eqref{eq:cp}. CP violation
+is one of the Sakharov conditions, it is a necessary feature of any theory which is consistent with the matter/antimatter asymmetry that is observed in the universe  \cite{Perepelitsa:2008}. While CP violation has been observed via processes containing vertices corresponding to terms in \eqref{eq:weakL}, the scale of the violation is orders of magnitude out of what would be necessary to account for the asymmetry.
+\\ \\
+A method of deducing $V$ elements is by exploiting semileptonic decays of $B$ mesons (semileptonic denotes that the final state is leptons + hadrons). Denote a meson with valence quark content $q$ and $q'$ as $M_{qq'}$. The $M_{q_1\bar{q}_3} \to M_{q_2\bar{q}_3} l^- \bar{\nu}_l$ decay ($l^-$ is some charged lepton and $\bar{\nu}_l$ is it's neutrino) is proportional to $V_{q_1q_2}$ at tree level. See fig. \ref{fig:semileptonic}.
+\\ \\
+This is given by
+\begin{align}
+  \mathcal{M} = \left({ig\over\sqrt{2}}\right)^2 V_{q_1q_2} \langle M_{q_2\bar{q}_3}, l\bar{\nu} | J_{\alpha}^{q_1\bar{q}_2} D^{\alpha\beta}_W(p^2) J^{l\bar{\nu}}_{\beta} | M_{q_2\bar{q}_3} \rangle
+\end{align}
+$J^{l\bar{\nu}}$ is the analog of the quark currents $J^{q_1\bar{q}_2}$, since the $W$ couples to leptons at the same strength (with $V$ replaced by a unit matrix).
+If the external momenta of the process $p^2$ are much smaller than the $W$ mass, one can remove the $W$ propagator from the tree level amplitude \cite{Borasoy:2007yi};
+\begin{align}
+ \left({ig\over\sqrt{2}}\right)^2 D^{\mu\nu}_W(p^2) = \left({ig\over\sqrt{2}}\right)^2 \left( -ig^{\mu\nu} \over p^2 - M_W^2 \right)
+  & = \underbrace{ {i\over M_W^2} \left( ig \over \sqrt{2} \right)^2 g^{\mu\nu} }_{\equiv -2\sqrt{2}G_F} + \mathcal{O}\left({p^2\over M_W^4}\right)
+\end{align}
+Then $\mathcal{M}$ can be factorised;
+\begin{align}
+  \nonumber
+  \mathcal{M} & \simeq -2\sqrt{2} G_F V_{q_1q_2} \langle M_{q_1\bar{q}_3}, l\bar{\nu} | J_{\mu}^{q_1\bar{q}_2} J^{l\bar{\nu} \mu} | M_{q_2\bar{q}_3} \rangle \\
+  \nonumber
+  & = -2\sqrt{2} G_F V_{q_1q_2} \langle l\bar{\nu} | J^{l\bar{\nu} \mu} | 0 \rangle \langle M_{q_1\bar{q_3}} | J_{\mu}^{q_1\bar{q}_2} | M_{q_2\bar{q}_2} \rangle \\
+  & \equiv -2\sqrt{2} V_{q_1q_2} G_F L^{\mu} H_{\mu}.
+  \label{eq:LH}
+\end{align}
+If an experiment can be carried out to deduce $\mathcal{M}$, and one can theoretically calculate $L_{\mu}$ and $H_{\mu}$, one can extract the value of $V_{q_1q_2}$.
+$L_{\mu}$ can be computed in perturbation theory. The hadronic matrix element $H_{\mu}$ however, due to the non-perturbative nature of QCD at low energies,
+cannot be computed analytically. It is quantities such as $H_{\mu}$ that we wish to calculate in lattice QCD.
+
+%-------------------------------------------------------------------------------------
+
+\subsection{Lattice QCD}
+\label{sec:lat}
+
+\subsubsection{General Principles}
+
+At low energies ($\sim$200MeV and below), QCD becomes non-perturbative, in other words, the coupling $\alpha_s$ becomes $\mathcal{O}(1)$, and an expansion in $\alpha_s$
+will not be dominated by the leading orders \cite{Schwartz:2013pla}. We require an alternative.
+\\ \\
+The expectation value of an observable $\mathcal{O}$ in a Yang-Mills theory can be expressed as a Euclidean path integral \cite{Lepage:1998dt};
+\begin{align}
+ \langle \mathcal{O} \rangle = \int \mathcal{D}A\mathcal{D}\psi\mathcal{D}\bar{\psi} \mathcal{O} e^{-S[A,\psi,\bar{\psi}]},
+\end{align}
+where $A$ is a gauge field, $\psi$($\bar{\psi}$) is an (anti)fermion field, $S$ is the Euclideanised classical action, and $\mathcal{D}$ denotes integration over all configurations of a field. "Euclideanised" refers to a Wick rotation $t\to it$ in $S$. In the perturbative approach, we would expand $\exp(-\text{interacting part of }S )$, in this integral resulting in a power series in
+the gauge coupling populated by feynmann diagrams.
+\\ \\
+The other option is to instead carry out the integral directly. This can only be done numerically.
+ Since it's not numerically feasible to carry out an infinite number of integrals, one must approximate spacetime as a discrete 4 dimensional lattice with spacing between
+lattice points '$a$', finite spacial volume $V$ and finite temporal extent $L_t$. The functional integral becomes
+\begin{align}
+ \int \mathcal{D}A\mathcal{D}\psi\mathcal{D}\bar{\psi} = \prod_{n} dU(x_n)\int d\psi(x_n) d\bar{\psi}(x_n),
+\end{align}
+where $n$ is a 4-vector with integer components labelling the sites, and $x_n^{\mu} = an^{\mu}$.
+This has a second benefit which is to naturally regularize the theory with a momentum cutoff $\Lambda \sim 1/a$ \cite{Lepage:1998dt}. The gauge field has been replaced with the gauge
+``link'':
+\begin{align}
+U_{\mu}(x) \equiv \exp\left(igaA_{\mu}\left(x+{a\hat{\mu}\over2}\right)\right) \in SU(N_c),
+\end{align}
+$g$ is the gauge coupling, $\hat{\mu}$ is a unit vector. Expressing the gauge fields this way is motivated by the geometrical interpretation of Yang-Mills theories on discrete spacetime and the requirement of exact gauge symmetry \cite{Munster:2000ez}.
+\\ \\
+One must choose a discrete version of $S$ which becomes the original Yang-Mills action in the limit $a\to0$. There are many choices of $S$ which satisfy this. Consider first the pure gauge part. The simplest action with a continuum limit coinciding with an $SU(N_c)$ gauge theory is
+\begin{align}
+   S_G = \beta \sum_{n,\mu,\nu} \left[ N_c - \text{Tr}\left( U_{\mu}(x_n) U_{\nu}(x_n+a\hat{\mu}) U^{\dagger}_{\mu}(x_n+a\hat{\nu}) U^{\dagger}_{\nu}(x_n) \right)  \right].
+\end{align}
+The trace is over colour. $\beta = 2(L_x/a)/g^2$ plays the role of the coupling, $g$ is the bare continuum strong coupling constant. 
+The continuum Yang-Mills action is simply an expansion for small $a$ of the above up to $\mathcal{O}(a^4)$, where the $\sum_x a^4$ can be interprteded as  $\int d^4x$. In practice this action 
+is extended by extra terms which act to cancel discretisation effects in the results of calculations, these are known as Symmanzik improvements (\cite{DeGrand:2006zz} ch.10). 
+For example the gauge configurations I used for the investigations below is tge Luscher-Weisz action \cite{Gattringer:2001ia} ("all possible closed loops of length 6 along the edges of all 3-cubes").\\ \\
+The interacting Dirac action is most naively discretised with
+\begin{align}
+ S_F &= \sum_{n,\mu} \bar{\psi}(x_n) \gamma_{\mu} \nabla_{\mu} \psi(x_n) + m\sum_n \bar{\psi}(x_n) \psi(x_n),
+ \label{eq:naivefermions}
+\end{align}
+where $\nabla_{\mu}$ is the gauge covariant finite difference operator,
+\begin{align}	
+	\nabla_{\mu} \psi(x) = {1\over 2a} ( U_{\mu} (x) \psi(x+a\hat{\mu}) - U^{\dagger}_{\mu}(x-a\hat{\mu})\psi(x-a\hat{\mu}) ).
+\label{eq:lat_derivative}
+\end{align}
+An issue arises with fermions on a lattice, known as the doubling problem. To demonstrate, we require the (free) momentum space propagator corresponding to \eqref{eq:naivefermions}. One first writes the action in the form $S_F=\bar{\psi}(x)M(x,y)\psi(y)$, (so $M$ is a
+matrix in position, spin and color) moving to momentum space $M(x,y) \to \tilde{M}(p)$, and taking the inverse $D(p) = \tilde{M}(p)^{-1}$ (\cite{DeGrand:2006zz} ch.6);
+\begin{align}
+  {1\over a}D(p) = {-i\sum_{\mu}\gamma_{\mu} \sin p_{\mu} a + ma \over \sum_{\mu} \sin^2 p_{\mu}a - m^2a^2 }.
+    \label{eq:Df}
+\end{align}
+As usual the propagation of an excitation in the $\psi$ field is dominated by modes close to poles of $D(p)$. In the continuum, $D \propto (p^2 - m^2)^{-1}$ so the
+dominating modes are close to a single pole where the classical dispersion relation $p^2=m^2$ is satisfied. In contrast, \eqref{eq:Df} has 16 distinct poles, corresponding
+to 16 different dispersion relations, and 16 propagating particles (also known as \textit{tastes}). 
+\\ \\
+There are broadly two solutions. One is to modify the action to push the mass of the unwanted tastes above the momentum cutoff, preventing it from
+effecting the dynamics (\textit{Wilson fermions})(\cite{DeGrand:2006zz} ch.6). The second, which is the method we use, is introduced in sec.\ref{subsec:hisq} (\textit{Staggered Fermions}).
+\\ \\
+The general idea of staggered fermions is the following.
+Redefine the fields according to
+\begin{align}
+ \psi'(x_n)  = \Omega_n \psi(x_n) = \gamma^{n_0}_0\gamma^{n_1}_1\gamma^{n_2}_2\gamma^{n_3}_3 \psi(x_n).
+\end{align}
+This changes \eqref{eq:naivefermions} into
+\begin{align}
+  S_F &= \sum_{n,\mu} \bar{\psi}'(x_n) \alpha_{\mu}(x_n) \nabla_{\mu} \psi'(x_n)
+  	+ m\sum_n \bar{\psi}'(x_n)\psi'(x_n)
+\end{align}
+where $\alpha_{\mu}(x_n) = (-1)^{n_0 + n_1 + ... + n_{\mu}}$. The action is now diagonal in spin. 
+The action now describes four non-interacting scalar particles that obey identical actions $S_F \equiv \sum_{\alpha} S_1[\psi_{\alpha},\bar{\psi}_{\alpha}]$. Defining
+the scalar $\chi$ where $\psi_{\alpha} = \chi, \forall \alpha$, the action reduces to $S=4S_1[\chi]$, and any Dirac bilinear of the original spinors can be expressed in terms of $\chi$:
+\begin{align}
+	\bar{\psi}(x_n) \Gamma \psi(x_m) = \chi^*(x_n) \text{Tr}\left( \Omega_n^{-1\dagger}\gamma_0\Gamma\Omega_m^{-1}\right) \chi(x_m).
+\end{align}
+Performing all calculations in terms of $\chi$ reduces the number of tastes from 16 to 4.
+This improves the situation but is still not representative of the continuum. The further steps required are to modify the action in such a way as to minimise the strength of 'taste-exchange'
+interactions. Then, for example, a fermion propagator could be computed by creating and 
+annihilating a single taste, and loops containing other tastes will be small. This concept was realised by the ASQTAD \cite{Lepage:1998vj} action, then further improved upon by the 
+HISQ action \cite{Follana:2006rc}.
+\\ \\
+Once one has chosen their discrete action, they are ready to compute the path integral. The integral over fermions can often be performed analytically using the properties
+of grassman variables, for example, if $\mathcal{O} = \bar{\psi}^{\alpha}(x_n)\psi^{\beta}(x_m)$ ($\alpha,\beta$, label spin) the known result \cite{Peskin:1995ev},
+\begin{align}
+  \int \mathcal{D}\psi \mathcal{D}\bar{\psi} \left[ \bar{\psi}^{\alpha}(x_n)\psi^{\beta}(x_m) e^{-\sum_{i,j} \bar{\psi}(x_i)M(x_i,x_j)\psi(x_j)} \right]
+  = M_{\alpha\beta}^{-1}(x_n,x_m) det(M),
+  \label{eq:grassman}
+\end{align}
+can be used. More generally define $\mathcal{O}_F[U] = \int \mathcal{D}\psi \mathcal{D}\bar{\psi} \mathcal{O}$, where now we are specifying that this operator is a function
+of the gauge configuration on the lattice, denoted as $U$. The remaining integral over the gauge fields,
+\begin{align}
+  \langle \mathcal{O} \rangle = \int \mathcal{D}U \mathcal{O}_F[U] e^{-S_G[U]},
+\end{align}
+is generally carried out by an importance sampling method. A finite \textit{ensemble} of gauge configurations $\{U_i\}$ is built up according to the
+rule that the propability of a given $U_j$ being added to the ensemble is proportional to $\exp(-S[U_j])$. See \cite{DeGrand:2006zz} ch. 7 for examples of such algorithms.
+Once the ensemble is created, the path integral can be approximated by simply
+\begin{align}
+  \langle \mathcal{O} \rangle \simeq {1\over N} \sum_i \mathcal{O}_F[U_i],
+  \label{eq:av_gauge}
+\end{align}
+where $N$ is the size of the ensemble.
+\\ \\
+The $\det(M)$ term corresponds to the creation of quark-antiquark pairs (\textit{sea quarks}). Contributions from this factor have only recently been included in simulations, these are called 'unquenched' simulations. In practice, one will accounts for the $\det(M)$ not by calculating it along with $M^{-1}$ but by including it in the probability distribution for generating gauge configurations, using in our case the 'exact RHMC algorithm' \cite{Bazavov:2009bb}.
+
+%-------------------------------------------------------------------------------------
+
+\subsubsection{Heavy/Light Mesons with HISQ and NRQCD}
+
+We are interested in calculating values like $H_{\mu}$ in \eqref{eq:LH}, i.e. amplitudes involving mesons. Approximate meson creation operators are of the form \cite{Weber:2013eba}:
+\begin{align}
+  \varphi(x_n) = \sum_m f(x_m-x_n) \bar{\psi_1}(x_m) \Gamma \psi_2(x_n),
+  \label{eq:meson}
+\end{align}
+where $\psi_1$ and $\psi_2$ are appropriate quark fields, $\Gamma$ is some combination of gamma matrices chosen to give the meson the right quantum numbers (e.g. parity, spin etc.)
+and $f(x)$ is a 'smearing function' for giving the quarks some semi-realistic spacial separation based on effective potentials and the like (eg. in \cite{Colquhoun:2015oha}). 
+To create a 3-momentum eigenstate one fourier transforms it's spatial dependance;
+\begin{align}
+  \tilde{\varphi}(t,\underline{P}) = {a^3 \over V}\sum_l e^{i\underline{P}\cdot\underline{x}_l} \varphi(t,\underline{x}_l)
+\end{align}
+\\ \\
+As an example we will study a meson correlation function $\langle \varphi(x_n) \varphi^{\dagger}(x_m) \rangle$. One can apply \eqref{eq:grassman} twice to create ('gauge configuration specific') propagators
+$\Delta(x,y)[U] = M^{-1}(x,y)[U]$ for the two quark flavours, resulting in 
+\begin{align}
+ \langle \varphi(x_n) \varphi^{\dagger}(x_m) \rangle = -& \sum_{i,j} f(x_i-x_n) f^*(x_j-x_m) \\
+ 		&\langle \text{Tr}\left[ \Delta_1(x_j,x_n) \Gamma^* \Delta_2(x_i,x_m) \Gamma^T \right] \det(\Delta_1)\det(\Delta_2) \rangle_G.
+ \label{eq:2pt}
+\end{align}
+The trace is over spin and $\langle \rangle_G$ is averaging over gauge configurations i.e. the operation \eqref{eq:av_gauge}.
+The task now is to find an efficient way compute the propagators $\Delta_{1,2}(x,y)[U]$ on a given $U$.
+\\ \\
+The mesons we are interested in are mesons containing one 'heavy' and one 'light' valence quark, for example the $B$ meson. A quark is considered heavy if it's mass is above
+the cutoff $ \sim 1/a$ for computationally viable $a$ values, so it's dynamics cannot naively be resolved on the lattice. For such a quark a radically different action
+is required. But first the details of the light quark.
+\\ \\
+The light quark propagator is computed using the highly improved staggered quark (HISQ) action, which, as mentioned in the previous section, is a staggered quark action modified to minimise taste-exchange. 
+\\ \\
+The heavy quark propagator is computed using a non-relativistic expansion of the action (NRQCD) \cite{Lepage:1992tx}. The leading order Lagrangian in the continuum is (\cite{DeGrand:2006zz} ch. 6)
+\begin{align}
+	\mathscr{L}^0_{NRQCD} = \psi^{\dagger}_+ \left[ i\partial_0 + {\underline{\nabla}^2\over 2m_h} \right] \psi_+.
+\end{align}
+$\psi_+$ is the first two components of a Dirac spinor, the second two components (the antiparticle) are not present since the dispersion relation from this Lagrangian has no antiparticle solutions.
+$m_h$ is the bare mass for the heavy quark.
+\\ \\
+Correction terms are chosen to be any terms obeying the desired symmetries of the theory, grouped according to powers of the quark velocity $v$. For an example of deducing such powers: 
+kinetic enegry = $m_h v^2 = \int d^3x \psi_+^{\dagger} {\underline{\nabla}^2\over 2m_h} \psi_+$ $\rightarrow$ $|\underline{\nabla}|/m_h \sim v$. Each correction term is given an arbitrary 
+coupling constant, and it's value is determined by matching results perturbatively calculated by NRQCD and the more fundamental relativistic theory. The discretisation of this theory is 
+straightforward, one needs only to replace the derivatives with lattice covariant derivatives such as \eqref{eq:lat_derivative}. 
+\\ \\
+NRQCD solves the problem of the mass of the heavy quark not being 'too heavy for the lattice' mentioned before. Consider the expansion in momentum $\underline{p}^2$ of the 
+relativistic dispersion relation 
+\begin{align}
+	\omega = \sqrt{\underline{p}^2 + m^2} \simeq m + {\underline{p}^2\over 2m} - {\underline{p}^4\over 4m^3} + ...
+	\label{eq:rel_expansion}
+\end{align}
+the first term (rest mass) is the source of the issue, when $m >\sim \Lambda$ the first term pushes $\omega$ over $\Lambda$ and the particle becomes so small (i.e. small de Broglie wavelength) it 
+becomes hidden between the lattice points. In NRQCD, the rest mass is removed from the dispersion relation, pushing the excitation's frequency down to a resolvable level.
+\\ \\
+Other benefits of NRQCD are that, firstly it does not suffer from a doubling problem. Secondly, the form of the action allows $\Delta$ to be computed using a simple recursion relation 
+(given in \cite{Lepage:1992tx}), which is far cheaper computationally than the necessary approach for light quarks of simply inverting the matrix $M$.
+\\ \\
+{\color{red}missing concepts: \\ random wall, \\ should put the $C(t)$ fitting stuff in here instead \\ fourth root of determinant}
+
+\label{subsec:hisq}
+
+%-------------------------------------------------------------------------------------
+
+\section{Research}
+
+\subsection{Relativistic Normalization with NRQCD}
+\label{sec:relativistic}
+
+
+One would hope that, given the fully relativistic treatment of the light quark, and the relativistically corrected NRQCD heavy quark, that the behaviour of the meson emerging 
+from such a calculation (for example in \cite{Dowdall:2011wh},\cite{Colquhoun:2015oha},\cite{Colquhoun:2015mfa}) will be approximately relativistic.
+\\ \\
+We carried out calculations of correlation functions for a meson resembling the $B_c$ meson. I say 'resembling' since the masses of the valence quarks are often not 
+quite the physical $b$ and $c$ quarks, they are shifted in the interest of better statistics. Approximate creation operators for this $B_c(x)$ are given by \eqref{eq:meson} 
+with $\Gamma = \gamma_5\gamma_0$, and $f(x) \sim \exp(-{x\over\tau})$ for $\tau=a/2\pi,a/4\pi$. 
+\\ \\
+\begin{table}
+\begin{center}
+ \begin{tabular}{||c c c c c c c c c||} 
+ \hline
+ $\beta$ & $a/\text{fm}$ & $am_b$ & $am_c$ & $am_l^{\text{sea}}$ & $am_s^{\text{sea}}$ & $am_c^{\text{sea}}$ & $L_x/a$ & $L_t/a$  \\ [0.5ex] 
+ \hline\hline
+ 6.30 & 0.0884(3) & 1.91 & 0.43 & 0.0074 & 0.037 & 0.440 & 32 & 96 \\ [1ex] 
+ \hline
+\end{tabular}
+\caption{Bare parameters used in this study. $am_b$ and $am_c$ are masses of the valence $b$ and $c$ quarks. $am^{\text{sea}}$ are the masses of quarks in the sea, i.e. contributions from
+loop corrections to the gauge field $U$ including these quarks. There are two quarks of mass $l$ (representing $u$ and $d$), and annother two representing $c$ and $s$.}
+\end{center}
+\end{table}
+
+\subsubsection{Fitting correlation functions}
+
+Our observable of interest is the momentum space 2-point function:
+\begin{align}
+ C_{B_c}(t,\underline{P}) \equiv {a^3 \over V} \sum_n e^{i\underline{P}\cdot\underline{x}_n} \langle \tilde{B}_c(t,\underline{P}) \tilde{B}_c^{\dagger}(0,\underline{P}) \rangle 
+ \label{eq:correlator}
+\end{align}
+\eqref{eq:correlator} is computed for many $t$ values with a lattice calculation and the principles detailed above. 
+\\ \\
+In order to extract some 'physics', we perform a least-squares Baysian fit \cite{Lepage:2001ym} of 
+this to a theoretically motivated function. To reach this,  
+first construct a complete set of momentum $\underline{P}$ states with quantum numbers matching $\tilde{B}_c$,
+\begin{align}
+ 1 = \sum_{k=0} {1\over 2E^r_k} | \lambda_k \rangle \langle \lambda_k |.
+\end{align}
+Where $E^r_k = \sqrt{ M_k^2 + \underline{P}^2}$ are the relativistic energies of each state. This normalisation is required to ensure $\langle \lambda_k | \lambda_{k'} \rangle$ is
+a lorentz invariant quantity, 
+referred to as the \textit{relativistic normalisation} of the state. Inserting this into the correlation function, and moving from the Heisenberg to Schroedinger picture for states;
+\begin{align}
+	C_{B_c}(t,0) &= \sum_{k=0} {1\over 2E^r_k} \langle 0 | e^{Ht} \tilde{B}_c(0,\underline{P}) e^{-Ht} | \lambda_k \rangle \langle \lambda_k | \tilde{B}_c^{\dagger}(0,\underline{P}) | 0 \rangle
+	\nonumber
+	\\ &= \sum_{k=0}  \left( {\langle 0 | \tilde{B}_c(0,\underline{P}) | \lambda_k \rangle \over \sqrt{2E^r_k}} \right) \left( {\langle \lambda_k | \tilde{B}_c^{\dagger}(0,\underline{P}) | 0 \rangle \over \sqrt{2E^r_k} } \right) e^{-E^l_k t}
+	\nonumber
+	\\ & \equiv \sum_{k=0} a_k b_k e^{-E^l_k t}.
+	\label{eq:multiexponential}
+\end{align}
+The fit results in a determination of the parameters $a_k$, $b_k$, and $E^l_k$. We expect $E^l_k \neq E^r_l$, see \ref{sec:kinetic_mass}.
+Since the lowest energies dominate the function at late times, one can afford to truncate the sum 
+over $k$ to some tractable range, in our case $k\in[1,8]$. We interpret $|\lambda_0\rangle$ to be the $B_c$ meson state.
+
+\subsubsection{Kinetic mass}
+\label{sec:kinetic_mass}
+
+The first piece of physics that can be extracted from these parameters is the mass of the meson. If we were using a fully relativistic action, one could simply consider $E^l_0$ (with $\underline{P}=0$) 
+to be the mass. However, in our case one would expect NRQCD to cause a shift in energy $E_s$ due to the effective removal of the first term in \eqref{eq:rel_expansion}, so
+\begin{align}
+ E^l_0(\underline{P}) = E_s + \sqrt{ \underline{P}^2 + M_{B_c}^2 }
+ \label{eq:euclidean_energy}
+\end{align}
+One can then deduce $M_{B_c}$ by taking the difference of energies at different momenta $\delta E^l_0(\underline{p}) \equiv E^l_0(\underline{P}) - E^l_0(0)$, leading to
+\begin{align}
+ M_{B_c} = { \underline{P}^2 - \delta E_0^{l2} \over 2\delta E^l_0 },
+ \label{eq:kinetic_mass}
+\end{align}
+which should hopefully be invariant of $\underline{P}$. In fig. 2, the mass is deduced from different $\delta E^l_0(\underline{P})$. When deduced in this way $M_{B_c}$ is 
+referred to as the \textit{kinetic mass}.
+\begin{center}
+\begin{figure}
+\begin{tikzpicture}
+\begin{axis}[width=10cm,height=8cm,
+		xlabel=$(a\underline{P})^2$, ylabel=$aM_{B_c}$]
+
+\addplot+[only marks, color=blue, 
+		error bars/.cd,x dir=both, x explicit,  y dir=both, y explicit]
+		coordinates {
+			(0.02891, 2.61 ) +- (0, 0.11)
+			(0.26023, 2.838 )   +- (0, 0.027 )
+			(0.72425, 2.823 )   +- (0, 0.014)
+			(1.04076, 2.840 ) +- (0, 0.015)
+			};
+\end{axis}
+\end{tikzpicture}
+\label{fig:k_mass}
+\caption{Meson mass deduced from \eqref{eq:kinetic_mass}}
+\end{figure}
+\end{center}
+We disregard the first point (smallest momentum) assuming the smallness of $\delta E^l_0$ to cause large fractional error in it and therefore in $M_{B_c}$. Averaing over the other three points gives
+$aM_{B_c} = 2.834(11)$.
+
+\subsubsection{Decay amplitudes}
+
+If the annihilation operator $B_c$ is made to be local ($f(\underline{x}_n)=\delta_{n0}$), it becomes a temporal axial current operator $A_0$ (the second term in $J^{bc}_0$ 
+in the language of sec. \ref{sec:cp}). Then, by setting the creation operator $B_c^{\dagger}$ to be smeared and with a finite 
+momentum $\underline{P}$, we can assert that $a_0$ is proportional to the decay amplitude;
+\begin{align}
+	a_0 = a_0(\underline{P}) = {\langle 0 | A_0 | B_c(\underline{P}) \rangle \over \sqrt{2E^r_{B_c}(\underline{P})} } 
+	= {f_{B_c} E^r_{B_c}(\underline{P}) \over \sqrt{2E^r_{B_c}(\underline{P})}} = f_{B_c} \sqrt{2E^r_{B_c}(\underline{P})}.
+\end{align}
+The second equality is from the fact that since $A_{\mu}$ is a conserved current, and has one Lorentz index, it must be proportional to the meson's 4-momentum, 
+$\langle A_{\mu} \rangle \propto P_{\mu}$. $f_{B_c}$ is the $B_c$ decay constant.
+\\ \\
+We hope that, if the lattice calculation is well designed and the 
+bare parameters in the actions are well chosen, that this equality will hold to a good approximation, supplying us with a new piece of evidence that results 
+from such calculations can be considered relevant to real physics.
+\\ \\
+Our probe of the relativistic normalisation is the ratio:
+\begin{align}
+	{a_0(\underline{p})\over a_0(0)} & = {\langle 0 | A_0 | B_c(\underline{P}) \rangle \over \langle 0 | A_0 | B_c(0) \rangle} = 
+	\sqrt{E^r_{B_c}(\underline{P})\over M_{B_c}} = 1 + {\underline{P}^2\over 4M_{B_c}^2} + \mathcal{O}\left({\underline{P}^4\over M_{B_c}^4}\right),
+	\label{eq:relativistic_meson}
+\end{align}
+Where $a_0(\underline{P})$ comes from fits of $C_{B_c}(t,\underline{P})$.
+We fitted correlation functions at different spacial momenta, deduced many $a_0(\underline{P})$ values, took the ratio with $a_0(0)$ and compared to 
+\eqref{eq:relativistic_meson} (see the $a^{(0)}_1(\underline{P})/a^{(0)}_1(0)$ line in fig. \ref{fig:relativistic}).
+\\ \\
+\begin{figure}
+\begin{center}
+	\begin{tikzpicture}
+		\begin{axis} [width=14cm,height=9cm,
+			xmin=-0.1,xmax=1.2,ymin=0.99,ymax=1.11,
+			xlabel = $(a\underline{P})^2$, 
+			legend pos=north west]
+			
+			\addplot[color=green, dashed]{ sqrt( sqrt( x + 2.834*2.834 )/2.834) };
+			\addlegendentry{$\sqrt{E_{B_c}/M_{B_c}}$}
+			
+			\addplot+[color=red, mark=*, 
+					error bars/.cd,x dir=both, x explicit,  y dir=both, y explicit] 
+				coordinates {
+					(0, 1)   +- (0, 0)
+					(0.02890, 1.0036)   +- (0.0, 0.0019)
+					(0.26010, 1.0164)   +- (0.0, 0.0023)
+					(0.7225, 1.0371)   +- (0.0, 0.0046)
+					(1.0404, 1.053)   +- (0.0, 0.01)
+			};
+			\addlegendentry{$a_0^{(0)}(\underline{P})/a_0^{(0)}(0)$}
+			
+			\addplot+[color=orange, mark=*, 
+					error bars/.cd,x dir=both, x explicit,  y dir=both, y explicit] 
+				coordinates {
+					(0, 1)   +- (0, 0)
+					(0.02890, 1.0046)   +- (0.0, 0.0021)
+					(0.26010, 1.0253)   +- (0.0, 0.0026)
+					(0.7225, 1.0615)   +- (0.0, 0.0050)
+					(1.0404, 1.088)   +- (0.0, 0.011)
+			};
+			\addlegendentry{$a_0^{(1)}(\underline{P})/a_0^{(1)}(0)$}
+			
+			\addplot+[color=blue, mark=*, 
+					error bars/.cd,x dir=both, x explicit,  y dir=both, y explicit] 
+				coordinates {
+					(0, 1)   +- (0, 0)
+					(0.02890, 1.0045)   +- (0.0, 0.0021)
+					(0.26010, 1.0251)   +- (0.0, 0.0026)
+					(0.7225, 1.0608)   +- (0.0, 0.0051)
+					(1.0404, 1.087)   +- (0.0, 0.011)
+			};
+			\addlegendentry{$a_0^{(2)}(\underline{P})/a_0^{(2)}(0)$}
+			
+		\end{axis}
+	\end{tikzpicture}
+\end{center}
+\caption{Relativistic Normalisation of 1-loop corrected Axial Current. $a_0^{(n)}$ are defined in \eqref{eq:a_0corrections}. }
+  \label{fig:relativistic}
+\end{figure}
+In \cite{Morningstar:1997ep}, it is shown that this operator for the axial current by itself on the lattice is not totally sufficient to represent a continuum axial current. 
+In this paper, the axial vector current with 1-loop corrections in continuum QCD (illustrated in figure 1, 2 and 3 in \cite{Morningstar:1997ep}) was computed, and expanded 
+in the inverse heavy quark mass $1/m_b$. Then, the same corrections were calculated according to a discretised relativistic action governing the 
+light quark and a discretised NRQCD action for the heavy quark, and again expanded in $1/m_b$. Matching the expressions between the two results order by order in $1/m_b$, 
+motivates a corrected expression for a continuum temporal axial current at each order. Up to $\mathcal{O}(\underline{p}_b/m_b)$, we have \cite{Dowdall:2013tga}:
+\begin{align}
+	&A_0 = (1+z_0 \alpha_s ) \left[ A_{0,\text{lat}}^{(0)} + (1 + z_1\alpha_s) A_{0,\text{lat}}^{(1)} + z_2\alpha_s A_{0,\text{lat}}^{(2)} \right]
+	\label{eq:current_corrections}
+\\	&A_{0,\text{lat}}^{(0)} = \bar{c} \gamma_5 \gamma_0 b
+	\nonumber
+\\	&A_{0,\text{lat}}^{(1)} = -{1\over2m_b} \bar{c} \gamma_5 \gamma_0 \underline{\gamma}\cdot\underline{\nabla} b
+	\nonumber
+\\	&A_{0,\text{lat}}^{(2)} = -{1\over2m_b} \bar{c} \underline{\gamma}\cdot\underline{\overleftarrow{\nabla}} \gamma_5 \gamma_0  b.
+	\nonumber
+\end{align}
+$c$ and $b$ are the quark creation operators. The coefficients $\{z_i\}$ are also deduced by the matching procedure. $z_0=-0.007(2)$, $z_1=-0.031(4)$, $z_2=-0.325(4)$ 
+taken from set 7 in \cite{Dowdall:2013tga}. $\alpha_s = 0.267$ is taken from set 7 of \cite{Colquhoun:2015oha}, obtained from running down of $\alpha_s^{\overline{MS}}(M_Z)$ down to scales
+of the simulation dictated by $a$.
+\\ \\
+$A_{0,\text{lat}}^{(0)}$ is the naive current operator used before (i.e with local smearing $\tilde{B}_c = A_{0,\text{lat}}^{(0)}$ in \eqref{eq:correlator}). 
+To calculate the corrections, 
+this was replaced with $A_{0,\text{lat}}^{(1,2)}$, and the calculation and fitting was repeated to extract $a_0$, this time coenciding with 
+$\langle 0 | A_{0,\text{lat}}^{(1,2)} | B_c(\underline{P}) \rangle$. From these values one can build up a better estimation to the continuum current 
+$\langle 0 | A_0 | B_c(\underline{P}) \rangle$. In fig. \ref{fig:relativistic} we gradually add corrections to see the effect each has, defining
+\begin{align}
+  \nonumber
+  \label{eq:a_0corrections}
+  &a_0^{(0)} = \langle 0 | (1+z_0 \alpha_s ) A_{0,\text{lat}}^{(0)} | B_c(\underline{P}) \rangle \\
+  &a_0^{(1)} = \langle 0 | (1+z_0 \alpha_s ) \left[ A_{0,\text{lat}}^{(0)} + (1 + z_1\alpha_s) A_{0,\text{lat}}^{(1)} \right] | B_c(\underline{P}) \rangle \\
+  \nonumber
+  &a_0^{(2)} = \langle 0 | (1+z_0 \alpha_s ) \left[ A_{0,\text{lat}}^{(0)} + (1 + z_1\alpha_s) A_{0,\text{lat}}^{(1)} + z_2\alpha_s A_{0,\text{lat}}^{(2)} \right] | B_c(\underline{P}) \rangle \\
+  \nonumber
+\end{align}
+\\ \\
+\begin{table}
+\begin{center}
+ \begin{tabular}{||c c c c c c c c c||} 
+ \hline
+ $(a\underline{P})^2$ & $a\delta E_0(\underline{P})$  & $aM_{B_c}$ & $a_0^{(0)}(\underline{P})/a_0^{(0)}(0)$ & $a_0^{(1)}(\underline{P})/a_0^{(1)}(0)$ 
+ & $a_0^{(2)}(\underline{P})/a_0^{(2)}(0)$ \\ [0.5ex] 
+ \hline\hline
+ 0.02891 & 0.00537(23) & 2.61(11) & 1.0036(19) & 1.0046(21) & 1.0045(21) \\ \hline
+ 0.26023 & 0.04580(24) & 2.838(27) & 1.0164(23) & 1.0253(26) & 1.0251(26) \\ \hline
+ 0.72287 & 0.12456(46) & 2.823(14) & 1.0371(46) & 1.0615(50) & 1.0608(51) \\ \hline
+ 1.04093 & 0.17772(86) & 2.840(15) & 1.053(10) & 1.088(11) & 1.086(11) \\ [1ex] 
+ \hline
+\end{tabular}
+\end{center}
+\caption{Results from fits with varying momenta. The third column gives the kinetic mass deduced from $\delta E(\underline{P})$ for each $\underline{P}$. using \eqref{eq:kinetic_mass}}
+\label{tab:from_fit}
+\end{table}
+As one adds these current corrections, one would expect the resulting ratio's $\underline{P}$-dependance to move closer to \eqref{eq:relativistic_meson}. This can also be considered to be a 
+test of the coefficients $\{ z_i \}$, since we could in principle tune them in this calculation until the results coincide with the expected relativistic expression.
+\\ \\
+As can be seen from fig. \ref{fig:relativistic}, The effect of the correction terms is not what was hoped, it seems to move the ratio away from the physical relation. 
+An unnatrually large modification to the $\{z_i\}$ values would be required to coincide this ratio with the physical one. It is clear that the effect of these correction terms are not well understood.
+\\ \\
+{\color{red}One thing worth noting is that these current corrections are only to $\mathcal{O}(\underline{p}_b/m_b)$, but $\sqrt{E^r_{B_c}/M_{B_c}}$ 
+has it's leading behaviour in $\mathcal{O}(\underline{P}^2/M_{B_c}^2)$.}
+\\ \\
+It is possible that the masses of the light and heavy quark in these calculations were too close to each other. In the deduction of \eqref{eq:current_corrections}, $m_c$ is 
+approximated to zero and $m_b$ is assumed large enough so that a truncation to order $1/m_b^2$ is a good approximation. Hence, we have started investigating the effect on this 
+ratio due to a reduction in the mass of the charm quark.
+%-------------------------------------------------------------------------------------
+
+\subsection{Finite Volume Effects in $B\to\pi$}
+
+A lattice necessarily has a finite extent. We invariably take all spacial extents to be the same $L_i = L$ and temporal extent to be larger ($\sim 3L$) in order to make sure the lowest energy states dominate in \eqref{eq:multiexponential}. The finite spacial volume is a source of systematic uncertainty.
+\\ \\
+There is a well established theoretical avenue to understanding finite volume effects in lattice calculations. Chiral perturbation theory (ChPT) is an effective field theory for the low energy degrees of freedom of QCD, namely the light mesons $\pi$, $K$ etc \cite{Borasoy:2007yi}. The free propagator for a light meson in finite volume $D_L(x)$ can be shown to relate to the infinite volume propagator by \cite{Hasenfratz:1990fu}:
+\begin{align}
+	D_L(x) = \sum_{\underline{n}} D_{\infty}(x + \underline{n}\cdot\underline{L}),
+\end{align}
+where the sum is over all 3-vectors $\underline{n}$ with integer components. This contributes to  corrections to parameters in ChPT, for example the correction to the pion mass from a 1-loop correction to the propagator due to a 4-point self interaction. It has the factor $D_L(0)$, leading to a dominant extra term $\sim L^{-3/2}\exp(-m_{\pi}L)$, where $m_{\pi}$ is the pion mass at infinite volume.
+\\ \\
+I carried out a calculation of the hadronic part of $\mathcal{M}(B\to\pi l\nu)$ at tree level, where $B$ resembles the $B$ meson and $\pi$ resembles the pion. The output of the calculation was the $\pi$ mass and decay constant, $B$ decay constant, and the amplitude $H_0 = \langle \pi | J_0 | B \rangle$, an example of a hadronic matrix element from sec. \ref{sec:cp} with appropriate current choice $J_{\mu}$. The results of set 5 in \cite{Colquhoun:2015mfa} were combined with two new calculations using all the same parameters but with one a larger volume and one a smaller, resulting in data for $L = 24, 32, 40$. This time the parameters were $a=0.1195$fm, $am_l=0.00507$, $am_h=2.62$.
+\\ \\
+The calculation has three stages, first finding $B$ and $\pi$ correlation functions individually, then finding a 3-point correlation function defined below. The $B$ correlator is found using the same procedure as in sec. \ref{sec:relativistic}.
+\\ \\
+The $\pi$ has two light valence quarks, so it's correlation function can be computed by plugging two HISQ propagators into \eqref{eq:2pt}. The fitting function is slightly modified from \eqref{eq:multiexponential}, since HISQ fermions experience the fact that the lattice is periodic in the time direction;
+\begin{align}
+	C_{\pi}(t) = \sum_{n=1} a^2_{\pi,n} \left( e^{-E_{\pi,n} t} + e^{-E_{\pi,n} ( T - t )} \right)
+\end{align}
+where $T$ is the temporal extent of the lattice, and again $a_0$ is the decay amplitude of the $\pi$. in this case we can also interpret $E_{\pi,1}$ as the pion mass $am_{\pi}$. The $am_{\pi}$ resulting from our calculations for the different volumes are shown on the left of fig. \ref{fig:volume}, and reassuringly seems to converge to some continuum value for large $L$.
+\\ \\
+$H_0$ comes from a calculation on the lattice of a 3pt amplitude $\langle \pi(x_n) J_0(x_m) B^{\dagger}(x_l) \rangle$ analogous to the two point amplitude \eqref{eq:2pt}. $J_0$ here is a temporal vector current $J_0 = \bar{\psi}_l \gamma_0 \psi_h$,  and since the current operator $J_0$ destroys a heavy quark and creates a light quark, it must be represented in the lattice calculation by a combination analagous to \eqref{eq:current_corrections}.  By a similar derivation to that resulting in \eqref{eq:multiexponential}, one finds a fit function for the 3pt amplitude;
+\begin{align}
+	C_{3pt}(t,T) = \sum_{j,k} a_{\pi,j} V_{j,k} b_{B,k} \left( e^{-E_{\pi,j}t} + e^{-E_{\pi,j} (T-t)} \right)
+	e^{-E_{B,k}}.
+	\label{eq:3pt}
+\end{align}
+It should be mentioned that in practice, \eqref{eq:multiexponential} and \eqref{eq:3pt} must be modified with an extra term to account for complications involving staggered/non-staggered bilinears, see appendix G. of \cite{Follana:2006rc}, and sec. 2 of \cite{Colquhoun:2015mfa} for the fit functions used.
+\\ \\
+In \eqref{eq:3pt}, $b_{B,k}$ coincides with the parameter $b_k$ in \eqref{eq:multiexponential} for the $B$ meson, and $V_{11} = H_0 / 2\sqrt{m_{\pi}m_{B}}$. The parameters $\{a_{\pi,j}\}$, $\{b_{B,k}\}$, $\{E_{\pi,j}\}$ and $\{E_{B,k}\}$ have already been deduced from the two 2-point calculations so can be used in this fit, leaving $\{V_{j,k}\}$ as the only free parameters to be deduced from the fit.
+\begin{figure}
+\begin{tikzpicture}
+\begin{axis}[width=8.5cm,height=8cm,
+		ymin=0.1337, ymax=0.1353,
+		xlabel=$L_x/a$, ylabel=$am_{\pi}$,
+		y tick label style={
+        			/pgf/number format/.cd,
+          	  	fixed,
+         		fixed zerofill,
+       		     	precision=4,
+        		/tikz/.cd
+    },]
+
+    \addplot+[color=red, mark=*, 
+		error bars/.cd,x dir=both, x explicit,  y dir=both, y explicit] 
+		coordinates {
+			(24, 0.13496)   +- (0, 0.00009)
+			(32, 0.13412)   +- (0.0001, 0.00005)
+			(40, 0.13403)   +- (0.0009, 0.00006)
+			};
+
+\end{axis}
+\end{tikzpicture}
+\hskip 5pt
+\begin{tikzpicture}
+\begin{axis}[width=8.5cm,height=8cm,
+		ymin=2.35, ymax=2.95,
+		xlabel=$L_x/a$, ylabel=$a^{1/2}H_0/2\sqrt{m_{\pi}m_{B}}$]
+
+\addplot+[color=red, mark=*, 
+		error bars/.cd,x dir=both, x explicit,  y dir=both, y explicit] 
+		coordinates {
+			(24, 2.76705)   +- (0, 0.08264)
+			(32, 2.55102)   +- (0.0001, 0.07779)
+			(40, 2.79581)   +- (0.0009, 0.04821)
+			};
+\end{axis}
+\end{tikzpicture}
+\caption{Left: $\pi$ mass and right: $B\to\pi$ amplitude with varying volume }
+\label{fig:volume}
+\end{figure} 
+\\ \\
+The amplitude $H_0/2\sqrt{m_{\pi}m_{B}}$ is shown against volume on the right of \ref{fig:volume}. We have not yet found an appropriate expression for this amplitude in finite volume ChPT, but hope to compare this result with such an expression in order to give finite volume ChPT an empirical test.
+\\ \\
+\subsubsection{Covariant Approximation Averaging}
+
+The $L$-dependance of the $B$ ground state energy $E_{B,1}$ (which cannot be identified as the mass since $B$ is treated non-relativistically) is also of interest, 
+but there is no discernible shape to the curve in that case, the errors are too large. In order to improve these errors, we have begun investigating the possibility of implementing 
+the covariant approximation averaging method \cite{Shintani:2014vja} in the $L=40$ calculation. In this approach, we compute a small number $N_{HP}$ of correlators $C^{t_0}_{HP}(t)$ at high precision for different source times $t_0$ on the configuration. Then we compute a much larger number $N_{LP}$ of, cheaper, low-precision correlators $C^{t_0}_{LP}(t)$. If one assumes the systematic bias in $C^{t_0}_{LP}$ is independent of source time $t_0$, one can hope to compute that bias by comparing $C^{t_0}_{LP}$ to $C^{t_0}_{HP}$, and 'correct' the $C^{t_0}_{LP}$ results producing an accurate average of a large sample of correlators \cite{Yoon:2016dij}:
+\begin{align}
+	C = {1\over N_{LP}} \sum_{t_0} C^{t_0}_{LP} + {1\over N_{HP}} \sum_{t_0}
+	\left[ C^{t_0}_{HP} - C_{LP}^{t_0} \right].
+\end{align}
+The first term is the low precision average and the second is the bias. 
+\\ \\
+We estimate that such a method could result in $\sim 4$ times the statistics with the same cost as a conventional calculation of $C(t)$. The test of this method we are carrying out is in progress.
+\section{Future Objectives}
+
+The ultimate goal of the PhD is to carry out a number of "full" calculations of the hadronic parts of semileptonic decay amplitudes, 
+i.e. over the full $\underline{p}^2$ range, and extrapolating to physical quark masses. After resolving the issues with the consistency tests above, 
+I plan on moving onto a calculation of the $B\to D$ amplitude. This is a promising channel to study, since there is already a $3.4\sigma$ tension in the ratio 
+$\mathcal{M}(B\to D\tau\nu)/\mathcal{M}(B\to Dl\nu)$ between theory and experiment \cite{Du:2015tda}.
+
+
+\bibliographystyle{plain}
+\bibliography{prog_report}
+
+\end{document}
