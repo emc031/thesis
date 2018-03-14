@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.4)  5 FEB 2018 15:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.4)  14 MAR 2018 19:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1006,117 +1006,18 @@ Package caption Info: wrapfig package is loaded.
 Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
 \c@subfigure=\count140
 \c@subtable=\count141
-)) (./Thesis.aux (./TitlePage.aux) (./Chapter1.aux) (./Chapter2.aux
+)) (./Thesis.aux (./TitlePage.aux) (./Chapter1.aux
 
 LaTeX Warning: Label `fig:semileptonic' multiply defined.
 
+) (./Chapter2.aux) (./Chapter3.aux
 
 LaTeX Warning: Label `eq:naivefermions' multiply defined.
 
 
 LaTeX Warning: Label `eq:lat_derivative' multiply defined.
 
-)
-
-LaTeX Warning: Label `Aaij:2015yra' multiply defined.
-
-
-LaTeX Warning: Label `Altmannshofer:2017yso' multiply defined.
-
-
-LaTeX Warning: Label `Aoki:2016frl' multiply defined.
-
-
-LaTeX Warning: Label `Bali:2016lva' multiply defined.
-
-
-LaTeX Warning: Label `Bazavov:2012xda' multiply defined.
-
-
-LaTeX Warning: Label `Borasoy:2007yi' multiply defined.
-
-
-LaTeX Warning: Label `PhysRevD.79.013008' multiply defined.
-
-
-LaTeX Warning: Label `PhysRevD.91.054508' multiply defined.
-
-
-LaTeX Warning: Label `Colquhoun:2015oha' multiply defined.
-
-
-LaTeX Warning: Label `Colquhoun:2016osw' multiply defined.
-
-
-LaTeX Warning: Label `DeGrand:2006zz' multiply defined.
-
-
-LaTeX Warning: Label `Dowdall:2011wh' multiply defined.
-
-
-LaTeX Warning: Label `PhysRev.78.29' multiply defined.
-
-
-LaTeX Warning: Label `Follana:2006rc' multiply defined.
-
-
-LaTeX Warning: Label `Gattringer:2001ia' multiply defined.
-
-
-LaTeX Warning: Label `CorrFitter' multiply defined.
-
-
-LaTeX Warning: Label `Gray:2005ur' multiply defined.
-
-
-LaTeX Warning: Label `HFAG' multiply defined.
-
-
-LaTeX Warning: Label `Hammant:2013sca' multiply defined.
-
-
-LaTeX Warning: Label `Hill:2006ub' multiply defined.
-
-
-LaTeX Warning: Label `Jansen:1994ym' multiply defined.
-
-
-LaTeX Warning: Label `Lepage:1998dt' multiply defined.
-
-
-LaTeX Warning: Label `Lepage:2001ym' multiply defined.
-
-
-LaTeX Warning: Label `Lepage:1992tx' multiply defined.
-
-
-LaTeX Warning: Label `Monahan:2012dq' multiply defined.
-
-
-LaTeX Warning: Label `Monahan:2017uby' multiply defined.
-
-
-LaTeX Warning: Label `Munster:2000ez' multiply defined.
-
-
-LaTeX Warning: Label `Na:2015kha' multiply defined.
-
-
-LaTeX Warning: Label `Narayanan:2011qj' multiply defined.
-
-
-LaTeX Warning: Label `Peskin:1995ev' multiply defined.
-
-
-LaTeX Warning: Label `Richman:1995wm' multiply defined.
-
-
-LaTeX Warning: Label `Schwartz:2013pla' multiply defined.
-
-
-LaTeX Warning: Label `Wingate:2017unz' multiply defined.
-
-)
+) (./Chapter4.aux))
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -1131,7 +1032,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
- (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 
@@ -1273,59 +1175,47 @@ Overfull \hbox (21.84323pt too wide) in paragraph at lines 41--43
 ] [2
 
 ] (./Thesis.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+LaTeX Font Info:    Try loading font information for U+msa on input line 2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+LaTeX Font Info:    Try loading font information for U+msb on input line 2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 3.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-))
+) [3])
 \tf@toc=\write4
 \openout4 = `Thesis.toc'.
 
- [3] [4
-
-]
+ [4]
 \openout2 = `Chapter1.aux'.
 
 
 (./Chapter1.tex
 Chapter 1.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 7.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 12.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
-) [1
-
-
-]
-\openout2 = `Chapter2.aux'.
-
- (./Chapter2.tex
-[2
-
-
-
-]
-Chapter 2.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
-<images/semileptonic.png, id=67, 711.65875pt x 426.59375pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 12.
+
+<images/semileptonic.png, id=56, 711.65875pt x 426.59375pt>
 File: images/semileptonic.png Graphic file (type png)
 
 <use images/semileptonic.png>
 Package pdftex.def Info: images/semileptonic.png used on input line 25.
 (pdftex.def)             Requested size: 197.57582pt x 118.42998pt.
+
+Underfull \hbox (badness 1117) in paragraph at lines 33--34
+\T1/cmr/m/n/10.95 dard model (SM) which cou-ples
+ []
 
 
 Package amsmath Warning: Foreign command \over;
@@ -1354,7 +1244,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--46
 
  []
 
-[3 <./images/semileptonic.png>]
+[1
+
+
+
+ <./images/semileptonic.png>]
+
+LaTeX Warning: Reference `sec:formfactors' on page 2 undefined on input line 74
+.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 73--80
 
  []
@@ -1370,481 +1269,386 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--80
 
  []
 
-[4]
+[2]
 Underfull \hbox (badness 10000) in paragraph at lines 84--88
 
  []
 
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 100--103
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 99--102
 
  []
 
-<images/rdrds_eps15.pdf, id=87, 569.12625pt x 385.44pt>
+<images/rdrds_eps15.pdf, id=80, 569.12625pt x 385.44pt>
 File: images/rdrds_eps15.pdf Graphic file (type pdf)
 
 <use images/rdrds_eps15.pdf>
-Package pdftex.def Info: images/rdrds_eps15.pdf used on input line 119.
+Package pdftex.def Info: images/rdrds_eps15.pdf used on input line 118.
 (pdftex.def)             Requested size: 316.12253pt x 214.10405pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--127
+Underfull \hbox (badness 10000) in paragraph at lines 112--126
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--127
+Underfull \hbox (badness 10000) in paragraph at lines 112--126
+
+ []
+
+) [4] [5 <./images/rdrds_eps15.pdf, page is rotated 90 degrees>]
+\openout2 = `Chapter2.aux'.
+
+
+(./Chapter2.tex [6
+
+
+
+]
+Chapter 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--16
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--138
-
- []
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 148--155
-
- []
+LaTeX Warning: Reference `sec:cp' on page 7 undefined on input line 28.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--155
+Underfull \hbox (badness 10000) in paragraph at lines 26--33
 
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 148--155
+Underfull \hbox (badness 1132) in paragraph at lines 26--33
+\T1/cmr/m/n/10.95 Hadronic ma-trix el-e-ments like $\OML/cmm/m/it/10.95 H[]$ \T
+1/cmr/m/n/10.95 from sec. [] can be pa-ram-e-terised in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--33
+
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 26--33
 \T1/cmr/m/n/10.95 Let us con-sider the case where the two states in the ma-trix
  el-e-ment are
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--155
+Underfull \hbox (badness 10000) in paragraph at lines 26--33
 
  []
 
-[7 <./images/rdrds_eps15.pdf, page is rotated 90 degrees>]
-Underfull \hbox (badness 10000) in paragraph at lines 168--171
+[7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 60--64
 
  []
 
 
-Underfull \hbox (badness 1275) in paragraph at lines 168--171
+Underfull \hbox (badness 10000) in paragraph at lines 84--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--90
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 104--108
+
+ []
+
+) [10]
+\openout2 = `Chapter3.aux'.
+
+ (./Chapter3.tex
+Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--7
+
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 4--7
 \T1/cmr/m/n/10.95 The ex-pec-ta-tion value of an ob-serv-able $\OMS/cmsy/m/n/10
 .95 O$ \T1/cmr/m/n/10.95 in a Yang-Mills the-ory can be
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--179
+Underfull \hbox (badness 10000) in paragraph at lines 9--15
 
  []
 
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 193--196
+[11
+
+
+
+]
+
+LaTeX Warning: Reference `sec:doublingprob' on page 12 undefined on input line 
+41.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--70
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 198--202
-
- []
-
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 209--213
-
- []
-
-
-Underfull \hbox (badness 1571) in paragraph at lines 209--213
-\T1/cmr/m/n/10.95 Once the en-sem-ble is cre-ated, the path in-te-gral can be a
-p-prox-i-mated by
- []
-
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 259--265
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 86--90
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--265
+Underfull \hbox (badness 10000) in paragraph at lines 92--97
 
  []
 
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 280--285
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 110--116
 
  []
 
-<images/tastemixing.jpg, id=152, 608.2725pt x 453.695pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--116
+
+ []
+
+[14]
+
+LaTeX Warning: Reference `sec:doublingprob' on page 15 undefined on input line 
+132.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--136
+
+ []
+
+<images/tastemixing.jpg, id=160, 608.2725pt x 453.695pt>
 File: images/tastemixing.jpg Graphic file (type jpg)
 
 <use images/tastemixing.jpg>
-Package pdftex.def Info: images/tastemixing.jpg used on input line 301.
+Package pdftex.def Info: images/tastemixing.jpg used on input line 151.
 (pdftex.def)             Requested size: 177.81703pt x 132.62737pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--311
+Underfull \hbox (badness 10000) in paragraph at lines 157--161
 
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 307--311
+Underfull \hbox (badness 2302) in paragraph at lines 157--161
 \T1/cmr/m/n/10.95 Interaction be-tween dif-fer-ent tastes ("taste mix-ing") is 
 dom-i-nated by the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--311
+Underfull \hbox (badness 10000) in paragraph at lines 157--161
 
  []
 
-[12] [13 <./images/tastemixing.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 343--346
+[15] [16 <./images/tastemixing.jpg>]) [17]
+\openout2 = `Chapter4.aux'.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 349--353
-
- []
+ (./Chapter4.tex [18
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 349--353
-\T1/cmr/m/n/10.95 The so-lu-tion we em-ploy is to per-sue in-stead a non-relati
-vistic for-mu-la-tion,
- []
 
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 355--365
+]
+Chapter 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--9
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 355--365
+Underfull \hbox (badness 10000) in paragraph at lines 11--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 355--365
+Underfull \hbox (badness 10000) in paragraph at lines 22--26
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 1571) in paragraph at lines 22--26
+\T1/cmr/m/n/10.95 Once the en-sem-ble is cre-ated, the path in-te-gral can be a
+p-prox-i-mated by
+ []
 
- [15]
-Underfull \hbox (badness 10000) in paragraph at lines 382--386
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 50--54
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 397--401
-
- []
-
-
-Underfull \hbox (badness 4132) in paragraph at lines 397--401
+Underfull \hbox (badness 4132) in paragraph at lines 50--54
 \T1/cmr/m/n/10.95 Naive quarks $\OML/cmm/m/it/10.95  \OT1/cmr/m/n/10.95 (\OML/c
 mm/m/it/10.95 x\OT1/cmr/m/n/10.95 )$ \T1/cmr/m/n/10.95 can be trans-formed into
  stag-gered quarks $\OML/cmm/m/it/10.95 ^^_\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10
 .95 x\OT1/cmr/m/n/10.95 )$ \T1/cmr/m/n/10.95 via
  []
 
-[16] [17]
-Underfull \hbox (badness 10000) in paragraph at lines 448--452
+[20] [21]
+Underfull \hbox (badness 10000) in paragraph at lines 101--105
 
  []
 
 
-Underfull \hbox (badness 1917) in paragraph at lines 448--452
+Underfull \hbox (badness 1917) in paragraph at lines 101--105
 \T1/cmr/m/n/10.95 In the MILC code, "sources" are first cre-ated (the fields $\
 OML/cmm/m/it/10.95 ^^^[]\OT1/cmr/m/n/10.95 ([]\OML/cmm/m/it/10.95 ; t[]\OT1/cmr
 /m/n/10.95 )\OML/cmm/m/it/10.95 ^^X\OT1/cmr/m/n/10.95 ([])$\T1/cmr/m/n/10.95 ),
 
  []
 
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 467--471
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 120--124
 
  []
 
 
-Overfull \hbox (78.79784pt too wide) in paragraph at lines 474--474
+Overfull \hbox (78.79784pt too wide) in paragraph at lines 127--127
 [] 
  []
 
 
-Underfull \hbox (badness 1817) in paragraph at lines 474--476
+Underfull \hbox (badness 1817) in paragraph at lines 127--129
 \T1/cmr/m/n/10.95 This can be built by first cre-at-ing prop-a-ga-tors for the 
 $\OML/cmm/m/it/10.95 b$ \T1/cmr/m/n/10.95 and $\OML/cmm/m/it/10.95 s$ \T1/cmr/m
 /n/10.95 quarks:
  []
 
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 507--511
+
+LaTeX Warning: Reference `sec:correlators' on page 23 undefined on input line 1
+39.
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 162--166
+
+ []
+
+[24]
+
+LaTeX Warning: Reference `sec:cp' on page 25 undefined on input line 171.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--174
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 513--519
+Underfull \hbox (badness 10000) in paragraph at lines 168--174
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 513--519
-
- []
-
-[20]
-Overfull \hbox (82.77629pt too wide) in paragraph at lines 526--526
+Overfull \hbox (82.77629pt too wide) in paragraph at lines 181--181
 [] 
  []
 
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 546--552
+
+LaTeX Warning: Reference `sec:fitting' on page 25 undefined on input line 190.
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 196--204
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 546--552
-
- []
-
-[22]
-Underfull \hbox (badness 10000) in paragraph at lines 605--610
+Underfull \hbox (badness 10000) in paragraph at lines 196--204
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 605--610
-
- []
-
-<images/EffMass_localVsSmear_Ds_coarse.png, id=188, 578.16pt x 433.62pt>
-File: images/EffMass_localVsSmear_Ds_coarse.png Graphic file (type png)
-
-<use images/EffMass_localVsSmear_Ds_coarse.png>
-Package pdftex.def Info: images/EffMass_localVsSmear_Ds_coarse.png used on inpu
-t line 622.
-(pdftex.def)             Requested size: 256.84616pt x 192.63277pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 612--627
-
- []
-
-
-Underfull \hbox (badness 4673) in paragraph at lines 612--627
-\T1/cmr/m/n/10.95 For the $\OML/cmm/m/it/10.95 B[]$\T1/cmr/m/n/10.95 , we use a
- com-bi-na-tion of $\OML/cmm/m/it/10.95 ^^^[]\OT1/cmr/m/n/10.95 ([]) = \OML/cmm
-/m/it/10.95 ^^N\OT1/cmr/m/n/10.95 ([])$ \T1/cmr/m/n/10.95 ("lo-cal"), and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 612--627
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 612--627
-
- []
-
-[23] [24]
-Underfull \hbox (badness 1609) in paragraph at lines 643--645
-\T1/cmr/m/n/10.95 cur-rents and con-tin-uum QCD in [25]. We cal-cu-late cor-re-
-la-tion func-tions
- []
-
-[25 <./images/EffMass_localVsSmear_Ds_coarse.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 654--662
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 654--662
-
- []
-
-
-Underfull \hbox (badness 1221) in paragraph at lines 654--662
+Underfull \hbox (badness 1221) in paragraph at lines 196--204
 \T1/cmr/m/n/10.95 2-point cor-re-la-tion func-tions for $\OML/cmm/m/it/10.95 B[
 ]$ \T1/cmr/m/n/10.95 and $\OML/cmm/m/it/10.95 D[]$ \T1/cmr/m/n/10.95 are fit to
  [], re-sult-ing in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--662
+Underfull \hbox (badness 10000) in paragraph at lines 196--204
 
  []
 
 [26]
-Underfull \hbox (badness 10000) in paragraph at lines 671--677
+Underfull \hbox (badness 10000) in paragraph at lines 213--219
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 671--677
+Underfull \hbox (badness 10000) in paragraph at lines 213--219
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 684--689
+LaTeX Warning: Reference `eq:currentcorrections' on page 27 undefined on input 
+line 222.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--231
+
+ []
+
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 238--242
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 684--689
-
- []
-
-[27] [28]
-Underfull \hbox (badness 10000) in paragraph at lines 734--738
+Underfull \hbox (badness 10000) in paragraph at lines 245--252
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 740--744
+Underfull \hbox (badness 10000) in paragraph at lines 245--252
 
  []
 
-[29]
-Underfull \hbox (badness 10000) in paragraph at lines 758--761
+[28]
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 768--773
-
- []
+LaTeX Warning: Reference `sec:formfactors' on page 29 undefined on input line 2
+71.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 768--773
-
- []
-
-[30] <images/BD_proceedings17.pdf, id=216, 578.16pt x 433.62pt>
-File: images/BD_proceedings17.pdf Graphic file (type pdf)
-
-<use images/BD_proceedings17.pdf>
-Package pdftex.def Info: images/BD_proceedings17.pdf used on input line 832.
-(pdftex.def)             Requested size: 197.57582pt x 148.17651pt.
-
-<images/BsDs_proceedings17.pdf, id=217, 578.16pt x 433.62pt>
-File: images/BsDs_proceedings17.pdf Graphic file (type pdf)
-
-<use images/BsDs_proceedings17.pdf>
-Package pdftex.def Info: images/BsDs_proceedings17.pdf used on input line 837.
-(pdftex.def)             Requested size: 197.57582pt x 148.17651pt.
+LaTeX Warning: Reference `sec:highmomenta' on page 29 undefined on input line 2
+71.
 
 
-LaTeX Warning: Citation `Donald:2012ga' on page 31 undefined on input line 843.
-
-
-[31] [32] <images/c2_proceedings17.pdf, id=225, 578.16pt x 433.62pt>
-File: images/c2_proceedings17.pdf Graphic file (type pdf)
-
-<use images/c2_proceedings17.pdf>
-Package pdftex.def Info: images/c2_proceedings17.pdf used on input line 849.
-(pdftex.def)             Requested size: 197.57582pt x 148.17651pt.
-
-<images/c2p0_proceedings17.pdf, id=226, 578.16pt x 433.62pt>
-File: images/c2p0_proceedings17.pdf Graphic file (type pdf)
-
-<use images/c2p0_proceedings17.pdf>
-Package pdftex.def Info: images/c2p0_proceedings17.pdf used on input line 854.
-(pdftex.def)             Requested size: 197.57582pt x 148.17651pt.
- (./Thesis.bbl [33 <./images/BD_proceedings17.pdf> <./images/BsDs_proceedings17
-.pdf
-
-pdfTeX warning: pdflatex (file ./images/BsDs_proceedings17.pdf): PDF inclusion:
- multiple pdfs with page group included in a single page
->] [34 <./images/c2_proceedings17.pdf> <./images/c2p0_proceedings17.pdf
-
-pdfTeX warning: pdflatex (file ./images/c2p0_proceedings17.pdf): PDF inclusion:
- multiple pdfs with page group included in a single page
->] [35
-
-] [36]) [37]
-Underfull \hbox (badness 10000) in paragraph at lines 885--889
-
- []
-
-[38]
-Underfull \hbox (badness 10000) in paragraph at lines 909--915
+Underfull \hbox (badness 10000) in paragraph at lines 269--272
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 909--915
+Underfull \hbox (badness 10000) in paragraph at lines 291--297
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 929--933
+Underfull \hbox (badness 10000) in paragraph at lines 291--297
 
  []
 
-[39]
-Underfull \hbox (badness 10000) in paragraph at lines 956--960
-
- []
-
-[40]
-Underfull \hbox (badness 10000) in paragraph at lines 976--980
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 982--987
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1000--1003
-
- []
-
-[41]
-Underfull \hbox (badness 10000) in paragraph at lines 1010--1014
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1017--1024
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1017--1024
-
- []
-
-[42]
-
-LaTeX Warning: Reference `sec:highmomenta' on page 43 undefined on input line 1
-043.
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 1041--21
-
- []
-
-[43] [44
-
-
-] (./Thesis.lof)
+[29]) [30] (./Thesis.lof)
 \tf@lof=\write5
 \openout5 = `Thesis.lof'.
 
- [45] [46
+ [31
+
+
+] [32
 
 ] (./Thesis.lot)
 \tf@lot=\write6
 \openout6 = `Thesis.lot'.
 
- (./Thesis.bbl [47] [48
+ (./Thesis.bbl [33] [34
 
 ]
-[49] [50]) [51] (./Thesis.aux (./TitlePage.aux) (./Chapter1.aux)
-(./Chapter2.aux))
+[35] [36]) [37] (./Thesis.aux (./TitlePage.aux) (./Chapter1.aux)
+(./Chapter2.aux) (./Chapter3.aux) (./Chapter4.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -1853,13 +1657,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 24971 strings out of 494910
- 607295 string characters out of 6179837
- 776771 words of memory out of 5000000
- 27708 multiletter control sequences out of 15000+600000
- 29449 words of font info for 83 fonts, out of 8000000 for 9000
+ 24911 strings out of 494910
+ 605955 string characters out of 6179837
+ 774771 words of memory out of 5000000
+ 27645 multiletter control sequences out of 15000+600000
+ 26223 words of font info for 70 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 66i,21n,79p,1332b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 66i,16n,79p,1332b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/euan/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/eu
 an/.texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1440.600pk> </home/euan/.texmf-va
 r/fonts/pk/ljfour/jknappen/ec/ecsl1095.600pk> </home/euan/.texmf-var/fonts/pk/l
@@ -1874,22 +1678,19 @@ msfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cmextra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
 i12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msb
-m10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on Thesis.pdf (63 pages, 837183 bytes).
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+rsfs/rsfs10.pfb>
+Output written on Thesis.pdf (49 pages, 466633 bytes).
 PDF statistics:
- 971 PDF objects out of 1000 (max. 8388607)
- 348 compressed objects within 4 object streams
+ 730 PDF objects out of 1000 (max. 8388607)
+ 219 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 58 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
