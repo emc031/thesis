@@ -1,5 +1,39 @@
 \begin{thebibliography}{10}
 
+\bibitem{Na:2015kha}
+Heechang Na, Chris~M. Bouchard, G.~Peter Lepage, Chris Monahan, and Junko
+  Shigemitsu.
+\newblock {$B \rightarrow D l \nu$ form factors at nonzero recoil and
+  extraction of $|V_{cb}|$}.
+\newblock {\em Phys. Rev.}, D92(5):054510, 2015.
+\newblock [Erratum: Phys. Rev.D93,no.11,119906(2016)].
+
+\bibitem{Richman:1995wm}
+Jeffrey~D. Richman and Patricia~R. Burchat.
+\newblock {Leptonic and semileptonic decays of charm and bottom hadrons}.
+\newblock {\em Rev. Mod. Phys.}, 67:893--976, 1995.
+
+\bibitem{Borasoy:2007yi}
+Bugra Borasoy.
+\newblock {Introduction to Chiral Perturbation Theory}.
+\newblock {\em Springer Proc. Phys.}, 118:1--26, 2008.
+
+\bibitem{Schwartz:2013pla}
+Matthew~D. Schwartz.
+\newblock {\em {Quantum Field Theory and the Standard Model}}.
+\newblock Cambridge University Press, 2014.
+
+\bibitem{Aoki:2016frl}
+S.~Aoki et~al.
+\newblock {Review of lattice results concerning low-energy particle physics}.
+\newblock {\em Eur. Phys. J.}, C77(2):112, 2017.
+
+\bibitem{Wingate:2017unz}
+Matthew Wingate.
+\newblock {$|V_{cb}|$ using lattice QCD}.
+\newblock In {\em {9th International Workshop on the CKM Unitarity Triangle
+  (CKM2016) Mumbai, India, November 28-December 3, 2016}}, 2017.
+
 \bibitem{Aaij:2015yra}
 Roel Aaij et~al.
 \newblock {Measurement of the ratio of branching fractions
@@ -9,121 +43,23 @@ Roel Aaij et~al.
 \newblock {\em Phys. Rev. Lett.}, 115(11):111803, 2015.
 \newblock [Erratum: Phys. Rev. Lett.115,no.15,159901(2015)].
 
+\bibitem{Monahan:2017uby}
+Christopher~J Monahan, Heechang Na, Chris~M Bouchard, G~Peter Lepage, and Junko
+  Shigemitsu.
+\newblock {$B_s \to D_s \ell \nu$ Form Factors and the Fragmentation Fraction
+  Ratio $f_s/f_d$}.
+\newblock 2017.
+
 \bibitem{Altmannshofer:2017yso}
 Wolfgang Altmannshofer, Peter Stangl, and David~M. Straub.
 \newblock {Interpreting Hints for Lepton Flavor Universality Violation}.
 \newblock 2017.
 
-\bibitem{Aoki:2016frl}
-S.~Aoki et~al.
-\newblock {Review of lattice results concerning low-energy particle physics}.
-\newblock {\em Eur. Phys. J.}, C77(2):112, 2017.
-
-\bibitem{Bali:2016lva}
-Gunnar~S. Bali, Bernhard Lang, Bernhard~U. Musch, and Andreas Schäfer.
-\newblock {Novel quark smearing for hadrons with high momenta in lattice QCD}.
-\newblock {\em Phys. Rev.}, D93(9):094515, 2016.
-
-\bibitem{Bazavov:2012xda}
-A.~Bazavov et~al.
-\newblock {Lattice QCD ensembles with four flavors of highly improved staggered
-  quarks}.
-\newblock {\em Phys. Rev.}, D87(5):054505, 2013.
-
-\bibitem{Borasoy:2007yi}
-Bugra Borasoy.
-\newblock {Introduction to Chiral Perturbation Theory}.
-\newblock {\em Springer Proc. Phys.}, 118:1--26, 2008.
-
-\bibitem{PhysRevD.79.013008}
-Claude Bourrely, Laurent Lellouch, and Irinel Caprini.
-\newblock Model-independent description of
-  $b\ensuremath{\rightarrow}\ensuremath{\pi}l\ensuremath{\nu}$ decays and a
-  determination of $|{V}_{ub}|$.
-\newblock {\em Phys. Rev. D}, 79:013008, Jan 2009.
-
-\bibitem{PhysRevD.91.054508}
-Bipasha Chakraborty, C.~T.~H. Davies, B.~Galloway, P.~Knecht, J.~Koponen, G.~C.
-  Donald, R.~J. Dowdall, G.~P. Lepage, and C.~McNeile.
-\newblock High-precision quark masses and qcd coupling from ${n}_{f}=4$ lattice
-  qcd.
-\newblock {\em Phys. Rev. D}, 91:054508, Mar 2015.
-
-\bibitem{Colquhoun:2015oha}
-B.~Colquhoun, C.~T.~H. Davies, R.~J. Dowdall, J.~Kettle, J.~Koponen, G.~P.
-  Lepage, and A.~T. Lytle.
-\newblock {B-meson decay constants: a more complete picture from full lattice
-  QCD}.
-\newblock {\em Phys. Rev.}, D91(11):114509, 2015.
-
-\bibitem{Colquhoun:2016osw}
-Brian Colquhoun, Christine Davies, Jonna Koponen, Andrew Lytle, and Craig
-  McNeile.
-\newblock {$B_c$ decays from highly improved staggered quarks and NRQCD}.
-\newblock {\em PoS}, LATTICE2016:281, 2016.
-
-\bibitem{DeGrand:2006zz}
-Thomas DeGrand and Carleton~E. Detar.
-\newblock {\em {Lattice methods for quantum chromodynamics}}.
-\newblock 2006.
-
-\bibitem{Dowdall:2011wh}
-R.~J. Dowdall et~al.
-\newblock {The Upsilon spectrum and the determination of the lattice spacing
-  from lattice QCD including charm quarks in the sea}.
-\newblock {\em Phys. Rev.}, D85:054509, 2012.
-
-\bibitem{PhysRev.78.29}
-Leslie~L. Foldy and Siegfried~A. Wouthuysen.
-\newblock On the dirac theory of spin 1/2 particles and its non-relativistic
-  limit.
-\newblock {\em Phys. Rev.}, 78:29--36, Apr 1950.
-
-\bibitem{Follana:2006rc}
-E.~Follana, Q.~Mason, C.~Davies, K.~Hornbostel, G.~P. Lepage, J.~Shigemitsu,
-  H.~Trottier, and K.~Wong.
-\newblock {Highly improved staggered quarks on the lattice, with applications
-  to charm physics}.
-\newblock {\em Phys. Rev.}, D75:054502, 2007.
-
-\bibitem{Gattringer:2001ia}
-Christof Gattringer, Meinulf Gockeler, Paul E.~L. Rakow, Stefan Schaefer, and
-  Andreas Schaefer.
-\newblock {A Comprehensive picture of topological excitations in finite
-  temperature lattice QCD}.
-\newblock {\em Nucl. Phys.}, B618:205--240, 2001.
-
-\bibitem{CorrFitter}
-G.P.Lepage.
-\newblock Corrfitter, 2012.
-
-\bibitem{Gray:2005ur}
-A.~Gray, I.~Allison, C.~T.~H. Davies, Emel Dalgic, G.~P. Lepage, J.~Shigemitsu,
-  and M.~Wingate.
-\newblock {The Upsilon spectrum and m(b) from full lattice QCD}.
-\newblock {\em Phys. Rev.}, D72:094507, 2005.
-
-\bibitem{HFAG}
-Heavy Flaour~Averaging Group.
-\newblock Rd plane, 2015.
-
-\bibitem{Hammant:2013sca}
-T.~C. Hammant, A.~G. Hart, G.~M. von Hippel, R.~R. Horgan, and C.~J. Monahan.
-\newblock {Radiative improvement of the lattice nonrelativistic QCD action
-  using the background field method with applications to quarkonium
-  spectroscopy}.
-\newblock {\em Phys. Rev.}, D88(1):014505, 2013.
-\newblock [Erratum: Phys. Rev.D92,no.11,119904(2015)].
-
-\bibitem{Hill:2006ub}
-Richard~J. Hill.
-\newblock {The Modern description of semileptonic meson form factors}.
-\newblock {\em eConf}, C060409:027, 2006.
-
-\bibitem{Jansen:1994ym}
-Karl Jansen.
-\newblock {Domain wall fermions and chiral gauge theories}.
-\newblock {\em Phys. Rept.}, 273:1--54, 1996.
+\bibitem{Lebed:1991sq}
+Richard~F. Lebed and Mahiko Suzuki.
+\newblock {Current algebra and the Ademollo-Gatto theorem in spin flavor
+  symmetry of heavy quarks}.
+\newblock {\em Phys. Rev.}, D44:829--836, 1991.
 
 \bibitem{Lepage:1998dt}
 G.~P. Lepage.
@@ -132,70 +68,54 @@ G.~P. Lepage.
   Proceedings, 13th Annual Hampton University Graduate Studies, HUGS'98,
   Newport News, USA, May 26-June 12, 1998}}, pages 49--90, 1998.
 
-\bibitem{Lepage:2001ym}
-G.~P. Lepage, B.~Clark, C.~T.~H. Davies, K.~Hornbostel, P.~B. Mackenzie,
-  C.~Morningstar, and H.~Trottier.
-\newblock {Constrained curve fitting}.
-\newblock {\em Nucl. Phys. Proc. Suppl.}, 106:12--20, 2002.
-\newblock [,12(2001)].
-
-\bibitem{Lepage:1992tx}
-G.~Peter Lepage, Lorenzo Magnea, Charles Nakhleh, Ulrika Magnea, and Kent
-  Hornbostel.
-\newblock {Improved nonrelativistic QCD for heavy quark physics}.
-\newblock {\em Phys. Rev.}, D46:4052--4067, 1992.
-
-\bibitem{Monahan:2012dq}
-Christopher Monahan, Junko Shigemitsu, and Ron Horgan.
-\newblock {Matching lattice and continuum axial-vector and vector currents with
-  nonrelativistic QCD and highly improved staggered quarks}.
-\newblock {\em Phys. Rev.}, D87(3):034017, 2013.
-
-\bibitem{Monahan:2017uby}
-Christopher~J Monahan, Heechang Na, Chris~M Bouchard, G~Peter Lepage, and Junko
-  Shigemitsu.
-\newblock {$B_s \to D_s \ell \nu$ Form Factors and the Fragmentation Fraction
-  Ratio $f_s/f_d$}.
-\newblock 2017.
-
 \bibitem{Munster:2000ez}
 G.~Munster and M.~Walzl.
 \newblock {Lattice gauge theory: A Short primer}.
 \newblock In {\em {Phenomenology of gauge interactions. Proceedings, Summer
   School, Zuoz, Switzerland, August 13-19, 2000}}, pages 127--160, 2000.
 
-\bibitem{Na:2015kha}
-Heechang Na, Chris~M. Bouchard, G.~Peter Lepage, Chris Monahan, and Junko
-  Shigemitsu.
-\newblock {$B \rightarrow D l \nu$ form factors at nonzero recoil and
-  extraction of $|V_{cb}|$}.
-\newblock {\em Phys. Rev.}, D92(5):054510, 2015.
-\newblock [Erratum: Phys. Rev.D93,no.11,119906(2016)].
+\bibitem{DeGrand:2006zz}
+Thomas DeGrand and Carleton~E. Detar.
+\newblock {\em {Lattice methods for quantum chromodynamics}}.
+\newblock 2006.
+
+\bibitem{Jansen:1994ym}
+Karl Jansen.
+\newblock {Domain wall fermions and chiral gauge theories}.
+\newblock {\em Phys. Rept.}, 273:1--54, 1996.
 
 \bibitem{Narayanan:2011qj}
 R.~Narayanan.
 \newblock {Tata lectures on overlap fermions}.
 \newblock 2011.
 
+\bibitem{Follana:2006rc}
+E.~Follana, Q.~Mason, C.~Davies, K.~Hornbostel, G.~P. Lepage, J.~Shigemitsu,
+  H.~Trottier, and K.~Wong.
+\newblock {Highly improved staggered quarks on the lattice, with applications
+  to charm physics}.
+\newblock {\em Phys. Rev.}, D75:054502, 2007.
+
 \bibitem{Peskin:1995ev}
 Michael~E. Peskin and Daniel~V. Schroeder.
 \newblock {\em {An Introduction to quantum field theory}}.
 \newblock 1995.
 
-\bibitem{Richman:1995wm}
-Jeffrey~D. Richman and Patricia~R. Burchat.
-\newblock {Leptonic and semileptonic decays of charm and bottom hadrons}.
-\newblock {\em Rev. Mod. Phys.}, 67:893--976, 1995.
+\bibitem{Bazavov:2012xda}
+A.~Bazavov et~al.
+\newblock {Lattice QCD ensembles with four flavors of highly improved staggered
+  quarks}.
+\newblock {\em Phys. Rev.}, D87(5):054505, 2013.
 
-\bibitem{Schwartz:2013pla}
-Matthew~D. Schwartz.
-\newblock {\em {Quantum Field Theory and the Standard Model}}.
-\newblock Cambridge University Press, 2014.
+\bibitem{CorrFitter}
+G.P.Lepage.
+\newblock Corrfitter: https://github.com/gplepage/corrfitter, 2012.
 
-\bibitem{Wingate:2017unz}
-Matthew Wingate.
-\newblock {$|V_{cb}|$ using lattice QCD}.
-\newblock In {\em {9th International Workshop on the CKM Unitarity Triangle
-  (CKM2016) Mumbai, India, November 28-December 3, 2016}}, 2017.
+\bibitem{Colquhoun:2015oha}
+B.~Colquhoun, C.~T.~H. Davies, R.~J. Dowdall, J.~Kettle, J.~Koponen, G.~P.
+  Lepage, and A.~T. Lytle.
+\newblock {B-meson decay constants: a more complete picture from full lattice
+  QCD}.
+\newblock {\em Phys. Rev.}, D91(11):114509, 2015.
 
 \end{thebibliography}

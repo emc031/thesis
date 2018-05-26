@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.4)  14 MAR 2018 19:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.4)  26 MAY 2018 13:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1286,6 +1286,13 @@ File: images/rdrds_eps15.pdf Graphic file (type pdf)
 Package pdftex.def Info: images/rdrds_eps15.pdf used on input line 118.
 (pdftex.def)             Requested size: 316.12253pt x 214.10405pt.
 
+
+LaTeX Warning: Citation `HFAG' on page 4 undefined on input line 120.
+
+
+LaTeX Warning: Citation `HFAG' on page 4 undefined on input line 120.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 112--126
 
  []
@@ -1305,65 +1312,85 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--126
 
 ]
 Chapter 2.
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 40--44
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--16
+ []
+
+[8] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 99--102
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 125--129
 
  []
 
 
-LaTeX Warning: Reference `sec:cp' on page 7 undefined on input line 28.
+Underfull \hbox (badness 10000) in paragraph at lines 147--150
+
+ []
+
+[11]
+
+LaTeX Warning: Reference `sec:cp' on page 12 undefined on input line 162.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--33
+Underfull \hbox (badness 10000) in paragraph at lines 160--167
 
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 26--33
+Underfull \hbox (badness 1132) in paragraph at lines 160--167
 \T1/cmr/m/n/10.95 Hadronic ma-trix el-e-ments like $\OML/cmm/m/it/10.95 H[]$ \T
 1/cmr/m/n/10.95 from sec. [] can be pa-ram-e-terised in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--33
+Underfull \hbox (badness 10000) in paragraph at lines 160--167
 
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 26--33
+Underfull \hbox (badness 1205) in paragraph at lines 160--167
 \T1/cmr/m/n/10.95 Let us con-sider the case where the two states in the ma-trix
  el-e-ment are
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--33
+Underfull \hbox (badness 10000) in paragraph at lines 160--167
 
  []
 
-[7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 60--64
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 194--198
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 218--224
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--90
+Underfull \hbox (badness 10000) in paragraph at lines 218--224
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--90
+Underfull \hbox (badness 10000) in paragraph at lines 238--242
 
  []
 
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 104--108
-
- []
-
-) [10]
+[14]) [15]
 \openout2 = `Chapter3.aux'.
 
- (./Chapter3.tex
+ (./Chapter3.tex [16
+
+
+
+]
 Chapter 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--7
@@ -1381,13 +1408,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--15
 
  []
 
-[11
+[17]
 
-
-
-]
-
-LaTeX Warning: Reference `sec:doublingprob' on page 12 undefined on input line 
+LaTeX Warning: Reference `sec:doublingprob' on page 18 undefined on input line 
 41.
 
 
@@ -1395,7 +1418,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--70
 
  []
 
-[12]
+[18]
 Underfull \hbox (badness 10000) in paragraph at lines 86--90
 
  []
@@ -1405,7 +1428,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--97
 
  []
 
-[13]
+[19]
 Underfull \hbox (badness 10000) in paragraph at lines 110--116
 
  []
@@ -1415,9 +1438,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 110--116
 
  []
 
-[14]
+[20]
 
-LaTeX Warning: Reference `sec:doublingprob' on page 15 undefined on input line 
+LaTeX Warning: Reference `sec:doublingprob' on page 21 undefined on input line 
 132.
 
 
@@ -1425,7 +1448,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 131--136
 
  []
 
-<images/tastemixing.jpg, id=160, 608.2725pt x 453.695pt>
+<images/tastemixing.jpg, id=179, 608.2725pt x 453.695pt>
 File: images/tastemixing.jpg Graphic file (type jpg)
 
 <use images/tastemixing.jpg>
@@ -1447,10 +1470,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 157--161
 
  []
 
-[15] [16 <./images/tastemixing.jpg>]) [17]
+[21] [22 <./images/tastemixing.jpg>]) [23]
 \openout2 = `Chapter4.aux'.
 
- (./Chapter4.tex [18
+ (./Chapter4.tex [24
 
 
 
@@ -1477,7 +1500,7 @@ Underfull \hbox (badness 1571) in paragraph at lines 22--26
 p-prox-i-mated by
  []
 
-[19]
+[25]
 Underfull \hbox (badness 10000) in paragraph at lines 50--54
 
  []
@@ -1490,7 +1513,7 @@ mm/m/it/10.95 x\OT1/cmr/m/n/10.95 )$ \T1/cmr/m/n/10.95 can be trans-formed into
 .95 x\OT1/cmr/m/n/10.95 )$ \T1/cmr/m/n/10.95 via
  []
 
-[20] [21]
+[26] [27]
 Underfull \hbox (badness 10000) in paragraph at lines 101--105
 
  []
@@ -1503,7 +1526,7 @@ OML/cmm/m/it/10.95 ^^^[]\OT1/cmr/m/n/10.95 ([]\OML/cmm/m/it/10.95 ; t[]\OT1/cmr
 
  []
 
-[22]
+[28]
 Underfull \hbox (badness 10000) in paragraph at lines 120--124
 
  []
@@ -1521,17 +1544,17 @@ $\OML/cmm/m/it/10.95 b$ \T1/cmr/m/n/10.95 and $\OML/cmm/m/it/10.95 s$ \T1/cmr/m
  []
 
 
-LaTeX Warning: Reference `sec:correlators' on page 23 undefined on input line 1
+LaTeX Warning: Reference `sec:correlators' on page 29 undefined on input line 1
 39.
 
-[23]
+[29]
 Underfull \hbox (badness 10000) in paragraph at lines 162--166
 
  []
 
-[24]
+[30]
 
-LaTeX Warning: Reference `sec:cp' on page 25 undefined on input line 171.
+LaTeX Warning: Reference `sec:cp' on page 31 undefined on input line 171.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 168--174
@@ -1549,9 +1572,9 @@ Overfull \hbox (82.77629pt too wide) in paragraph at lines 181--181
  []
 
 
-LaTeX Warning: Reference `sec:fitting' on page 25 undefined on input line 190.
+LaTeX Warning: Reference `sec:fitting' on page 31 undefined on input line 190.
 
-[25]
+[31]
 Underfull \hbox (badness 10000) in paragraph at lines 196--204
 
  []
@@ -1573,7 +1596,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 196--204
 
  []
 
-[26]
+[32]
 Underfull \hbox (badness 10000) in paragraph at lines 213--219
 
  []
@@ -1584,7 +1607,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 213--219
  []
 
 
-LaTeX Warning: Reference `eq:currentcorrections' on page 27 undefined on input 
+LaTeX Warning: Reference `eq:currentcorrections' on page 33 undefined on input 
 line 222.
 
 
@@ -1592,7 +1615,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 228--231
 
  []
 
-[27]
+[33]
 Underfull \hbox (badness 10000) in paragraph at lines 238--242
 
  []
@@ -1607,13 +1630,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 245--252
 
  []
 
-[28]
+[34]
 
-LaTeX Warning: Reference `sec:formfactors' on page 29 undefined on input line 2
+LaTeX Warning: Reference `sec:formfactors' on page 35 undefined on input line 2
 71.
 
 
-LaTeX Warning: Reference `sec:highmomenta' on page 29 undefined on input line 2
+LaTeX Warning: Reference `sec:highmomenta' on page 35 undefined on input line 2
 71.
 
 
@@ -1631,24 +1654,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 291--297
 
  []
 
-[29]) [30] (./Thesis.lof)
+[35]) [36] (./Thesis.lof
+
+LaTeX Warning: Citation `HFAG' on page 37 undefined on input line 3.
+
+)
 \tf@lof=\write5
 \openout5 = `Thesis.lof'.
 
- [31
+ [37
 
 
-] [32
+] [38
 
 ] (./Thesis.lot)
 \tf@lot=\write6
 \openout6 = `Thesis.lot'.
 
- (./Thesis.bbl [33] [34
+ (./Thesis.bbl [39] [40
 
-]
-[35] [36]) [37] (./Thesis.aux (./TitlePage.aux) (./Chapter1.aux)
-(./Chapter2.aux) (./Chapter3.aux) (./Chapter4.aux))
+] [41]) [42] (./Thesis.aux
+(./TitlePage.aux) (./Chapter1.aux) (./Chapter2.aux) (./Chapter3.aux)
+(./Chapter4.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -1657,10 +1684,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 24911 strings out of 494910
- 605955 string characters out of 6179837
+ 24907 strings out of 494910
+ 605851 string characters out of 6179837
  774771 words of memory out of 5000000
- 27645 multiletter control sequences out of 15000+600000
+ 27641 multiletter control sequences out of 15000+600000
  26223 words of font info for 70 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  66i,16n,79p,1332b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1687,10 +1714,10 @@ s/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 rsfs/rsfs10.pfb>
-Output written on Thesis.pdf (49 pages, 466633 bytes).
+Output written on Thesis.pdf (54 pages, 484730 bytes).
 PDF statistics:
- 730 PDF objects out of 1000 (max. 8388607)
- 219 compressed objects within 3 object streams
+ 755 PDF objects out of 1000 (max. 8388607)
+ 229 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

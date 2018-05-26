@@ -5,7 +5,141 @@
 \subsection{Quantum Chromodynamics}
 \subsection{Chiral Perturbation Theory}
 \section{Heavy Quark Physics}
+
+some stuff about the different scales in a $B$ meson, analogy to hydrogen, etc.
+
 \subsection{HQET}
+
+Heavy Quark Effective Theory (HQET) is an effective field theory with the cutoff at the heavy quark mass $m_Q$, and terms organized in a series in $\Lambda_{\text{QCD}}/m_Q$. Since at the $b$ (and $c$) mass QCD is perturbative ($\alpha_s(m_Q) << 1$), one can match HQET to perturbative QCD at $m_Q$, then run the couplings of HQET down to produce useful predictions at the confinement scale.
+
+\subsubsection{HQET Lagrangian}
+
+As a simple example, we will derive HQET for a single heavy quark interacting with gluons. The fermion part of the Lagrangian is
+\begin{align}
+	\mathscr{L}_{\text{QCD}} = \bar{Q} ( i\slashed{D} - m_Q ) Q,
+\end{align}
+where $Q$ is the heavy quark field. Define the heavy quark velocity $v$ according to
+\begin{align}
+	v = {p_Q \over m_Q}.
+\end{align}
+Now split $Q$ into "heavy" and "light" components:
+\begin{align}
+	\label{eq:hdef}
+	Q = h + H\quad : \quad &h = {1\over 2} e^{-im_Q v\cdot x} ( 1 + \slashed{v} ) Q \\
+	&H = {1\over 2} e^{-im_Q v\cdot x} ( 1 - \slashed{v} ) Q
+\end{align}
+with the important property
+\begin{align}
+	\slashed{v} h = h \quad \slashed{v} H = - H.
+\end{align}
+In terms of these new fields the Lagrangian becomes
+\begin{align}
+	\mathscr{L}_{\text{QCD}} = i\bar{h} (v\cdot D) h - \bar{H} ( i(v\cdot D) - 2m_Q ) H 
+		+ i \bar{h} \slashed{D}^{\perp} H + i \bar{H} \slashed{D}^{\perp} h.
+		\label{eq:HQET_preintegral}
+\end{align}
+where $v_{\mu}(v\cdot D)$ is the covariant derivative projected along the direction of $v$, and $D^{\perp} = D - v_{\mu}(v\cdot D)$ is the components perpendicular to $v$. In the rest frame of the heavy quark, $v = (1,0,0,0)$ so $v_{\mu}(v\cdot D)$ becomes the temporal derivative and $D^{\perp}$ the spacial. 
+\\ \\
+From \eqref{eq:HQET_preintegral}, we see that $h$ is a massless field and $H$ has a mass of $2m_Q$. From this Lagrangian we can derive an equation of motion for $H$:
+\begin{align}
+	( i(v\cdot D) + 2m_Q) H = i\slashed{D}^{\perp} h,
+\end{align}
+with the solution
+\begin{align}
+	H = {1\over i(v\cdot D) + 2m_Q} i\slashed{D}^{\perp} h = {1\over 2m_Q}\sum_{n=0}^{\infty} {(-i(v\cdot D))^n\over 2m_Q} \slashed{D}^{\perp} h.
+\end{align}
+By substituting this into the Lagrangian we arrive at
+\begin{align}
+	\mathscr{L}_{\text{HQET}} = i \bar{h} (v\cdot D) h - \bar{h} \slashed{D}^{\perp} {1\over 2m_Q}\sum_{n=0}^{\infty} {(-i(v\cdot D))^n\over 2m_Q} \slashed{D}^{\perp} h.
+\end{align}
+This can be found by a more rigorous proof by performing the Gaussian integration over the $H$ field in the path integral. Since we expect $v\cdot D \sim \Lambda_{\text{QCD}}$, we can interpret the infinite sum as a series in $\Lambda_{QCD}/m_Q$, and truncate it at some order. For example to $\mathcal{O}(\Lambda_{\text{QCD}}/m_Q)$, we have
+\begin{align}
+	\mathcal{L}_{\text{HQET}^1} = i \bar{h} (v\cdot D) h - {1\over 2m_Q} \bar{h} \slashed{D}^{\perp 2} h
+	\label{eq:HQET1}
+\end{align}
+ Leading order HQET exhibits new symmetries not present in full QCD, known as the heavy quark symmetries. Since $m_Q$ is not present in the leading order Lagrangian, there is a flavour symmetry - a set of $N$ heavy quarks with the same $v$ can be mixed via an $SU(N)$ symmetry. Similarly due to the absense of spin mixing matrices, a heavy quark has an $SU(2)$ spin symmetry. This builds up a physical picture of a heavy quark in a meson being a static colour charge, the dynamics at $\Lambda_{\text{QCD}}$ is not effected by it's mass or spin. This is analagous to a proton in a hydrogen atom, which similarly can be considered a static charge, since it's mass is at a higher scale than the electrons and photons. ({\color{red}why static tho?})
+
+\subsubsection{Isgur-Wise Function}
+
+A consequence of heavy quark symmetry relevant to semileptonic decays are the Wigner-Eckart theorems. Consider a transition amplitude between two heavy pseudoscalar mesons:
+\begin{align}
+	\langle M(v) | \bar{h} \Gamma h | M(v') \rangle
+\end{align}
+The spin structure of $| M(v) \rangle$ is $\gamma_5 (1-\slashed{v})$, this can be shown with the following argument. The state can be generally written as $| M(v) \rangle = \int d^4x d^4y f(x,y) \bar{h}(x) \gamma_5 q(y) | \Omega \rangle$ which, using $\slashed{v} h = h$, can be reexpressed as $| M(v) \rangle = \int d^4x d^4y f(x,y) \bar{h}(x) \gamma_5 (1-\slashed{v}) q(y) | \Omega \rangle /2$. Then via the spin symmetry, one can always rotate the $h$ spin in the meson state such that it matches the spin of the current, i.e. $h_{\alpha} \bar{h}_{\beta} \to 1_{\alpha\beta} f(h,\bar{h})$. Then the amplitude can be written as
+\begin{align}
+	\langle M(v) | \bar{h} \Gamma h | M(v') \rangle = m_M Tr[ {1\over 2} \gamma_5 (1 - \slashed{v}) \Gamma {1\over 2} \gamma_5 (1 - \slashed{v'}) \mathcal{M}(v,v')]
+	\label{eq:wignereckart1}
+\end{align} 
+where $\mathcal{M}(v,v')$ can be any gamma-matrix valued function. The $m_M$ factor comes from the relativistic normalization of the states. A general spin decomposition of this is
+\begin{align}
+	\mathcal{M}(v,v') = \xi_0(v\cdot v') + \slashed{v} \xi_1(v\cdot v') + \slashed{v'} \xi_2(v\cdot v') + \slashed{v}\slashed{v'} \xi_4(v\cdot v').
+\end{align}
+Plugging this into \eqref{eq:wignereckart1}, we can then write the amplitude in terms of a single function:
+\begin{align}
+\langle M(v) | \bar{h} \Gamma h | M(v') \rangle = m_M Tr[ {1\over 2} \gamma_5 (1 - \slashed{v}) \Gamma {1\over 2} \gamma_5 (1 - \slashed{v'}) ] \xi(v\cdot v')
+\end{align}
+where $\xi(v\cdot v') = \xi_0(v\cdot v') + \xi_1(v\cdot v') - \xi_3(v\cdot v') - \xi_4(v\cdot v')$ is known as the Isgur-Wise function. For a general pair of mesons with spin structure $\mathcal{H}$,$\mathcal{H}'$, a transition amplitude between them with a heavy current insertion can always be written as
+\begin{align}
+	\langle \mathcal{H} | \bar{h} \Gamma h | \mathcal{H}' \rangle = \xi(v\cdot v') Tr[ \bar{\mathcal{H}} \Gamma \mathcal{H} ] + \order{\Lambda_{\text{QCD}}\over m_Q}
+\end{align}
+So all heavy semileptonic decays involving any combination of masses or spins are described by a single non-perturbative function, $\xi(v\cdot v')$. A couple of relevant examples are:
+\begin{align}
+	\langle D(v') | \bar{c_{v'}} \gamma^{\mu} b_v | \bar{B}(v) \rangle = \sqrt{m_B m_D} ( v + v')^{\mu} \xi(v\cdot v') \\
+	\langle D^*(v') | \bar{c_{v'}} \gamma^{\mu} b_v | \bar{B}(v) \rangle = i \sqrt{m_B m_D*} \epsilon^{\mu\nu\alpha\beta} \varepsilon_{\nu}^* v'_{\alpha} v_{\beta} \xi(v\cdot v')  \\
+	\langle D^*(v') | \bar{c_{v'}} \gamma^{\mu}\gamma_5 b_v | \bar{B}(v) \rangle = \sqrt{m_B m_D*} [ \varepsilon^{*\mu}(v\cdot v' + 1) - v^{'\mu} \varepsilon^*\cdot v] \xi(v\cdot v').
+\end{align}
+Here we have subscripted the fields $c_{v'}$,$b_v$ to specify the velocity used to separate those fields from the heavy components e.g. in eq. \eqref{eq:hdef}. 
+
+\subsubsection{AG and Luke's Theorem}
+
+Luke's theorem, which can be derived from the Ademollo-Gatto (AG) theorem, tells us the leading order heavy quark mass dependance of form factors. First we will derive the AG theorem. We will follow the proof given in \cite{Lebed:1991sq}.
+\\ \\
+Consider the transition amplitude
+\begin{align}
+	\langle \alpha | Q_a | \beta \rangle
+\end{align}
+where $Q_a$ is a conserved charge associated with some global symmetry $\mathcal{G}$, and $|\alpha\rangle$ and $|\beta\rangle$ belong to an irrep of $\mathcal{G}$. Imagine explicitly breaking the symmetry with a term like $\mathscr{L}_{\text{break}} = \lambda \mathcal{O}_{\text{break}}$. The states in the broken theory can be expressed as
+\begin{align}
+	|\beta \rangle = c_{\beta\beta} | \beta' \rangle + \sum_{m} c_{\beta m} | m' \rangle \\
+	\langle \alpha | = c^*_{\alpha\alpha} \langle \alpha' | + \sum_{n} c^*_{\alpha n} \langle n' |.
+\end{align}
+where primed states are states belonging to irreps of $\mathcal{G}$. Here $|m'\rangle$ can only be states that can be mixed with $| \beta \rangle$ by $\mathcal{O}_{\text{break}}$ via the broken dynamics of the theory, and similarly for $\langle n' |$ and $\langle \alpha |$. The transition amplitude becomes
+\begin{align}
+\nonumber
+	\langle \alpha | Q_a | \beta \rangle
+	 	&= c_{\alpha\alpha}^* c_{\beta\beta} \langle \alpha' | Q_a | \beta' \rangle \\ 
+	 	\nonumber
+	 	&+ \sum_m c_{\alpha\alpha}^* c_{\beta m} \langle \alpha' | Q_a | m' \rangle \\
+	 	\nonumber 
+	 	&+ \sum_n c_{\alpha n}^* c_{\beta \beta} \langle n' | Q_a | \beta \rangle \\ 
+	 	&+ \sum_m\sum_n c_{\alpha n}^* c_{\beta m} \langle n' | Q_a | m' \rangle
+	 	\label{eq:AGproofexpanded}
+\end{align}
+The theorem applies to the situation where $|n'\rangle$ and $|m'\rangle$ live in different $\mathcal{G}$ irreps to $|\alpha\rangle$ and $|\beta \rangle$ (we assume $|\alpha\rangle$ and $|\beta \rangle$ to be in the same irrep otherwise the transition amplitude will always be zero). In this case the amplitudes in the second and third terms vanish. Now consider the order of the coefficients $c_{nm}$. We can assume that $c_{nm} = \order{\lambda}$ for arbitrary $n,m \neq \alpha,\beta$, since switching off the symmetry breaking by setting $\lambda=0$ should cause $|\alpha\rangle $ and $|\alpha'\rangle$ to coencide. Then, using the normalization of the states $\sum_{n} |c_{\alpha n} |^2 = 1$, we find $c_{\alpha\alpha} = \sqrt{1 - \order{\lambda}^2} = 1 + \order{\lambda^2}$, and similarly for $c_{\beta\beta}$. Applying this to the two surviving terms in \eqref{eq:AGproofexpanded}, we end up with
+\begin{align}
+	\langle \alpha | Q_a | \beta \rangle = 1 + \order{\lambda^2}
+\end{align}
+This is the AG theorem: if the current $Q_a$ and the symmetry breaking therm $mathcal{O}$ act orthogonally on the states, the transition amplitude can have at most a second order correction in the symmetry breaking parameter.
+\\ \\
+Now we will apply this to HQET to produce Luke's theorem. Consider a transition including two heavy quarks ($b$ and $c$). Then, the heavy quark symmetry is a spin symmetry for each flavour, and a flavour symmetry between them. The leading order spin symmetry breaking terms can be found from \eqref{eq:HQET1} to be
+\begin{align}
+	{1\over 4m_Q} \bar{h} \gamma^{\mu} \gamma^{\nu} F_{\mu\nu} h 
+\end{align}
+for both $h=b$ and $h=c$. The leading order flavour breaking term is
+\begin{align}
+	\left({1\over 2m_b} - {1\over 2m_c} \right) {1\over 2} \bar{h} \sigma_z \slashed{D}^{\perp 2} h
+\end{align}
+where now $h = (b,c)$ and the $\sigma_z$ is the third pauli matrix acting on flavour. These terms cause states, for example $| B \rangle$ to mix with states $|n'\rangle$, each being of the order of at least one of the following: $1/2m_b$,$1/2m_c$, and $(1/2m_b - 1/2m_c)$. It can be shown (\cite{Lebed:1991sq}) that the leading order symmetry breaking terms can only mix pseudoscalar and vector mesons with other irreps of the heavy quark symmetries. Hence, for example the example of the $B \to D$ transition, where
+\begin{align}
+	\langle D | \bar{c} b | B \rangle, \langle D | \bar{c}\gamma_{\mu} b | B \rangle &= 1 + \order{\left(1\over 2m_b\right)^2} 
+	+ \order{\left(1\over 2m_c\right)^2} \\ &+ \order{\left( {1\over 2m_b} - {1\over 2m_c} \right)^2}.
+\end{align}
+this property extends straightforwardly to the form factors associated with these decays.
+
+\subsubsection{Decay Constants}
+
+{\color{red}how does $f_{B_c}$ vary with $m_b$?}
+
 \subsection{NRQCD}
 
 \section{Form Factors}

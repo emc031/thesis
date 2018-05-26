@@ -6,411 +6,64 @@ A level-1 auxiliary file: Chapter1.aux
 A level-1 auxiliary file: Chapter2.aux
 A level-1 auxiliary file: Chapter3.aux
 A level-1 auxiliary file: Chapter4.aux
-A level-1 auxiliary file: Chapter5.aux
-A level-1 auxiliary file: Chapter6.aux
-A level-1 auxiliary file: Chapter8.aux
-A level-1 auxiliary file: Chapter9.aux
 The style file: unsrt.bst
-Reallocated field_info (elt_size=4) to 13487 items from 5000.
 Database file #1: Thesis.bib
-Repeated entry---line 3441 of file Thesis.bib
- : @article{ATLAS-CONF-2012-147
- :                             ,
+Warning--entry type for "CorrFitter" isn't style-file defined
+--line 102 of file Thesis.bib
+I was expecting a `,' or a `}'---line 110 of file Thesis.bib
+ : 
+ : @article{Monahan:2012dq,
+(Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 11029 of file Thesis.bib
- : @article{Czakon:2013goa
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 11327 of file Thesis.bib
- : @article{ATLAS:2012ima
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 11501 of file Thesis.bib
- : @article{Plehn:2009rk
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 11677 of file Thesis.bib
- : @article{Kasieczka:2015jma
- :                           ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 11707 of file Thesis.bib
- : @article{Bellm:2015jjp
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 11743 of file Thesis.bib
- : @article{Degrande:2011ua
+Repeated entry---line 326 of file Thesis.bib
+ : @article{Bazavov:2012xda
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 11775 of file Thesis.bib
- : @article{Grzadkowski:2010es
- :                            ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 11911 of file Thesis.bib
- : @article{Ball:2014uwa
- :                      ,
-I'm skipping whatever remains of this entry
-Unbalanced braces---line 13469 of file Thesis.bib
- :                         and beyond
- :                                   }",
-I'm skipping whatever remains of this entry
-Repeated entry---line 14685 of file Thesis.bib
- : @article{Heinemeyer:2013tqa
- :                            ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 15563 of file Thesis.bib
- : @article{Alwall:2014hca
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 15669 of file Thesis.bib
- : @article{Czakon:2013goa
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 15701 of file Thesis.bib
- : @article{Degrande:2011ua
- :                         ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 15737 of file Thesis.bib
- : @article{Alloul:2013bka
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 15773 of file Thesis.bib
- : @article{Bahr:2008pv
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 15807 of file Thesis.bib
- : @article{Bellm:2015jjp
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 15845 of file Thesis.bib
- : @article{Buckley:2010ar
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 15879 of file Thesis.bib
- : @article{Cacciari:2008gp
- :                         ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 16033 of file Thesis.bib
- : @article{Plehn:2009rk
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 16065 of file Thesis.bib
- : @article{Kasieczka:2015jma
- :                           ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 16095 of file Thesis.bib
- : @article{ATLAS:2012ima
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 16715 of file Thesis.bib
- : @article{Bevilacqua:2010ve
- :                           ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 16785 of file Thesis.bib
- : @article{Beenakker:2002nc
- :                          ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 16821 of file Thesis.bib
- : @article{Papucci:2014rja
- :                         ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 17477 of file Thesis.bib
- : @article{Read:2002hq
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 17533 of file Thesis.bib
- : @article{Junk:1999kv
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 18007 of file Thesis.bib
- : @article{Jacques:2015zha
- :                         ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 18663 of file Thesis.bib
- : @article{Gleisberg:2008ta
- :                          ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 18735 of file Thesis.bib
- : @article{Alwall:2014hca
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 18919 of file Thesis.bib
- : @article{Sjostrand:2007gs
- :                          ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 18953 of file Thesis.bib
- : @article{Bahr:2008pv
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 19229 of file Thesis.bib
- : @article{Ball:2012cx
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 19349 of file Thesis.bib
- : @article{Ball:2014uwa
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 20075 of file Thesis.bib
- : @article{Goria:2011wa
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 20341 of file Thesis.bib
- : @article{Choi:2013qra
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 21025 of file Thesis.bib
- : @article{Baur:2002rb
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 21155 of file Thesis.bib
- : @article{Englert:2012ct
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 21445 of file Thesis.bib
- : @article{Grzadkowski:2010es
- :                            ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 21845 of file Thesis.bib
- : @article{Fox:2011pm
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 21905 of file Thesis.bib
- : @article{Abdallah:2015ter
- :                          ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 22093 of file Thesis.bib
- : @article{Degrande:2011ua
- :                         ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 22731 of file Thesis.bib
- : @article{Alloul:2013bka
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 22767 of file Thesis.bib
- : @article{Alwall:2014hca
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 25395 of file Thesis.bib
- : @article{Buchmueller:2013dya
- :                             ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 25561 of file Thesis.bib
- : @techreport{ATL-PHYS-PUB-2014-019
- :                                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 25655 of file Thesis.bib
- : @article{Dolan:2012rv
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 25687 of file Thesis.bib
- : @article{ATLAS:2012ima
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 25857 of file Thesis.bib
- : @article{Harris:2014hga
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 25893 of file Thesis.bib
- : @article{Haisch:2015ioa
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 25917 of file Thesis.bib
- : @article{Buckley:2014fba
- :                         ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 25951 of file Thesis.bib
- : @article{Jacques:2015zha
- :                         ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 26001 of file Thesis.bib
- : @article{Englert:2013gz
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 26183 of file Thesis.bib
- : @article{Kniehl:1995tn
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 26213 of file Thesis.bib
- : @article{Ellis:1975ap
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 26239 of file Thesis.bib
- : @article{Shifman:1979eb
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 26309 of file Thesis.bib
- : @article{Dolan:2015zja
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 26341 of file Thesis.bib
- : @article{Dolan:2013rja
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 26371 of file Thesis.bib
- : @article{Baglio:2012np
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 26405 of file Thesis.bib
- : @article{Frederix:2014hta
- :                          ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 26439 of file Thesis.bib
- : @article{Alwall:2007st
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 26587 of file Thesis.bib
- : @article{Englert:2016ljt
- :                         ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 26893 of file Thesis.bib
- : @article{Grzadkowski:2010es
- :                            ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 27247 of file Thesis.bib
- : @article{Fujikawa:1972fe
- :                         ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 27393 of file Thesis.bib
- : @article{Riess:1998cb
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 27423 of file Thesis.bib
- : @article{Brax:2015hma
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 27725 of file Thesis.bib
- : @article{Ball:2014uwa
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 27993 of file Thesis.bib
- : @article{Abdallah:2015ter
- :                          ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 28021 of file Thesis.bib
- : @article{Hochberg:2014dra
- :                          ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 28339 of file Thesis.bib
- : @article{Randall:2007ph
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 28697 of file Thesis.bib
- : @article{Khachatryan:2016vau
- :                             ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 28795 of file Thesis.bib
- : @article{Salam:2009jx
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 28859 of file Thesis.bib
- : @article{Dokshitzer:1997in
- :                           ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 28889 of file Thesis.bib
- : @article{Cacciari:2008gp
- :                         ,
-I'm skipping whatever remains of this entry
-Warning--empty journal in Englert:2017uec
-Warning--empty year in stuckelberg
-Warning--empty publisher in aarne1961
-Warning--empty publisher in thompson1977
-Warning--empty journal in DeFlorianSabaris:2215893
-Warning--empty journal in Khachatryan:2016vau
-Warning--empty journal in ATLAS-CONF-2017-047
-Warning--there's a number but no volume in ATLAS-CONF-2017-047
-Warning--empty journal in flipnotes
-Warning--empty year in flipnotes
-Warning--empty journal in Bullock:2010uy
-Warning--can't use both volume and number fields in pmlr-v32-andoni14
-Warning--empty journal in Malik:2014ggr
-Warning--empty journal in Buchmueller:2014yoa
-Warning--empty journal in Busoni:2014sya
-Warning--empty author in ATL-PHYS-PUB-2014-007
-Warning--empty journal in Aad:2015zva
-Warning--empty journal in Abdallah:2014dma
-Warning--empty journal in Harris:2014hga
-Warning--empty journal in Aad:2014tda
-Warning--empty journal in Englert:2015zra
-Warning--empty author in CMS-PAS-EXO-12-048
-Warning--empty journal in CMS-PAS-EXO-12-048
-Warning--there's a number but no volume in CMS-PAS-EXO-12-048
-Warning--empty title in ATOMpaper
-Warning--empty journal in ATLAS-CONF-2013-082
-Warning--there's a number but no volume in ATLAS-CONF-2013-082
-Warning--empty journal in Han:2005mu
-Warning--empty journal in Busoni:2014gta
-Warning--empty author in ATLAS-CONF-2012-147
-Warning--empty journal in ATLAS-CONF-2012-147
-Warning--empty journal in Khachatryan:2014rra
-Warning--empty journal in Aad:2014aqa
-Warning--empty journal in Khachatryan:2015sja
-Warning--empty journal in Khachatryan:2014cja
-Warning--empty author in ATLAS-CONF-2017-060
-Warning--empty journal in Foot:2016wvj
-Warning--empty journal in Patt:2006fw
-Warning--empty journal in Burrage:2016xzz
-Warning--empty journal in Robens:2016xkb
-Warning--empty journal in Arnold:2011wj
-Warning--empty journal in Heinemeyer:2013tqa
-Warning--empty journal in Aaboud:2016tnv
-Warning--empty journal in CMS:2016tns
-Warning--empty journal in CMS:2015dbr
-Warning--empty journal in Golling:2016gvc
-Warning--empty journal in Arkani-Hamed:2015vfh
-Warning--empty journal in Peskin:2012we
-Warning--empty journal in Blondel:2012ey
-Warning--empty author in ATL-PHYS-PUB-2014-019
-Warning--empty journal in Brooijmans:2014eja
-Warning--empty title in Cullen:2014yla
-Warning--empty journal in Cullen:2014yla
-Warning--empty year in Cullen:2014yla
-Warning--empty journal in Vermaseren:2000nd
-Warning--empty journal in ATLAS:2012ima
-Warning--empty journal in CMS:2016ilx
-Warning--empty author in ATL-PHYS-PUB-2015-046
-Warning--empty author in CMS-PAS-FTR-15-002
-Warning--empty journal in Sirunyan:2016cao
-Warning--empty author in ATL-PHYS-PUB-2015-041
-Warning--empty author in ATLAS-CONF-2016-014
-Warning--empty journal in Aaboud:2016syx
-You've used 369 entries,
+Warning--I didn't find a database entry for "HFAG"
+Warning--empty journal in Monahan:2017uby
+Warning--empty journal in Altmannshofer:2017yso
+Warning--empty publisher in DeGrand:2006zz
+Warning--empty journal in Narayanan:2011qj
+Warning--empty publisher in Peskin:1995ev
+You've used 20 entries,
             1791 wiz_defined-function locations,
-            2490 strings with 62397 characters,
-and the built_in function-call counts, 78789 in all, are:
-= -- 6589
-> -- 3871
-< -- 14
-+ -- 1436
-- -- 1067
-* -- 5553
-:= -- 13225
-add.period$ -- 1110
-call.type$ -- 369
-change.case$ -- 360
+            584 strings with 7166 characters,
+and the built_in function-call counts, 4172 in all, are:
+= -- 338
+> -- 186
+< -- 2
++ -- 71
+- -- 51
+* -- 249
+:= -- 675
+add.period$ -- 61
+call.type$ -- 20
+change.case$ -- 17
 chr.to.int$ -- 0
-cite$ -- 432
-duplicate$ -- 3327
-empty$ -- 7641
-format.name$ -- 1067
-if$ -- 17203
+cite$ -- 25
+duplicate$ -- 201
+empty$ -- 436
+format.name$ -- 51
+if$ -- 939
 int.to.chr$ -- 0
-int.to.str$ -- 369
-missing$ -- 363
-newline$ -- 1848
-num.names$ -- 362
-pop$ -- 620
+int.to.str$ -- 20
+missing$ -- 22
+newline$ -- 104
+num.names$ -- 20
+pop$ -- 72
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1296
+skip$ -- 88
 stack$ -- 0
-substring$ -- 5168
-swap$ -- 389
-text.length$ -- 14
+substring$ -- 213
+swap$ -- 36
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 63
-while$ -- 687
-width$ -- 372
-write$ -- 3973
-(There were 74 error messages)
+warning$ -- 5
+while$ -- 34
+width$ -- 22
+write$ -- 211
+(There were 2 error messages)

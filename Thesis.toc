@@ -11,31 +11,35 @@
 \contentsline {subsection}{\numberline {2.1.2}Chiral Perturbation Theory}{7}
 \contentsline {section}{\numberline {2.2}Heavy Quark Physics}{7}
 \contentsline {subsection}{\numberline {2.2.1}HQET}{7}
-\contentsline {subsection}{\numberline {2.2.2}NRQCD}{7}
-\contentsline {section}{\numberline {2.3}Form Factors}{7}
-\contentsline {subsection}{\numberline {2.3.1}Analyticity}{8}
-\contentsline {subsection}{\numberline {2.3.2}z-Expansion}{8}
-\contentsline {section}{\numberline {2.4}Renormalization of Currents}{8}
-\contentsline {chapter}{\numberline {3}Lattice Quantum Chromodynamics}{11}
-\contentsline {section}{\numberline {3.1}Lattice Gauge Fields}{12}
-\contentsline {subsection}{\numberline {3.1.1}The Wilson Gauge Action}{12}
-\contentsline {subsection}{\numberline {3.1.2}Improvements}{12}
-\contentsline {section}{\numberline {3.2}Lattice Fermions}{12}
-\contentsline {subsection}{\numberline {3.2.1}The Doubling Problem}{12}
-\contentsline {subsection}{\numberline {3.2.2}Staggered Quarks}{14}
-\contentsline {subsection}{\numberline {3.2.3}Highly Improved Staggered Quarks}{15}
-\contentsline {chapter}{\numberline {4}Lattice Calculations}{19}
-\contentsline {section}{\numberline {4.1}Correlation Functions from Lattice Simulations}{19}
-\contentsline {subsection}{\numberline {4.1.1}Path Integral}{20}
-\contentsline {subsection}{\numberline {4.1.2}Dirac Operator Inversion}{20}
-\contentsline {subsection}{\numberline {4.1.3}Random Wall Sources}{20}
-\contentsline {subsubsection}{2pt correlation functions}{21}
-\contentsline {section}{\numberline {4.2}Analysis of Correlation Functions}{23}
-\contentsline {subsection}{\numberline {4.2.1}Non-Linear Regression}{23}
-\contentsline {subsection}{\numberline {4.2.2}Signal/Noise Ratio}{27}
-\contentsline {section}{\numberline {4.3}Dealing with Heavy Quarks}{29}
-\contentsline {subsection}{\numberline {4.3.1}Heavy HISQ}{29}
-\contentsline {subsection}{\numberline {4.3.2}Lattice NRQCD}{29}
-\contentsline {section}{\numberline {4.4}Renormalization of Currents}{29}
-\contentsline {subsection}{\numberline {4.4.1}Non-perturbative Renormalization of HISQ Currents}{30}
-\contentsline {subsection}{\numberline {4.4.2}Matching NRQCD currents to $\overline {MS}$}{30}
+\contentsline {subsubsection}{HQET Lagrangian}{7}
+\contentsline {subsubsection}{Isgur-Wise Function}{9}
+\contentsline {subsubsection}{Decay Constants}{10}
+\contentsline {subsubsection}{AG and Luke's Theorem}{10}
+\contentsline {subsection}{\numberline {2.2.2}NRQCD}{11}
+\contentsline {section}{\numberline {2.3}Form Factors}{11}
+\contentsline {subsection}{\numberline {2.3.1}Analyticity}{13}
+\contentsline {subsection}{\numberline {2.3.2}z-Expansion}{13}
+\contentsline {section}{\numberline {2.4}Renormalization of Currents}{13}
+\contentsline {chapter}{\numberline {3}Lattice Quantum Chromodynamics}{17}
+\contentsline {section}{\numberline {3.1}Lattice Gauge Fields}{18}
+\contentsline {subsection}{\numberline {3.1.1}The Wilson Gauge Action}{18}
+\contentsline {subsection}{\numberline {3.1.2}Improvements}{18}
+\contentsline {section}{\numberline {3.2}Lattice Fermions}{18}
+\contentsline {subsection}{\numberline {3.2.1}The Doubling Problem}{18}
+\contentsline {subsection}{\numberline {3.2.2}Staggered Quarks}{20}
+\contentsline {subsection}{\numberline {3.2.3}Highly Improved Staggered Quarks}{21}
+\contentsline {chapter}{\numberline {4}Lattice Calculations}{25}
+\contentsline {section}{\numberline {4.1}Correlation Functions from Lattice Simulations}{25}
+\contentsline {subsection}{\numberline {4.1.1}Path Integral}{26}
+\contentsline {subsection}{\numberline {4.1.2}Dirac Operator Inversion}{26}
+\contentsline {subsection}{\numberline {4.1.3}Random Wall Sources}{26}
+\contentsline {subsubsection}{2pt correlation functions}{27}
+\contentsline {section}{\numberline {4.2}Analysis of Correlation Functions}{29}
+\contentsline {subsection}{\numberline {4.2.1}Non-Linear Regression}{29}
+\contentsline {subsection}{\numberline {4.2.2}Signal/Noise Ratio}{33}
+\contentsline {section}{\numberline {4.3}Dealing with Heavy Quarks}{35}
+\contentsline {subsection}{\numberline {4.3.1}Heavy HISQ}{35}
+\contentsline {subsection}{\numberline {4.3.2}Lattice NRQCD}{35}
+\contentsline {section}{\numberline {4.4}Renormalization of Currents}{35}
+\contentsline {subsection}{\numberline {4.4.1}Non-perturbative Renormalization of HISQ Currents}{36}
+\contentsline {subsection}{\numberline {4.4.2}Matching NRQCD currents to $\overline {MS}$}{36}
