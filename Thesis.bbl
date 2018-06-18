@@ -55,11 +55,41 @@ Wolfgang Altmannshofer, Peter Stangl, and David~M. Straub.
 \newblock {Interpreting Hints for Lepton Flavor Universality Violation}.
 \newblock 2017.
 
+\bibitem{ALTAREV1992242}
+I.S. Altarev, Yu.V. Borisov, N.V. Borovikova, S.N. Ivanov, E.A. Kolomensky,
+  M.S. Lasakov, V.M. Lobashev, V.A. Nazarenko, A.N. Pirozhkov, A.P. Serebrov,
+  Yu.V. Sobolev, E.V. Shulgina, and A.I. Yegorov.
+\newblock New measurement of the electric dipole moment of the neutron.
+\newblock {\em Physics Letters B}, 276(1):242 -- 246, 1992.
+
+\bibitem{PhysRevLett.30.1343}
+David~J. Gross and Frank Wilczek.
+\newblock Ultraviolet behavior of non-abelian gauge theories.
+\newblock {\em Phys. Rev. Lett.}, 30:1343--1346, Jun 1973.
+
 \bibitem{Lebed:1991sq}
 Richard~F. Lebed and Mahiko Suzuki.
 \newblock {Current algebra and the Ademollo-Gatto theorem in spin flavor
   symmetry of heavy quarks}.
 \newblock {\em Phys. Rev.}, D44:829--836, 1991.
+
+\bibitem{Falk:1992wt}
+Adam~F. Falk and Matthias Neubert.
+\newblock {Second order power corrections in the heavy quark effective theory.
+  1. Formalism and meson form-factors}.
+\newblock {\em Phys. Rev.}, D47:2965--2981, 1993.
+
+\bibitem{PhysRev.78.29}
+Leslie~L. Foldy and Siegfried~A. Wouthuysen.
+\newblock On the dirac theory of spin 1/2 particles and its non-relativistic
+  limit.
+\newblock {\em Phys. Rev.}, 78:29--36, Apr 1950.
+
+\bibitem{Lepage:1992tx}
+G.~Peter Lepage, Lorenzo Magnea, Charles Nakhleh, Ulrika Magnea, and Kent
+  Hornbostel.
+\newblock {Improved nonrelativistic QCD for heavy quark physics}.
+\newblock {\em Phys. Rev.}, D46:4052--4067, 1992.
 
 \bibitem{Lepage:1998dt}
 G.~P. Lepage.

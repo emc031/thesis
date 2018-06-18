@@ -9,61 +9,62 @@ A level-1 auxiliary file: Chapter4.aux
 The style file: unsrt.bst
 Database file #1: Thesis.bib
 Warning--entry type for "CorrFitter" isn't style-file defined
---line 102 of file Thesis.bib
-I was expecting a `,' or a `}'---line 110 of file Thesis.bib
+--line 119 of file Thesis.bib
+I was expecting a `,' or a `}'---line 127 of file Thesis.bib
  : 
  : @article{Monahan:2012dq,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 326 of file Thesis.bib
+Repeated entry---line 343 of file Thesis.bib
  : @article{Bazavov:2012xda
  :                         ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "HFAG"
+Warning--I didn't find a database entry for "PhysRevD.39.799"
 Warning--empty journal in Monahan:2017uby
 Warning--empty journal in Altmannshofer:2017yso
 Warning--empty publisher in DeGrand:2006zz
 Warning--empty journal in Narayanan:2011qj
 Warning--empty publisher in Peskin:1995ev
-You've used 20 entries,
+You've used 25 entries,
             1791 wiz_defined-function locations,
-            584 strings with 7166 characters,
-and the built_in function-call counts, 4172 in all, are:
-= -- 338
-> -- 186
+            624 strings with 8238 characters,
+and the built_in function-call counts, 5562 in all, are:
+= -- 455
+> -- 268
 < -- 2
-+ -- 71
-- -- 51
-* -- 249
-:= -- 675
-add.period$ -- 61
-call.type$ -- 20
-change.case$ -- 17
++ -- 100
+- -- 75
+* -- 369
+:= -- 905
+add.period$ -- 76
+call.type$ -- 25
+change.case$ -- 22
 chr.to.int$ -- 0
-cite$ -- 25
-duplicate$ -- 201
-empty$ -- 436
-format.name$ -- 51
-if$ -- 939
+cite$ -- 30
+duplicate$ -- 246
+empty$ -- 558
+format.name$ -- 75
+if$ -- 1235
 int.to.chr$ -- 0
-int.to.str$ -- 20
-missing$ -- 22
-newline$ -- 104
-num.names$ -- 20
-pop$ -- 72
+int.to.str$ -- 25
+missing$ -- 27
+newline$ -- 129
+num.names$ -- 25
+pop$ -- 77
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 88
+skip$ -- 106
 stack$ -- 0
-substring$ -- 213
-swap$ -- 36
+substring$ -- 344
+swap$ -- 41
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 34
-width$ -- 22
-write$ -- 211
+while$ -- 46
+width$ -- 27
+write$ -- 266
 (There were 2 error messages)
