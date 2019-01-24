@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.4)  18 JUN 2018 16:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.29)  24 JAN 2019 13:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -502,6 +502,9 @@ Package color Info: Driver file: pdftex.def on input line 143.
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 \Gread@gobject=\count103
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
 (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen116
 \WF@size=\dimen117
@@ -1006,22 +1009,22 @@ Package caption Info: wrapfig package is loaded.
 Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
 \c@subfigure=\count140
 \c@subtable=\count141
-)) (./Thesis.aux (./TitlePage.aux) (./Chapter1.aux
+)) (./Thesis.aux (./TitlePage.aux) (./intro.aux) (./background.aux
+
+LaTeX Warning: Label `eq:FCCC' multiply defined.
+
+) (./semileptonic.aux
 
 LaTeX Warning: Label `fig:semileptonic' multiply defined.
 
-) (./Chapter2.aux
-
-LaTeX Warning: Label `fig:semileptonic' multiply defined.
-
-) (./Chapter3.aux
+) (./latticeqcd.aux
 
 LaTeX Warning: Label `eq:naivefermions' multiply defined.
 
 
 LaTeX Warning: Label `eq:lat_derivative' multiply defined.
 
-) (./Chapter4.aux))
+) (./latticecalcs.aux) (./nrqcd.aux) (./BsDsstar.aux) (./BsDs.aux))
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -1097,6 +1100,17 @@ e
 \makeMPintoPDFobject=\count147
 \everyMPtoPDFconversion=\toks43
 )
+LaTeX Info: Redefining \celsius on input line 5.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 5.
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 5.
+Package gensymb Info: Using \Omega for \ohm on input line 5.
+
+Package gensymb Warning: Not defining \micro.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1148,7 +1162,7 @@ File: images/logo-glasgow-small.png Graphic file (type png)
 
 <use images/logo-glasgow-small.png>
 Package pdftex.def Info: images/logo-glasgow-small.png used on input line 16.
-(pdftex.def)             Requested size: 100.37537pt x 148.47752pt.
+(pdftex.def)             Requested size: 80.3003pt x 118.77919pt.
  [1
 
 
@@ -1159,37 +1173,30 @@ Package pdftex.def Info: images/logo-glasgow-small.png used on input line 16.
 l.png>] [2
 
 ]
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 27--29
+Overfull \hbox (19.84323pt too wide) in paragraph at lines 40--42
 []  [] 
  []
 
 [3] [4
 
-]
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 41--43
-[]  [] 
- []
-
-[5] [6
-
-] [7] [8
+] [5] [6
 
 ]) [1
 
 ] [2
 
 ] (./Thesis.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 2.
+LaTeX Font Info:    Try loading font information for U+msa on input line 3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 2.
+LaTeX Font Info:    Try loading font information for U+msb on input line 3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 2.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
@@ -1198,49 +1205,43 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 \openout4 = `Thesis.toc'.
 
  [4]
-\openout2 = `Chapter1.aux'.
+\openout2 = `intro.aux'.
 
 
-(./Chapter1.tex
+(./intro.tex
 Chapter 1.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 12.
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 12.
-
-<images/semileptonic.png, id=56, 711.65875pt x 426.59375pt>
-File: images/semileptonic.png Graphic file (type png)
-
-<use images/semileptonic.png>
-Package pdftex.def Info: images/semileptonic.png used on input line 25.
-(pdftex.def)             Requested size: 197.57582pt x 118.42998pt.
-
-
-Package amsmath Warning: Foreign command \over;
-(amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 37.
-
-
-Overfull \hbox (25.56442pt too wide) in paragraph at lines 37--37
-[] 
- []
-
-
-Underfull \hbox (badness 1024) in paragraph at lines 37--46
-$\OML/cmm/m/it/10.95 J[] \OT1/cmr/m/n/10.95 = []\OML/cmm/m/it/10.95 ^^M[][]\OT1
-/cmr/m/n/10.95 (1 \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 ^^M[]\OT1/cmr/m/n
-/10.95 )\OML/cmm/m/it/10.95 d[]$ \T1/cmr/m/n/10.95 are the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--46
+Underfull \hbox (badness 10000) in paragraph at lines 4--19
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--46
+Underfull \hbox (badness 10000) in paragraph at lines 4--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--19
 
  []
 
@@ -1248,333 +1249,363 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--46
 
 
 
- <./images/semileptonic.png>]
+] [2]
+\openout2 = `background.aux'.
 
-LaTeX Warning: Reference `sec:formfactors' on page 2 undefined on input line 74
-.
+ (./background.tex
+Chapter 2.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--80
-
+Overfull \hbox (108.23622pt too wide) in paragraph at lines 21--21
+[]\T1/cmr/m/n/10.95 'The B-physics pro-gram' :https://www.ncbi.nlm.nih.gov/pmc/
+articles/PMC4737432/#andp201500230-
  []
 
-
-Underfull \hbox (badness 1057) in paragraph at lines 73--80
-\T1/cmr/m/n/10.95 What is the value of de-ter-min-ing CKM el-e-ments? Firstly, 
-un-cer-tainty in
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--80
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 84--88
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 99--102
-
- []
-
-<images/rdrds_eps15.pdf, id=80, 569.12625pt x 385.44pt>
-File: images/rdrds_eps15.pdf Graphic file (type pdf)
-
-<use images/rdrds_eps15.pdf>
-Package pdftex.def Info: images/rdrds_eps15.pdf used on input line 118.
-(pdftex.def)             Requested size: 316.12253pt x 214.10405pt.
-
-
-LaTeX Warning: Citation `HFAG' on page 4 undefined on input line 120.
-
-
-LaTeX Warning: Citation `HFAG' on page 4 undefined on input line 120.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--126
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--126
-
- []
-
-) [4] [5 <./images/rdrds_eps15.pdf, page is rotated 90 degrees>]
-\openout2 = `Chapter2.aux'.
-
-
-(./Chapter2.tex [6
+[3
 
 
 
 ]
-Chapter 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--11
+Underfull \hbox (badness 10000) in paragraph at lines 51--55
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--28
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--28
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--28
-
- []
-
-[7]
-Underfull \vbox (badness 1810) has occurred while \output is active []
-
- [8]
-LaTeX Font Info:    Try loading font information for U+euf on input line 59.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd
-File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 57.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-<images/QCD-running-coupling.png, id=140, 914.8725pt x 630.72pt>
-File: images/QCD-running-coupling.png Graphic file (type png)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 57.
+ [4]
 
-<use images/QCD-running-coupling.png>
-Package pdftex.def Info: images/QCD-running-coupling.png used on input line 64.
+Package amsmath Warning: Foreign command \over;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 89.
 
-(pdftex.def)             Requested size: 276.60495pt x 190.68993pt.
+[5] [6] <images/fccc.jpg, id=78, 4175.6pt x 1875.005pt>
+File: images/fccc.jpg Graphic file (type jpg)
+ <use images/fccc.jpg>
+Package pdftex.def Info: images/fccc.jpg used on input line 130.
+(pdftex.def)             Requested size: 197.57582pt x 88.69173pt.
 
+[7 <./images/fccc.jpg>] [8]
+Overfull \hbox (5.7221pt too wide) in paragraph at lines 200--200
+[] 
+ []
 
-LaTeX Warning: Citation `Patrignani:2016xqp' on page 9 undefined on input line 
-66.
+<images/unitaritytriangle_sketch.jpg, id=86, 3899.56876pt x 2164.085pt>
+File: images/unitaritytriangle_sketch.jpg Graphic file (type jpg)
 
+<use images/unitaritytriangle_sketch.jpg>
+Package pdftex.def Info: images/unitaritytriangle_sketch.jpg used on input line
+ 232.
+(pdftex.def)             Requested size: 276.60495pt x 153.4827pt.
 
-LaTeX Warning: Citation `Patrignani:2016xqp' on page 9 undefined on input line 
-66.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--75
-
+Underfull \hbox (badness 3333) in paragraph at lines 244--246
+\T1/cmr/m/n/10.95 The uni-tar-ity tri-an-gle also con-tains in-for-ma-tion abou
+t CP-violation from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--75
-
+Underfull \hbox (badness 1642) in paragraph at lines 244--246
+\T1/cmr/m/n/10.95 flavour-changing charged cur-rents. The so-called Jarl-skog i
+n-vari-ant, $\OML/cmm/m/it/10.95 J \OT1/cmr/m/n/10.95 =
  []
 
+[9] <images/ckmpdg.jpg, id=91, 1084.05pt x 960.58875pt>
+File: images/ckmpdg.jpg Graphic file (type jpg)
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--75
+<use images/ckmpdg.jpg>
+Package pdftex.def Info: images/ckmpdg.jpg used on input line 260.
+(pdftex.def)             Requested size: 276.60495pt x 245.10078pt.
+ [10 <./images/unitaritytriangle_sketch.jpg>]
+<images/leptonicdecay.jpg, id=95, 4175.6pt x 1899.095pt>
+File: images/leptonicdecay.jpg Graphic file (type jpg)
 
- []
+<use images/leptonicdecay.jpg>
+Package pdftex.def Info: images/leptonicdecay.jpg used on input line 293.
+(pdftex.def)             Requested size: 237.0934pt x 107.82646pt.
+ [11 <./images/ckmpdg.jpg>]
+<images/semileptonicdecay.jpg, id=100, 3995.92876pt x 2302.6025pt>
+File: images/semileptonicdecay.jpg Graphic file (type jpg)
 
-[9]
+<use images/semileptonicdecay.jpg>
+Package pdftex.def Info: images/semileptonicdecay.jpg used on input line 330.
+(pdftex.def)             Requested size: 237.0934pt x 136.60425pt.
+ [12 <./images/leptonicdecay.jpg>] [13 <./images/semileptonicdecay.jpg>] [14]
+<images/Vcb_plot.pdf, id=111, 1015.39348pt x 406.51875pt>
+File: images/Vcb_plot.pdf Graphic file (type pdf)
 
-LaTeX Warning: Citation `Scherer:2002tk' on page 10 undefined on input line 90.
+<use images/Vcb_plot.pdf>
+Package pdftex.def Info: images/Vcb_plot.pdf used on input line 411.
+(pdftex.def)             Requested size: 395.15166pt x 158.2005pt.
+ [15] [16 <./images/Vcb_plot.pdf>]
 
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--91
-
- []
-
-[10 <./images/QCD-running-coupling.png>]
-
-LaTeX Warning: Citation `Fubini:1964boa' on page 11 undefined on input line 106
+LaTeX Warning: Citation `Bailey:2018feb' on page 17 undefined on input line 424
 .
 
+[17] <images/rdrds_eps15.pdf, id=152, 569.12625pt x 385.44pt>
+File: images/rdrds_eps15.pdf Graphic file (type pdf)
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--108
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--108
-
- []
+<use images/rdrds_eps15.pdf>
+Package pdftex.def Info: images/rdrds_eps15.pdf used on input line 451.
+(pdftex.def)             Requested size: 316.12253pt x 214.10405pt.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--108
-
- []
+LaTeX Warning: Citation `HFAG' on page 18 undefined on input line 453.
 
 
-LaTeX Warning: Citation `Scherer:2002tk' on page 11 undefined on input line 115
-.
+LaTeX Warning: Citation `HFAG' on page 18 undefined on input line 453.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--118
-
- []
-
-[11]
-
-LaTeX Warning: Citation `PhysRevD.87.034503' on page 12 undefined on input line
- 124.
-
-
-LaTeX Warning: Citation `Patrignani:2016xqp' on page 12 undefined on input line
- 126.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--137
+Underfull \hbox (badness 10000) in paragraph at lines 445--459
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--137
+Underfull \hbox (badness 10000) in paragraph at lines 445--459
 
  []
 
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 141--145
-
- []
-
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 163--167
-
- []
+) [18] [19 <./images/rdrds_eps15.pdf, page is rotated 90 degrees>]
+\openout2 = `semileptonic.aux'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--174
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 177--180
-
- []
-
-
-Underfull \vbox (badness 3189) has occurred while \output is active []
-
- [14]
-Underfull \hbox (badness 10000) in paragraph at lines 211--215
-
- []
-
-[15] [16]
-Underfull \hbox (badness 10000) in paragraph at lines 267--270
-
- []
-
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 293--297
-
- []
-
-[18] [19]
-
-LaTeX Warning: Citation `PhysRevD.39.799' on page 20 undefined on input line 33
-4.
-
-
-Underfull \hbox (badness 1173) in paragraph at lines 344--345
-\T1/cmr/m/n/10.95 An ef-fec-tive field the-ory closely re-lated to HQET is Non-
-Relativistic QCD
- []
-
-[20]) [21]
-\openout2 = `Chapter3.aux'.
-
- (./Chapter3.tex [22
+(./semileptonic.tex [20
 
 
 
 ]
 Chapter 3.
+[21]
+LaTeX Font Info:    Try loading font information for U+euf on input line 34.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd
+File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+)
+<images/QCD-running-coupling.png, id=209, 914.8725pt x 630.72pt>
+File: images/QCD-running-coupling.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--7
+<use images/QCD-running-coupling.png>
+Package pdftex.def Info: images/QCD-running-coupling.png used on input line 39.
+
+(pdftex.def)             Requested size: 276.60495pt x 190.68993pt.
+
+
+LaTeX Warning: Citation `Patrignani:2016xqp' on page 22 undefined on input line
+ 41.
+
+
+LaTeX Warning: Citation `Patrignani:2016xqp' on page 22 undefined on input line
+ 41.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--50
 
  []
 
 
-Underfull \hbox (badness 1275) in paragraph at lines 4--7
+Underfull \hbox (badness 10000) in paragraph at lines 33--50
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--50
+
+ []
+
+[22 <./images/QCD-running-coupling.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 74--78
+
+ []
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 90--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--105
+
+ []
+
+
+LaTeX Warning: Citation `Patrignani:2016xqp' on page 24 undefined on input line
+ 113.
+
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 119--124
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--124
+
+ []
+
+
+Underfull \vbox (badness 2617) has occurred while \output is active []
+
+ [25]
+Underfull \hbox (badness 10000) in paragraph at lines 128--132
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--154
+
+ []
+
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 158--161
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--177
+
+ []
+
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 208--212
+
+ []
+
+[28] [29]
+Underfull \hbox (badness 10000) in paragraph at lines 264--267
+
+ []
+
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 290--294
+
+ []
+
+[31] [32]
+
+LaTeX Warning: Citation `PhysRevD.39.799' on page 33 undefined on input line 33
+1.
+
+[33] [34]
+Underfull \hbox (badness 10000) in paragraph at lines 403--406
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 416--423
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 416--423
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 416--423
+
+ []
+
+[35]) [36]
+\openout2 = `latticeqcd.aux'.
+
+ (./latticeqcd.tex
+Chapter 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--15
+
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 12--15
 \T1/cmr/m/n/10.95 The ex-pec-ta-tion value of an ob-serv-able $\OMS/cmsy/m/n/10
 .95 O$ \T1/cmr/m/n/10.95 in a Yang-Mills the-ory can be
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--15
+Underfull \hbox (badness 10000) in paragraph at lines 17--23
 
  []
 
-[23]
-
-LaTeX Warning: Reference `sec:doublingprob' on page 24 undefined on input line 
-41.
+[37
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--70
 
- []
+]
 
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 86--90
+LaTeX Warning: Reference `sec:doublingprob' on page 38 undefined on input line 
+77.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--97
-
- []
-
-[25]
-Underfull \hbox (badness 10000) in paragraph at lines 110--116
+[38]
+Underfull \hbox (badness 10000) in paragraph at lines 107--111
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--116
+Underfull \hbox (badness 10000) in paragraph at lines 127--131
 
  []
 
-[26]
-
-LaTeX Warning: Reference `sec:doublingprob' on page 27 undefined on input line 
-132.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 131--136
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 133--138
 
  []
 
-<images/tastemixing.jpg, id=200, 608.2725pt x 453.695pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--166
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--166
+
+ []
+
+[40]
+
+LaTeX Warning: Reference `sec:doublingprob' on page 41 undefined on input line 
+182.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--186
+
+ []
+
+[41] <images/tastemixing.jpg, id=278, 608.2725pt x 453.695pt>
 File: images/tastemixing.jpg Graphic file (type jpg)
 
 <use images/tastemixing.jpg>
-Package pdftex.def Info: images/tastemixing.jpg used on input line 151.
+Package pdftex.def Info: images/tastemixing.jpg used on input line 210.
 (pdftex.def)             Requested size: 177.81703pt x 132.62737pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--161
+Underfull \hbox (badness 10000) in paragraph at lines 216--220
 
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 157--161
+Underfull \hbox (badness 2302) in paragraph at lines 216--220
 \T1/cmr/m/n/10.95 Interaction be-tween dif-fer-ent tastes ("taste mix-ing") is 
 dom-i-nated by the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--161
+Underfull \hbox (badness 10000) in paragraph at lines 216--220
 
  []
 
-[27] [28 <./images/tastemixing.jpg>]) [29]
-\openout2 = `Chapter4.aux'.
+[42 <./images/tastemixing.jpg>] [43]) [44]
+\openout2 = `latticecalcs.aux'.
 
- (./Chapter4.tex [30
-
-
-
-]
-Chapter 4.
+ (./latticecalcs.tex
+Chapter 5.
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--9
 
@@ -1596,186 +1627,245 @@ Underfull \hbox (badness 1571) in paragraph at lines 22--26
 p-prox-i-mated by
  []
 
-[31]
-Underfull \hbox (badness 10000) in paragraph at lines 50--54
+[45
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 80--84
 
  []
 
 
-Underfull \hbox (badness 4132) in paragraph at lines 50--54
+Underfull \hbox (badness 4132) in paragraph at lines 80--84
 \T1/cmr/m/n/10.95 Naive quarks $\OML/cmm/m/it/10.95  \OT1/cmr/m/n/10.95 (\OML/c
 mm/m/it/10.95 x\OT1/cmr/m/n/10.95 )$ \T1/cmr/m/n/10.95 can be trans-formed into
  stag-gered quarks $\OML/cmm/m/it/10.95 ^^_\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10
 .95 x\OT1/cmr/m/n/10.95 )$ \T1/cmr/m/n/10.95 via
  []
 
-[32] [33]
-Underfull \hbox (badness 10000) in paragraph at lines 101--105
+[46] [47]
+Underfull \hbox (badness 10000) in paragraph at lines 132--136
 
  []
 
 
-Underfull \hbox (badness 1917) in paragraph at lines 101--105
+Underfull \hbox (badness 1917) in paragraph at lines 132--136
 \T1/cmr/m/n/10.95 In the MILC code, "sources" are first cre-ated (the fields $\
 OML/cmm/m/it/10.95 ^^^[]\OT1/cmr/m/n/10.95 ([]\OML/cmm/m/it/10.95 ; t[]\OT1/cmr
 /m/n/10.95 )\OML/cmm/m/it/10.95 ^^X\OT1/cmr/m/n/10.95 ([])$\T1/cmr/m/n/10.95 ),
 
  []
 
-[34]
-Underfull \hbox (badness 10000) in paragraph at lines 120--124
+[48]
+Underfull \hbox (badness 10000) in paragraph at lines 151--155
 
  []
 
 
-Overfull \hbox (78.79784pt too wide) in paragraph at lines 127--127
+Overfull \hbox (78.79784pt too wide) in paragraph at lines 158--158
 [] 
  []
 
 
-Underfull \hbox (badness 1817) in paragraph at lines 127--129
+Underfull \hbox (badness 1817) in paragraph at lines 158--160
 \T1/cmr/m/n/10.95 This can be built by first cre-at-ing prop-a-ga-tors for the 
 $\OML/cmm/m/it/10.95 b$ \T1/cmr/m/n/10.95 and $\OML/cmm/m/it/10.95 s$ \T1/cmr/m
 /n/10.95 quarks:
  []
 
 
-LaTeX Warning: Reference `sec:correlators' on page 35 undefined on input line 1
-39.
-
-[35]
-Underfull \hbox (badness 10000) in paragraph at lines 162--166
+Underfull \hbox (badness 10000) in paragraph at lines 170--173
 
  []
 
-[36]
+[49]
+Underfull \hbox (badness 10000) in paragraph at lines 193--198
 
-LaTeX Warning: Reference `sec:cp' on page 37 undefined on input line 171.
+ []
+
+[50]
+
+LaTeX Warning: Reference `sec:correlators' on page 51 undefined on input line 2
+22.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--174
+Underfull \hbox (badness 10000) in paragraph at lines 245--249
+
+ []
+
+[51]
+
+LaTeX Warning: Reference `sec:cp' on page 52 undefined on input line 254.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--257
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--174
+Underfull \hbox (badness 10000) in paragraph at lines 251--257
 
  []
 
 
-Overfull \hbox (82.77629pt too wide) in paragraph at lines 181--181
+Overfull \hbox (82.77629pt too wide) in paragraph at lines 264--264
 [] 
  []
 
+[52]
 
-LaTeX Warning: Reference `sec:fitting' on page 37 undefined on input line 190.
-
-[37]
-Underfull \hbox (badness 10000) in paragraph at lines 196--204
-
- []
+LaTeX Warning: Reference `sec:fitting' on page 53 undefined on input line 273.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--204
+Underfull \hbox (badness 10000) in paragraph at lines 279--287
 
  []
 
 
-Underfull \hbox (badness 1221) in paragraph at lines 196--204
+Underfull \hbox (badness 10000) in paragraph at lines 279--287
+
+ []
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 279--287
 \T1/cmr/m/n/10.95 2-point cor-re-la-tion func-tions for $\OML/cmm/m/it/10.95 B[
 ]$ \T1/cmr/m/n/10.95 and $\OML/cmm/m/it/10.95 D[]$ \T1/cmr/m/n/10.95 are fit to
  [], re-sult-ing in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--204
+Underfull \hbox (badness 10000) in paragraph at lines 279--287
 
  []
 
-[38]
-Underfull \hbox (badness 10000) in paragraph at lines 213--219
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--219
+[53]
+Underfull \hbox (badness 10000) in paragraph at lines 296--302
 
  []
 
 
-LaTeX Warning: Reference `eq:currentcorrections' on page 39 undefined on input 
-line 222.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 228--231
+Underfull \hbox (badness 10000) in paragraph at lines 296--302
 
  []
 
-[39]
-Underfull \hbox (badness 10000) in paragraph at lines 238--242
+[54]
 
- []
+LaTeX Warning: Reference `eq:currentcorrections' on page 55 undefined on input 
+line 305.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--252
+Underfull \hbox (badness 10000) in paragraph at lines 319--322
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--252
-
- []
-
-[40]
-
-LaTeX Warning: Reference `sec:formfactors' on page 41 undefined on input line 2
-71.
-
-
-LaTeX Warning: Reference `sec:highmomenta' on page 41 undefined on input line 2
-71.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--272
+Underfull \hbox (badness 10000) in paragraph at lines 329--333
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--297
+Underfull \hbox (badness 10000) in paragraph at lines 336--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--297
+Underfull \hbox (badness 10000) in paragraph at lines 336--343
 
  []
 
-[41]) [42] (./Thesis.lof
+[55]
 
-LaTeX Warning: Citation `HFAG' on page 43 undefined on input line 3.
+LaTeX Warning: Reference `sec:formfactors' on page 56 undefined on input line 3
+62.
 
 
-LaTeX Warning: Citation `Patrignani:2016xqp' on page 43 undefined on input line
- 5.
+LaTeX Warning: Reference `sec:highmomenta' on page 56 undefined on input line 3
+62.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 360--363
+
+ []
+
+[56]
+Underfull \hbox (badness 10000) in paragraph at lines 384--390
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--390
+
+ []
+
+[57]) [58]
+\openout2 = `nrqcd.aux'.
+
+ (./nrqcd.tex
+Chapter 6.
+) [59
+
+
+
+]
+\openout2 = `BsDsstar.aux'.
+
+ (./BsDsstar.tex [60
+
+
+
+]
+Chapter 7.
+) [61]
+\openout2 = `BsDs.aux'.
+
+ (./BsDs.tex
+Overfull \hbox (72.5061pt too wide) has occurred while \output is active
+\T1/cmr/m/n/10.95 62 \T1/cmr/m/sl/10.95 CHAPTER 7.  $\OML/cmm/m/it/10.95 B[] \O
+MS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.95 D[]L^^W$ \T1/cmr/m/sl/10.95 AXIAL FORM 
+FACTOR AT ZERO RECOIL FROM HEAVY-HISQ
+ []
+
+[62
+
+
+
+]
+Chapter 8.
+) [63]
+Overfull \hbox (56.28322pt too wide) has occurred while \output is active
+\T1/cmr/m/n/10.95 64 \T1/cmr/m/sl/10.95 CHAPTER 8.  $\OML/cmm/m/it/10.95 B[] \O
+MS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.95 D[]L^^W$ \T1/cmr/m/sl/10.95 FORM FACTOR
+ AT ALL PHYSICAL $\OML/cmm/m/it/10.95 Q[]$ \T1/cmr/m/sl/10.95 FROM HEAVY-HISQ
+ []
+
+[64
+
+
+] (./Thesis.lof
+
+LaTeX Warning: Citation `HFAG' on page 65 undefined on input line 9.
+
+
+LaTeX Warning: Citation `Patrignani:2016xqp' on page 65 undefined on input line
+ 11.
 
 )
 \tf@lof=\write5
 \openout5 = `Thesis.lof'.
 
- [43
-
-
-] [44
+ [65] [66
 
 ] (./Thesis.lot)
 \tf@lot=\write6
 \openout6 = `Thesis.lot'.
 
- (./Thesis.bbl [45] [46
+ (./Thesis.bbl [67] [68
 
-] [47] [48]) [49]
-(./Thesis.aux (./TitlePage.aux) (./Chapter1.aux) (./Chapter2.aux)
-(./Chapter3.aux) (./Chapter4.aux))
+] [69] [70] [71]) [72]
+(./Thesis.aux (./TitlePage.aux) (./intro.aux) (./background.aux)
+(./semileptonic.aux) (./latticeqcd.aux) (./latticecalcs.aux) (./nrqcd.aux)
+(./BsDsstar.aux) (./BsDs.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -1784,13 +1874,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 24939 strings out of 494910
- 606498 string characters out of 6179837
- 774771 words of memory out of 5000000
- 27667 multiletter control sequences out of 15000+600000
- 27167 words of font info for 74 fonts, out of 8000000 for 9000
+ 25139 strings out of 494910
+ 609613 string characters out of 6179835
+ 776014 words of memory out of 5000000
+ 27826 multiletter control sequences out of 15000+600000
+ 41645 words of font info for 132 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 66i,16n,79p,1332b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 66i,18n,79p,1358b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/euan/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/eu
 an/.texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1440.600pk> </home/euan/.texmf-va
 r/fonts/pk/ljfour/jknappen/ec/ecsl1095.600pk> </home/euan/.texmf-var/fonts/pk/l
@@ -1799,26 +1889,28 @@ en/ec/ecbx1440.600pk> </home/euan/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti10
 95.600pk> </home/euan/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </
 home/euan/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </home/euan/.t
 exmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/euan/.texmf-var/fon
-ts/pk/ljfour/jknappen/ec/ecti1728.600pk> </home/euan/.texmf-var/fonts/pk/ljfour
+ts/pk/ljfour/jknappen/ec/ecrm1728.600pk> </home/euan/.texmf-var/fonts/pk/ljfour
 /jknappen/ec/ecbx2488.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cmextra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/euler/eufm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsf
-s/rsfs10.pfb>
-Output written on Thesis.pdf (61 pages, 586136 bytes).
+msfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmex
+tra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
+Output written on Thesis.pdf (82 pages, 2922819 bytes).
 PDF statistics:
- 790 PDF objects out of 1000 (max. 8388607)
- 248 compressed objects within 3 object streams
+ 946 PDF objects out of 1000 (max. 8388607)
+ 319 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
 

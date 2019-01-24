@@ -1,5 +1,27 @@
 \begin{thebibliography}{10}
 
+\bibitem{PhysRevD.98.030001}
+M.~et.~al. Tanabashi.
+\newblock Review of particle physics.
+\newblock {\em Phys. Rev. D}, 98:030001, Aug 2018.
+
+\bibitem{Borasoy:2007yi}
+Bugra Borasoy.
+\newblock {Introduction to Chiral Perturbation Theory}.
+\newblock {\em Springer Proc. Phys.}, 118:1--26, 2008.
+
+\bibitem{Bigi:1996si}
+Ikaros I.~Y. Bigi, Mikhail~A. Shifman, N.~Uraltsev, and Arkady~I. Vainshtein.
+\newblock {High power $n$ of $m_b$ in beauty widths and $n=5 \to \infty$
+  limit}.
+\newblock {\em Phys. Rev.}, D56:4017--4030, 1997.
+\newblock [,205(1996)].
+
+\bibitem{Hoang:1998hm}
+Andre~H. Hoang, Zoltan Ligeti, and Aneesh~V. Manohar.
+\newblock {$B$ decays in the upsilon expansion}.
+\newblock {\em Phys. Rev.}, D59:074017, 1999.
+
 \bibitem{Na:2015kha}
 Heechang Na, Chris~M. Bouchard, G.~Peter Lepage, Chris Monahan, and Junko
   Shigemitsu.
@@ -8,31 +30,58 @@ Heechang Na, Chris~M. Bouchard, G.~Peter Lepage, Chris Monahan, and Junko
 \newblock {\em Phys. Rev.}, D92(5):054510, 2015.
 \newblock [Erratum: Phys. Rev.D93,no.11,119906(2016)].
 
-\bibitem{Richman:1995wm}
-Jeffrey~D. Richman and Patricia~R. Burchat.
-\newblock {Leptonic and semileptonic decays of charm and bottom hadrons}.
-\newblock {\em Rev. Mod. Phys.}, 67:893--976, 1995.
+\bibitem{Lattice:2015rga}
+Jon~A. Bailey et~al.
+\newblock {$B\to Dl\nu$ form factors at nonzero recoil and $|V_{cb}|$ from
+  2+1-flavor lattice QCD}.
+\newblock {\em Phys. Rev.}, D92(3):034506, 2015.
 
-\bibitem{Borasoy:2007yi}
-Bugra Borasoy.
-\newblock {Introduction to Chiral Perturbation Theory}.
-\newblock {\em Springer Proc. Phys.}, 118:1--26, 2008.
+\bibitem{Bailey:2014tva}
+Jon~A. Bailey et~al.
+\newblock {Update of $|V_{cb}|$ from the $\bar{B}\to D^*\ell\bar{\nu}$ form
+  factor at zero recoil with three-flavor lattice QCD}.
+\newblock {\em Phys. Rev.}, D89(11):114504, 2014.
 
-\bibitem{Schwartz:2013pla}
-Matthew~D. Schwartz.
-\newblock {\em {Quantum Field Theory and the Standard Model}}.
-\newblock Cambridge University Press, 2014.
+\bibitem{Grinstein:2017nlq}
+Benjamin Grinstein and Andrew Kobach.
+\newblock {Model-Independent Extraction of $|V_{cb}|$ from $\bar{B}\rightarrow
+  D^* \ell \overline{\nu}$}.
+\newblock {\em Phys. Lett.}, B771:359--364, 2017.
 
-\bibitem{Aoki:2016frl}
-S.~Aoki et~al.
-\newblock {Review of lattice results concerning low-energy particle physics}.
-\newblock {\em Eur. Phys. J.}, C77(2):112, 2017.
+\bibitem{BUSKULIC1995236}
+D~Buskulic et. al.
+\newblock A measurement of $|vcb|$ from $b^0 \to d^*l^-\nu_l$.
+\newblock {\em Physics Letters B}, 359(1):236 -- 248, 1995.
 
-\bibitem{Wingate:2017unz}
-Matthew Wingate.
-\newblock {$|V_{cb}|$ using lattice QCD}.
-\newblock In {\em {9th International Workshop on the CKM Unitarity Triangle
-  (CKM2016) Mumbai, India, November 28-December 3, 2016}}, 2017.
+\bibitem{Abe:2001yf}
+Kazuo Abe et~al.
+\newblock {Measurement of B(anti-B0 ---> D+ l- anti-nu) and determination of
+  |V(cb)|}.
+\newblock {\em Phys. Lett.}, B526:258--268, 2002.
+
+\bibitem{Aubert:2008yv}
+Bernard Aubert et~al.
+\newblock {Measurements of the Semileptonic Decays anti-B ---> D l anti-nu and
+  anti-B ---> D* l anti-nu Using a Global Fit to D X l anti-nu Final States}.
+\newblock {\em Phys. Rev.}, D79:012002, 2009.
+
+\bibitem{Aubert:2009ac}
+Bernard Aubert et~al.
+\newblock {Measurement of |V(cb)| and the Form-Factor Slope in B ---> D l-
+  anti-nu Decays in Events Tagged by a Fully Reconstructed B Meson}.
+\newblock {\em Phys. Rev. Lett.}, 104:011802, 2010.
+
+\bibitem{Bartelt:1998dq}
+John~E. Bartelt et~al.
+\newblock {Measurement of the B ---> D lepton neutrino branching fractions and
+  form-factor}.
+\newblock {\em Phys. Rev. Lett.}, 82:3746, 1999.
+
+\bibitem{Bigi:2017njr}
+Dante Bigi, Paolo Gambino, and Stefan Schacht.
+\newblock {A fresh look at the determination of $|V_{cb}|$ from $B\to D^{*}
+  \ell \nu$}.
+\newblock {\em Phys. Lett.}, B769:441--445, 2017.
 
 \bibitem{Aaij:2015yra}
 Roel Aaij et~al.
@@ -55,6 +104,11 @@ Wolfgang Altmannshofer, Peter Stangl, and David~M. Straub.
 \newblock {Interpreting Hints for Lepton Flavor Universality Violation}.
 \newblock 2017.
 
+\bibitem{Schwartz:2013pla}
+Matthew~D. Schwartz.
+\newblock {\em {Quantum Field Theory and the Standard Model}}.
+\newblock Cambridge University Press, 2014.
+
 \bibitem{ALTAREV1992242}
 I.S. Altarev, Yu.V. Borisov, N.V. Borovikova, S.N. Ivanov, E.A. Kolomensky,
   M.S. Lasakov, V.M. Lobashev, V.A. Nazarenko, A.N. Pirozhkov, A.P. Serebrov,
@@ -66,6 +120,24 @@ I.S. Altarev, Yu.V. Borisov, N.V. Borovikova, S.N. Ivanov, E.A. Kolomensky,
 David~J. Gross and Frank Wilczek.
 \newblock Ultraviolet behavior of non-abelian gauge theories.
 \newblock {\em Phys. Rev. Lett.}, 30:1343--1346, Jun 1973.
+
+\bibitem{Scherer:2002tk}
+Stefan Scherer.
+\newblock {Introduction to chiral perturbation theory}.
+\newblock {\em Adv. Nucl. Phys.}, 27:277, 2003.
+\newblock [,277(2002)].
+
+\bibitem{Fubini:1964boa}
+S.~Fubini and G.~Furlan.
+\newblock {Renormalization effects for partially conserved currents}.
+\newblock {\em Physics Physique Fizika}, 1(4):229--247, 1965.
+
+\bibitem{PhysRevD.87.034503}
+C.~McNeile, A.~Bazavov, C.~T.~H. Davies, R.~J. Dowdall, K.~Hornbostel, G.~P.
+  Lepage, and H.~D. Trottier.
+\newblock Direct determination of the strange and light quark condensates from
+  full lattice qcd.
+\newblock {\em Phys. Rev. D}, 87:034503, Feb 2013.
 
 \bibitem{Lebed:1991sq}
 Richard~F. Lebed and Mahiko Suzuki.

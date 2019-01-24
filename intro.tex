@@ -1,0 +1,18 @@
+\chapter{Introduction}
+\label{sec:intro}
+
+As the LHC continuously refuses to supply new resonances, the high energy physics community places their hope in the intensity frontier to finally break the standard model. Subtle differences between experimental measurements and standard model predictions are the new rock and roll. As collider experiments collect more data and measurements become more precise, theorists must keep up the pace and improve our predictions. What else but Lattice QCD could answer the call of providing first-principle calculations of non-perturbative quantities?
+\\ \\
+This thesis focuses on the study of calculating form factors for semileptonic $b\to c$ transitions. These transitions occur between hadrons, bound together by QCD. At the confinement scale ($\sim 1$GeV), perturbation theory breaks down due to asymptotic freedom, and the only sensible option is to compute the path integral directly.
+\\ \\
+The $b$ quark is difficult to deal with on the lattice, due to it's mass being beyond the momentum cutoff imposed by computationally feasable lattice spacings. I calculate $b\to c$ form factors using two approaches to dealing with the heavy $b$, one employing a non-relativistic action for the $b$ ({\textit{NRQCD}}), and the other relying on heavy quark effective theory to extrapolate upwards to the $b$ mass ({\textit{Heavy-HISQ}}). The main take-home from this thesis is the following: {\textbf{NRQCD is on shaky ground, and Heavy-HISQ is an excellent way to live.}}
+\\ \\
+Using NRQCD, I attempted to compute form factors for the $B_{(s)}\to D_{(s)}l\nu$ decays. The depletion of the signal/noise ratio in correlation functions featuring high spacial momentum means lattice data for this decay was limited to the high $q^2$ region.
+\\ \\
+In NRQCD, flavour-changing current operators are made of an infinite series of terms in powers of the $b$-quark velocity $v$, each requiring their own normalisation via perturbative matching to continuum QCD. It was discovered during this work that subleading terms in this series, that were originally thought to be negligable, in fact may be an important contribution. Since the perturbative matching calculations for these terms have not been performed, this caused a somewhat insurmountable obstacle for the NRQCD approach to calculating $b\to c$ form factors.
+\\ \\
+The NRQCD approach could in principle be saved by finding non-perturbative normalizations of these large subleading pieces of the current. We investigated a way of acheiving this by comparing NRQCD lattice data to pre-existing and more reliable Heavy-HISQ lattice data, with limited success.
+\\ \\
+To sidestep the problems with NRQCD, We adopted a totally new approach: the Heavy-HISQ approach. With this, we successfuly calculated the $B_s\to D_s^*l\nu$ axial form factor at zero recoil. This demonstrated the power of the heavy-HISQ approach, and layed the groundwork for a study of $B_s\to D_s^*l\nu$ form factors away from zero recoil and $B\to D^*l\nu$ form factors. We also calculated $B_s\to D_sl\nu$ form factors throughout the full physical range of momentum transfer. These studies, when combined with future experimental data of the $B_s\to D_sl\nu$ and $B_s\to D_s^*l\nu$ decays, will supply new tests of the standard model, and new channels to determining the CKM parameter $|V_{cb}|$.
+\\ \\
+All work reported in this thesis was perfomed using gluon ensembles courtesy of the MILC collaboration, accounting for dynamical up, down, strange and charm HISQ quarks in the sea. We computed correlation functions using a combination of the MILC code, and HPQCD's NRQCD code.

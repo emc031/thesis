@@ -11,6 +11,7 @@
 \usepackage{pdflscape}
 \usepackage{footmisc,multirow}
 \usepackage{color}
+\usepackage{gensymb}
 \usepackage{wrapfig}
 \usepackage{bm}
 \usepackage[T1]{fontenc}
@@ -26,12 +27,13 @@
 \usepackage{caption}
 \usepackage{subcaption}
 
-\setlength{\parindent}{0pt}
+\setlength{\parindent}{15pt}
 
 
- \def\be   {\begin{align}}   
+ \def\be   {\begin{align}}
  \def\ee   {\end{align}}
 
+\newcommand{\red}[1]{{\color{red}{#1}}}
 \newcommand{\order}[1]{\mathcal{O}\left( #1 \right)}
 \newcommand{\Lqcd}{\Lambda_{\text{QCD}}}
 

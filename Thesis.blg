@@ -2,69 +2,200 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Thesis.aux
 A level-1 auxiliary file: TitlePage.aux
-A level-1 auxiliary file: Chapter1.aux
-A level-1 auxiliary file: Chapter2.aux
-A level-1 auxiliary file: Chapter3.aux
-A level-1 auxiliary file: Chapter4.aux
+A level-1 auxiliary file: intro.aux
+A level-1 auxiliary file: background.aux
+A level-1 auxiliary file: semileptonic.aux
+A level-1 auxiliary file: latticeqcd.aux
+A level-1 auxiliary file: latticecalcs.aux
+A level-1 auxiliary file: nrqcd.aux
+A level-1 auxiliary file: BsDsstar.aux
+A level-1 auxiliary file: BsDs.aux
 The style file: unsrt.bst
 Database file #1: Thesis.bib
+I was expecting a `,' or a `}'---line 140 of file Thesis.bib
+ : 
+ : @article{Bigi:2017njr,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--entry type for "CorrFitter" isn't style-file defined
---line 119 of file Thesis.bib
-I was expecting a `,' or a `}'---line 127 of file Thesis.bib
+--line 334 of file Thesis.bib
+I was expecting a `,' or a `}'---line 342 of file Thesis.bib
  : 
  : @article{Monahan:2012dq,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 343 of file Thesis.bib
+Repeated entry---line 558 of file Thesis.bib
  : @article{Bazavov:2012xda
  :                         ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 1012 of file Thesis.bib
+ : @article{Bailey:2014tva
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1032 of file Thesis.bib
+ : @article{Lattice:2015rga
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1050 of file Thesis.bib
+ : @article{Bigi:2017njr
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1066 of file Thesis.bib
+ : @article{Falk:1992wt
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1083 of file Thesis.bib
+ : @article{PhysRevD.87.034503
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1099 of file Thesis.bib
+ : @article{Scherer:2002tk
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1114 of file Thesis.bib
+ : @article{Fubini:1964boa
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1148 of file Thesis.bib
+ : @article{Lebed:1991sq
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1162 of file Thesis.bib
+ : @article{Bazavov:2012xda
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1217 of file Thesis.bib
+ : @article{Monahan:2017uby
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1229 of file Thesis.bib
+ : @online{CorrFitter
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1326 of file Thesis.bib
+ : @article{Altmannshofer:2017yso
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1338 of file Thesis.bib
+ : @article{Aaij:2015yra
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1360 of file Thesis.bib
+ : @article{Na:2015kha
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1379 of file Thesis.bib
+ : @article{PhysRev.78.29
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1426 of file Thesis.bib
+ : @article{Narayanan:2011qj
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1438 of file Thesis.bib
+ : @article{Jansen:1994ym
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1453 of file Thesis.bib
+ : @article{Bazavov:2012xda
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1499 of file Thesis.bib
+ : @book{Schwartz:2013pla
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1516 of file Thesis.bib
+ : @book{DeGrand:2006zz
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1524 of file Thesis.bib
+ : @book{Peskin:1995ev
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1535 of file Thesis.bib
+ : @inproceedings{Lepage:1998dt
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1550 of file Thesis.bib
+ : @inproceedings{Munster:2000ez
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1578 of file Thesis.bib
+ : @article{Colquhoun:2015oha
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1597 of file Thesis.bib
+ : @article{Follana:2006rc
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1630 of file Thesis.bib
+ : @article{Lepage:1992tx
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1714 of file Thesis.bib
+ : @article{Borasoy:2007yi
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1792 of file Thesis.bib
+ : @article{ALTAREV1992242
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1807 of file Thesis.bib
+ : @article{PhysRevLett.30.1343
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1891 of file Thesis.bib
+ : @article{BUSKULIC1995236
+ :                         ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Bailey:2018feb"
 Warning--I didn't find a database entry for "HFAG"
+Warning--I didn't find a database entry for "Patrignani:2016xqp"
 Warning--I didn't find a database entry for "PhysRevD.39.799"
 Warning--empty journal in Monahan:2017uby
 Warning--empty journal in Altmannshofer:2017yso
 Warning--empty publisher in DeGrand:2006zz
 Warning--empty journal in Narayanan:2011qj
 Warning--empty publisher in Peskin:1995ev
-You've used 25 entries,
+You've used 37 entries,
             1791 wiz_defined-function locations,
-            624 strings with 8238 characters,
-and the built_in function-call counts, 5562 in all, are:
-= -- 455
-> -- 268
+            716 strings with 10262 characters,
+and the built_in function-call counts, 8343 in all, are:
+= -- 704
+> -- 383
 < -- 2
-+ -- 100
-- -- 75
-* -- 369
-:= -- 905
-add.period$ -- 76
-call.type$ -- 25
-change.case$ -- 22
++ -- 143
+- -- 106
+* -- 578
+:= -- 1365
+add.period$ -- 114
+call.type$ -- 37
+change.case$ -- 34
 chr.to.int$ -- 0
-cite$ -- 30
-duplicate$ -- 246
-empty$ -- 558
-format.name$ -- 75
-if$ -- 1235
+cite$ -- 42
+duplicate$ -- 351
+empty$ -- 829
+format.name$ -- 106
+if$ -- 1844
 int.to.chr$ -- 0
-int.to.str$ -- 25
-missing$ -- 27
-newline$ -- 129
-num.names$ -- 25
-pop$ -- 77
+int.to.str$ -- 37
+missing$ -- 39
+newline$ -- 191
+num.names$ -- 37
+pop$ -- 81
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 106
+skip$ -- 148
 stack$ -- 0
-substring$ -- 344
-swap$ -- 41
+substring$ -- 599
+swap$ -- 52
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 46
-width$ -- 27
-write$ -- 266
-(There were 2 error messages)
+while$ -- 71
+width$ -- 39
+write$ -- 403
+(There were 33 error messages)
