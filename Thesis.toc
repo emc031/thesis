@@ -1,66 +1,58 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}
-\contentsline {chapter}{\numberline {2}Background and Motivation}{3}
+\contentsline {chapter}{\numberline {2}Motivation \& Tools from the Continuum}{3}
 \contentsline {section}{\numberline {2.1}Testing the Standard Model}{3}
 \contentsline {section}{\numberline {2.2}Flavour-Changing Charged Currents}{5}
-\contentsline {subsection}{\numberline {2.2.1}The CKM Matrix}{7}
-\contentsline {subsection}{\numberline {2.2.2}Weak Decays}{10}
-\contentsline {subsection}{\numberline {2.2.3}$|V_{cb}|$}{15}
-\contentsline {subsection}{\numberline {2.2.4}Flavour Anomalies}{17}
-\contentsline {chapter}{\numberline {3}Heavy $\to $ Heavy Meson Semileptonic Decays}{21}
-\contentsline {section}{\numberline {3.1}Strong Interaction Physics}{21}
-\contentsline {subsection}{\numberline {3.1.1}Quantum Chromodynamics}{21}
-\contentsline {subsection}{\numberline {3.1.2}Chiral Symmetry}{23}
-\contentsline {subsubsection}{Spontanious Chiral Symmetry Breaking}{24}
-\contentsline {subsubsection}{Chiral Perturbation Theory ($\chi $PT)}{25}
-\contentsline {section}{\numberline {3.2}Heavy Quark Physics}{27}
-\contentsline {subsection}{\numberline {3.2.1}HQET}{27}
-\contentsline {subsubsection}{HQET Lagrangian}{28}
-\contentsline {subsubsection}{Isgur-Wise Function}{29}
-\contentsline {subsubsection}{AG and Luke's Theorem}{30}
-\contentsline {subsubsection}{Second Order Form Factors}{33}
-\contentsline {subsubsection}{Decay Constants}{33}
-\contentsline {subsection}{\numberline {3.2.2}NRQCD}{33}
-\contentsline {section}{\numberline {3.3}Form Factors}{35}
-\contentsline {subsection}{\numberline {3.3.1}Analyticity}{36}
-\contentsline {subsection}{\numberline {3.3.2}Parameterisations}{36}
-\contentsline {section}{\numberline {3.4}Experimental Status}{36}
-\contentsline {chapter}{\numberline {4}Lattice Quantum Chromodynamics}{37}
-\contentsline {section}{\numberline {4.1}Lattice Gauge Fields}{38}
-\contentsline {subsection}{\numberline {4.1.1}The Wilson Gauge Action}{38}
-\contentsline {subsection}{\numberline {4.1.2}Improvements}{38}
-\contentsline {section}{\numberline {4.2}Lattice Fermions}{38}
-\contentsline {subsection}{\numberline {4.2.1}The Doubling Problem}{39}
-\contentsline {subsection}{\numberline {4.2.2}Staggered Quarks}{40}
-\contentsline {subsection}{\numberline {4.2.3}Highly Improved Staggered Quarks}{42}
-\contentsline {section}{\numberline {4.3}Dealing with Heavy Quarks}{43}
-\contentsline {subsection}{\numberline {4.3.1}Heavy HISQ}{44}
-\contentsline {subsection}{\numberline {4.3.2}Lattice NRQCD}{44}
-\contentsline {chapter}{\numberline {5}Lattice Calculations}{45}
-\contentsline {section}{\numberline {5.1}Correlation Functions from Lattice Simulations}{45}
-\contentsline {subsection}{\numberline {5.1.1}The Path Integral and Generation of Gauge Ensembles}{46}
-\contentsline {subsection}{\numberline {5.1.2}Dirac Operator Inversion}{46}
-\contentsline {subsection}{\numberline {5.1.3}Staggered Correlation Functions}{46}
-\contentsline {subsubsection}{2pt correlation functions}{47}
-\contentsline {subsubsection}{Momentum Twist}{49}
-\contentsline {section}{\numberline {5.2}Analysis of Correlation Functions}{50}
-\contentsline {subsection}{\numberline {5.2.1}Non-Linear Regression}{51}
-\contentsline {subsection}{\numberline {5.2.2}The Golden Window}{55}
-\contentsline {section}{\numberline {5.3}Renormalization of Currents}{56}
-\contentsline {subsection}{\numberline {5.3.1}Non-perturbative Renormalization of HISQ Currents}{58}
-\contentsline {subsection}{\numberline {5.3.2}Matching NRQCD currents to $\overline {MS}$}{58}
-\contentsline {chapter}{\numberline {6}$b$-Physics from Lattice NRQCD}{59}
-\contentsline {section}{\numberline {6.1}$B_{(s)}\to D_{(s)} l\nu $ Form Factors}{59}
-\contentsline {subsection}{\numberline {6.1.1}Calculation Setup}{59}
-\contentsline {subsection}{\numberline {6.1.2}Results}{59}
-\contentsline {subsection}{\numberline {6.1.3}The Subleading Current Problem}{59}
-\contentsline {section}{\numberline {6.2}Nonperturbative Renormalisation}{59}
-\contentsline {subsection}{\numberline {6.2.1}Relativistic Normalisation of the $b\to c$ Axial Current}{59}
-\contentsline {subsection}{\numberline {6.2.2}$b\to c$ Vector Current Matching to Heavy-HISQ}{59}
-\contentsline {chapter}{\numberline {7}$B_s\to D_s^*l\nu $ Axial Form Factor at Zero Recoil from Heavy-HISQ}{61}
-\contentsline {section}{\numberline {7.1}Calculation Setup}{61}
-\contentsline {section}{\numberline {7.2}Results}{61}
-\contentsline {section}{\numberline {7.3}Implications for $B\to D^*l\nu $ and $|V_{cb}|$}{61}
-\contentsline {chapter}{\numberline {8}$B_s\to D_sl\nu $ Form Factor at All Physical $q^2$ from Heavy-HISQ}{63}
-\contentsline {section}{\numberline {8.1}Calculation Setup}{63}
-\contentsline {section}{\numberline {8.2}Results}{63}
-\contentsline {section}{\numberline {8.3}HQET low energy constants}{63}
+\contentsline {subsection}{\numberline {2.2.1}The CKM Matrix}{8}
+\contentsline {subsection}{\numberline {2.2.2}Weak Decays}{11}
+\contentsline {subsection}{\numberline {2.2.3}$b\to c$ Transitions and $|V_{cb}|$}{15}
+\contentsline {subsection}{\numberline {2.2.4}Flavour Anomalies \& Lepton Flavour Violation}{18}
+\contentsline {section}{\numberline {2.3}Strong Interaction Physics}{21}
+\contentsline {subsection}{\numberline {2.3.1}Quantum Chromodynamics}{22}
+\contentsline {subsection}{\numberline {2.3.2}Chiral Symmetry}{23}
+\contentsline {subsection}{\numberline {2.3.3}Hadrons}{25}
+\contentsline {section}{\numberline {2.4}Heavy Quark Physics}{26}
+\contentsline {subsection}{\numberline {2.4.1}HQET}{26}
+\contentsline {subsubsection}{HQET Lagrangian}{27}
+\contentsline {subsubsection}{Isgur-Wise Function}{28}
+\contentsline {subsubsection}{The Ademollo-Gatto Theorem and Luke's Theorem}{29}
+\contentsline {subsection}{\numberline {2.4.2}NRQCD}{31}
+\contentsline {chapter}{\numberline {3}Lattice Quantum Chromodynamics}{33}
+\contentsline {section}{\numberline {3.1}Lattice Gauge Fields}{34}
+\contentsline {subsection}{\numberline {3.1.1}The Gauge Action}{37}
+\contentsline {subsection}{\numberline {3.1.2}Symmanzik Improvements of the Gauge Action}{38}
+\contentsline {section}{\numberline {3.2}Lattice Fermions}{41}
+\contentsline {subsection}{\numberline {3.2.1}The Naive Fermion Action \& The Doubling Problem}{42}
+\contentsline {subsection}{\numberline {3.2.2}Staggered Quarks}{43}
+\contentsline {subsection}{\numberline {3.2.3}Highly Improved Staggered Quarks}{45}
+\contentsline {section}{\numberline {3.3}Heavy Quarks on the Lattice}{47}
+\contentsline {subsection}{\numberline {3.3.1}Heavy HISQ}{48}
+\contentsline {subsection}{\numberline {3.3.2}Lattice NRQCD}{49}
+\contentsline {chapter}{\numberline {4}Lattice Calculations}{51}
+\contentsline {section}{\numberline {4.1}Correlation Functions from Lattice Simulations}{51}
+\contentsline {subsection}{\numberline {4.1.1}The Path Integral and Generation of Gauge Ensembles}{52}
+\contentsline {subsection}{\numberline {4.1.2}Dirac Operator Inversion}{52}
+\contentsline {subsection}{\numberline {4.1.3}Staggered Correlation Functions}{52}
+\contentsline {subsubsection}{2pt correlation functions}{53}
+\contentsline {subsubsection}{Momentum Twist}{55}
+\contentsline {section}{\numberline {4.2}Analysis of Correlation Functions}{56}
+\contentsline {subsection}{\numberline {4.2.1}Non-Linear Regression}{57}
+\contentsline {subsection}{\numberline {4.2.2}The Golden Window}{61}
+\contentsline {section}{\numberline {4.3}Renormalization of Currents}{62}
+\contentsline {subsection}{\numberline {4.3.1}Non-perturbative Renormalization of HISQ Currents}{64}
+\contentsline {subsection}{\numberline {4.3.2}Matching NRQCD currents to $\overline {MS}$}{64}
+\contentsline {chapter}{\numberline {5}$b$-Physics from Lattice NRQCD}{65}
+\contentsline {section}{\numberline {5.1}$B_{(s)}\to D_{(s)} l\nu $ Form Factors}{65}
+\contentsline {subsection}{\numberline {5.1.1}Calculation Setup}{65}
+\contentsline {subsection}{\numberline {5.1.2}Results}{65}
+\contentsline {subsection}{\numberline {5.1.3}The Subleading Current Problem}{65}
+\contentsline {section}{\numberline {5.2}Nonperturbative Renormalisation}{65}
+\contentsline {subsection}{\numberline {5.2.1}Relativistic Normalisation of the $b\to c$ Axial Current}{65}
+\contentsline {subsection}{\numberline {5.2.2}$b\to c$ Vector Current Matching to Heavy-HISQ}{65}
+\contentsline {chapter}{\numberline {6}$B_s\to D_s^*l\nu $ Axial Form Factor at Zero Recoil from Heavy-HISQ}{67}
+\contentsline {section}{\numberline {6.1}Calculation Setup}{67}
+\contentsline {section}{\numberline {6.2}Results}{67}
+\contentsline {section}{\numberline {6.3}Implications for $B\to D^*l\nu $ and $|V_{cb}|$}{67}
+\contentsline {chapter}{\numberline {7}$B_s\to D_sl\nu $ Form Factor at All Physical $q^2$ from Heavy-HISQ}{69}
+\contentsline {section}{\numberline {7.1}Calculation Setup}{69}
+\contentsline {section}{\numberline {7.2}Results}{69}
+\contentsline {section}{\numberline {7.3}HQET low energy constants}{69}

@@ -83,6 +83,51 @@ Dante Bigi, Paolo Gambino, and Stefan Schacht.
   \ell \nu$}.
 \newblock {\em Phys. Lett.}, B769:441--445, 2017.
 
+\bibitem{Bailey:2018feb}
+Jon~A. Bailey, Sunkyu Lee, Weonjong Lee, Jaehoon Leem, and Sungwoo Park.
+\newblock {Updated evaluation of $\epsilon_K$ in the standard model with
+  lattice QCD inputs}.
+\newblock {\em Phys. Rev.}, D98(9):094505, 2018.
+
+\bibitem{Lees:2012xj}
+J.~P. Lees et~al.
+\newblock {Evidence for an excess of $\bar{B} \to D^{(*)} \tau^-\bar{\nu}_\tau$
+  decays}.
+\newblock {\em Phys. Rev. Lett.}, 109:101802, 2012.
+
+\bibitem{Lees:2013uzd}
+J.~P. Lees et~al.
+\newblock {Measurement of an Excess of $\bar{B} \to D^{(*)}\tau^-
+  \bar{\nu}_\tau$ Decays and Implications for Charged Higgs Bosons}.
+\newblock {\em Phys. Rev.}, D88(7):072012, 2013.
+
+\bibitem{Huschle:2015rga}
+M.~Huschle et~al.
+\newblock {Measurement of the branching ratio of $\bar{B} \to D^{(\ast)} \tau^-
+  \bar{\nu}_\tau$ relative to $\bar{B} \to D^{(\ast)} \ell^- \bar{\nu}_\ell$
+  decays with hadronic tagging at Belle}.
+\newblock {\em Phys. Rev.}, D92(7):072014, 2015.
+
+\bibitem{Sato:2016svk}
+Y.~Sato et~al.
+\newblock {Measurement of the branching ratio of $\bar{B}^0 \rightarrow D^{*+}
+  \tau^- \bar{\nu}_{\tau}$ relative to $\bar{B}^0 \rightarrow D^{*+} \ell^-
+  \bar{\nu}_{\ell}$ decays with a semileptonic tagging method}.
+\newblock {\em Phys. Rev.}, D94(7):072007, 2016.
+
+\bibitem{Hirose:2016wfn}
+S.~Hirose et~al.
+\newblock {Measurement of the $\tau$ lepton polarization and $R(D^*)$ in the
+  decay $\bar{B} \to D^* \tau^- \bar{\nu}_\tau$}.
+\newblock {\em Phys. Rev. Lett.}, 118(21):211801, 2017.
+
+\bibitem{Hirose:2017dxl}
+S.~Hirose et~al.
+\newblock {Measurement of the $\tau$ lepton polarization and $R(D^*)$ in the
+  decay $\bar{B} \rightarrow D^* \tau^- \bar{\nu}_\tau$ with one-prong hadronic
+  $\tau$ decays at Belle}.
+\newblock {\em Phys. Rev.}, D97(1):012004, 2018.
+
 \bibitem{Aaij:2015yra}
 Roel Aaij et~al.
 \newblock {Measurement of the ratio of branching fractions
@@ -92,17 +137,125 @@ Roel Aaij et~al.
 \newblock {\em Phys. Rev. Lett.}, 115(11):111803, 2015.
 \newblock [Erratum: Phys. Rev. Lett.115,no.15,159901(2015)].
 
-\bibitem{Monahan:2017uby}
-Christopher~J Monahan, Heechang Na, Chris~M Bouchard, G~Peter Lepage, and Junko
-  Shigemitsu.
-\newblock {$B_s \to D_s \ell \nu$ Form Factors and the Fragmentation Fraction
-  Ratio $f_s/f_d$}.
-\newblock 2017.
+\bibitem{Aaij:2017uff}
+R.~Aaij et~al.
+\newblock {Measurement of the ratio of the $B^0 \to D^{*-} \tau^+ \nu_{\tau}$
+  and $B^0 \to D^{*-} \mu^+ \nu_{\mu}$ branching fractions using three-prong
+  $\tau$-lepton decays}.
+\newblock {\em Phys. Rev. Lett.}, 120(17):171802, 2018.
+
+\bibitem{Aaij:2017deq}
+R.~Aaij et~al.
+\newblock {Test of Lepton Flavor Universality by the measurement of the $B^0
+  \to D^{*-} \tau^+ \nu_{\tau}$ branching fraction using three-prong $\tau$
+  decays}.
+\newblock {\em Phys. Rev.}, D97(7):072013, 2018.
+
+\bibitem{Fajfer:2012vx}
+Svjetlana Fajfer, Jernej~F. Kamenik, and Ivan Nisandzic.
+\newblock {On the $B \to D^* \tau \bar \nu_{\tau}$ Sensitivity to New Physics}.
+\newblock {\em Phys. Rev.}, D85:094025, 2012.
+
+\bibitem{HFLAV16}
+Y.~Amhis et~al.
+\newblock {Averages of $b$-hadron, $c$-hadron, and $\tau$-lepton properties as
+  of summer 2016}.
+\newblock {\em Eur. Phys. J.}, C77:895, 2017.
+\newblock {updated results and plots available at
+  {https://hflav.web.cern.ch}{{\texttt{https://hflav.web.cern.ch}}}}.
 
 \bibitem{Altmannshofer:2017yso}
 Wolfgang Altmannshofer, Peter Stangl, and David~M. Straub.
 \newblock {Interpreting Hints for Lepton Flavor Universality Violation}.
-\newblock 2017.
+\newblock {\em Phys. Rev.}, D96(5):055008, 2017.
+
+\bibitem{Aaij:2014ora}
+Roel Aaij et~al.
+\newblock {Test of lepton universality using $B^{+}\rightarrow
+  K^{+}\ell^{+}\ell^{-}$ decays}.
+\newblock {\em Phys. Rev. Lett.}, 113:151601, 2014.
+
+\bibitem{Bordone:2016gaq}
+Marzia Bordone, Gino Isidori, and Andrea Pattori.
+\newblock {On the Standard Model predictions for $R_K$ and $R_{K^*}$}.
+\newblock {\em Eur. Phys. J.}, C76(8):440, 2016.
+
+\bibitem{Descotes-Genon:2015uva}
+Sébastien Descotes-Genon, Lars Hofer, Joaquim Matias, and Javier Virto.
+\newblock {Global analysis of $b\to s\ell\ell$ anomalies}.
+\newblock {\em JHEP}, 06:092, 2016.
+
+\bibitem{Capdevila:2016ivx}
+Bernat Capdevila, Sebastien Descotes-Genon, Joaquim Matias, and Javier Virto.
+\newblock {Assessing lepton-flavour non-universality from $B\to K^*\ell\ell$
+  angular analyses}.
+\newblock {\em JHEP}, 10:075, 2016.
+
+\bibitem{Capdevila:2017ert}
+Bernat Capdevila, Sebastien Descotes-Genon, Lars Hofer, and Joaquim Matias.
+\newblock {Hadronic uncertainties in $B \to K^* \mu^+ \mu^-$: a
+  state-of-the-art analysis}.
+\newblock {\em JHEP}, 04:016, 2017.
+
+\bibitem{Serra:2016ivr}
+Nicola Serra, Rafael Silva~Coutinho, and Danny van Dyk.
+\newblock {Measuring the breaking of lepton flavor universality in $B\to
+  K^*\ell^+\ell^-$}.
+\newblock {\em Phys. Rev.}, D95(3):035029, 2017.
+
+\bibitem{Straub:2015ica}
+Aoife Bharucha, David~M. Straub, and Roman Zwicky.
+\newblock {$B\to V\ell^+\ell^-$ in the Standard Model from light-cone sum
+  rules}.
+\newblock {\em JHEP}, 08:098, 2016.
+
+\bibitem{Altmannshofer:2017fio}
+Wolfgang Altmannshofer, Christoph Niehoff, Peter Stangl, and David~M. Straub.
+\newblock {Status of the $B\rightarrow K^*\mu ^+\mu ^-$ anomaly after Moriond
+  2017}.
+\newblock {\em Eur. Phys. J.}, C77(6):377, 2017.
+
+\bibitem{Jager:2014rwa}
+Sebastian Jäger and Jorge Martin~Camalich.
+\newblock {Reassessing the discovery potential of the $B \to K^{*}
+  \ell^+\ell^-$ decays in the large-recoil region: SM challenges and BSM
+  opportunities}.
+\newblock {\em Phys. Rev.}, D93(1):014028, 2016.
+
+\bibitem{Aaij:2017vbb}
+R.~Aaij et~al.
+\newblock {Test of lepton universality with $B^{0} \rightarrow
+  K^{*0}\ell^{+}\ell^{-}$ decays}.
+\newblock {\em JHEP}, 08:055, 2017.
+
+\bibitem{Abe:2003sx}
+Kazuo Abe et~al.
+\newblock {An Upper bound on the decay tau ---> mu gamma from Belle}.
+\newblock {\em Phys. Rev. Lett.}, 92:171802, 2004.
+
+\bibitem{TheMEG:2016wtm}
+A.~M. Baldini et~al.
+\newblock {Search for the lepton flavour violating decay $\mu ^+ \rightarrow
+  \mathrm {e}^+ \gamma $ with the full dataset of the MEG experiment}.
+\newblock {\em Eur. Phys. J.}, C76(8):434, 2016.
+
+\bibitem{Freytsis:2015qca}
+Marat Freytsis, Zoltan Ligeti, and Joshua~T. Ruderman.
+\newblock {Flavor models for $\bar{B} \to D^{(*)} \tau \bar{\nu}$}.
+\newblock {\em Phys. Rev.}, D92(5):054018, 2015.
+
+\bibitem{Bauer:2015knc}
+Martin Bauer and Matthias Neubert.
+\newblock {Minimal Leptoquark Explanation for the R$_{D^{(*)}}$ , R$_K$ , and
+  $(g-2)_g$ Anomalies}.
+\newblock {\em Phys. Rev. Lett.}, 116(14):141802, 2016.
+
+\bibitem{Crivellin:2015mga}
+Andreas Crivellin, Giancarlo D'Ambrosio, and Julian Heeck.
+\newblock {Explaining $h\to\mu^\pm\tau^\mp$, $B\to K^* \mu^+\mu^-$ and $B\to K
+  \mu^+\mu^-/B\to K e^+e^-$ in a two-Higgs-doublet model with gauged
+  $L_\mu-L_\tau$}.
+\newblock {\em Phys. Rev. Lett.}, 114:151801, 2015.
 
 \bibitem{Schwartz:2013pla}
 Matthew~D. Schwartz.
@@ -132,24 +285,11 @@ S.~Fubini and G.~Furlan.
 \newblock {Renormalization effects for partially conserved currents}.
 \newblock {\em Physics Physique Fizika}, 1(4):229--247, 1965.
 
-\bibitem{PhysRevD.87.034503}
-C.~McNeile, A.~Bazavov, C.~T.~H. Davies, R.~J. Dowdall, K.~Hornbostel, G.~P.
-  Lepage, and H.~D. Trottier.
-\newblock Direct determination of the strange and light quark condensates from
-  full lattice qcd.
-\newblock {\em Phys. Rev. D}, 87:034503, Feb 2013.
-
 \bibitem{Lebed:1991sq}
 Richard~F. Lebed and Mahiko Suzuki.
 \newblock {Current algebra and the Ademollo-Gatto theorem in spin flavor
   symmetry of heavy quarks}.
 \newblock {\em Phys. Rev.}, D44:829--836, 1991.
-
-\bibitem{Falk:1992wt}
-Adam~F. Falk and Matthias Neubert.
-\newblock {Second order power corrections in the heavy quark effective theory.
-  1. Formalism and meson form-factors}.
-\newblock {\em Phys. Rev.}, D47:2965--2981, 1993.
 
 \bibitem{PhysRev.78.29}
 Leslie~L. Foldy and Siegfried~A. Wouthuysen.
@@ -163,33 +303,44 @@ G.~Peter Lepage, Lorenzo Magnea, Charles Nakhleh, Ulrika Magnea, and Kent
 \newblock {Improved nonrelativistic QCD for heavy quark physics}.
 \newblock {\em Phys. Rev.}, D46:4052--4067, 1992.
 
-\bibitem{Lepage:1998dt}
-G.~P. Lepage.
-\newblock {Lattice QCD for novices}.
-\newblock In {\em {Strong interactions at low and intermediate energies.
-  Proceedings, 13th Annual Hampton University Graduate Studies, HUGS'98,
-  Newport News, USA, May 26-June 12, 1998}}, pages 49--90, 1998.
+\bibitem{deForcrand:2010ys}
+Philippe de~Forcrand.
+\newblock {Simulating QCD at finite density}.
+\newblock {\em PoS}, LAT2009:010, 2009.
 
-\bibitem{Munster:2000ez}
-G.~Munster and M.~Walzl.
-\newblock {Lattice gauge theory: A Short primer}.
-\newblock In {\em {Phenomenology of gauge interactions. Proceedings, Summer
-  School, Zuoz, Switzerland, August 13-19, 2000}}, pages 127--160, 2000.
+\bibitem{luscher1985}
+M.~Lüscher and P.~Weisz.
+\newblock On-shell improved lattice gauge theories.
+\newblock {\em Comm. Math. Phys.}, 97(1-2):59--77, 1985.
 
-\bibitem{DeGrand:2006zz}
-Thomas DeGrand and Carleton~E. Detar.
-\newblock {\em {Lattice methods for quantum chromodynamics}}.
-\newblock 2006.
+\bibitem{WEISZ19831}
+P.~Weisz.
+\newblock Continuum limit improved lattice action for pure yang-mills theory
+  (i).
+\newblock {\em Nuclear Physics B}, 212(1):1 -- 17, 1983.
 
-\bibitem{Jansen:1994ym}
-Karl Jansen.
-\newblock {Domain wall fermions and chiral gauge theories}.
-\newblock {\em Phys. Rept.}, 273:1--54, 1996.
+\bibitem{WEISZ1984397}
+P.~Weisz and R.~Wohlert.
+\newblock Continuum limit improved lattice action for pure yang-mills theory
+  (ii).
+\newblock {\em Nuclear Physics B}, 236(2):397 -- 422, 1984.
 
-\bibitem{Narayanan:2011qj}
-R.~Narayanan.
-\newblock {Tata lectures on overlap fermions}.
-\newblock 2011.
+\bibitem{Hart:2008sq}
+A.~Hart, G.~M. von Hippel, and R.~R. Horgan.
+\newblock {Radiative corrections to the lattice gluon action for HISQ improved
+  staggered quarks and the effect of such corrections on the static potential}.
+\newblock {\em Phys. Rev.}, D79:074008, 2009.
+
+\bibitem{Wilson:1974sk}
+Kenneth~G. Wilson.
+\newblock {Confinement of Quarks}.
+\newblock {\em Phys. Rev.}, D10:2445--2459, 1974.
+\newblock [,319(1974)].
+
+\bibitem{Kogut:1974ag}
+John~B. Kogut and Leonard Susskind.
+\newblock {Hamiltonian Formulation of Wilson's Lattice Gauge Theories}.
+\newblock {\em Phys. Rev.}, D11:395--408, 1975.
 
 \bibitem{Follana:2006rc}
 E.~Follana, Q.~Mason, C.~Davies, K.~Hornbostel, G.~P. Lepage, J.~Shigemitsu,
@@ -198,10 +349,90 @@ E.~Follana, Q.~Mason, C.~Davies, K.~Hornbostel, G.~P. Lepage, J.~Shigemitsu,
   to charm physics}.
 \newblock {\em Phys. Rev.}, D75:054502, 2007.
 
+\bibitem{Davies:2008nq}
+C.~T.~H. Davies et~al.
+\newblock {Precision charm physics, m(c) and alpha(s) from lattice QCD}.
+\newblock {\em PoS}, LATTICE2008:118, 2008.
+
+\bibitem{Davies:2008hs}
+C.~T.~H. Davies.
+\newblock {Precision charmonium and D physics from lattice QCD and
+  determination of the charm quark mass}.
+\newblock In {\em {Proceedings, 34th International Conference on High Energy
+  Physics (ICHEP 2008): Philadelphia, Pennsylvania, July 30-August 5, 2008}},
+  2008.
+
+\bibitem{Koponen:2011ev}
+Jonna Koponen, Christine T.~H. Davies, Gordon Donald, Eduardo Follana, G.~Peter
+  Lepage, Heechang Na, and Junko Shigemitsu.
+\newblock {The D to K and D to pi semileptonic decay form factors from Lattice
+  QCD}.
+\newblock {\em PoS}, LATTICE2011:286, 2011.
+
+\bibitem{Na:2011mc}
+Heechang Na, Christine T.~H. Davies, Eduardo Follana, Jonna Koponen, G.~Peter
+  Lepage, and Junko Shigemitsu.
+\newblock {$D \rightarrow \pi, l \nu$ Semileptonic Decays, $|V_{cd}|$ and
+  2$^{nd}$ Row Unitarity from Lattice QCD}.
+\newblock {\em Phys. Rev.}, D84:114505, 2011.
+
+\bibitem{Na:2012uh}
+Heechang Na, Chris Monahan, Christine Davies, Eduardo Follana, Ron Horgan,
+  Peter Lepage, and Junko Shigemitsu.
+\newblock {Precise Determinations of the Decay Constants of B and D mesons}.
+\newblock {\em PoS}, LATTICE2012:102, 2012.
+
+\bibitem{Na:2012iu}
+Heechang Na, Christine T.~H. Davies, Eduardo Follana, G.~Peter Lepage, and
+  Junko Shigemitsu.
+\newblock {$|V_{cd}|$ from D Meson Leptonic Decays}.
+\newblock {\em Phys. Rev.}, D86:054510, 2012.
+
+\bibitem{Koponen:2013ila}
+Jonna Koponen.
+\newblock {Lattice results for $D/D_s$ leptonic and semileptonic decays}.
+\newblock In {\em {Proceedings, 6th International Workshop on Charm Physics
+  (Charm 2013): Manchester, UK, August 31-September 4, 2013}}, 2013.
+
+\bibitem{McNeile:2012qf}
+C.~McNeile, C.~T.~H. Davies, E.~Follana, K.~Hornbostel, and G.~P. Lepage.
+\newblock {Heavy meson masses and decay constants from relativistic heavy
+  quarks in full lattice QCD}.
+\newblock {\em Phys. Rev.}, D86:074503, 2012.
+
+\bibitem{Lytle:2016ixw}
+Andrew Lytle, Brian Colquhoun, Christine Davies, Jonna Koponen, and Craig
+  McNeile.
+\newblock {Semileptonic $B_c$ decays from full lattice QCD}.
+\newblock {\em PoS}, BEAUTY2016:069, 2016.
+
+\bibitem{Gray:2005ur}
+A.~Gray, I.~Allison, C.~T.~H. Davies, Emel Dalgic, G.~P. Lepage, J.~Shigemitsu,
+  and M.~Wingate.
+\newblock {The Upsilon spectrum and m(b) from full lattice QCD}.
+\newblock {\em Phys. Rev.}, D72:094507, 2005.
+
+\bibitem{Davies:2018fwg}
+Christine T.~H. Davies, Judd Harrison, Ciaran Hughes, Ronald~R. Horgan,
+  Georg~M. von Hippel, and Matthew Wingate.
+\newblock {Improving the Kinetic Couplings in Lattice Non-Relativistic QCD}.
+\newblock 2018.
+
+\bibitem{Dowdall:2011wh}
+R.~J. Dowdall et~al.
+\newblock {The Upsilon spectrum and the determination of the lattice spacing
+  from lattice QCD including charm quarks in the sea}.
+\newblock {\em Phys. Rev.}, D85:054509, 2012.
+
 \bibitem{Peskin:1995ev}
 Michael~E. Peskin and Daniel~V. Schroeder.
 \newblock {\em {An Introduction to quantum field theory}}.
 \newblock 1995.
+
+\bibitem{DeGrand:2006zz}
+Thomas DeGrand and Carleton~E. Detar.
+\newblock {\em {Lattice methods for quantum chromodynamics}}.
+\newblock 2006.
 
 \bibitem{Bazavov:2012xda}
 A.~Bazavov et~al.
@@ -219,5 +450,12 @@ B.~Colquhoun, C.~T.~H. Davies, R.~J. Dowdall, J.~Kettle, J.~Koponen, G.~P.
 \newblock {B-meson decay constants: a more complete picture from full lattice
   QCD}.
 \newblock {\em Phys. Rev.}, D91(11):114509, 2015.
+
+\bibitem{Monahan:2017uby}
+Christopher~J Monahan, Heechang Na, Chris~M Bouchard, G~Peter Lepage, and Junko
+  Shigemitsu.
+\newblock {$B_s \to D_s \ell \nu$ Form Factors and the Fragmentation Fraction
+  Ratio $f_s/f_d$}.
+\newblock 2017.
 
 \end{thebibliography}
