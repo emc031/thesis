@@ -11,185 +11,185 @@ A level-1 auxiliary file: BsDsstar.aux
 A level-1 auxiliary file: BsDs.aux
 The style file: unsrt.bst
 Database file #1: Thesis.bib
-I was expecting a `,' or a `}'---line 825 of file Thesis.bib
+I was expecting a `,' or a `}'---line 961 of file Thesis.bib
  : 
  : @article{Bigi:2017njr,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "CorrFitter" isn't style-file defined
---line 1036 of file Thesis.bib
-I was expecting a `,' or a `}'---line 1044 of file Thesis.bib
+--line 1172 of file Thesis.bib
+I was expecting a `,' or a `}'---line 1180 of file Thesis.bib
  : 
  : @article{Monahan:2012dq,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 1133 of file Thesis.bib
+Repeated entry---line 1269 of file Thesis.bib
  : @article{Altmannshofer:2017yso
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1145 of file Thesis.bib
+Repeated entry---line 1281 of file Thesis.bib
  : @article{Aaij:2015yra
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1260 of file Thesis.bib
+Repeated entry---line 1396 of file Thesis.bib
  : @article{Bazavov:2012xda
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1630 of file Thesis.bib
+Repeated entry---line 1766 of file Thesis.bib
  : @article{Jager:2014rwa
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1714 of file Thesis.bib
+Repeated entry---line 1850 of file Thesis.bib
  : @article{Bailey:2014tva
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1734 of file Thesis.bib
+Repeated entry---line 1870 of file Thesis.bib
  : @article{Lattice:2015rga
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1752 of file Thesis.bib
+Repeated entry---line 1888 of file Thesis.bib
  : @article{Bigi:2017njr
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1801 of file Thesis.bib
+Repeated entry---line 1937 of file Thesis.bib
  : @article{Scherer:2002tk
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1816 of file Thesis.bib
+Repeated entry---line 1952 of file Thesis.bib
  : @article{Fubini:1964boa
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1850 of file Thesis.bib
+Repeated entry---line 1986 of file Thesis.bib
  : @article{Lebed:1991sq
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1864 of file Thesis.bib
+Repeated entry---line 2000 of file Thesis.bib
  : @article{Bazavov:2012xda
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1919 of file Thesis.bib
- : @article{Monahan:2017uby
- :                         ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1931 of file Thesis.bib
+Repeated entry---line 2067 of file Thesis.bib
  : @online{CorrFitter
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2028 of file Thesis.bib
+Repeated entry---line 2164 of file Thesis.bib
  : @article{Altmannshofer:2017yso
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2040 of file Thesis.bib
+Repeated entry---line 2176 of file Thesis.bib
  : @article{Aaij:2015yra
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2062 of file Thesis.bib
+Repeated entry---line 2198 of file Thesis.bib
  : @article{Na:2015kha
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2081 of file Thesis.bib
+Repeated entry---line 2217 of file Thesis.bib
  : @article{PhysRev.78.29
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2111 of file Thesis.bib
+Repeated entry---line 2247 of file Thesis.bib
  : @article{Gray:2005ur
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2169 of file Thesis.bib
+Repeated entry---line 2305 of file Thesis.bib
  : @article{Bazavov:2012xda
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2215 of file Thesis.bib
+Repeated entry---line 2351 of file Thesis.bib
  : @book{Schwartz:2013pla
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2232 of file Thesis.bib
- : @book{DeGrand:2006zz
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2240 of file Thesis.bib
+Repeated entry---line 2376 of file Thesis.bib
  : @book{Peskin:1995ev
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2313 of file Thesis.bib
- : @article{Colquhoun:2015oha
- :                           ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2332 of file Thesis.bib
+Repeated entry---line 2468 of file Thesis.bib
  : @article{Follana:2006rc
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2365 of file Thesis.bib
+Repeated entry---line 2501 of file Thesis.bib
  : @article{Lepage:1992tx
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2381 of file Thesis.bib
+Repeated entry---line 2517 of file Thesis.bib
  : @article{Dowdall:2011wh
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2449 of file Thesis.bib
+Repeated entry---line 2550 of file Thesis.bib
+ : @article{Lepage:2001ym
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2585 of file Thesis.bib
  : @article{Borasoy:2007yi
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2527 of file Thesis.bib
+Repeated entry---line 2663 of file Thesis.bib
  : @article{ALTAREV1992242
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2542 of file Thesis.bib
+Repeated entry---line 2678 of file Thesis.bib
  : @article{PhysRevLett.30.1343
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2558 of file Thesis.bib
+Repeated entry---line 2694 of file Thesis.bib
  : @article{Jager:2014rwa
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2626 of file Thesis.bib
+Repeated entry---line 2779 of file Thesis.bib
  : @article{BUSKULIC1995236
+ :                         ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2974 of file Thesis.bib
+ : 
+ : @article{Bazavov:2012xda,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 2974 of file Thesis.bib
+ : @article{Bazavov:2012xda
  :                         ,
 I'm skipping whatever remains of this entry
 Warning--empty journal in Davies:2018fwg
 Warning--empty publisher in Peskin:1995ev
-Warning--empty publisher in DeGrand:2006zz
-Warning--empty journal in Monahan:2017uby
-You've used 76 entries,
+Warning--empty journal in Jegerlehner:1996pm
+You've used 95 entries,
             1791 wiz_defined-function locations,
-            944 strings with 17877 characters,
-and the built_in function-call counts, 16748 in all, are:
-= -- 1387
-> -- 822
+            1068 strings with 21098 characters,
+and the built_in function-call counts, 21333 in all, are:
+= -- 1799
+> -- 1024
 < -- 0
-+ -- 303
-- -- 227
-* -- 1224
-:= -- 2809
-add.period$ -- 233
-call.type$ -- 76
-change.case$ -- 73
++ -- 378
+- -- 283
+* -- 1581
+:= -- 3564
+add.period$ -- 293
+call.type$ -- 95
+change.case$ -- 93
 chr.to.int$ -- 0
-cite$ -- 80
-duplicate$ -- 687
-empty$ -- 1654
-format.name$ -- 227
-if$ -- 3646
+cite$ -- 98
+duplicate$ -- 857
+empty$ -- 2094
+format.name$ -- 283
+if$ -- 4640
 int.to.chr$ -- 0
-int.to.str$ -- 76
-missing$ -- 78
-newline$ -- 388
-num.names$ -- 76
-pop$ -- 116
+int.to.str$ -- 95
+missing$ -- 96
+newline$ -- 486
+num.names$ -- 95
+pop$ -- 125
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 260
+skip$ -- 325
 stack$ -- 0
-substring$ -- 1164
-swap$ -- 76
+substring$ -- 1589
+swap$ -- 95
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 4
-while$ -- 147
-width$ -- 78
-write$ -- 836
+warning$ -- 3
+while$ -- 191
+width$ -- 97
+write$ -- 1053
 (There were 33 error messages)

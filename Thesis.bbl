@@ -10,6 +10,12 @@ Bugra Borasoy.
 \newblock {Introduction to Chiral Perturbation Theory}.
 \newblock {\em Springer Proc. Phys.}, 118:1--26, 2008.
 
+\bibitem{Aubert:2006cx}
+Bernard Aubert et~al.
+\newblock {Measurements of the $B \to D^{*}$ form-factors using the decay
+  $\bar{B}^0 \to D^{*+} e^{-}$ electron-neutrino}.
+\newblock {\em Phys. Rev.}, D74:092004, 2006.
+
 \bibitem{Bigi:1996si}
 Ikaros I.~Y. Bigi, Mikhail~A. Shifman, N.~Uraltsev, and Arkady~I. Vainshtein.
 \newblock {High power $n$ of $m_b$ in beauty widths and $n=5 \to \infty$
@@ -168,6 +174,19 @@ Y.~Amhis et~al.
 Wolfgang Altmannshofer, Peter Stangl, and David~M. Straub.
 \newblock {Interpreting Hints for Lepton Flavor Universality Violation}.
 \newblock {\em Phys. Rev.}, D96(5):055008, 2017.
+
+\bibitem{Bobeth:2007dw}
+Christoph Bobeth, Gudrun Hiller, and Giorgi Piranishvili.
+\newblock {Angular distributions of $\bar{B} \to \bar{K} \ell^+\ell^-$ decays}.
+\newblock {\em JHEP}, 12:040, 2007.
+
+\bibitem{Bouchard:2013mia}
+Chris Bouchard, G.~Peter Lepage, Christopher Monahan, Heechang Na, and Junko
+  Shigemitsu.
+\newblock {Standard Model Predictions for $B \to K \ell^+ \ell^-$ with Form
+  Factors from Lattice QCD}.
+\newblock {\em Phys. Rev. Lett.}, 111(16):162002, 2013.
+\newblock [Erratum: Phys. Rev. Lett.112,no.14,149902(2014)].
 
 \bibitem{Aaij:2014ora}
 Roel Aaij et~al.
@@ -429,10 +448,78 @@ Michael~E. Peskin and Daniel~V. Schroeder.
 \newblock {\em {An Introduction to quantum field theory}}.
 \newblock 1995.
 
-\bibitem{DeGrand:2006zz}
-Thomas DeGrand and Carleton~E. Detar.
-\newblock {\em {Lattice methods for quantum chromodynamics}}.
-\newblock 2006.
+\bibitem{PhysRevLett.49.613}
+David J.~E. Callaway and Aneesur Rahman.
+\newblock Microcanonical ensemble formulation of lattice gauge theory.
+\newblock {\em Phys. Rev. Lett.}, 49:613--616, Aug 1982.
+
+\bibitem{PhysRevD.28.1506}
+David J.~E. Callaway and Aneesur Rahman.
+\newblock Lattice gauge theory in the microcanonical ensemble.
+\newblock {\em Phys. Rev. D}, 28:1506--1514, Sep 1983.
+
+\bibitem{PhysRevLett.55.2774}
+Simon Duane and John~B. Kogut.
+\newblock Hybrid stochastic differential equations applied to quantum
+  chromodynamics.
+\newblock {\em Phys. Rev. Lett.}, 55:2774--2777, Dec 1985.
+
+\bibitem{duane1986}
+Simon Duane and John Kogut.
+\newblock The theory of hybrid stochastic algorithms.
+\newblock {\em Nuclear Physics B}, 275:398--420, 11 1986.
+
+\bibitem{doi:10.1063/1.1699114}
+Nicholas Metropolis, Arianna~W. Rosenbluth, Marshall~N. Rosenbluth, Augusta~H.
+  Teller, and Edward Teller.
+\newblock Equation of state calculations by fast computing machines.
+\newblock {\em The Journal of Chemical Physics}, 21(6):1087--1092, 1953.
+
+\bibitem{DUANE1987216}
+Simon Duane, A.D. Kennedy, Brian~J. Pendleton, and Duncan Roweth.
+\newblock Hybrid monte carlo.
+\newblock {\em Physics Letters B}, 195(2):216 -- 222, 1987.
+
+\bibitem{PhysRevD.35.2531}
+Steven Gottlieb, W.~Liu, D.~Toussaint, R.~L. Renken, and R.~L. Sugar.
+\newblock Hybrid-molecular-dynamics algorithms for the numerical simulation of
+  quantum chromodynamics.
+\newblock {\em Phys. Rev. D}, 35:2531--2542, Apr 1987.
+
+\bibitem{JANSEN20043}
+K.~Jansen.
+\newblock Actions for dynamical fermion simulations: are we ready to go?
+\newblock {\em Nuclear Physics B - Proceedings Supplements}, 129-130:3 -- 16,
+  2004.
+\newblock Lattice 2003.
+
+\bibitem{CREUTZ2007230}
+Michael Creutz.
+\newblock Chiral anomalies and rooted staggered fermions.
+\newblock {\em Physics Letters B}, 649(2):230 -- 234, 2007.
+
+\bibitem{Creutz:2007rk}
+Michael Creutz.
+\newblock {Why rooting fails}.
+\newblock {\em PoS}, LATTICE2007:007, 2007.
+
+\bibitem{Clark:2006fx}
+M.~A. Clark and A.~D. Kennedy.
+\newblock {Accelerating dynamical fermion computations using the rational
+  hybrid Monte Carlo (RHMC) algorithm with multiple pseudofermion fields}.
+\newblock {\em Phys. Rev. Lett.}, 98:051601, 2007.
+
+\bibitem{Frommer:1995ik}
+Andreas Frommer, Bertold Nockel, Stephan Gusken, Thomas Lippert, and Klaus
+  Schilling.
+\newblock {Many masses on one stroke: Economic computation of quark
+  propagators}.
+\newblock {\em Int. J. Mod. Phys.}, C6:627--638, 1995.
+
+\bibitem{Jegerlehner:1996pm}
+Beat Jegerlehner.
+\newblock {Krylov space solvers for shifted linear systems}.
+\newblock 1996.
 
 \bibitem{Bazavov:2012xda}
 A.~Bazavov et~al.
@@ -440,22 +527,45 @@ A.~Bazavov et~al.
   quarks}.
 \newblock {\em Phys. Rev.}, D87(5):054505, 2013.
 
+\bibitem{Bazavov:2010ru}
+A.~Bazavov et~al.
+\newblock {Scaling studies of QCD with the dynamical HISQ action}.
+\newblock {\em Phys. Rev.}, D82:074501, 2010.
+
+\bibitem{Dowdall:2013rya}
+R.~J. Dowdall, C.~T.~H. Davies, G.~P. Lepage, and C.~McNeile.
+\newblock {Vus from pi and K decay constants in full lattice QCD with physical
+  u, d, s and c quarks}.
+\newblock {\em Phys. Rev.}, D88:074504, 2013.
+
+\bibitem{Chakraborty:2014aca}
+Bipasha Chakraborty, C.~T.~H. Davies, B.~Galloway, P.~Knecht, J.~Koponen, G.~C.
+  Donald, R.~J. Dowdall, G.~P. Lepage, and C.~McNeile.
+\newblock {High-precision quark masses and QCD coupling from $n_f=4$ lattice
+  QCD}.
+\newblock {\em Phys. Rev.}, D91(5):054508, 2015.
+
+\bibitem{Hestenes&Stiefel:1952}
+M.~R. Hestenes and E.~Stiefel.
+\newblock Methods of conjugate gradients for solving linear systems.
+\newblock {\em Journal of research of the National Bureau of Standards},
+  49:409--436, 1952.
+
+\bibitem{Guadagnoli:2005be}
+D.~Guadagnoli, F.~Mescia, and S.~Simula.
+\newblock {Lattice study of semileptonic form-factors with twisted boundary
+  conditions}.
+\newblock {\em Phys. Rev.}, D73:114504, 2006.
+
 \bibitem{CorrFitter}
 G.P.Lepage.
 \newblock Corrfitter: https://github.com/gplepage/corrfitter, 2012.
 
-\bibitem{Colquhoun:2015oha}
-B.~Colquhoun, C.~T.~H. Davies, R.~J. Dowdall, J.~Kettle, J.~Koponen, G.~P.
-  Lepage, and A.~T. Lytle.
-\newblock {B-meson decay constants: a more complete picture from full lattice
-  QCD}.
-\newblock {\em Phys. Rev.}, D91(11):114509, 2015.
-
-\bibitem{Monahan:2017uby}
-Christopher~J Monahan, Heechang Na, Chris~M Bouchard, G~Peter Lepage, and Junko
-  Shigemitsu.
-\newblock {$B_s \to D_s \ell \nu$ Form Factors and the Fragmentation Fraction
-  Ratio $f_s/f_d$}.
-\newblock 2017.
+\bibitem{Lepage:2001ym}
+G.~P. Lepage, B.~Clark, C.~T.~H. Davies, K.~Hornbostel, P.~B. Mackenzie,
+  C.~Morningstar, and H.~Trottier.
+\newblock {Constrained curve fitting}.
+\newblock {\em Nucl. Phys. Proc. Suppl.}, 106:12--20, 2002.
+\newblock [,12(2001)].
 
 \end{thebibliography}
