@@ -354,7 +354,7 @@ By integrating $|\mathcal{M}|^2$ over all final lepton and neutrino momenta, one
   \label{eq:branchingfraction}
   &\left[ \left( 1 + {m_l^2\over 2q^2}\right) M^2 |{\bf{p}}|^2 f_+^2(q^2) + {3m_l^2\over 8q^2} (M^2-m^2)^2 f_0^2(q^2) \right]. \nonumber
 \end{align}
-$\eta_{\text{EW}}$ is the electroweak correction, due to diagrams involving an exchange of a photon or a $Z$-boson alongside the $W$ between the meson and leptons. ${\bf{p}}$ is the final meson state ($M'$) spacial momentum. Once again, to deduce $|V_{q_1q_2}|$, one requires both the decay rates $d\Gamma/dq^2$, and the form factors $f_0(q^2)$,$f_+(q^2)$. To precisely determine the form factors requires a Lattice QCD calculation.
+${\eta}_{\text{EW}}$ accounts for electroweak corrections due to diagrams where photons or $Z$s are exchanged in addition to a $W^-$, as well as the Coulomb attraction of the final-state charged particles \cite{SIRLIN198283,Ginsberg1968,PhysRevD.41.1736}. ${\bf{p}}$ is the final meson state ($M'$) spacial momentum. Once again, to deduce $|V_{q_1q_2}|$, one requires both the decay rates $d\Gamma/dq^2$, and the form factors $f_0(q^2)$,$f_+(q^2)$. To precisely determine the form factors requires a Lattice QCD calculation.
 
 In the {\bf{pseudoscalar$\to$vector}} case, both the vector and axial-vector components of the current survive in the matrix element. A common choice of parameterisation is
 %% \begin{align}
@@ -371,8 +371,9 @@ In the {\bf{pseudoscalar$\to$vector}} case, both the vector and axial-vector com
 $v = P/M$ and $v' = p/m$ are the 4-velocities of $M$ and $M'$ respectively. $\epsilon$ is the polarization of the vector meson $M'$. $w = v\cdot v'$ is known as the recoil parameter, this is an alternative to $q^2$ often used in heavy quark effective theory. $h_V(w),h_{A_0}(w),h_{A_1}(w)$, and $h_{A_2}(w)$ are the form factors accounting for the non-perturbative physics. The decay rate is given by
 \begin{align}
   {d\Gamma \over dw}(M\to M' l\bar{\nu}) = {G_F^2 m^3 | \eta_{\text{EW}} V_{q_1q_2} |^2 \over 4\pi^3 } (M-m)^2 \sqrt{w^2-1} \, \chi(w) |\mathcal{F}(w)|^2,
+  \label{eq:pseudoscalar-vector-dr}
 \end{align}
-where $\mathcal{F}(w)$ is a linear combination of the form factors and $\chi(w)$ is a known function of $w$ (both given in e.g. \cite{Aubert:2006cx}).
+where $\mathcal{F}(w)$ is a linear combination of the form factors and $\chi(w)$ is a known function of $w$ (both given in e.g. appendix G of \cite{Harrison:2017fmw}).
 
 At the zero recoil point, where $q^2$ is maximized at $q^2_{\text{max}} = (M-m)^2$, (correpsonding to $w=1$), a single form factor contributes
 \begin{align}
@@ -425,6 +426,7 @@ The SM can be tested by studying semileptonic decays more directly, without any 
 The ratios are defined by
 \begin{align}
   R_{X_q} = {\Gamma(B_q\to X_q \tau \nu_{\tau}) \over {1\over 2}\left[\Gamma(B_q\to X_q e \nu_e) + \Gamma(B_q\to X_q \mu \nu_{\mu}) \right]},
+  \label{eq:Rratios}
 \end{align}
 where $X_q$ is any meson with valence quark content $x\bar{q}$. The numerator and denomenator will have the same power of $|V_{bx}|$, so cancel in the ratio.
 
@@ -718,6 +720,7 @@ We will now use HQET to derive a useful theorem used in our work.
 %% Here we have subscripted the fields $c_{v'}$,$b_v$ to specify the velocity used to separate those fields from the heavy components e.g. in eq. \eqref{eq:hdef}.
 
 \subsubsection{Luke's Theorem}
+\label{sec:Luke}
 
 Luke's theorem, which can be derived from the Ademollo-Gatto (AG) theorem, tells us the leading order heavy quark mass dependence of form factors. First we will derive the AG theorem. We will follow the proof given in \cite{Lebed:1991sq}.
 
@@ -773,6 +776,7 @@ This carries onto the pseudoscalar-vector and pseudoscalar-pseudoscalar form fac
 where here $h_+$ comes from an HQET-inspired parameterisation of pseudoscalar-pseudoscalar transition amplitudes alternative to \eqref{eq:formfactors_experimental}:
 \begin{align}
   {\langle M' | V^{q_1q^2}_{\mu} | M \rangle \over \sqrt{Mm}} = h_+(w)(v+v')_{\mu} + h_-(w)(v-v')_{\mu}.
+  \label{eq:pseudoscalar_hqet}
 \end{align}
 The factors $\eta_{A,V}$ in \eqref{eq:hA1} and \eqref{eq:hplus} are matching factors between QCD and HQET, and can contain logarithms of heavy masses. The factors $l_{V,A,P}$ are free non-perturbative parameters that must be fixed by some non-perturbative calculation e.g. a lattice QCD calculation.
 

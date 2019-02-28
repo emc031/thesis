@@ -330,10 +330,33 @@ Since we know $S$ is invariant under this transformation, it must be true that $
     We can show more explicitly how this happens. To do this, consider rewriting an isolated taste \eqref{eq:block-scaling} in the staggered formalism, i.e., in terms of $\chi$;
     \begin{align}
       \psi^{(\zeta)}(x_B) = {1\over 16} \sum_{\delta x_{\mu} \in \mathbb{Z}_2} \gamma_{\delta x} \mathcal{B}_{\zeta}(0) \chi(x+\delta x).
+    \label{eq:chi_blockscale}
     \end{align}
     Recall we set $\chi(x) = (\chi_1(x),0,0,0)$. The product $\gamma_{\delta x} \mathcal{B}_{\zeta}(0)$ is simply a product of gamma matrices, so can only serve to ``scramble'' the elements of $\chi$. Then, in the staggered formalism, all 16 tastes $\psi^{(\zeta)}$ amount to only 4 distinguishable fermions: $(\chi_1,0,0,0)$, $(0,\chi_1,0,0)$, $(0,0,\chi_1,0)$, $(0,0,0,\chi_1)$ (with factors of (-1) and $i$).
 
-    In practice in lattice calculations, the remaining multiplicity is tacked in 3 steps:
+    To obtain a useful new notation for staggered quarks, we can rewrite \eqref{eq:chi_blockscale} as
+    \begin{align}
+      \psi^{\alpha a}(x_B) = {1\over 8} \sum_{\eta} \gamma_{\eta}^{\alpha a} \chi(x_B+a\eta),
+    \end{align}
+    where $\eta_{\mu}\in \mathbb{Z}_2\,\forall \mu$. $\psi^{\alpha a}$ has spin $\alpha$ and taste $a$. Define the {\it{spin-taste}} notation for operators on $\psi^{\alpha a}$ as $(\gamma_n\otimes \gamma_m)$, where $\gamma_n$ acts on the spin component $\alpha$ and $\gamma_m$ acts on the taste component $a$. 
+
+    One can see that the first operator in the spin-taste notation correpsonds to regular spin in the continuum by writing the (free) action in terms of $\psi^{\alpha a}$:
+    \begin{align}
+      \nonumber
+      S =& \sum_{x_B,\mu} \bar{\psi}(x_B) \left[ (\gamma_{\mu}\otimes 1) \nabla_{\mu} + a ( \gamma_5 \otimes \gamma_{\mu} \gamma^*_5 ) \nabla^{(2)}_{\mu} + {m\over 4}\, (1\otimes 1)  \right] \psi(x_B), \\
+      \nonumber
+      &\nabla_{\mu}\psi(x_B) = {1\over a}\left( \psi(x_B+2a) - \psi(x_B-2a) \right), \\
+      &\nabla^{(2)}_{\mu}\psi(x_B) = {1\over 4a^2}\left( \psi(x_B+2a) - 2\psi(x_B) + \psi(x_B-2a) \right).
+    \end{align}
+    One can see that if we interpret the first operator as the continuum spin, we obtain the continuum Dirac action in the $a\to 0$ limit. Including interactions make the $\order{a}$ term more complicated, but the argument is unchanged.
+
+    Hence, to reproduce some current $\bar{\psi}\gamma_n\psi$ in the continuum, one can use $\bar{\psi}(\gamma_n\otimes \gamma_m)\psi$ on the lattice, where we have the freedom to choose any $\gamma_m$. In terms of $\chi$ fields these look like
+    \begin{align}
+      \bar{\psi}(x_B)(\gamma_n\otimes \gamma_m) \psi(x_B) = \sum_{\eta,\eta'} \text{Tr} (\gamma_{\eta} \gamma_n \gamma_{\eta'} \gamma_m) \chi^{\dagger}(x_B+a\eta) \chi(x_B+a\eta').
+    \end{align}
+    The $n=m$ case results in local operators in terms of $\chi$, since the trace will vanish unless $\eta=\eta'$. To build the case with $n\neq m$, one must use 'point-split' operators, i.e. $\chi^{\dagger} (x) \chi(x+\delta x)$.
+
+    In practice in lattice calculations, the multiplicity of tastes is tacked in 3 steps:
     \begin{enumerate}
     \item
       Ensure only one taste is created and destroyed in the propagator.

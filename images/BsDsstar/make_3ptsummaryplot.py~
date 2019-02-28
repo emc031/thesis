@@ -1,0 +1,140 @@
+#!/usr/bin/env python
+# encoding: utf-8
+# Andrew Lytle, 2015
+"""
+Created by Peter Lepage on 2010-11-26.
+Copyright (c) 2010/2011 Cornell University. All rights reserved.
+"""
+
+import pylab as p
+import re
+
+#import lsqfit
+import gvar as gv
+import pickle
+from numpy import array
+import math
+
+#lsqfit.LSQFit.fmt_parameter = '%8.4f +- %8.4f'
+try: 
+    import matplotlib
+except ImportError:
+    DISPLAYPLOTS = False
+
+def ratio(Bcetac, etac, Bc, T):
+    return [Bcetac[t]/(etac[T-t]*Bc[t]) for t in range(T)]
+
+def ts(c,n): #smears time n times to dampen oscillations
+    for m in range(n):
+        c = [ (c[t]+c[t+1])/2 for t in range(len(c)-1)]
+    return c
+
+def ts2(c): #re-centered second order time smear
+    return [ c[0] ] + [ (c[t+1]+2*c[t]+c[t-1])/4 for t in range(1,len(c)-1) ] + [ c[-1] ]
+
+def ferr(c): #fractional error
+    return [ gv.sdev(c[t]) / gv.mean(c[t]) for t in range(len(c)-1) ]
+
+def fcor(c1,c2): #fractional correlation 
+    return [ sqrt(abs(gv.evalcov([c1[t],c2[t]])[0,1])) / gv.mean( ( c1[t] + c2[t] )/2 )
+                  for t in range(len(c1)-1) ]
+
+def main():
+    Ts=[14,17,20]
+
+    fit = pickle.load( open( "formfactors/p/fine.p" ) )
+
+    eb_in = lambda r: (range(1,len(r)+1), 
+                       [y.mean for y in r], [y.sdev for y in r])
+    eb_in2 = lambda r: (range(1,len(r)+1), 
+                        [y for y in r])
+    p.rc('font', **{'family': 'serif', 'serif': ['Computer Modern'],'size':16})
+    p.rc('text', usetex=True)
+    p.figure()
+    p.xlim([1,Ts[-1]+1])
+    p.grid(True)
+
+    data = make_data([ "fine/gpl/BsDs_fine.gpl", "fine/gpl/Hs_fine.gpl", "fine/gpl/Ds_fine.gpl" ])
+
+    p.subplot(121)
+
+    p.title(r'$S$',fontsize=25)
+    p.ylabel(r'$C_{3pt,S}(t,T)/[C_{H_s}(t) C_{D_s}(T-t)]$',fontsize=20)
+    p.xlabel('$t$',fontsize=20)
+    p.xticks(fontsize=18)
+    p.yticks(fontsize=18)
+
+    n=0
+    for n,c,mh in zip(range(3),['red','blue'],[0.5,0.8]):
+
+        for th,line,lab in zip([ '0','0.328','1.900' ],['-','--','--'],['q^2_{max}','q^2=0','q^2=0']):
+
+            try:
+
+                c3 = [ data['Hs'+str(mh)+'.S.Ds-th'+str(th)+'_T'+str(T)+'.ll'] for T in Ts ]
+                r1 = ts2(ratio( c3[0], data['Ds-th'+str(th)+'.ll'], data['Hs'+str(mh)+'.ll'], Ts[0] ) )
+                r2 = ts2(ratio( c3[1], data['Ds-th'+str(th)+'.ll'], data['Hs'+str(mh)+'.ll'], Ts[1] ) )
+                r3 = ts2(ratio( c3[2], data['Ds-th'+str(th)+'.ll'], data['Hs'+str(mh)+'.ll'], Ts[2] ) )
+
+                p.errorbar(*eb_in(r1),color=c,linestyle=line,label=r"$m_h="+str(mh)+', '+lab+'$' )
+                p.errorbar(*eb_in(r2),color=c,linestyle=line,label='_nolegend_')
+                p.errorbar(*eb_in(r3),color=c,linestyle=line,label='_nolegend_')
+                
+                fitratio = fit['Vnn_Hs'+str(mh)+'.S.Ds-th'+th][0][0]/(fit['Hs'+str(mh)+':al'][0]*fit['Ds-th'+th+':al'][0])
+                p.axhspan(gv.mean(fitratio)-gv.sdev(fitratio),gv.mean(fitratio)+gv.sdev(fitratio),facecolor="grey",alpha=0.5)
+
+            except KeyError: pass
+
+
+    p.subplot(122)
+
+    p.title(r'$V_0$',fontsize=25)
+    p.ylabel(r'$C_{3pt,V_0}(t,T)/[C^{\gamma_0\gamma_5}_{H_s}(t) C_{D_s}(T-t)]$',fontsize=20)
+    p.xlabel('$t$',fontsize=20)
+    p.xticks(fontsize=18)
+    p.yticks(fontsize=18)
+
+    for n,c,mh in zip(range(3),['red','blue'],[0.5,0.8]):
+
+        for th,line,lab in zip([ '0','0.328','1.900' ],['-','--','--'],['q^2_{max}','q^2=0','q^2=0']):
+
+            try:
+
+                c3 = [ data['Hs'+str(mh)+'-g5t.V0.Ds-th'+str(th)+'_T'+str(T)+'.ll'] for T in Ts ]
+                r1 = ts2(ratio( c3[0], data['Ds-th'+str(th)+'.ll'], data['Hs'+str(mh)+'-g5t.ll'], Ts[0] )  )
+                r2 = ts2(ratio( c3[1], data['Ds-th'+str(th)+'.ll'], data['Hs'+str(mh)+'-g5t.ll'], Ts[1] )  )
+                r3 = ts2(ratio( c3[2], data['Ds-th'+str(th)+'.ll'], data['Hs'+str(mh)+'-g5t.ll'], Ts[2] )  )
+
+                p.errorbar(*eb_in(r1),color=c,linestyle=line,label=r"$m_h="+str(mh)+', '+lab+'$' )
+                p.errorbar(*eb_in(r2),color=c,linestyle=line,label='_nolegend_')
+                p.errorbar(*eb_in(r3),color=c,linestyle=line,label='_nolegend_')
+
+                fitratio = fit['Vnn_Hs'+str(mh)+'-g5t.V0.Ds-th'+th][0][0]/(fit['Hs'+str(mh)+'-g5t:al'][0]*fit['Ds-th'+th+':al'][0])
+                p.axhspan(gv.mean(fitratio)-gv.sdev(fitratio),gv.mean(fitratio)+gv.sdev(fitratio),facecolor="grey",alpha=0.5)
+
+            except KeyError: pass
+
+    p.legend(bbox_to_anchor=(1.0,0.3))
+    p.show()
+    
+def make_data(filename):
+
+    if isinstance(filename,list):
+        dset_raw = gv.dataset.Dataset()
+        for f in filename: 
+            idset = gv.dataset.Dataset(f)
+            for key in idset: dset_raw[key] = array(idset[key])
+    else:
+        dset_raw = gv.dataset.Dataset(filename)
+
+    dset=gv.dataset.Dataset()
+    for key in dset_raw:
+        T = re.compile('_T(\d*)\.').findall(key)
+        if T: dset[key] = [ c[:int(T[0])] for c in dset_raw[key] ]
+        else: dset[key] = array(dset_raw[key])
+
+    return gv.dataset.avg_data(dset)
+
+if __name__ == '__main__':
+    main()
+

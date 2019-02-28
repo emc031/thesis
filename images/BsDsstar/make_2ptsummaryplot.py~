@@ -1,0 +1,184 @@
+#!/usr/bin/env python
+# encoding: utf-8
+
+import pylab as p
+from pylab import cm
+import gvar as gv
+from gvar import log, sqrt, exp, cosh
+import math
+import pickle
+
+def invertosc(c): #switches oscillating and non-oscillating part
+    return [ (-1)**(t+1) *c[t] for t in range(len(c)) ]
+
+def ts(c,n): #smears time n times to dampen oscillations
+    for m in range(n):
+        c = [ (c[t]+c[t+1])/2 for t in range(len(c)-1)]
+    return c
+
+def ts2(c): #re-centered second order time smear
+#    return [ (c[t+1]+2*c[t]+c[t-1])/4 for t in range(1,len(c)-1) ]
+    return [ (2*c[t]+c[t+1]+c[t+2])/4 for t in range(len(c)-2) ] # asymmetric second order 
+
+def mass(c): #returns effective mass
+    return [ log(c[t]/c[t+1]) for t in range(len(c)-1)]
+
+def amp(c): #effective amplitude
+    m=mass(c)
+    return [ sqrt( c[t] * exp(m[t]*t) ) for t in range(len(c)-1) ]
+
+def tsamp(c): # ts bias corrected effective amplutide (correction of (1+e^-E)/2 )
+    m=mass(c)
+    return [ sqrt( c[t] * exp(m[t]*t) * 2/(1+exp(-m[t])) )  for t in range(len(c)-1) ]
+
+def ts2amp(c): # ts2 bias corrected effective amplutide (correction of (1+coshE)/2 )
+    m=mass(c)
+#    return [ sqrt( c[t] * exp(m[t]*t) * 2/(1+cosh(m[t])) )  for t in range(len(c)-1) ]
+    return [ sqrt( c[t] * exp(m[t]*t) * 2/(1+(exp(-m[t])+exp(-2*m[t]))/2 ) ) for t in range(len(c)-2) ] #asymmetric second order
+
+def ferr(c): #fractional error
+    return [ gv.sdev(c[t]) / gv.mean(c[t]) for t in range(len(c)-1) ]
+
+def fcor(c1,c2): #fractional correlation
+    return [ sqrt(abs(gv.evalcov([c1[t],c2[t]])[0,1])) / gv.mean( ( c1[t] + c2[t] )/2 )
+                  for t in range(len(c1)-1) ]
+
+def main():
+
+    data = make_data('../fine/gpl/Hs_fine.gpl')
+    Hs1 = [ data['Hs0.5.ll'], data['Hs0.65.ll'], data['Hs0.8.ll'] ]
+    Hs2 = [ data['Hs0.5-g5t.ll'], data['Hs0.65-g5t.ll'], data['Hs0.8-g5t.ll'] ]
+    Hscolors = [ 'red', 'green', 'blue' ]
+
+    data = make_data('../fine/gpl/Ds_fine.gpl')
+    #th = [ '0', '0.328', '0.833', '1.181', '1.334', '1.900' ]
+    th = [ '0', '0.833', '1.334', '1.900' ]
+    Ds = [ data['Ds-th'+thi+'.ll'] for thi in th ]
+    ap = [ float(thi) * math.pi * math.sqrt(3) /32 for thi in th ]
+    Dslabels = [ "$| a\underline{p} | \sim %.1f$" % api for api in ap ]
+    Dscolors = [ 'red', 'green', 'navy', 'coral' ]
+
+    eb_in = lambda r: (range(1,len(r)+1), 
+                       [y.mean for y in r], [y.sdev for y in r])
+
+    p.rc('font', **{'family': 'serif', 'serif': ['Computer Modern'],'size':16})
+    p.rc('text', usetex=True)
+    p.figure()
+
+    fit = pickle.load( open("../formfactors/p/fine.p") )
+
+
+    p.subplot(221) ###########################
+
+    m1 = [ mass(ts2(c)) for c in Hs1 ]
+    m2 = [ mass(ts2(c)) for c in Hs2 ]
+
+    p.ylabel(r'$aM^{Hs}$',
+             fontsize=20)
+    p.xlabel('$t$', fontsize=20)
+    p.xticks(fontsize=18)
+    p.yticks(fontsize=18)
+    p.xlim([0,30])
+    p.ylim([0,2])
+    #p.grid(True)
+    
+    p.errorbar(*eb_in(m1[0]),color=Hscolors[0],label=r'$\gamma_5,am_{b}=0.5$')
+    p.errorbar(*eb_in(m1[1]),color=Hscolors[1],label=r'$\gamma_5,am_{b}=0.65$')
+    p.errorbar(*eb_in(m1[2]),color=Hscolors[2],label=r'$\gamma_5,am_b=0.8')
+
+    p.errorbar(*eb_in(m2[0]),linestyle='--',color=Hscolors[0],label=r'$\gamma_0\gamma_5,am_{b}=0.5$')
+    p.errorbar(*eb_in(m2[1]),linestyle='--',color=Hscolors[1],label=r'$\gamma_0\gamma_5,am_{b}=0.65$')
+    p.errorbar(*eb_in(m2[2]),linestyle='--',color=Hscolors[2],label=r'$\gamma_0\gamma_5,am_b=0.8')
+    
+    for m in [ 0.5, 0.65, 0.8 ]:
+        M = fit['dE:Hs'+str(m)][0]
+        p.axhspan(gv.mean(M)-gv.sdev(M),gv.mean(M)+gv.sdev(M),facecolor="grey",alpha=0.5)
+        M = fit['dE:Hs'+str(m)+'-g5t'][0]
+        p.axhspan(gv.mean(M)-gv.sdev(M),gv.mean(M)+gv.sdev(M),facecolor="grey",alpha=0.5)
+
+
+    p.subplot(222) ###########################
+
+    a1 = [ ts2amp(ts2(c)) for c in Hs1 ]
+    a2 = [ ts2amp(ts2(c)) for c in Hs2 ]
+
+    p.ylabel(r'$a_0^{Hs}$',
+             fontsize=20)
+    p.xlabel('$t$', fontsize=20)
+    p.xticks(fontsize=18)
+    p.yticks(fontsize=18)
+    p.xlim([0,30])
+    p.ylim([0,2])
+    #p.grid(True)
+
+    p.errorbar(*eb_in(a1[0]),color=Hscolors[0],label=r'$\gamma_5,am_{b}=0.5$')
+    p.errorbar(*eb_in(a1[1]),color=Hscolors[1],label=r'$\gamma_5,am_{b}=0.65$')
+    p.errorbar(*eb_in(a1[2]),color=Hscolors[2],label=r'$\gamma_5,am_b=0.8')
+
+    p.errorbar(*eb_in(a2[0]),linestyle='--',color=Hscolors[0],label=r'$\gamma_0\gamma_5,am_{b}=0.5$')
+    p.errorbar(*eb_in(a2[1]),linestyle='--',color=Hscolors[1],label=r'$\gamma_0\gamma_5,am_{b}=0.65$')
+    p.errorbar(*eb_in(a2[2]),linestyle='--',color=Hscolors[2],label=r'$\gamma_0\gamma_5,am_b=0.8')
+
+    p.legend(bbox_to_anchor=(1.6,0.9))
+    p.subplots_adjust(right=0.8)
+#    p.yscale('log')
+
+    for m in [ 0.5, 0.65, 0.8 ]:
+        A = fit['Hs'+str(m)+':al'][0]
+        p.axhspan(gv.mean(A)-gv.sdev(A),gv.mean(A)+gv.sdev(A),facecolor="grey",alpha=0.5)
+        A = fit['Hs'+str(m)+'-g5t:al'][0]
+        p.axhspan(gv.mean(A)-gv.sdev(A),gv.mean(A)+gv.sdev(A),facecolor="grey",alpha=0.5)
+
+    p.subplot(223) ###########################
+
+    energies = [ mass(ts2(c)) for c in Ds ]
+
+    p.ylabel(r'$aE^{D_s}$',
+             fontsize=20)
+    p.xlabel('$t$', fontsize=20)
+    p.xticks(fontsize=18)
+    p.yticks(fontsize=18)
+    p.xlim([0,30])
+    p.ylim([0,2])
+    #p.grid(True)
+
+    for e,c,the in zip(energies,Dscolors,th):
+        p.errorbar(*eb_in(e),color=c)
+
+        M = fit['dE:Ds-th'+the][0]
+        p.axhspan(gv.mean(M)-gv.sdev(M),gv.mean(M)+gv.sdev(M),facecolor="grey",alpha=0.5)
+
+    p.subplot(224) ###########################
+
+    amps = [ ts2amp(ts2(c)) for c in Ds ]
+
+    p.ylabel(r'$a_0^{D_s}$',
+             fontsize=20)
+    p.xlabel('$t$', fontsize=20)
+    p.xticks(fontsize=18)
+    p.yticks(fontsize=18)
+    p.xlim([0,30])
+    p.ylim([0,2])
+    #p.grid(True)
+
+    for a,c,l,the in zip(amps,Dscolors,Dslabels,th):
+        p.errorbar(*eb_in(a),color=c,label=r''+l)
+
+        A = fit['Ds-th'+the+':al'][0]
+        p.axhspan(gv.mean(A)-gv.sdev(A),gv.mean(A)+gv.sdev(A),facecolor="grey",alpha=0.5)
+
+    p.legend(bbox_to_anchor=(1.6,0.9))
+#    p.subplots_adjust(right=0.8)
+#    p.yscale('log')
+
+#    p.axhspan(0.5916+0.0021,0.5916-0.021,alpha=0.5,color='grey')
+    
+    p.show()
+    
+def make_data(filename):
+    dset = gv.dataset.Dataset(filename)
+    return gv.dataset.avg_data(dset)
+
+if __name__ == '__main__':
+    main()
+
