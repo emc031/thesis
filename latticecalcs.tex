@@ -228,6 +228,7 @@ where we have appled \eqref{eq:Gconj} to $M^{-1}_b$ and $\phi_{5X}(x) = \phi_5(x
 where it is understood that $x_0=t_0$ and $y_0=t$. In order to evaluate this function, the simulation must perform inversions to create $g_{a/b}(x,y)$ for each $x$ and $y$, so $2\cdot$Vol$^2$ operations. This is prohibitively expensive. The number of inversions can be reduced using {\it{random wall sources}}. Define
 \begin{align}
   P^{t_0}_{a,{\textbf{p}},X}(y) \equiv {1\over \sqrt{N_x^3}} \sum_{\textbf{x}} e^{i{\textbf{p}}\cdot ({\textbf{x}}-{\textbf{y}})} \phi_{5X}({\textbf{x}},t_0) \xi({\textbf{x}}) g_a({\textbf{x}},t_0;y),
+  \label{eq:onesided_prop}
 \end{align}
 where $\xi({\textbf{x}})$ is a random field of colour vectors, varying configuration-by-configuration. This has the property
 \begin{align}

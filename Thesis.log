@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.29)  28 FEB 2019 22:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.29)  6 MAR 2019 19:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1028,9 +1028,6 @@ LaTeX Warning: Label `eq:FCCC' multiply defined.
 
 ) (./latticeqcd.aux) (./latticecalcs.aux) (./nrqcd.aux
 
-LaTeX Warning: Label `eq:naive' multiply defined.
-
-
 LaTeX Warning: Label `fig:ZVk' multiply defined.
 
 ) (./BsDsstar.aux) (./BsDs.aux
@@ -1050,19 +1047,16 @@ LaTeX Warning: Label `eq:currentfit' multiply defined.
 LaTeX Warning: Label `eq:ward' multiply defined.
 
 
-LaTeX Warning: Label `tab:norms' multiply defined.
-
-
 LaTeX Warning: Label `eq:normalizations' multiply defined.
+
+
+LaTeX Warning: Label `tab:norms' multiply defined.
 
 
 LaTeX Warning: Label `eq:mistuning' multiply defined.
 
 
 LaTeX Warning: Label `sec:results' multiply defined.
-
-
-LaTeX Warning: Label `fig:nrqcd' multiply defined.
 
 ))
 \openout1 = `Thesis.aux'.
@@ -1478,20 +1472,20 @@ Underfull \vbox (badness 1142) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [54]
-Underfull \hbox (badness 2096) in paragraph at lines 231--233
+Underfull \hbox (badness 2096) in paragraph at lines 232--234
 \T1/cmr/m/n/10.95 where $\OML/cmm/m/it/10.95 ^^X\OT1/cmr/m/n/10.95 ([])$ \T1/cm
 r/m/n/10.95 is a ran-dom field of colour vec-tors, vary-ing configuration-by-
  []
 
 [55]
-Underfull \hbox (badness 1178) in paragraph at lines 265--267
+Underfull \hbox (badness 1178) in paragraph at lines 266--268
 \T1/cmr/m/n/10.95 This can be built by first cre-at-ing prop-a-ga-tors for the 
 $\OML/cmm/m/it/10.95 b$ \T1/cmr/m/n/10.95 and $\OML/cmm/m/it/10.95 s$ \T1/cmr/m
 /n/10.95 quarks -
  []
 
 [56] [57] [58] [59]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 377.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 378.
 
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -1506,315 +1500,322 @@ Chapter 5.
 
 
 ]
+Underfull \vbox (badness 4416) has occurred while \output is active []
 
-LaTeX Warning: Reference `eq:meson' on page 64 undefined on input line 54.
-
-[64]
-
-LaTeX Warning: Reference `sec:cp' on page 65 undefined on input line 113.
+ [64]
+Overfull \hbox (59.0463pt too wide) has occurred while \output is active
+\T1/cmr/m/sl/10.95 5.2.  RELATIVISTIC NORMALISATION OF THE $\OML/cmm/m/it/10.95
+ B \OMS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.95 C$ \T1/cmr/m/sl/10.95 TEMPORAL AXI
+AL CURRENT \T1/cmr/m/n/10.95 65
+ []
 
 [65] [66]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (59.0463pt too wide) has occurred while \output is active
+\T1/cmr/m/sl/10.95 5.2.  RELATIVISTIC NORMALISATION OF THE $\OML/cmm/m/it/10.95
+ B \OMS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.95 C$ \T1/cmr/m/sl/10.95 TEMPORAL AXI
+AL CURRENT \T1/cmr/m/n/10.95 67
+ []
 
- [67]
-[68]
+[67]
+<images/NRQCD/new/relativistic_normalization_J0J1.pdf, id=381, 561.89923pt x 39
+2.96812pt>
+File: images/NRQCD/new/relativistic_normalization_J0J1.pdf Graphic file (type p
+df)
+ <use images/NRQCD/new/relativistic_normalization_J0J1.pdf>
+Package pdftex.def Info: images/NRQCD/new/relativistic_normalization_J0J1.pdf u
+sed on input line 166.
+(pdftex.def)             Requested size: 335.88132pt x 234.90723pt.
 
-LaTeX Warning: Reference `eq:correlator' on page 69 undefined on input line 229
-.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 260--269
-
+Overfull \hbox (52.99864pt too wide) in paragraph at lines 333--344
+[]  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--269
+Underfull \vbox (badness 2689) has occurred while \output is active []
+
+ [68 <./images/NRQCD/new/relativistic_normalization_J0J1.pdf>] [69]
+
+LaTeX Warning: Reference `tab:nrqcdensembles' on page 70 undefined on input lin
+e 392.
+
+
+LaTeX Warning: Reference `sec:correlators' on page 70 undefined on input line 3
+94.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--395
 
  []
-
-[69]
-
-LaTeX Warning: Reference `eq:FW' on page 70 undefined on input line 272.
-
-
-LaTeX Warning: Reference `fig:A3A2' on page 70 undefined on input line 323.
-
-
-Package caption Warning: \label without proper reference on input line 346.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:A3A1' on page 70 undefined on input line 323.
 
 [70]
-
-LaTeX Warning: Reference `sec:correlators' on page 71 undefined on input line 3
-99.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 395--400
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 395--400
-
- []
-
-
-<images/NRQCD/EffMass_localVsSmear_Ds_coarse.png, id=390, 578.16pt x 433.62pt>
+<images/NRQCD/EffMass_localVsSmear_Ds_coarse.png, id=440, 578.16pt x 433.62pt>
 File: images/NRQCD/EffMass_localVsSmear_Ds_coarse.png Graphic file (type png)
 
 <use images/NRQCD/EffMass_localVsSmear_Ds_coarse.png>
 Package pdftex.def Info: images/NRQCD/EffMass_localVsSmear_Ds_coarse.png used o
-n input line 411.
+n input line 406.
 (pdftex.def)             Requested size: 256.84616pt x 192.63277pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--416
+Underfull \hbox (badness 10000) in paragraph at lines 397--411
 
  []
 
 
-Underfull \hbox (badness 4673) in paragraph at lines 402--416
+Underfull \hbox (badness 4673) in paragraph at lines 397--411
 \T1/cmr/m/n/10.95 For the $\OML/cmm/m/it/10.95 B[]$\T1/cmr/m/n/10.95 , we use a
  com-bi-na-tion of $\OML/cmm/m/it/10.95 ^^^[]\OT1/cmr/m/n/10.95 ([]) = \OML/cmm
 /m/it/10.95 ^^N\OT1/cmr/m/n/10.95 ([])$ \T1/cmr/m/n/10.95 ("lo-cal"), and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--416
+Underfull \hbox (badness 10000) in paragraph at lines 397--411
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--416
+Underfull \hbox (badness 10000) in paragraph at lines 397--411
 
  []
 
-[71] [72] [73]
-Underfull \hbox (badness 1142) in paragraph at lines 432--434
+[71]
+Underfull \hbox (badness 1142) in paragraph at lines 427--429
 \T1/cmr/m/n/10.95 cur-rents and con-tin-uum QCD in [100]. We cal-cu-late cor-re
 -la-tion func-tions
  []
 
 
-LaTeX Warning: Reference `sec:formfactors' on page 74 undefined on input line 4
-37.
+LaTeX Warning: Reference `sec:formfactors' on page 72 undefined on input line 4
+32.
 
 
-LaTeX Warning: Reference `sec:signalnoise' on page 74 undefined on input line 4
-39.
+LaTeX Warning: Reference `sec:signalnoise' on page 72 undefined on input line 4
+34.
 
 
-LaTeX Warning: Reference `eq:formfactors' on page 74 undefined on input line 44
-1.
+LaTeX Warning: Reference `eq:formfactors' on page 72 undefined on input line 43
+6.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 437--442
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 437--442
-
- []
-
-[74 <./images/NRQCD/EffMass_localVsSmear_Ds_coarse.png>]
-
-LaTeX Warning: Reference `sec:correlators' on page 75 undefined on input line 4
-61.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 459--464
+Underfull \hbox (badness 10000) in paragraph at lines 432--437
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 459--464
+Underfull \hbox (badness 10000) in paragraph at lines 432--437
 
  []
 
-[75] <images/NRQCD/BD_apr18.pdf, id=409, 621.52202pt x 499.56639pt>
-File: images/NRQCD/BD_apr18.pdf Graphic file (type pdf)
+[72 <./images/NRQCD/EffMass_localVsSmear_Ds_coarse.png>]
 
-<use images/NRQCD/BD_apr18.pdf>
-Package pdftex.def Info: images/NRQCD/BD_apr18.pdf used on input line 476.
-(pdftex.def)             Requested size: 217.33461pt x 174.68315pt.
+LaTeX Warning: Reference `sec:correlators' on page 73 undefined on input line 4
+56.
 
-<images/NRQCD/BsDs_apr18.pdf, id=410, 616.10173pt x 469.755pt>
-File: images/NRQCD/BsDs_apr18.pdf Graphic file (type pdf)
 
-<use images/NRQCD/BsDs_apr18.pdf>
-Package pdftex.def Info: images/NRQCD/BsDs_apr18.pdf used on input line 481.
-(pdftex.def)             Requested size: 217.33461pt x 165.70692pt.
+LaTeX Warning: Reference `table:quarkmasses' on page 73 undefined on input line
+ 456.
 
-Overfull \hbox (39.51756pt too wide) in paragraph at lines 474--484
- []$[]$$[]$ 
+
+Underfull \hbox (badness 10000) in paragraph at lines 454--459
+
  []
 
 
-Overfull \hbox (82.15167pt too wide) in paragraph at lines 490--502
+Underfull \hbox (badness 10000) in paragraph at lines 454--459
+
+ []
+
+[73] <images/NRQCD/new/BD_formfactors.pdf, id=452, 578.16pt x 433.62pt>
+File: images/NRQCD/new/BD_formfactors.pdf Graphic file (type pdf)
+
+<use images/NRQCD/new/BD_formfactors.pdf>
+Package pdftex.def Info: images/NRQCD/new/BD_formfactors.pdf used on input line
+ 486.
+(pdftex.def)             Requested size: 335.88132pt x 251.90999pt.
+
+<images/NRQCD/new/BsDs_formfactors.pdf, id=453, 578.16pt x 433.62pt>
+File: images/NRQCD/new/BsDs_formfactors.pdf Graphic file (type pdf)
+
+<use images/NRQCD/new/BsDs_formfactors.pdf>
+Package pdftex.def Info: images/NRQCD/new/BsDs_formfactors.pdf used on input li
+ne 495.
+(pdftex.def)             Requested size: 335.88132pt x 251.90999pt.
+
+<images/NRQCD/new/BsDs_f0q2max.pdf, id=454, 486.91913pt x 354.12299pt>
+File: images/NRQCD/new/BsDs_f0q2max.pdf Graphic file (type pdf)
+
+<use images/NRQCD/new/BsDs_f0q2max.pdf>
+Package pdftex.def Info: images/NRQCD/new/BsDs_f0q2max.pdf used on input line 5
+04.
+(pdftex.def)             Requested size: 296.36374pt x 215.53918pt.
+
+Overfull \hbox (83.59213pt too wide) in paragraph at lines 513--525
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 506--510
+Underfull \hbox (badness 10000) in paragraph at lines 529--533
 
  []
 
-[76] [77 <./images/NRQCD/BD_apr18.pdf> <./images/NRQCD/BsDs_apr18.pdf
+[74] [75 <./images/NRQCD/new/BD_formfactors.pdf> <./images/NRQCD/new/BsDs_formf
+actors.pdf
 
-pdfTeX warning: pdflatex (file ./images/NRQCD/BsDs_apr18.pdf): PDF inclusion: m
-ultiple pdfs with page group included in a single page
->]
-Underfull \hbox (badness 10000) in paragraph at lines 516--523
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 516--523
+pdfTeX warning: pdflatex (file ./images/NRQCD/new/BsDs_formfactors.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+>] [76 <./images/NRQCD/new/BsDs_f0q2max.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 539--546
 
  []
 
 
-Underfull \hbox (badness 1590) in paragraph at lines 516--523
+Underfull \hbox (badness 10000) in paragraph at lines 539--546
+
+ []
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 539--546
 \T1/cmr/m/n/10.95 Annother prob-lem that has un-cov-ered it-self in the NRQCD c
 al-cu-la-tion is
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 516--523
+Underfull \hbox (badness 10000) in paragraph at lines 539--546
 
  []
 
 
-Overfull \hbox (10.77394pt too wide) in paragraph at lines 538--538
+Overfull \hbox (10.77394pt too wide) in paragraph at lines 561--561
 [] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [78]
-Underfull \hbox (badness 10000) in paragraph at lines 538--544
+ [77]
+Underfull \hbox (badness 10000) in paragraph at lines 561--567
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 538--544
+Underfull \hbox (badness 10000) in paragraph at lines 561--567
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 547--550
+Underfull \hbox (badness 10000) in paragraph at lines 570--573
 
  []
 
-[79]
-Underfull \hbox (badness 10000) in paragraph at lines 556--560
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 563--566
-
- []
-
-[80]
-Underfull \hbox (badness 10000) in paragraph at lines 572--576
+[78]
+Underfull \hbox (badness 10000) in paragraph at lines 579--583
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 582--586
+Underfull \hbox (badness 10000) in paragraph at lines 586--589
 
  []
 
 
 Overfull \hbox (92.8701pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 5.5.  NON-PERTURBATIVE RENORMALIZATION VIA NRQCD / HEAVY-HIS
-Q COMPARISON \T1/cmr/m/n/10.95 81
+\T1/cmr/m/sl/10.95 5.6.  NON-PERTURBATIVE RENORMALIZATION VIA NRQCD / HEAVY-HIS
+Q COMPARISON \T1/cmr/m/n/10.95 79
  []
 
-[81] <images/NRQCD/Bcetac_bothways_noV0norm.pdf, id=535, 578.16pt x 433.62pt>
+[79]
+Underfull \hbox (badness 10000) in paragraph at lines 595--599
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 605--609
+
+ []
+
+[80] <images/NRQCD/Bcetac_bothways_noV0norm.pdf, id=628, 578.16pt x 433.62pt>
 File: images/NRQCD/Bcetac_bothways_noV0norm.pdf Graphic file (type pdf)
 
 <use images/NRQCD/Bcetac_bothways_noV0norm.pdf>
 Package pdftex.def Info: images/NRQCD/Bcetac_bothways_noV0norm.pdf used on inpu
-t line 610.
+t line 633.
 (pdftex.def)             Requested size: 375.79955pt x 281.84966pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 606--617
+Underfull \hbox (badness 10000) in paragraph at lines 629--640
 
  []
 
-[82 <./images/NRQCD/Bcetac_bothways_noV0norm.pdf>]
-<images/NRQCD/Bcetac_bothways.pdf, id=593, 578.16pt x 433.62pt>
+
+Overfull \hbox (92.8701pt too wide) has occurred while \output is active
+\T1/cmr/m/sl/10.95 5.6.  NON-PERTURBATIVE RENORMALIZATION VIA NRQCD / HEAVY-HIS
+Q COMPARISON \T1/cmr/m/n/10.95 81
+ []
+
+[81 <./images/NRQCD/Bcetac_bothways_noV0norm.pdf>]
+<images/NRQCD/Bcetac_bothways.pdf, id=684, 578.16pt x 433.62pt>
 File: images/NRQCD/Bcetac_bothways.pdf Graphic file (type pdf)
 
 <use images/NRQCD/Bcetac_bothways.pdf>
-Package pdftex.def Info: images/NRQCD/Bcetac_bothways.pdf used on input line 62
-4.
+Package pdftex.def Info: images/NRQCD/Bcetac_bothways.pdf used on input line 64
+7.
 (pdftex.def)             Requested size: 375.79955pt x 281.84966pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 620--631
+Underfull \hbox (badness 10000) in paragraph at lines 643--654
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Overfull \hbox (92.8701pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 5.5.  NON-PERTURBATIVE RENORMALIZATION VIA NRQCD / HEAVY-HIS
-Q COMPARISON \T1/cmr/m/n/10.95 83
- []
-
-[83 <./images/NRQCD/Bcetac_bothways.pdf>]
-<images/NRQCD/ZVk_fromBcetac.pdf, id=649, 578.16pt x 433.62pt>
+ [82 <./images/NRQCD/Bcetac_bothways.pdf>]
+<images/NRQCD/ZVk_fromBcetac.pdf, id=740, 578.16pt x 433.62pt>
 File: images/NRQCD/ZVk_fromBcetac.pdf Graphic file (type pdf)
 
 <use images/NRQCD/ZVk_fromBcetac.pdf>
-Package pdftex.def Info: images/NRQCD/ZVk_fromBcetac.pdf used on input line 638
+Package pdftex.def Info: images/NRQCD/ZVk_fromBcetac.pdf used on input line 661
 .
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
 
 
-LaTeX Warning: Reference `fig:identicle' on page 84 undefined on input line 646
+LaTeX Warning: Reference `fig:identicle' on page 83 undefined on input line 669
 .
 
-<images/NRQCD/Bcetac_bothways_withZVk.pdf, id=650, 578.16pt x 433.62pt>
+<images/NRQCD/Bcetac_bothways_withZVk.pdf, id=741, 578.16pt x 433.62pt>
 File: images/NRQCD/Bcetac_bothways_withZVk.pdf Graphic file (type pdf)
 
 <use images/NRQCD/Bcetac_bothways_withZVk.pdf>
 Package pdftex.def Info: images/NRQCD/Bcetac_bothways_withZVk.pdf used on input
- line 649.
+ line 672.
 (pdftex.def)             Requested size: 375.79955pt x 281.84966pt.
- [84 <./images/NRQCD/ZVk_fromBcetac.pdf>] <images/NRQCD/p2fp_Bcetac_ward.pdf, i
-d=694, 867.24pt x 433.62pt>
+
+Overfull \hbox (92.8701pt too wide) has occurred while \output is active
+\T1/cmr/m/sl/10.95 5.6.  NON-PERTURBATIVE RENORMALIZATION VIA NRQCD / HEAVY-HIS
+Q COMPARISON \T1/cmr/m/n/10.95 83
+ []
+
+[83 <./images/NRQCD/ZVk_fromBcetac.pdf>]
+<images/NRQCD/p2fp_Bcetac_ward.pdf, id=784, 867.24pt x 433.62pt>
 File: images/NRQCD/p2fp_Bcetac_ward.pdf Graphic file (type pdf)
 
 <use images/NRQCD/p2fp_Bcetac_ward.pdf>
 Package pdftex.def Info: images/NRQCD/p2fp_Bcetac_ward.pdf used on input line 6
-73.
+96.
 (pdftex.def)             Requested size: 390.2544pt x 195.1272pt.
-)
+) [84 <./images/NRQCD/Bcetac_bothways_withZVk.pdf>]
 Overfull \hbox (92.8701pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 5.5.  NON-PERTURBATIVE RENORMALIZATION VIA NRQCD / HEAVY-HIS
+\T1/cmr/m/sl/10.95 5.6.  NON-PERTURBATIVE RENORMALIZATION VIA NRQCD / HEAVY-HIS
 Q COMPARISON \T1/cmr/m/n/10.95 85
  []
 
-[85 <./images/NRQCD/Bcetac_bothways_withZVk.pdf>] [86 <./images/NRQCD/p2fp_Bcet
-ac_ward.pdf>]
+[85 <./images/NRQCD/p2fp_Bcetac_ward.pdf>]
 \openout2 = `BsDsstar.aux'.
 
- (./BsDsstar.tex
-Chapter 6.
-[87
+ (./BsDsstar.tex [86
 
 
 
 ]
+Chapter 6.
+[87]
 Overfull \hbox (72.5061pt too wide) has occurred while \output is active
 \T1/cmr/m/n/10.95 88 \T1/cmr/m/sl/10.95 CHAPTER 6.  $\OML/cmm/m/it/10.95 B[] \O
 MS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.95 D[]L^^W$ \T1/cmr/m/sl/10.95 AXIAL FORM 
@@ -1835,7 +1836,7 @@ MS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.95 D[]L^^W$ \T1/cmr/m/sl/10.95 AXIAL FORM
 FACTOR AT ZERO RECOIL FROM HEAVY-HISQ
  []
 
-[92] <images/BsDsstar/fittests_fine.pdf, id=803, 1058.75555pt x 485.11237pt>
+[92] <images/BsDsstar/fittests_fine.pdf, id=897, 1058.75555pt x 485.11237pt>
 File: images/BsDsstar/fittests_fine.pdf Graphic file (type pdf)
 
 <use images/BsDsstar/fittests_fine.pdf>
@@ -1848,7 +1849,7 @@ Overfull \hbox (39.51756pt too wide) in paragraph at lines 139--140
  []
 
 [93 <./images/BsDsstar/fittests_fine.pdf>]
-<images/BsDsstar/svddiagnosis_fine.pdf, id=865, 578.16pt x 433.62pt>
+<images/BsDsstar/svddiagnosis_fine.pdf, id=959, 578.16pt x 433.62pt>
 File: images/BsDsstar/svddiagnosis_fine.pdf Graphic file (type pdf)
 
 <use images/BsDsstar/svddiagnosis_fine.pdf>
@@ -1863,7 +1864,7 @@ FACTOR AT ZERO RECOIL FROM HEAVY-HISQ
  []
 
 [94 <./images/BsDsstar/svddiagnosis_fine.pdf>]
-<images/BsDsstar/2ptsummary_fine.pdf, id=1814, 1066.8859pt x 624.23215pt>
+<images/BsDsstar/2ptsummary_fine.pdf, id=1908, 1066.8859pt x 624.23215pt>
 File: images/BsDsstar/2ptsummary_fine.pdf Graphic file (type pdf)
 
 <use images/BsDsstar/2ptsummary_fine.pdf>
@@ -1875,7 +1876,7 @@ Overfull \hbox (39.51756pt too wide) in paragraph at lines 184--185
  [] 
  []
 
-<images/BsDsstar/3ptsummary_fine.pdf, id=1815, 517.63388pt x 383.031pt>
+<images/BsDsstar/3ptsummary_fine.pdf, id=1909, 517.63388pt x 383.031pt>
 File: images/BsDsstar/3ptsummary_fine.pdf Graphic file (type pdf)
 
 <use images/BsDsstar/3ptsummary_fine.pdf>
@@ -1900,7 +1901,7 @@ MS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.95 D[]L^^W$ \T1/cmr/m/sl/10.95 AXIAL FORM
 FACTOR AT ZERO RECOIL FROM HEAVY-HISQ
  []
 
-[98] <images/BsDsstar/etaAV.pdf, id=3151, 448.97736pt x 308.05087pt>
+[98] <images/BsDsstar/etaAV.pdf, id=3240, 448.97736pt x 308.05087pt>
 File: images/BsDsstar/etaAV.pdf Graphic file (type pdf)
 
 <use images/BsDsstar/etaAV.pdf>
@@ -1941,7 +1942,7 @@ Overfull \hbox (32.95383pt too wide) in paragraph at lines 461--482
  [] 
  []
 
-<images/BsDsstar/hA1_vsmh.pdf, id=3175, 578.16pt x 433.62pt>
+<images/BsDsstar/hA1_vsmh.pdf, id=3265, 578.16pt x 433.62pt>
 File: images/BsDsstar/hA1_vsmh.pdf Graphic file (type pdf)
 
 <use images/BsDsstar/hA1_vsmh.pdf>
@@ -1955,7 +1956,7 @@ OMS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.95 D[]L^^W$ \T1/cmr/m/sl/10.95 AXIAL FORM
  []
 
 [104] [105]
-<images/BsDsstar/hA1vsmh_fittests.pdf, id=3186, 578.16pt x 433.62pt>
+<images/BsDsstar/hA1vsmh_fittests.pdf, id=3276, 578.16pt x 433.62pt>
 File: images/BsDsstar/hA1vsmh_fittests.pdf Graphic file (type pdf)
 
 <use images/BsDsstar/hA1vsmh_fittests.pdf>
@@ -1973,7 +1974,7 @@ OMS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.95 D[]L^^W$ \T1/cmr/m/sl/10.95 AXIAL FORM
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [107 <./images/BsDsstar/hA1vsmh_fittests.pdf>]
-<images/BsDsstar/hA1overfHc.pdf, id=3276, 578.16pt x 433.62pt>
+<images/BsDsstar/hA1overfHc.pdf, id=3363, 578.16pt x 433.62pt>
 File: images/BsDsstar/hA1overfHc.pdf Graphic file (type pdf)
 
 <use images/BsDsstar/hA1overfHc.pdf>
@@ -1981,7 +1982,7 @@ Package pdftex.def Info: images/BsDsstar/hA1overfHc.pdf used on input line 546.
 
 (pdftex.def)             Requested size: 335.88132pt x 251.90999pt.
 
-<images/BsDsstar/comparisons.pdf, id=3277, 578.16pt x 433.62pt>
+<images/BsDsstar/comparisons.pdf, id=3364, 578.16pt x 433.62pt>
 File: images/BsDsstar/comparisons.pdf Graphic file (type pdf)
 
 <use images/BsDsstar/comparisons.pdf>
@@ -1989,7 +1990,7 @@ Package pdftex.def Info: images/BsDsstar/comparisons.pdf used on input line 556
 .
 (pdftex.def)             Requested size: 276.60495pt x 207.45374pt.
 
-<images/BsDsstar/fermilab_nrqcd_data.pdf, id=3278, 1121.0884pt x 491.436pt>
+<images/BsDsstar/fermilab_nrqcd_data.pdf, id=3365, 1121.0884pt x 491.436pt>
 File: images/BsDsstar/fermilab_nrqcd_data.pdf Graphic file (type pdf)
 
 <use images/BsDsstar/fermilab_nrqcd_data.pdf>
@@ -2012,7 +2013,7 @@ OMS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.95 D[]L^^W$ \T1/cmr/m/sl/10.95 AXIAL FORM
  []
 
 [108 <./images/BsDsstar/hA1overfHc.pdf>]
-<images/BsDsstar/BD_BsDs.pdf, id=3342, 531.18451pt x 395.67827pt>
+<images/BsDsstar/BD_BsDs.pdf, id=3427, 531.18451pt x 395.67827pt>
 File: images/BsDsstar/BD_BsDs.pdf Graphic file (type pdf)
 
 <use images/BsDsstar/BD_BsDs.pdf>
@@ -2036,7 +2037,7 @@ Underfull \hbox (badness 4291) in paragraph at lines 630--631
 ap-o-la-tions in
  []
 
-[111] <images/BsDsstar/fHcvsmh.pdf, id=3483, 578.16pt x 433.62pt>
+[111] <images/BsDsstar/fHcvsmh.pdf, id=3568, 578.16pt x 433.62pt>
 File: images/BsDsstar/fHcvsmh.pdf Graphic file (type pdf)
 
 <use images/BsDsstar/fHcvsmh.pdf>
@@ -2092,7 +2093,7 @@ OMS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.95 D[]L^^W$ \T1/cmr/m/sl/10.95 FORM FACTO
 R AT ALL PHYSICAL $\OML/cmm/m/it/10.95 Q[]$ \T1/cmr/m/sl/10.95 FROM HEAVY-HISQ
  []
 
-[120] [121] <images/BsDs/svddiagnosis_fine.pdf, id=3566, 578.16pt x 433.62pt>
+[120] [121] <images/BsDs/svddiagnosis_fine.pdf, id=3652, 578.16pt x 433.62pt>
 File: images/BsDs/svddiagnosis_fine.pdf Graphic file (type pdf)
 
 <use images/BsDs/svddiagnosis_fine.pdf>
@@ -2124,7 +2125,7 @@ OMS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.95 D[]L^^W$ \T1/cmr/m/sl/10.95 FORM FACTO
 R AT ALL PHYSICAL $\OML/cmm/m/it/10.95 Q[]$ \T1/cmr/m/sl/10.95 FROM HEAVY-HISQ
  []
 
-[122] <images/BsDs/finecorr_fittest.pdf, id=3570, 1776.03528pt x 924.15263pt>
+[122] <images/BsDs/finecorr_fittest.pdf, id=3656, 1776.03528pt x 924.15263pt>
 File: images/BsDs/finecorr_fittest.pdf Graphic file (type pdf)
 
 <use images/BsDs/finecorr_fittest.pdf>
@@ -2147,7 +2148,7 @@ R AT ALL PHYSICAL $\OML/cmm/m/it/10.95 Q[]$ \T1/cmr/m/sl/10.95 FROM HEAVY-HISQ
  []
 
 [124 <./images/BsDs/finecorr_fittest.pdf>]
-<images/BsDs/fine_2pt_summary.pdf, id=4677, 1298.14992pt x 816.65097pt>
+<images/BsDs/fine_2pt_summary.pdf, id=4763, 1298.14992pt x 816.65097pt>
 File: images/BsDs/fine_2pt_summary.pdf Graphic file (type pdf)
 
 <use images/BsDs/fine_2pt_summary.pdf>
@@ -2159,7 +2160,7 @@ Overfull \hbox (43.87234pt too wide) in paragraph at lines 275--279
 []    [] 
  []
 
-<images/BsDs/fine_3pt_summary.pdf, id=4678, 1677.56743pt x 710.05278pt>
+<images/BsDs/fine_3pt_summary.pdf, id=4764, 1677.56743pt x 710.05278pt>
 File: images/BsDs/fine_3pt_summary.pdf Graphic file (type pdf)
 
 <use images/BsDs/fine_3pt_summary.pdf>
@@ -2196,7 +2197,7 @@ OMS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.95 D[]L^^W$ \T1/cmr/m/sl/10.95 FORM FACTO
 R AT ALL PHYSICAL $\OML/cmm/m/it/10.95 Q[]$ \T1/cmr/m/sl/10.95 FROM HEAVY-HISQ
  []
 
-[130] [131] <images/BsDs/ratio/f0fHc_vsmh.pdf, id=7027, 578.16pt x 433.62pt>
+[130] [131] <images/BsDs/ratio/f0fHc_vsmh.pdf, id=7112, 578.16pt x 433.62pt>
 File: images/BsDs/ratio/f0fHc_vsmh.pdf Graphic file (type pdf)
 
 <use images/BsDs/ratio/f0fHc_vsmh.pdf>
@@ -2211,7 +2212,7 @@ R AT ALL PHYSICAL $\OML/cmm/m/it/10.95 Q[]$ \T1/cmr/m/sl/10.95 FROM HEAVY-HISQ
  []
 
 [132]
-<images/BsDs/ratio/f0dcq2max_stability.pdf, id=7031, 578.16pt x 433.62pt>
+<images/BsDs/ratio/f0dcq2max_stability.pdf, id=7116, 578.16pt x 433.62pt>
 File: images/BsDs/ratio/f0dcq2max_stability.pdf Graphic file (type pdf)
 
 <use images/BsDs/ratio/f0dcq2max_stability.pdf>
@@ -2219,7 +2220,7 @@ Package pdftex.def Info: images/BsDs/ratio/f0dcq2max_stability.pdf used on inpu
 t line 475.
 (pdftex.def)             Requested size: 335.88132pt x 251.90999pt.
 
-<images/BsDs/ratio/f0fpfHc_vsq2.pdf, id=7032, 1180.71118pt x 542.9284pt>
+<images/BsDs/ratio/f0fpfHc_vsq2.pdf, id=7117, 1180.71118pt x 542.9284pt>
 File: images/BsDs/ratio/f0fpfHc_vsq2.pdf Graphic file (type pdf)
 
 <use images/BsDs/ratio/f0fpfHc_vsq2.pdf>
@@ -2245,7 +2246,7 @@ R AT ALL PHYSICAL $\OML/cmm/m/it/10.95 Q[]$ \T1/cmr/m/sl/10.95 FROM HEAVY-HISQ
  []
 
 [134 <./images/BsDs/ratio/f0dcq2max_stability.pdf>]
-<images/BsDs/direct/f0q2max_vsmh.pdf, id=7124, 578.16pt x 433.62pt>
+<images/BsDs/direct/f0q2max_vsmh.pdf, id=7210, 578.16pt x 433.62pt>
 File: images/BsDs/direct/f0q2max_vsmh.pdf Graphic file (type pdf)
 
 <use images/BsDs/direct/f0q2max_vsmh.pdf>
@@ -2253,7 +2254,7 @@ Package pdftex.def Info: images/BsDs/direct/f0q2max_vsmh.pdf used on input line
  501.
 (pdftex.def)             Requested size: 335.88132pt x 251.90999pt.
  [135 <./images/BsDs/ratio/f0fpfHc_vsq2.pdf>]
-<images/BsDs/direct/f0q2max_stability.pdf, id=7251, 578.16pt x 433.62pt>
+<images/BsDs/direct/f0q2max_stability.pdf, id=7336, 578.16pt x 433.62pt>
 File: images/BsDs/direct/f0q2max_stability.pdf Graphic file (type pdf)
 
 <use images/BsDs/direct/f0q2max_stability.pdf>
@@ -2261,7 +2262,7 @@ Package pdftex.def Info: images/BsDs/direct/f0q2max_stability.pdf used on input
  line 538.
 (pdftex.def)             Requested size: 335.88132pt x 251.90999pt.
 
-<images/BsDs/direct/f0fp_vsq2.pdf, id=7252, 1150.89972pt x 562.80264pt>
+<images/BsDs/direct/f0fp_vsq2.pdf, id=7337, 1150.89972pt x 562.80264pt>
 File: images/BsDs/direct/f0fp_vsq2.pdf Graphic file (type pdf)
 
 <use images/BsDs/direct/f0fp_vsq2.pdf>
@@ -2281,7 +2282,7 @@ R AT ALL PHYSICAL $\OML/cmm/m/it/10.95 Q[]$ \T1/cmr/m/sl/10.95 FROM HEAVY-HISQ
  []
 
 [136 <./images/BsDs/direct/f0q2max_vsmh.pdf>]
-<images/BsDs/direct/f0fp_final.pdf, id=7301, 578.16pt x 433.62pt>
+<images/BsDs/direct/f0fp_final.pdf, id=7386, 578.16pt x 433.62pt>
 File: images/BsDs/direct/f0fp_final.pdf Graphic file (type pdf)
 
 <use images/BsDs/direct/f0fp_final.pdf>
@@ -2289,7 +2290,7 @@ Package pdftex.def Info: images/BsDs/direct/f0fp_final.pdf used on input line 5
 55.
 (pdftex.def)             Requested size: 335.88132pt x 251.90999pt.
 
-<images/BsDs/direct/errorbudget.pdf, id=7302, 1131.02554pt x 550.15535pt>
+<images/BsDs/direct/errorbudget.pdf, id=7387, 1131.02554pt x 550.15535pt>
 File: images/BsDs/direct/errorbudget.pdf Graphic file (type pdf)
 
 <use images/BsDs/direct/errorbudget.pdf>
@@ -2301,7 +2302,7 @@ Overfull \hbox (75.47986pt too wide) in paragraph at lines 561--563
 []  [] 
  []
 
-<images/BsDs/ratio_vs_direct.pdf, id=7303, 578.16pt x 433.62pt>
+<images/BsDs/ratio_vs_direct.pdf, id=7388, 578.16pt x 433.62pt>
 File: images/BsDs/ratio_vs_direct.pdf Graphic file (type pdf)
 
 <use images/BsDs/ratio_vs_direct.pdf>
@@ -2309,7 +2310,7 @@ Package pdftex.def Info: images/BsDs/ratio_vs_direct.pdf used on input line 574
 .
 (pdftex.def)             Requested size: 335.88132pt x 251.90999pt.
 
-<images/BsDs/nrqcd_comparison.pdf, id=7304, 578.16pt x 433.62pt>
+<images/BsDs/nrqcd_comparison.pdf, id=7389, 578.16pt x 433.62pt>
 File: images/BsDs/nrqcd_comparison.pdf Graphic file (type pdf)
 
 <use images/BsDs/nrqcd_comparison.pdf>
@@ -2323,7 +2324,7 @@ OMS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.95 D[]L^^W$ \T1/cmr/m/sl/10.95 FORM FACTO
 R AT ALL PHYSICAL $\OML/cmm/m/it/10.95 Q[]$ \T1/cmr/m/sl/10.95 FROM HEAVY-HISQ
  []
 
-[138] <images/BsDs/direct/branchingfraction.pdf, id=7311, 578.16pt x 433.62pt>
+[138] <images/BsDs/direct/branchingfraction.pdf, id=7396, 578.16pt x 433.62pt>
 File: images/BsDs/direct/branchingfraction.pdf Graphic file (type pdf)
 
 <use images/BsDs/direct/branchingfraction.pdf>
@@ -2347,7 +2348,7 @@ OMS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.95 D[]L^^W$ \T1/cmr/m/sl/10.95 FORM FACTO
 R AT ALL PHYSICAL $\OML/cmm/m/it/10.95 Q[]$ \T1/cmr/m/sl/10.95 FROM HEAVY-HISQ
  []
 
-[140] [141] <images/BsDs/hplus_vsmh.pdf, id=7322, 462.52798pt x 346.89601pt>
+[140] [141] <images/BsDs/hplus_vsmh.pdf, id=7407, 462.52798pt x 346.89601pt>
 File: images/BsDs/hplus_vsmh.pdf Graphic file (type pdf)
 
 <use images/BsDs/hplus_vsmh.pdf>
@@ -2426,7 +2427,7 @@ R AT ALL PHYSICAL $\OML/cmm/m/it/10.95 Q[]$ \T1/cmr/m/sl/10.95 FROM HEAVY-HISQ
 
 
 ]
-Underfull \vbox (badness 3701) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [154]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2435,42 +2436,51 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [156]
-[157])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [157]
+Underfull \vbox (badness 4699) has occurred while \output is active []
+
+ [158])
 \tf@lof=\write5
 \openout5 = `Thesis.lof'.
 
- [158] (./Thesis.lot
-Underfull \vbox (badness 1661) has occurred while \output is active []
 
- [159
+[159] [160
 
-]
+] (./Thesis.lot
+
+LaTeX Warning: Reference `eq:nrqcd_dH' on page 69 undefined on input line 7.
+
 
 LaTeX Warning: Reference `eq:decayconstant' on page 104 undefined on input line
- 14.
+ 13.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [160]
+ [161]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Reference `eq:decayampfit' on page 147 undefined on input line 2
-8.
+ [162]
+
+LaTeX Warning: Reference `eq:decayampfit' on page 144 undefined on input line 2
+7.
 
 
-LaTeX Warning: Reference `eq:decayconstantfit' on page 147 undefined on input l
-ine 28.
+LaTeX Warning: Reference `eq:decayconstantfit' on page 144 undefined on input l
+ine 27.
 
-[161])
+)
 \tf@lot=\write6
 \openout6 = `Thesis.lot'.
 
- (./Thesis.bbl [162] [163
+ (./Thesis.bbl [163] [164
 
-] [164] [165] [166] [167] [168] [169] [170]
-[171] [172] [173] [174] [175]) [176] (./Thesis.aux (./TitlePage.aux)
-(./intro.aux) (./background.aux) (./latticeqcd.aux) (./latticecalcs.aux)
-(./nrqcd.aux) (./BsDsstar.aux) (./BsDs.aux))
+] [165] [166] [167] [168] [169] [170] [171] [172]
+[173] [174] [175] [176]) [177] (./Thesis.aux (./TitlePage.aux) (./intro.aux)
+(./background.aux) (./latticeqcd.aux) (./latticecalcs.aux) (./nrqcd.aux)
+(./BsDsstar.aux) (./BsDs.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -2479,13 +2489,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 26417 strings out of 494910
- 641522 string characters out of 6179835
- 815613 words of memory out of 5000000
- 29049 multiletter control sequences out of 15000+600000
+ 25768 strings out of 494910
+ 623576 string characters out of 6179835
+ 793803 words of memory out of 5000000
+ 28397 multiletter control sequences out of 15000+600000
  44563 words of font info for 138 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 66i,21n,105p,1699b,2526s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 66i,21n,79p,1699b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/euan/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1095.600pk> </home/eu
 an/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0800.600pk> </home/euan/.texmf-va
 r/fonts/pk/ljfour/jknappen/ec/ecrm0600.600pk> </home/euan/.texmf-var/fonts/pk/l
@@ -2515,20 +2525,21 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on Thesis.pdf (188 pages, 7291406 bytes).
+c/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/urw/helvetic/uhvr8a.pfb>
+Output written on Thesis.pdf (189 pages, 7336751 bytes).
 PDF statistics:
- 8351 PDF objects out of 8907 (max. 8388607)
- 1221 compressed objects within 13 object streams
+ 8445 PDF objects out of 8907 (max. 8388607)
+ 1280 compressed objects within 13 object streams
  0 named destinations out of 1000 (max. 500000)
- 273 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 283 words of extra memory for PDF output out of 10000 (max. 10000000)
 

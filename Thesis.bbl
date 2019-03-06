@@ -594,36 +594,12 @@ Christopher Monahan, Junko Shigemitsu, and Ron Horgan.
   nonrelativistic QCD and highly improved staggered quarks}.
 \newblock {\em Phys. Rev.}, D87(3):034017, 2013.
 
-\bibitem{Colquhoun:2015oha}
-B.~Colquhoun, C.~T.~H. Davies, R.~J. Dowdall, J.~Kettle, J.~Koponen, G.~P.
-  Lepage, and A.~T. Lytle.
-\newblock {B-meson decay constants: a more complete picture from full lattice
-  QCD}.
-\newblock {\em Phys. Rev.}, D91(11):114509, 2015.
-
-\bibitem{Colquhoun:2015mfa}
-B.~Colquhoun, R.~J. Dowdall, J.~Koponen, C.~T.~H. Davies, and G.~P. Lepage.
-\newblock {$B\to\pi l\nu$ at zero recoil from lattice QCD with physical u/d
-  quarks}.
-\newblock {\em Phys. Rev.}, D93(3):034502, 2016.
-
-\bibitem{Morningstar:1997ep}
-Colin~J. Morningstar and J.~Shigemitsu.
-\newblock {One loop matching of lattice and continuum heavy light axial vector
-  currents using NRQCD}.
-\newblock {\em Phys. Rev.}, D57:6741--6751, 1998.
-
-\bibitem{Foldy:1949wa}
-Leslie~L. Foldy and Siegfried~A. Wouthuysen.
-\newblock {On the Dirac theory of spin 1/2 particle and its nonrelativistic
-  limit}.
-\newblock {\em Phys. Rev.}, 78:29--36, 1950.
-
-\bibitem{Dowdall:2013tga}
-R.~J. Dowdall, C.~T.~H. Davies, R.~R. Horgan, C.~J. Monahan, and J.~Shigemitsu.
-\newblock {B-Meson Decay Constants from Improved Lattice Nonrelativistic QCD
-  with Physical u, d, s, and c Quarks}.
-\newblock {\em Phys. Rev. Lett.}, 110(22):222003, 2013.
+\bibitem{Monahan:2017uby}
+Christopher~J Monahan, Heechang Na, Chris~M Bouchard, G~Peter Lepage, and Junko
+  Shigemitsu.
+\newblock {$B_s \to D_s \ell \nu$ Form Factors and the Fragmentation Fraction
+  Ratio $f_s/f_d$}.
+\newblock 2017.
 
 \bibitem{PhysRevD.91.054508}
 Bipasha Chakraborty, C.~T.~H. Davies, B.~Galloway, P.~Knecht, J.~Koponen, G.~C.
@@ -640,13 +616,6 @@ T.~C. Hammant, A.~G. Hart, G.~M. von Hippel, R.~R. Horgan, and C.~J. Monahan.
 \newblock {\em Phys. Rev.}, D88(1):014505, 2013.
 \newblock [Erratum: Phys. Rev.D92,no.11,119904(2015)].
 
-\bibitem{Monahan:2017uby}
-Christopher~J Monahan, Heechang Na, Chris~M Bouchard, G~Peter Lepage, and Junko
-  Shigemitsu.
-\newblock {$B_s \to D_s \ell \nu$ Form Factors and the Fragmentation Fraction
-  Ratio $f_s/f_d$}.
-\newblock 2017.
-
 \bibitem{PhysRevD.79.013008}
 Claude Bourrely, Laurent Lellouch, and Irinel Caprini.
 \newblock Model-independent description of
@@ -658,11 +627,6 @@ Claude Bourrely, Laurent Lellouch, and Irinel Caprini.
 Richard~J. Hill.
 \newblock {The Modern description of semileptonic meson form factors}.
 \newblock {\em eConf}, C060409:027, 2006.
-
-\bibitem{DeGrand:2006zz}
-Thomas DeGrand and Carleton~E. Detar.
-\newblock {\em {Lattice methods for quantum chromodynamics}}.
-\newblock 2006.
 
 \bibitem{Schroder:1994aj}
 H.~Schroder.
