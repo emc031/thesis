@@ -365,13 +365,13 @@ Accounting for oscillating states modifies the fit functions to
 \begin{align}
   \label{eq:2ptcorrelator_real}
   C_{\textbf{p}}(t)|_{\text{fit}} =& \sum_{j=0}^{N_{\text{exp}}} |a_j|^2 f(\bar{E}_j,t) + (-1)^{t/a} |a_{j,o}|^2 f(\bar{E}_{j,o},t) \\
-  C_{3}(t,T)|_{\text{fit}} =& \sum_{j,k=0}^{N_{\text{exp}},N_{\text{exp}}} \Big(\, a^{M}_j J^{nn}_{jk} a^{M'}_k f(E^{H_s},t) f(E^{M'}_n,T-t)
+  C_{3}(t,T)|_{\text{fit}} =& \sum_{j,k=0}^{N_{\text{exp}},N_{\text{exp}}} \Big(\, a^{M}_j J^{nn}_{jk} a^{M'}_k f(\bar{E}^{H_s},t) f(\bar{E}^{M'}_n,T-t)
   \\ \nonumber
-  &+a^{M,o}_j J^{on}_{jk} a^{M'}_k (-1)^t f(E^{M,o}_n,t) f(E^{M'},T-t)
+  &+a^{M,o}_j J^{on}_{jk} a^{M'}_k (-1)^t f(\bar{E}^{M,o}_n,t) f(\bar{E}^{M'},T-t)
   \\ \nonumber
-  &+a^{M}_j J^{no}_{jk} a^{M',o}_k (-1)^{T-t} f(E^{M},t) f(E^{M'^*,o}_n,T-t)
+  &+a^{M}_j J^{no}_{jk} a^{M',o}_k (-1)^{T-t} f(\bar{E}^{M},t) f(\bar{E}^{M'^*,o}_n,T-t)
   \\
-  &+a^{M,o}_j J^{oo}_{jk} a^{M',o}_k (-1)^T f(E^{M,o}_n,t) f(E^{M',o},T-t) \,\Big).
+  &+a^{M,o}_j J^{oo}_{jk} a^{M',o}_k (-1)^T f(\bar{E}^{M,o}_n,t) f(\bar{E}^{M',o},T-t) \,\Big).
   \label{eq:3ptcorrelator_real}
 \end{align}
 
@@ -387,6 +387,7 @@ A common problem for large fits such as those performed here is that the data’
 ular if there are strong correlations in the data. This makes it difficult to find $\sigma^{-2}_{C_i(t),C_j(t')}$ for use in the $\chi^2$. To adress this we impose an {\it{svd cut}} $c_{\text{svd}}$, which replaces any element of the covariance matrix smaller than $c_{\text{svd}} x$ with $c_{\text{svd}}x$, where $x$ is the largest element in the matrix. This makes thematrix less singular, and can be considered a conservative move since the only possible effect on the error of the final results is to inflate them.
 
 \subsection{Signal Degredation}
+\label{sec:signaldegredation}
 
 A large obstacle in the analysis of correlation functions is the \textit{signal degredation} of correlation functions computed on the lattice.
 

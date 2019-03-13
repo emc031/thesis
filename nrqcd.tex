@@ -1,6 +1,6 @@
 \chapter{$b$-Physics from Lattice NRQCD}
 
-This chapter gives some detail about a number of project attempted using the NRQCD formalism for the $b$ quark. Much of the discussion in this chapter will concern the NRQCD-HISQ representation of the vector and axial $b\to c$ currents, i.e, the current if one of the quarks obeys NRQCD and the other obeys HISQ. We give a number of attempts to improve the normalization of these currents (sections \ref{sec:relativistic}, \ref{sec:Bcetac} and \ref{sec:V0Sf0p}) and an attempt at a calculation of the $B\to Dl\nu$ and $B_s\to D_s l\nu$ form factors (Sec. \ref{sec:BD_BsDs_nrqcd}).
+This chapter gives some detail about a number of project attempted using the NRQCD formalism for the $b$ quark. Much of the discussion in this chapter will concern the NRQCD-HISQ representation of the vector and axial $b\to c$ currents, i.e, the current if one of the quarks obeys NRQCD and the other obeys HISQ. We give a number of attempts to improve the normalization of these currents (sections \ref{sec:relativistic} and \ref{sec:Bcetac}) and an attempt at a calculation of the $B\to Dl\nu$ and $B_s\to D_s l\nu$ form factors (Sec. \ref{sec:BD_BsDs_nrqcd}).
 
 None of the work in this chapter reached a particularly satisfying conclusion. The takehome is that using NRQCD for $b \to c$ currents is riddled with issues. If it can be computationally afforded, an alternative approach like heavy-HISQ is a far simpler and has a stronger grounding.
 
@@ -38,6 +38,7 @@ where $\Gamma_{\mu}$ is the continuum spin structure (e.g. for $A_{\mu}$; $\Gamm
 
 A subset of the matching factors $\{z^{J_{\mu}}\}$ have been calculated for $V_{\mu}$ and $A_{\mu}$ in \cite{Monahan:2012dq} via a perturbative matching calculation. In the case where the 'light' quark has a negligable mass (e.g. if we replaced the charm with an $s$, $u$ or $d$), results for $z^{J_{\mu}}_{0,1,2}$ are avaliable for both $V_{\mu}$ and $A_{\mu}$. However, in the $b\to c$ case the $c$ mass must be taken into account which complicates the calculation. In this case, only $z^{J_{\mu}}_{0}$ is avaliable. To sidestep this, in studies using these currents an extra truncation in $\alpha_s p/m_b$ is added resulting in
 \begin{align}
+  \label{eq:nrqcd-hisq-current-truncate}
   J_{\mu} &= ( 1 + z^{J_{\mu}}_0 \alpha_s )( J_{\mu,\text{lat}}^{(0)} + J_{\mu,\text{lat}}^{(1)} ) \\ \nonumber &\quad + \mathcal{O}( \alpha_s \Lambda_{\text{QCD}} / m_b, \alpha_s p/m_b,  \alpha_s^2, (\Lambda_{\text{QCD}}/m_b)^2, (p/m_b)^2 ).
   %% \\
   %% &= Z_{J_{\mu}}(1 + z^{J_{\mu}}_0 \alpha_s)( J_{\mu,\text{lat}}^{(0)} + J_{\mu,\text{lat}}^{(1)} ) \\ &\quad\quad \left( Z_{J_{\mu}} = 1 + \mathcal{O}(\alpha_s \Lambda_{\text{QCD}} /m_b, \alpha_s p/m_b, \alpha_s^2, (\Lambda_{\text{QCD}}/m_b)^2, (p/m_b)^2 ) \right). \nonumber
@@ -84,6 +85,7 @@ We generated these correlators on 500 configurations and 16 evenly spaced choice
 These are then fitted to the fit functions 
 \begin{align}
   C^{\alpha\beta}_{nm}(t)|_{\text{fit}} = \sum_{j=0}^{N_{\text{exp}}} \left( a^{\alpha,n}_j a^{\beta,m}_j f(\bar{E}_j,t) + (-1)^{t/a} a^{\alpha,n}_{j,o} a^{\beta,m}_{j,o} f(\bar{E}_{j,o},t) \right).
+  \label{eq:2ptfit_wsmears}
 \end{align}
 See sec. \ref{sec:correlator_fits} for definitions of $f$ and $\bar{E}$. One can recognise that
 \begin{align}
@@ -163,7 +165,7 @@ The above analysis shows that the truncation of NRQCD-HISQ temporal-axial curren
 
 \begin{figure}[htp!]
   \begin{center}
-    \includegraphics[width=0.85\textwidth]{images/NRQCD/new/relativistic_normalization_J0J1.pdf}
+    \includegraphics[width=0.85\textwidth]{images/nrqcd/relativistic_normalization_J0J1.pdf}
   \end{center}
   \caption{Decay amplitude ratios (colourful points) against the expected relativistic behaviour (grey dotted line and band). Adding the $A_{0,\text{lat}}^{(1)}$ piece of the current does not improve the relativistic behaviour of the ratio. \label{fig:relativisticnorm}}
 \end{figure}
@@ -327,6 +329,15 @@ The above analysis shows that the truncation of NRQCD-HISQ temporal-axial curren
 
 We attempted a calculation of the $B\to Dl\nu$ and $B_{s}\to D_{s}l\nu$ form factors, $f_{0,+}(q^2)$ and $f^s_{0,+}(q^2)$, using the 2+1+1 MILC ensembles, HISQ $l$,$s$ and $c$ valence quarks, and an NRQCD valence $b$ quark. This study was similar to previous studies of $B\to Dl\nu$ form factors \cite{Na:2015kha} and $B_s\to D_sl\nu$ form factors \cite{Monahan:2017uby}. The main difference between this study and the previous studies was that they used older MILC ensembles not taking the charm into account in the sea.
 
+This study was not completed on account of two seemingly insurmountable problems:
+\begin{itemize}
+  \item
+    The subleading terms in the vector NRQCD-HISQ current that we must ignore due to the lack of perturbative normalizations, $V_{k}^{(3,4)}$, turned out to be significant in magnitude.
+  \item
+    On one ensemble in the $B_s\to D_s l\nu$ case, there was an anomalous result for the vector current matrix element extracted from the correlator fits.
+\end{itemize}
+We give an outline of the calculation here for completeness, but the crucial findings of this section are these two issues.
+
 \subsection{Calculation Details}
 
 \begin{table}[htb!]
@@ -348,7 +359,7 @@ We generated correlation functions on three MILC ensembles, sets 0, 1 and 2 in t
 
 We generate 2-point correlation functions for $B_{(s)}$ and $D_{(s)}$ mesons, and 3-point correlators between $B_{(s)}$ and $D_{(s)}$ creation/anihilation operators with $V^{(n)}_{\mu}$ currents inserted for all $\mu$ and $n=0,1,2,3,4$. For the $B_{(s)}$ operator we use smearings like those introduced in eq. \eqref{eq:smearings}, smearing radii $a_{\text{sm}}$ are given in table \ref{tab:quarkmasses}.
 
-The $B_{(s)}$ 2-point correlators, $C_{D_{(s)}}^{\alpha\beta}(t)$ are generated using eq. \eqref{eq:nrqcd-hisq-2pt}, with the charm propagator replaced with a strange or light propagator, and $\mathcal{O}_{m} = \gamma_0\gamma_5$. We generate $D_{(s)}$ 2-point correlators at a number of spacial momenta $\{{\textbf{p}}\}$, generated by
+The $B_{(s)}$ 2-point correlators, $C_{B_{(s)}}^{\alpha\beta}(t)$ are generated using eq. \eqref{eq:nrqcd-hisq-2pt}, with the charm propagator replaced with a strange or light propagator, and $\mathcal{O}_{m} = \gamma_0\gamma_5$. We generate $D_{(s)}$ 2-point correlators at a number of spacial momenta $\{{\textbf{p}}\}$, generated by
 \begin{align}
   C_{D_{(s)}}^{\alpha\beta}({\textbf{p}},t) = \sum_{\textbf{x},\textbf{y}} \phi^{\alpha}({\textbf{x}})\phi^{\beta}({\textbf{y}}) \text{Tr}_c[g_c^{\theta}(x,y) g^{\dagger}_{l(s)}(x,y) ].
 \end{align}
@@ -358,88 +369,74 @@ We generate 3-point correlators for each individual piece of the NRQCD-HISQ curr
 \begin{align}
   C_{V_{\mu}^{(n)}}^{\alpha\beta} ({\textbf{p}},t,T) = \sum_{\textbf{x},\textbf{y},\textbf{z}} \text{Tr}_c\left( g_c^{\theta}(x,y) g_{l(s)}^{\dagger}(x,z) \text{Tr}_s\left[ \gamma_0 \gamma_x\gamma_y \mathcal{O}_{n,\mu}G_b(y,z) \gamma_z \right] \right).
 \end{align}
-The list of twists we ran on each ensemble is given in table \ref{tab:nrqcd_twists}. Due to the signal/noise degredation of the $D_{(s)}$ correlators as one adds more spacial momentum, our lattice data was limited to the high $q^2$ region. One motivation for this study was to test how far down the $q^2$ range we could reach with lattice data before the noise in the correlators made the data useless.
+$\mathcal{O}_{n,\mu}$ are defined by $J_{\mu}^{(n)} = \bar{\psi}_c \mathcal{O}_{n,\mu} \Psi_b$, where $J_{\mu}^{(n)}$ are the NRQCD-HISQ vector currents given in Eq. \eqref{eq:nrqcd-hisq-current}. The list of twists we ran on each ensemble is given in table \ref{tab:nrqcd_twists}. Due to the signal/noise degredation of the $D_{(s)}$ correlators as one adds more spacial momentum, our lattice data was limited to the high $q^2$ region. One motivation for this study was to test how far down the $q^2$ range we could reach with lattice data before the noise in the correlators made the data useless.
 
 \begin{table}[htb!]
-\begin{center}
+  \hspace{-15pt}
  \begin{tabular}{c c c c c}
  \hline
  & Set & $\theta$ & $|a{\textbf{p}}|$ & $q^2$[GeV$^2$] \\ [0.5ex] 
  \hline
- $B\to D$ & 0 & 0, 0.74, 1.47, 2.20, 2.94 & 0, 0.25, 0.5, 0.75, 1.00 & \\ [1ex]
- & 1 & 0, 1.58, 2.24, 4.53 & 0, 0.36, 0.51, , 1.02 & \\ [1ex]
- & 2 & 0, 1.76, 2.64 & 0, 0.30, 0.49 \\ [1ex]
+ $B\to D$ & 0 & 0, 0.74, 1.47, 2.20, 2.94 & 0, 0.25, 0.5, 0.75, 1.00 & 11.8, 11.6, 10.8, 9.4, 7.3 \\ [1ex]
+ & 1 & 0, 1.58, 2.24, 4.53 & 0, 0.36, 0.51, , 1.02 & 11.8, 10.8, 9.9, 5.0  \\ [1ex]
+ & 2 & 0, 1.76, 2.64 & 0, 0.30, 0.49 & 11.8, 10.7, 9.3 \\ [1ex]
  \hline
- $B_s\to D_s$ & 0 & 0, 0.74, 1.47, 2.20, 2.94 & 0, 0.25, 0.5, 0.75, 1.03 & \\ [1ex]
- & 1 & 0, 1.10, 2.20, 3.31, 4.41 & 0, 0.25, 0.50, 0.75, 1.00 & \\ [1ex]
- & 2 & 0 & 0 & \\ [1ex]
+ $B_s\to D_s$ & 0 & 0, 0.74, 1.47, 2.20, 2.94 & 0, 0.25, 0.5, 0.75, 1.03 & 11.8, 11.6, 10.9, 9.5, 7.6 \\ [1ex]
+ & 1 & 0, 1.10, 2.20, 3.31, 4.41 & 0, 0.25, 0.50, 0.75, 1.00 & 11.8, 11.3, 10.1, 8.1, 5.7 \\ [1ex]
+ & 2 & 0 & 0 & 11.8\\  [1ex]
  \hline
 \end{tabular}
  \caption{Twists given to the charm propagator on each ensemble. \label{tab:nrqcd_twists} }
- \end{center}
 \end{table}
 
-{\red{
-    =============================
-    
-    Have written up to here, everything below is old!
+\subsection{Correlator Fits}
 
-    =============================}}
-
-
-%\\ \\
-%\\ \\
-Table \ref{tab:nrqcdensembles} gives details of the ensembles used in this study. These are taken from the MILC HISQ ensembles \cite{Bazavov:2012xda}. They are generated by MCMC with the distribution given in \eqref{eq:MCweight}, where $M$ is the Dirac operator for the HISQ action. They take into accound up, down, strange and charm quarks, assuming the contribution from higher mass quarks in the sea to be negligable.
-\\ \\
-Following the procedure discussed in section \ref{sec:correlators}, first we must compute 2-point correlators for the $B_s$ and $D_s$. In both cases we use \textit{smeared} creation operators:
+We extract current matrix elements from the generated correlation functions, via simultaneous Bayesian fits as described in Sec. \ref{sec:correlator_fits}. For the set of 2-point correlators with a number of smearings we use \eqref{2ptfit_wsmears}, and 3-point correlators are fit to
 \begin{align}
-	\Phi^{\alpha}(\underline{k},t) = \sum_{\underline{x},\underline{x'}} e^{-i\underline{k}\cdot\underline{x}} \text{ } \bar{\psi}_1(\underline{x'},t)\phi^{\alpha}(\underline{x}'-\underline{x}) \gamma_5 \psi_2(\underline{x})
+  \nonumber
+  C^{\alpha\beta}_{3}(t,T)|_{\text{fit}} =& \sum_{j,k=0}^{N_{\text{exp}},N_{\text{exp}}} \Big(\, a^{M}_j J^{nn}_{jk} a^{M'}_k f(E^{H_s},t) f(E^{M'}_n,T-t)
+  \\ \nonumber
+  &+a^{M,o}_{\alpha,j} J^{on}_{jk} a_{\beta,k}^{M'} (-1)^t f(E^{M,o}_n,t) f(E^{M'},T-t)
+  \\ \nonumber
+  &+a_{\alpha,j}^{M} J^{no}_{jk} a_{\beta,k}^{M',o} (-1)^{T-t} f(E^{M},t) f(E^{M'^*,o}_n,T-t)
+  \\
+  &+a_{\alpha,j}^{M,o} J^{oo}_{jk} a_{\beta,k}^{M',o} (-1)^T f(E^{M,o}_n,t) f(E^{M',o},T-t) \,\Big).
+  \label{eq:3ptcorrelator_real}
 \end{align}
-where $\bar{\psi}_1$,$\psi_2$ are $\bar{b}$,$s$ for the $B_s$ and $\bar{c}$,$s$ for the $D_s$. The smearing functions $\phi^{\alpha}$ approximate the wavefunction of one quark in a potential set up by the other, giving a psuedo-realistic representation of the meson. This makes the operator $\Phi^{\alpha}$ couple stronger to the ground state of the meson, maximizing the $a_0 \propto \langle0 |\Phi^{\alpha}|\lambda_0\rangle$ parameter in the fit \eqref{eq:multiexponential} relative to the excited states $a_{n>0}$. This increases the dominance of the first term in \eqref{eq:multiexponential} resulting in better convergence of the $n$ sum, therefore a better fit and better statistics of the results.
-\\ \\
-For the $B_s$, we use a combination of $\phi^0(\underline{z})=\delta(\underline{z})$ ("local"), and $\phi^{1,2}(\underline{z}) \propto \text{exp}(-|\underline{z}|/r_0)$ ("smeared"), with $r_0 \simeq 2.5$fm$, 5$fm. For the $D_s$ we use one local and one smeared with $r_0\simeq2.5$fm. Correlation functions between each smearing combination is calculated, i.e. for the $D_s$, we compute 4 correlators $\langle \Phi^{0\dagger}_D\Phi_D^0 \rangle$, $\langle \Phi^{1\dagger}_D\Phi_D^0 \rangle$, $\langle \Phi^{0\dagger}_D\Phi_D^1 \rangle$, $\langle \Phi^{1\dagger}_D\Phi_D^1 \rangle$, and 9 for the $B_s$.
-\\ \\
-A good way to see the benefit of the smearing is by plotting the effective mass $m_{\text{eff}}(t) = \text{log}({C(t)/C(t+1)})$ against $t$ as in fig. \ref{fig:effmass}. The flatness of this as a function in $t$ shows how well it is approximated by the fit function with only the ground state (i.e. not contaminated by excited states), therefore how easily the fit will determine the ground-state energy. As can be seen, The smeared effective mass "flattens out" quicker than the local, as the smeared couples mostly to the ground state.
-\\ \\
-\begin{figure}
-  \begin{center}
-    \includegraphics[width=0.65\textwidth]{images/NRQCD/EffMass_localVsSmear_Ds_coarse.png}
-  \end{center}
-  \caption{Effective mass of $D_s$ correlation functions, one with local $D_s$ operators $\langle\Phi^0\Phi^0\rangle$ and one with smeared $\langle\Phi^1\Phi^1\rangle$.}
-  \label{fig:effmass}
-\end{figure}
+We set $N_{\text{exp}}=5$ is each fit. We perform a single simultanious fit containing each correlator computed for each ensemble.
 
-The 3pt correlation function calculated is $\langle \Phi^{\alpha\dagger}_{D_s} V_{\mu} \Phi^{\beta}_{B_s} \rangle$, including all smearings of the $B_s$ and $D_s$ used in the 2-point functions. We must be careful choosing the appropriate operator for $V_{\mu}$. Recall that NRQCD quarks contain an inverse Fouldy-Wouthuysen (FW) transformation \eqref{eq:FoldyWoldy}. This must be encorparated into the $V_{\mu}$ operator, since it couples to the $b$ which obeys the NRQCD action in our simulation. Hence the $V_{\mu}$ operator must be of the form
+We set gaussian priors for the parameters $J_{jk}$, and log-normal priors for all other parameters. Using log-normal distributions forbids energies $E_n^M$ and amplitudes $a_n^M$ from moving arbitrarily close to zero, improving stability of the fit.
+
+Priors for the ground state energies and amplitudes (oscillating and non-oscillating) are set via an empirical Bayes approach, plots of effective masses and amplitudes are inspected to find reasonable central values of priors (see Sec. \ref{sec:BsDsstar_fits} for definitions of effective masses and amplitudes), and a generic variance of 10\% is given. The typical precision of fit results for these parameters are of order 0.1\%, much more precise than their priors. All 3-point transition parameters $J_{jk}$ are given priors of $0\pm 1$.
+
+We typically set $t_{\text{cut}}=3$ for 2- and 3-point correlators in the fit on the fine ensemble (set 2) and $t_{\text{cut}}=2$ on very coarse and coarse (sets 0 and 1). For some specific correlators, a larger $t_{\text{cut}}$ is necessary to acheive a good fit ($\chi^2/N_{\text{dof}} < 1$), these higher $t_{\text{cut}}$ values are always in the 2-8 range. An svd cut is applied in each fit, with a specific choice of cut determined according to what acheives a good fit. The svd-cut is typically of the order $10^{-3}$.
+
+The current matrix element we require to find $h_{A_1}^s(1)$ is given by
 \begin{align}
-	V_{\mu} = \bar{c}\gamma_{\mu}\left( 1 - {1\over 2m_b} \underline{\gamma}\cdot\underline{\nabla} + \mathcal{O}\left({1\over m_b^2}\right) \right) b 
+  \langle D_s | V_{\mu}^{(m)} | B_s \rangle |_{\text{lat}} = 2 \sqrt{M_{B_s}E_{D_s}} J^{nn}_{00}.
+  \label{eq:currentfit}
 \end{align}
-where we can afford to expand the exponential in the FW transformation since $1/m_b$ is small. However, this is only a tree level result. According to the discussion in sec. \ref{sec:renormalization}, these terms require renormalization constants, and also new terms in the above expansion may appear. Therefore the full expression for the vector current that we use is (accurate to $\mathcal{O}(\alpha_s,1/m_b)$):
+
+\subsection{Form Factors}
+
+We construct 'continuum' vector currents $\langle D_{(s)}| V_{\mu} | B_{(s)} \rangle \equiv \langle V_{\mu} \rangle$ from the lattice expectation values $\langle D_s | V_{\mu}^{(n)} | B_s \rangle |_{\text{lat}}$ according to Eq. \eqref{eq:nrqcd-hisq-current-truncate}, i.e. only including the first two current pieces $V^{(0)}_{\mu}$ and $V^{(1)}_{\mu}$. We also compute $V^{(2)}_{0}$ and $V^{(2,3,4)}_k$ to assess their size and the validity of ignoring them, this is adressed in sec. {\red{!!!}}.
+
+We take the average over the spacial currents, resulting in two distinct current matrix elements $\langle V_0 \rangle$ and $\langle V_k \rangle$. Then, from Eq. \eqref{eq:formfactors_experimental}, we find (defining $M_{B_{(s)}}\equiv M$, $M_{D_{(s)}}\equiv m$, $E_{D_{(s)}}\equiv E$, and ${\textbf{p}}_{D_{(s)}} \equiv {\textbf{p}}$)
 \begin{align}
-	\nonumber
-	V_{\mu} &= (1+z_0 \alpha_s)\left[ V_{\mu}^{(0)} + (1 + z_1 \alpha_s) V_{\mu}^{(1)} + z_2 \alpha_s V_{\mu}^{(2)} \right] \\
-	\nonumber
-	& V_{\mu}^{(0)} = \bar{c}\gamma_{\mu} b \\
-	\nonumber
-	& V_{\mu}^{(1)} = -{1\over 2m_b} \bar{c} \gamma_{\mu}\underline{\gamma}\cdot\underline{\nabla} b \\
-	\nonumber
-	& V_{\mu}^{(2)} = -{1\over 2m_b} \bar{c} \gamma_{\mu}\underline{\gamma}\cdot\underline{\overleftarrow{\nabla}} b \\
-	\label{eq:currentcorrections}
+  \langle V_0 \rangle &= f^{(s)}_+(q^2) \left[ M + E - {M^2-m^2\over q^2}(M-E) \right] + f^{(s)}_0(q^2) {M^2-m^2\over q^2}(M-E) \\
+  \langle V_k \rangle &= {|{\textbf{p}}|\over \sqrt{3}} \left[ f^{(s)}_+(q^2) \left( 1 + {M^2-m^2\over q^2} \right) - f^{(s)}_0(q^2) {M^2-m^2\over q^2} \right]
 \end{align}
-The coefficients $\{z_i\}$ are set by a matching procedure between the HISQ/NRQCD currents and continuum QCD in \cite{Monahan:2012dq}. We calculate correlation functions $\langle \Phi_{D_s} V^{(i)}_{\mu} \Phi_{B_s}\rangle$ for each current and combine them after the fitting procedure.
+By inverting these relations we deduce $f^{(s)}_{0,+}(q^2)$ from $\langle V_0 \rangle$,$\langle V_k \rangle$ at the lattice spacings of each ensemble.
 
-\subsection{Deduction of Form Factors}
+We aim then to extrapolate these values to $a=0$ and to all $q^2$. We did not obtain any lattice data at smaller light quark masses so cannot extrapolate to the physical light mass. In the $B_s\to D_sl\nu$ case, the size of such an effect is small (see chapters \ref{chap:BsDsstar} and \ref{chap:BsDs}). In the $B\to Dl\nu$ case, however, this could result in considerable uncontrolled systematic errors.
 
-We wish to use these currents to deduce the $B_s\to D_s l\nu$ form factors discussed in section \ref{sec:formfactors} over the full $q^2$ range. To this end, the above procedure to compute $\langle D_s | V^{(i)}_{\mu} | B_s \rangle$ is repeated while giving the $D_s$ meson a range of different spacial momenta. We chose spacial momentum ${\textbf{p}} = |{\textbf{p}}|(1,1,1)$, in this each direction is equivilant, and it allows us to average $V_{\mu}$ over the 3 spacial directions, reducing work in the fit and increasing the statistics of the averaged current $V_k \equiv \sum_{i=1}^3 V_i / 3$.
-\\ \\
-As discussed in appendix \ref{sec:signalnoise}, the most accurate results will come from $|{\textbf{p}}| = 0$, then the correlators become noise-dominated as one increases $|{\textbf{p}}|$ towards $|{\textbf{p}}|_{\text{max}}$. Hence, the approach is to start at the $|{\textbf{p}}|=0$ end and move up in momentum, monitoring statistical errors as you go. So far we have performed runs for $|a{\textbf{p}}| = 0,0.30,0.45$ on the fine ensemble, and $|a{\textbf{p}}|=0,0.25,0.50$ on the coarse ensemble. Statistical errors have not yet become uncontrollable at these momenta, but from experience of previous calculations, they are expected to become problematic at $|a{\textbf{p}}| \sim 0.7$. 
-\\ \\
-With values for $\langle D_s | V_{\mu} | B_s \rangle$ at varying ${\textbf{p}}$ therefore varying $q^2$, we can perform a fit of this data in order to extract $f_{0,+}(q^2)$ via \eqref{eq:formfactors}. To do the fit, we need some anzats for the functional form of $f_{0,+}(q^2)$. We use the BCL parameterization \cite{PhysRevD.79.013008}. This involves first reparameterizing $q^2$ to 
+We parameterise the functional form of $f^{(s)}_{0,+}(q^2)$ using the BGL parameterization \cite{PhysRevD.79.013008}. This involves first definingthe map
 \begin{align}
 	z(q^2) = {\sqrt{t_+ - q^2} - \sqrt{t_+ - t_0} \over \sqrt{t_+ - q^2} + \sqrt{t_+ - t_0} }
 \end{align}
-where we take $t_0 = t_+( 1 - \sqrt{1 - t_-/t_+})$, and $t_{\pm} = (M_{B_s} \pm M_{D_s})^2$, as in \cite{Hill:2006ub}. $z(q^2)$ has a very small magnitude throughout the entire $q^2$ range, in our case $|z|_{\text{max}} \sim 0.032$. We can then accurately model $f_{+,0}$ as a series expansion in $z$:
+where we take $t_0 = t_+( 1 - \sqrt{1 - t_-/t_+})$, and $t_{\pm} = (M_{B_s} \pm M_{D_s})^2$. $z(q^2)$ has a very small magnitude throughout the entire $q^2$ range, in our case $|z| < 0.032 \,\forall\, $(physical)$ q^2$. It can be shown that $f_{0,+}^{(s)}(q^2)$ is analytic in the unit disc of the $z-$plane. $f^{(s)}_{+,0}(q^2)$ can be expressed as a series expansion in $z$:
 \begin{align}
-	f_{0,+}(q^2) = {1\over P_{0,+}(q^2)} \sum_n a^{0,+}_n z(q^2)^n
+	f_{0,+}(q^2) = {1\over P_{0,+}(q^2)} \sum_k a^{0,+}_k z(q^2)^k.
 	\label{eq:zexpansion}
 \end{align}
 we truncate this at $z^2$, adding further terms have no effect on the fit. The so-called Blaschke factors $P(q^2)$
@@ -447,22 +444,15 @@ are defined by
 \begin{align}
 	P_{0,+}(q^2) = \left( 1 - {q^2\over M_{0,+}^2}\right)
 \end{align}
-These are required due to subthreshold poles in the crossed channel of $\langle D_s | V^{(i)}_{\mu} | B_s \rangle$, which in our case is a $W$ decay into a $B_c$ meson. The pole is located where the $W$ has the correct momentum $q^2$ to create the $B_c$, hence at $q^2=M_{B_c}$. This is not within the $q^2$ range, but can create curvature in $f_{0,+}$ that can confound the expansion in $z$. $P_{0,+}$ effectively removes this pole from the $z$ expansion.
+These are required due to subthreshold poles in the crossed channel of $\langle D_s | V_{\mu} | B_s \rangle$, which in our case is a $W$ decay into a $B_c$ meson. The pole is located where the $W$ has the correct momentum $q^2$ to create the $B_c$, hence at $q^2=M_{B_c}$. This is not within the $q^2$ range, but can create curvature in $f_{0,+}$ that can confound the expansion in $z$. $P_{0,+}$ effectively removes this pole from the $z$ expansion.
 
-\subsection{Continuum \& Chiral Extrapolation}
-
-The form factors $f_{0,+}(q^2)$ we deduce from the above will contain systematic errors due to 1) discretization, and 2) unphysical quark masses and mistunings. 
-\\ \\
-2) requires a little explaination. In lattice simulations it is computationally expedient (and sometimes neccesary) to take the up/down quark masses $m_l$ to be much larger than their physical values. This is because the condition number of the Dirac operator $M_l$ is proportional to $am_l$, a small condition number makes it difficult or impossible to numerically invert $M_l$ to obtain the propagator $M^{-1}_l$ as part of the process in section \ref{sec:correlators}. Fortunately, since the $B_s\to D_s l\nu$ decay involves no up/down valence quarks, we mostly need not worry about this problem. There is also the issue of mistuning: the quark masses we use are tuned by a calculation of some process, see caption in table \ref{table:quarkmasses}. The uncertainty in these determinations must be accounted for somehow.
-\\ \\
-The above issues are in general dealt with by computing the above form factors at a number of lattice spacings and quark masses, and results extrapolated to $a\to 0$ and $m\to m_{\text{physical}}$. The $a\to 0$ extrapolation is performed by involving data from all ensembles in the fit to $f_{0,+}$, and modifying \eqref{eq:zexpansion}:
+The discretisation effects in our form factors are controlled for by modifying \eqref{eq:zexpansion}:
 \begin{align}
 	a^{0,+}_n \to a^{0,+}_n \times ( 1 + b^{0,+}_n (am_c)^2 )
 \end{align}
-where $b^{0,+}_n$ are new fit parameters, and $m_c$ is the charm mass. $am_c\to0$ in the continuum limit, and, since the charm mass is the largest mass parameter involved in our calculation, it serves as a good order parameter for discretization effects. The extrapolation in masses has not yet been implemented in this work.
+where $b^{0,+}_n$ are new fit parameters, and $m_c$ is the charm mass. $am_c\to0$ in the continuum limit, and, since the charm mass is the largest scale involved in our calculation, it serves as a good order parameter for discretization effects. 
 
-\section{Results I guess}
-\label{sec:nrqcd}
+\subsection{Results}
 
 %% \begin{figure}
 %% \centering
@@ -480,132 +470,147 @@ where $b^{0,+}_n$ are new fit parameters, and $m_c$ is the charm mass. $am_c\to0
 %% \label{fig:nrqcd}
 %% \end{figure}
 
-\begin{figure}
-  \vspace{-20pt}
+The extrapolation of our lattice data to all $q^2$ and $a=0$ is illustrated in figures \ref{fig:BD_formfactors} and \ref{fig:BsDs_formfactors}. As can be seen here, statistical errors in the lattice data increase exponentially with momentum twist (as $q^2$ decreases). Besides this, the very coarse data suffers from large discretization effects as the twist is increased, pushing the results upwards.
+
+\begin{figure}[htb!]
   \begin{center}
-    \includegraphics[width=0.85\textwidth]{images/NRQCD/new/BD_formfactors.pdf}
+    \includegraphics[width=0.85\textwidth]{images/nrqcd/BD_formfactors.pdf}
   \end{center}
-  \caption{}
+  \caption{$B\to Dl\nu$ form factors. The coloured points show lattice data, each color represents an ensemble. The grey band represents the continuum and kinematically extrapolated result. \label{fig:BD_formfactors}}
   \vspace{-20pt}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[htb!]
   \vspace{-20pt}
   \begin{center}
-    \includegraphics[width=0.85\textwidth]{images/NRQCD/new/BsDs_formfactors.pdf}
+    \includegraphics[width=0.85\textwidth]{images/nrqcd/BsDs_formfactors.pdf}
   \end{center}
-  \caption{}
+  \caption{$B_s\to D_sl\nu$ form factors. The coloured points show lattice data, each color represents an ensemble. The grey band represents the continuum and kinematically extrapolated result. \label{fig:BsDs_formfactors}}
   \vspace{-20pt}
 \end{figure}
 
-\begin{figure}
-  \vspace{-20pt}
-  \begin{center}
-    \includegraphics[width=0.75\textwidth]{images/NRQCD/new/BsDs_f0q2max.pdf}
-  \end{center}
-  \caption{}
-  \vspace{-20pt}
-\end{figure}
+We now go on to discuss the two issues which lead us to abandon this project.
 
+\subsubsection{Anomalous Results}
 
-\begin{table}
-\begin{center}
-\begin{tabular}{|| c c c c c c c c ||}
-\hline
-Set & $|a{\textbf{p}}_{D_s}|$ & $V_0^{(0)}$ & $V_0^{(1)}$ & $V_0^{(2)}$ & $V_k^{(0)}$ & $V_k^{(1)}$ & $V_k^{(2)}$ \\ [0.5ex]
-\hline \hline
-2 & 0.00 & 0.3819(12) & 0.0024(12) & 0.0(1.0)e-05 & 0.0(1.0)e-05 & 0.0(1.0)e-05 & 0.0(1.0)e-05\\ [0.5ex] 
- & 0.25 & 0.3726(18) & 0.00281(61) & 0.00109(67) & 0.02317(28) & 0.00057(17) & -0.00572(39)\\ [0.5ex] 
- & 0.50 & 0.3522(18) & 0.00339(53) & -0.00390(75) & 0.04309(51) & 0.00111(42) & -0.01106(57)\\ [0.5ex] 
-3 & 0.00 & 0.3719(62) & 0.0048(14) & 0.0(1.0)e-05 & 0.0(1.0)e-05 & 0.0(1.0)e-05 & 0.0(1.0)e-05\\ [0.5ex] 
- & 0.30 & 0.3465(73) & 0.0045(19) & 0.0006(19) & 0.03692(49) & 0.00128(92) & -0.00869(91)\\ [0.5ex] 
- & 0.45 & 0.3426(39) & 0.0052(14) & -0.0054(14) & 0.05079(77) & 0.00142(56) & -0.01332(54)\\ [0.5ex] 
-\hline
-\end{tabular}
-\caption{Results for pieces of the vector current. Some termstext{max} have been simply given the value $0.0(1.0)e-05$, since these terms are neccesarily zero for the form factors to be analytic. \label{table:fitresults} }
-\end{center}
-\end{table}
+In the $B_s\to D_s l\nu$ case we did not include lattice results from the fine ensemble in the $q^2$ and $a\to 0$ extrapolation. This is because the lattice results for $f_0^s(q^2)$ on this ensemble is clearly wrong.
 
-I continued work on the NRQCD calculation of the $B_{(s)}\to D_{(s)} l\nu$ semileptonic form factors (see second 
-year report). The $B_s\to D_s$ part of the calculation is detailed in the second year report. The $B\to D$ part follows an identicle procedure, with the strange valence quark swapped for a light quark of the same mass as the light quarks in the sea. The results are summarized in fig. \ref{fig:nrqcd}.
-\\ \\
-Before the fit takes place we already know the ballpark of what $V^{nn}_{00}$ should be from a couple of sources.
+Before the fits to correlation functions takes place we already know the ballpark of what $J^{nn}_{00}$ should be from a couple of sources.
 \begin{itemize}
 \item
 The result should not vary more than $\mathcal{O}(a^2)$ (where $a$ is the lattice spacing) from the same number on other ensembles.
 \item
-The result should not vary more than $\mathcal{O}(a(m_s - m_l))$ from the same number on the same on ensemble for the $B\to D$ calculation (approximate flavour symmetry).
+  The result should not vary more than $\mathcal{O}(am_s - am_l))$ from the same number on the same on ensemble for the $B\to D$ calculation (Chiral symmetry).
 \end{itemize}
-However, we find the fits produce a result for $V^{nn}_{00}$ that is much larger than expected. This is accompanied by the fits being very unstable, varying by a number of sigma when different combinations of data are included. This suggests that there is nothing wrong with the correlation functions themselves, rather the fits are broken. A number of tests have been carried out to find out exactly what is causing this issue, but no compelling evidence has emerged for any explaination.
-\\ \\
-We have also tried running $B \to D$ on annother ensemble with a lower $am_l$, in order to test for effects associated with the unphysical light quark masses. However the fitting of these correlation functions seem to suffer from similar issues to the $B_s\to D_s$ calculation on the fine ensemble.
-\\ \\
-Annother problem that has uncovered itself in the NRQCD calculation is large subleading currents. The lattice vector currents we use in the simulation are only the leading order contribution to the continuum vector current (see second year report). We calculated the next-to-leading order contributions to the continuum currents to estimate the error associated with neglecting these terms. Some of these currents turned out to be $\sim 35\%$ of the leading order.
-\\ \\
-The above problems have gradually led us to the realization that the NRQCD approach may not be the best way to perform these calculations. In tandem with trying to solve these problems, we have started an alternative calculation of the $B_s \to D_s$ form factors using the so-called Heavy-HISQ approach.
+However, we find the fits to $q^2_{\text{max}}$ data on the fine ensemble produce a result for $J^{nn}_{00}$ that is much larger than expected. This is accompanied by the fits being very unstable, varying by a number of sigma when different combinations of data are included. A number of tests have been carried out to find out exactly what is causing this issue, but no compelling evidence has emerged for any explaination. Fig. \ref{fig:BsDs_f0q2max} illustrates the situation.
 
-\section{Form factors from $V_0$ and $S$ in $B_{(s)}\to D_{(s)}$}
+it is worth keeping in mind that NRQCD results have no continuum limit, since the action and the currents are truncated sums of inverse masses in lattice units, therefore the truncation error grows like $a^{-n}$ as $a\to 0$. What we are seeing here may be the result of large $1/(am_b)^2$ corrections to the NRQCD-HISQ current being ignored.
 
-\section{Non-Perturbative Renormalization via NRQCD / Heavy-HISQ comparison}
+\begin{figure}[htb!]
+  \vspace{-20pt}
+  \begin{center}
+    \includegraphics[width=0.75\textwidth]{images/nrqcd/BsDs_f0q2max.pdf}
+  \end{center}
+  \caption{Lattice results for $f_0^s(q^2_{\text{max}})$ against $a^2$. The grey band shows the result for $f_0^s(q^2_{\text{max}})$ computed in chapter \ref{chap:BsDs} using the Heavy-HISQ approach for comparison. Clearly the result on the fine ensemble (the black point), and possibly on the coarse ensemble (the blue point), contain large unknown systematic errors. \label{fig:BsDs_f0q2max}}
+
+\end{figure}
+
+\subsubsection{Large Subleading Currents}
+
+Annother problem that has uncovered itself in the NRQCD calculation is large subleading currents. Namely, the pieces $V^{(2,4)}_k$ of the spacial vector current. We determined these currents as part of the calculation in order to assess if they are suitably small such that they can be ignored. These turned out to have a magnitude $\sim 35\%$ of the leading order.
+
+\begin{figure}[htb!]
+  \begin{center}
+    \includegraphics[width=1.2\textwidth]{images/nrqcd/BsDs_currentratios.pdf}
+  \end{center}
+  \caption{Lattice results for the ratios of (matrix elements of) NRQCD-HISQ currents in the $B_s\to D_s$ case. Namely ratios of the subleading currents $V_{\mu}^{(n>0)}$ to the leading order current $V_{\mu}^{(0)}$. \label{eq:currentratios}}
+\end{figure}
+
+In Fig. \ref{eq:currentratios}, we show the ratios of (matrix elements of) NRQCD-HISQ currents in the $B_s\to D_s$ case. All ratios are between the subleading currents $V_{\mu}^{(n>0)}$ and the leading order current $V_{\mu}^{(0)}$, in order to show the size of the subleading currents relative to the leading order. $V^{(0)}_{\mu}$ is included in our result, so we do not need to worry about it's size. $V_0^{(2)}$ and $V_k^{(3)}$ are $\lessapprox 10\%$ of the leading order, given that these also receive $\order{\alpha_s}$ suppression, their negligence is relatively harmless.
+
+$V_k^{(2,4)}$ however have considerable magnitude. Neglecting them implies a naive systematic error of $\order{ 35\% \times \alpha_s } \sim 8\%$. This would prevent any results from our calculation from being anywhere near competative.
+
+Since the problematic current pieces are exclusively part of the spacial vector current, we could remove this problem if we did not rely on the spacial vector current for extracting the form factors. The next section shows our attempt at such an alternative approach.
+
+\subsection{Form factors from $V_0$ and $S$ in $B_{(s)}\to D_{(s)}$}
+\label{sec:fplus_divergence}
+
+Instead of using $\langle V_0 \rangle$ and $\langle V_k \rangle$ to extract $f^{(s)}_{0,+}(q^2)$, one could in principle instead use the combination $\langle V_0 \rangle$ and $\langle S \rangle$, where $S$ is the scalar $b\to c$ density. In terms of NRQCD-HISQ currents, $S$ can be written as
+\begin{align}
+  S &= (1+z_0^S\alpha_s)( V^{(0)}_0 - V^{(1)} ) \\ \nonumber &\quad + \mathcal{O}( \alpha_s \Lambda_{\text{QCD}} / m_b, \alpha_s p/m_b,  \alpha_s^2, (\Lambda_{\text{QCD}}/m_b)^2, (p/m_b)^2 ),
+\end{align}
+where $z_0^S$ can be derived from $z_0^{V_{\mu}}$. Hence we infact already have numerical results for matrix elements of the scalar current, via the vector current pieces $V^{(0,1)}_0$. The scalar and temporal vector currents are related via the parially conserved vector current (PCVC) relation -
+\begin{align}
+  &(M_{B_{(s)}}-E_{D_{(s)}})\langle V_0 \rangle = \delta m \langle S \rangle,
+\end{align}
+where $\delta m \equiv (m_b-m_c)$. Using this one can relate the scalar current to the form factors, resulting in a new way to extract form factors via $\langle V_0 \rangle$ and $\langle S \rangle$:
+\begin{align}
+  f_0^{(s)}(q^2) &= {\delta m\over M_{B_s}^2 - M_{D_s}^2 } \langle S \rangle, \\
+  f_+^{(s)}(q^2) &= {1\over 2M_{B_s}} { (M_{B_{(s)}}-E_{D_{(s)}}) \delta m \langle S \rangle - q^2 \langle V_0 \rangle \over {\bf{p}}^2_{D_{(s)}}}. \label{eq:fplus_badness}
+\end{align}
+Care must be taken in choosing what masses to use in $\delta m$. One may want to use the bare charm and bottom mass, however these belong to different regularization schemes (HISQ and NRQCD), so taking their difference is not well defined. The solution is to use instead $\delta m = m_{b0} \times ( 1 - m_c/m_b)$, where $m_{b0}$ is the bare $b$-quark mass used in the NRQCD action, and $m_c/m_b$ is a regularization-independent quantity computed to be $m_c/m_b = 1/4.51(4)$ in \cite{McNeile:2010ji}.
+
+\begin{figure}[htb!]
+  \begin{center}
+    \includegraphics[width=1.0\textwidth]{images/nrqcd/BD_formfactors_fromV0S.pdf}
+  \end{center}
+  \caption{$B\to D$ form factors extracted from $\langle V_0 \rangle$ and $\langle S \rangle$. Clearly these results are nonsense. See text. \label{fig:f0fp_fromV0S}}
+\end{figure}
+
+Results from adopting this alternative approach (in the $B\to D$ case) is shown in fig. \ref{fig:f0fp_fromV0S}. One immediately notices that $f_+(q^2)$ results are diverging in the $|{\textbf{p}}_{D}| \to 0$ limit. Why this occurs can be seen by inspecting eq. \eqref{eq:fplus_badness}. For $f_+$ to remain finite, the difference between currents on the numerator must tend to zero at the same rate as ${\textbf{p}}_D^2$. Our results for the currents $\langle S \rangle$ and $\langle V_0 \rangle$ are not precise enough to produce the delicate cancellation required to accurately determine $f_+$ in the high $q^2$ region.
+
+Let's summarize the situation. We have 3 currents, $\langle S \rangle$, $\langle V_0 \rangle$, and $\langle V_k \rangle$. We require input from two of these currents in order to determine the form factors. Large contributions to $\langle V_k \rangle$ may be being ignored, so at the moment we do not consider $\langle V_k \rangle$ a 'trustworthy' estimation of the continuum spacial vector current. Using only $\langle S \rangle$ and $\langle V_0 \rangle$ leads to a divergence of $f_+(q^2)$ as $q^2\to q^2_{\text{max}}$, so is also untenable. In the next section, we show an approach we attempted to finding new normalizations of these three currents such that all three can be 'trusted' as good approximations to the continuum current. One could then in principle use these trustworthy $\langle V_0 \rangle$ and $\langle V_k \rangle$ currents to extract the form factors.
+
+\section{Non-Perturbative Renormalization using $B_c\to \eta_c$ Data}
 \label{sec:Bcetac}
 
-\subsection{NRQCD currents}
-
-Continuum currents can be written as a series in $\Lambda_{QCD}/M$,$p/M$,$\alpha_s$ of NRQCD currents:
+Here we define non-perturbative normalization constants $Z_J$ for the NRQCD-HISQ currents via 
 \begin{align}
-	J_{\mu} &= ( 1 + z_0 \alpha ) J_{\mu}^{(0)} + ( 1 + z_1 \alpha ) J_{\mu}^{(1)} + \alpha \sum_{n=2}^4 z_n J_{\mu}^{(n)} + \mathcal{O}( \alpha^2, (\Lambda/M)^2, (p/M)^2 ) \\
-	\label{eq:naive}	
-	&= ( 1 + z_0 \alpha )( J_{\mu}^{(0)} + J_{\mu}^{(1)} ) + \mathcal{O}( \alpha \Lambda / M, \alpha p/M,  \alpha^2, (\Lambda/M)^2, (p/M)^2 ) \\
-	&= Z_{J_{\mu}}(1 + z_0 \alpha)( J_{\mu}^{(0)} + J_{\mu}^{(1)} ) \quad,\quad Z_{J_{\mu}} = 1 + \mathcal{O}(\alpha \Lambda /M, \alpha p/M, \alpha^2, (\Lambda/M)^2, (p/M)^2 )
+  \nonumber
+	J &= ( 1 + z^J_0 \alpha_s )( J^{(0)} + J^{(1)} ) + \mathcal{O}( \alpha_s \Lambda_{\text{QCD}} / m_b,\, \alpha_s {\textbf{p}}/m_b, \, \alpha_s^2, \, (\Lambda_{\text{QCD}}/m_b)^2, \, ({\textbf{p}}/m_b)^2 ) \\
+	&\equiv Z_{J}( 1 + z^J_0 \alpha_s )( J^{(0)} + J^{(1)} ), \\ \nonumber &\quad\quad Z_{J} = 1 + \mathcal{O}(\alpha_s \Lambda_{\text{QCD}} /m_b,\, \alpha_s {\textbf{p}}/m_b, \, \alpha_s^2, \,(\Lambda_{\text{QCD}}/m_b)^2, \,({\textbf{p}}/m_b)^2 ).
 	\label{eq:overall}
 \end{align}
-I've dropped some subscripts for breifity ($\alpha_s\to \alpha$, $\Lambda_{QCD}\to\Lambda$). $p$ is the momentum of the decay product.
-\\ \\
-In order to use \eqref{eq:naive} as an approximation to the continuum current, we require the stuff we're ignoring to small. However the $\order{\alpha p /M}$ terms in the temporal vector current $V_k$ are large ($\sim 30\%$ of the $\order{1}$ term).
-\\ \\
-Defining a matching factor $Z_{J_{\mu}}$ as in \eqref{eq:overall}, and fixing it by matching \eqref{eq:overall} to an independant determination of the continuum current, could mitigate the issue of large subleading currents. 
+${\textbf{p}}$ here is the spacial momentum exchange, i.e. in the previous chapter we would have ${\textbf{p}}={\textbf{p}}_{D_{(s)}}$. The $Z_J$ factor compensates for the truncation of the series. One can imagine fixing $Z_J$ by demanding some property of $J$. One may be concerned that $Z_J$ is dependent on the spacial momenta in the current $Z_J=Z_J({\textbf{p}})$, however, we will see below that this variation is a negligable effect.
 
-\subsection{Matching}
+In this section we outline an approach used to determine $Z_S$, $Z_{V_0}$ and $Z_{V_k}$. In this process we use NRQCD data from another HPQCD project of determining form factors for $B_c \to \eta_c l\nu$ decays \cite{Colquhoun:2016osw}. A schematic of how this is acheived is given in fig. \ref{fig:normalization_chain}. I thank Brian Colquhoun for supplyling correlation functions from their calculation. The current in this calculation is the same as in the $B_{(s)}\to D_{(s)}l\nu$ calculation, so normalizations determined using this data can then be applied to the $B_{(s)}\to D_{(s)}l\nu$ calculation. I use the $B_c \to \eta_c l\nu$ data here since
+\begin{itemize}
+\item
+  $B_c\to \eta_c$ correlators have much smaller statistical errors. This is because of the lack of the $s$ spectator quark, degredation of the signal/noise ratio is less severe (see sec. \ref{sec:signaldegredation}).
+\item
+  A heavy-HISQ determination of $B_{(s)}\to \eta_c$ form factors was also avaliable from their project \cite{Colquhoun:2016osw}. This comes in useful in our approach to the normalization.
+\end{itemize}
+All analysis below is performed using data on the fine ensemble (set 2). In principle it could be repeated for any other ensemble on which correlators for any $b\to c$ transition is avaliable.
 
-I have started investigating how this can be done by matching $B_c\to \eta_c$ NRQCD currents to continuum extrapolated heavy-hisq currents on the fine ensemble. Namely, we have $f_0/f_{B_c}|_{\text{cont}}$ from the heavy-hisq calculation at $q^2_{max}$ and $q^2=0$. By comparing $f_0/f_{B_c}|_{\text{cont}}$ to that same ratio built by currents truncated to the level of \eqref{eq:naive}, $\hat{f}_0/\hat{f}_{B_c}$, we can find determinations of $Z$'s.
-\\ \\
-At $q^2_{max}$, $f_0$ is only dependant on $V_0$, so by making the comparison here, we can find:
+\begin{figure}[htb!]
+\hspace{-5pt}
+    \includegraphics[width=1.0\textwidth]{images/nrqcd/normalization_chain.jpg}
+  \caption{A schematic of the chain of steps towards normalizing the scalar, temporal vector and spacial vector currents NRQCD-HISQ currents. Details given in the next three sections; \ref{sec:Zs}, \ref{sec:ZV0} and \ref{sec:ZVk}. \label{fig:normalization_chain}}
+\end{figure}
+
+\subsection{$Z_S$}
+\label{sec:Zs}
+
+We have avaliable to us lattice results for $f_0(q^2)$ for a number of $q^2$ values spanning the entire $q^2$ range (including $q^2_{\text{max}}$ and $q^2=0$) from NRQCD-HISQ currents on the fine ensemble. We also have a determination of $f_{B_c}$ also from NRQCD-HISQ lattice currents on the same ensemble. We denote these finite-$a$ lattice results as $\hat{f}_0(q^2)$, $\hat{f}_{B_c}$. We also have a continuum-extrapolated heavy-HISQ result for $f_0(q^2)/f_{B_c}$, for a range of $q^2$ values also including $q^2_{\text{max}}$ and $q^2=0$. This is given in the form of this ratio since discretization effects largely cancel in this ratio improving the continuum extrapolation. Namely we have
 \begin{align}
-	{Z_{V_0}\over Z_{A_0}}\bigg\rvert_{q^2_{max}} = {f_0/f_{B_c}|_{\text{cont}} \over \hat{f}_0/\hat{f}_{B_c} } = 0.993(17)
+  {f_0(q^2_{\text{max}})\over f_{B_c}} = 2.104(36),\quad {f_0(0)\over f_{B_c}} = 1.288(42).
 \end{align}
-At $q^2=0$, since there is only one form factor $f_0=f_+$, one can find $\hat{f}_0$ from $V_0$ or $V_k$, so by matching to $f_0/f_{B_c}|_{\text{cont}}$ here one can find normalizations for both $V_0$ and $V_k$. There is no data at exactly $q^2=0$, but there is some at $q^2\sim -0.2$. If we take this $q^2\sim -0.2$ data, and approximate this to be the currents at $q^2=0$ point, we can compare these results to $f_0/f_{B_c}|^{q^2=0}_{\text{cont}}$ to find
+I thank Andrew Lytle for these results. By demanding that the NRQCD-HISQ finite-$a$ match the continuum heavy-HISQ results, we can find, for example
 \begin{align}
-	{Z_{V_0}\over Z_{A_0}}\bigg\rvert_{q^2=0} = 1.103(38) \quad , \quad {Z_{V_k}\over Z_{A_0}}\bigg\rvert_{q^2=0} = 0.634(22)
+  {Z_S \over Z_{A_0}}\bigg\vert_{q^2_{max}} = {f_0(q^2_{\text{max}})/f_{B_c}\over \hat{f}_0(q^2_{\text{max}})/\hat{f}_{B_c}} = 0.995(15).
 \end{align}
-It is not clear however how valid it is to approximate $q^2\sim -0.2$ to the $q^2=0$ point, as kinematic factors in the relationship between currents and form factors can vary rapidly around this point (namely, assuming  $f_0=f_+$ to be true generates an error in the currents of $(f_0-f_+)(M_{B_c}^2-M^2_{\eta_c})/q^2$, that diverges at $q^2=0$).
-\\ \\
-A more rigerous way to do a comparison at $q^2=0$ is to do a z-expansion of the form factors given by NRQCD currents, $\hat{f}_{0,+}$, and interpolate $\hat{f}_0$ to $q^2=0$. Comparing the interpolated form factors to $f_0/f_{B_c}|_{\text{cont}}$, we get
+As a test to see if $Z_S$ varies with ${\textbf{p}}$, we can compare this result to an analagous approach at $q^2=0$;
 \begin{align}
-	{Z_{V_0}\over Z_{A_0}}\bigg\rvert_{q^2=0} = {Z_{V_k}\over Z_{A_0}}\bigg\rvert_{q^2=0} =  0.968(31)
-	\label{eq:interpolatedresult}
+  {Z_S \over Z_{A_0}}\bigg\vert_{0} = {f_0(0)/f_{B_c}\over \hat{f}_0(0)/\hat{f}_{B_c}} = 0.962(33).
 \end{align}
-\\ \\
-This is also a bit dubious, since the functional form of $\hat{f}_0$ has been deduced using information from both $V_0$ and $V_k$, at varying $q^2$. One could then see $\hat{f}_0$ as having a complicated relationship with the NRQCD currents that is difficult to reverse-engineer to find what $Z$'s {\it{should}} have been there. On the other hand, we can view the NRQCD currents as $J_{\mu}/Z_{J_{\mu}}$, hence containing whatever relationship with $q^2$ the $Z$'s have, and the interpolation to $q^2=0$ also included an interpolation in the $Z$'s.
+A similar approach cannot be applied for $Z_{V_0}$ or $Z_{V_k}$, since $f_0$ has a complicated relationship to both $\langle V_0 \rangle$ and $\langle V_k \rangle$ that varies with $q^2$, so it is not clear how one attribute discrepancies between $\hat{f}_0/\hat{f}_{B_c}$ and $f_0/f_{B_c}$ to $Z_{V_0}$ and $Z_{V_k}$.
 
-\subsection{$Z_{J_{\mu}} = Z_{J_{\mu}}(q^2)$?}
-
-To avoid having to disentangle contribitions from $V_0$ and $V_k$, we can also study the behaviour of the scalar current, that has a 1-1 mapping to $f_0$. By finding $\hat{f}_0$ from $S$ and comparing to the heavy hisq result, we arrive at
+The comparison of these two ratios at $q^2_{\text{max}}$ and $q^2=0$ show that any variaton is small in comparison to statistical errors. We can absorb the variation in ${\textbf{p}}$ into a subleading term in the scalar current by demanding that $Z_{J_{\mu}}/Z_{A_0}|_{q^2_{max}} = Z_{J_{\mu}}/Z_{A_0}|_{q^2=0}$. Redefine the scalar current according to:
 \begin{align}
-	{Z_S \over Z_{A_0}}\bigg\vert_{q^2_{max}} = 0.995(15) \quad , \quad {Z_S \over Z_{A_0}}\bigg\vert_{q^2=0} = 0.962(33)
+ S = Z_{S} \left[ (1 + z^{S}_0 \alpha_s)( S^{(0)} + S^{(1)} ) + \alpha_s z^{S}_2 J^{(2)}_{\mu} \right]
 \end{align}
-where here, once again, the $q^2_{max}$ result was taken straight from data at that kinematic point, but for the $q^2=0$ point the functional form of $\hat{f}_0$ was interpolated to $q^2=0$. There is $1\sigma$ between the two points, implying that $Z_S$ is, to within statistical errors, constant in $q^2$.
-\\ \\
-This implies, since $V_0$ is missing the same terms as $S$, that $Z_{V_0}$ is also constant in $q^2$(?)
-
-\subsection{$z_2$ from $Z_{J_{\mu}} \neq Z_{J_{\mu}}(q^2)$ as a constraint}
-
-The plan is to include $J^{(2)}$ with a coefficient $z_2$ fixed by the condition that $Z_{J_{\mu}}/Z_{A_0}|_{q^2_{max}} = Z_{J_{\mu}}/Z_{A_0}|_{q^2=0}$. I am defining $z_2$ according to:
-\begin{align}
- J_{\mu} = Z_{J_{\mu}} \left[ (1 + z^{J_{\mu}}_0 \alpha)( J_{\mu}^{(0)} + J_{\mu}^{(1)} ) + \alpha z^{J_{\mu}}_2 J^{(2)}_{\mu} \right]
-\end{align}
-For $J = V_0 $ and $S$, this means we have included all the $\order{1/M}$ terms. If we can find a way to extract $f_{0,+}$ using just $V_0$,$S$, we will then have them up to $\order{1/M}$.
-\\ \\
-I have imposed this constraint for the scalar current to deduce $z^{S}_2$. By defining $\hat{f}_2$ to be $\hat{f}_0$ but with $(1+\alpha z^S)( S^{(0)} + S^{(1)} )$ replaced with $\alpha S^{(2)}$, we can write:
+The definition of $S^{(2)}$ is identical to $V_0^{(2)}$. %For $J = V_0 $ and $S$, this means we have included all the $\order{1/M}$ terms.
+By defining $\hat{f}_2$ to be $\hat{f}_0$ but with $(1+\alpha z^S)( S^{(0)} + S^{(1)} )$ replaced with $\alpha S^{(2)}$, we can write:
 \begin{align}
 	{Z_{A_0}\over Z_{S}} = { ( \hat{f}_0 + z^S_2 \hat{f}_2 )/ \hat{f}_{B_c}  \over f_0/f_{B_c}|_{cont} } \equiv {Z_{A_0}\over Z_{S}}^{(0,1)} + z^S_2 {Z_{A_0}\over Z_{S}}^{(2)}
 \end{align}
@@ -615,86 +620,66 @@ with this further definition, and demanding that ${Z_{A_0}/ Z_{S}}|_{q^2_{max}} 
 \over {Z_{A_0}\over Z_{S}}^{(2)}\big\vert_{q^2_{max}} - {Z_{A_0}\over Z_{S}}^{(2)}\big\vert_{q^2=0} }
  = -1.1(1.5)
 \end{align}
-Here I have used data directly at $q^2_{max}$ and interpolated via a $z$ expansion to get to $q^2=0$.
+Now that we are able to include $S^{(2)}$ in the scalar current, we can consider the scalar current normalized up to $\mathcal{O}(\alpha_s^2, \,(\Lambda_{\text{QCD}}/m_b)^2, \,({\textbf{p}}/m_b)^2 )$ (yes, we have not strictly determined $Z_S$ in this case, but we will for the vector currents). The next steps are essentially to match results using the vector currents to this newly normalized scalar current, meaning the vector currents will be normalized up to $\mathcal{O}(\alpha_s^2, \,(\Lambda_{\text{QCD}}/m_b)^2, \,({\textbf{p}}/m_b)^2 )$, hence we have theoretically accounted for the large subleading pieces in the spacial vector current.
 
-\subsection{$V_0,S\to f_{0,+}$ on NRQCD}
-\label{sec:V0Sf0p}
+\subsection{$Z_{V_0}$}
+\label{sec:ZV0}
 
-In everything below I'm working at $\mathcal{O}(\alpha_s,\Lambda_{QCD}/M)$, i.e. ignoring $J^{(2)}$ corrections. First let's focus on getting form factors from $\langle V_0 \rangle, \langle S \rangle$ on $B_c\to\eta_c$. The form factors can be extracted from currents these currents via
-\begin{align}
-	f_0(q^2) &= { m_b - m_c \over M_{B_c}^2-M_{\eta_c}^2 } \langle S \rangle \\
-	f_+(q^2) &= {1\over 2M_{B_c}} { \delta^M  \langle S \rangle - q^2 \langle V_0 \rangle 
-		\over {\textbf{p}}^2_{\eta_c} }
-		\label{eq:fplus}
-\end{align}
-where $\delta^M = (m_b-m_c)(M_{B_c}-M_{\eta_c})$. Carrying this out naively leads to a divergence of $f_+$ in the ${\textbf{p}}_{\eta_c}^2\to 0$ limit (fig. \ref{fig:naive}).
+Recall from sec. \ref{sec:fplus_divergence} that $f_+(q^2)$ diverges as $|{\textbf{p}}_{\eta_c}|\to 0$ when extracted from $\langle V_0 \rangle$ and $\langle S \rangle$. Fig. \ref{fig:naive} compares form factors determined using $\langle V_0 \rangle$, $\langle S \rangle$, and $\langle V_0 \rangle$, $\langle V_k \rangle$.
+
 \begin{figure}[htb!]
 \centering
-\includegraphics[scale=0.65]{images/NRQCD/Bcetac_bothways_noV0norm.pdf}
-\caption{Comparison of form factors from $\langle V_0 \rangle, \langle S \rangle$ and $\langle V_0 \rangle,\langle V_k \rangle$, no additional normalizations.}
-\label{fig:naive}
+\includegraphics[scale=0.55]{images/nrqcd/Bcetac_bothways_1.pdf}
+\caption{Comparison of form factors from $\langle V_0 \rangle, \langle S \rangle$ and $\langle V_0 \rangle,\langle V_k \rangle$, no additional normalizations. The bands show the resuls of fitting the data to the BGL parameterization \eqref{eq:zexpansion}, where coefficients $a^{0,+}_n$ are fit parameters. \label{fig:naive}}
 \end{figure}
-The divergence is due to the numerator of \eqref{eq:fplus} not tending to zero as ${\textbf{p}}_{\eta_c}^2\to 0$. At ${\textbf{p}}_{\eta_c}^2 = 0$, the numerator becomes $(m_b-m_c) \langle S \rangle - (M_{B_c}-M_{\eta_c}) \langle V_0 \rangle$, which vanishes when the ward identity is satisfied. So one would expect if we renormalize one of the currents so the Ward identity is satisfied (at $q^2_{max}$), this divergence should me removed or at least reduced.
-\\ \\
-In everything below I'll take the philosophy that we can "trust" the normalization of the scalar current, and use the information in that to renormalize the vector currents. So to satisfy the Ward identity, I multiplied $\langle V_0 \rangle$ by a factor
+The divergence is due to the numerator of  \eqref{eq:fplus_badness} not tending to zero as ${\textbf{p}}_{\eta_c}^2\to 0$. At ${\textbf{p}}_{\eta_c}^2 = 0$, the numerator becomes $(m_b-m_c) \langle S \rangle - (M_{B_c}-M_{\eta_c}) \langle V_0 \rangle$, which vanishes when the PCVC relation is satisfied. So one would expect if we renormalize one of the currents so the Ward identity is satisfied (at $q^2_{max}$), this divergence should be removed or at least reduced.
+
+Hence we should normalize the temporal vector current using the already normalized scalar density. So to satisfy the PCVC, Multiply $\langle V_0 \rangle$ by 
 \begin{align}
 	Z_{V_0} = {m_b-m_c \over M_{B_c}-M_{\eta_c} } { \langle S \rangle \over \langle V_0 \rangle }\Big\vert_{q^2_{max}} = 1.0661(36)
 	\label{eq:Zward}
 \end{align}
-This seems to deal with the $f_+$ divergence (fig. \ref{fig:Zward}).
+This seems to deal with the $f_+$ divergence, in Fig. \ref{fig:Zward} we show the result again but with $\langle V_0 \rangle$ multiplied by $Z_{V_0}$.
 \begin{figure}[htb!]
 \centering
-\includegraphics[scale=0.65]{images/NRQCD/Bcetac_bothways.pdf}
-\caption{Comparison of form factors from $\langle V_0 \rangle,\langle S \rangle $ and $\langle V_0\rangle,\langle V_k\rangle$, $\langle V_0\rangle$ is mutliplied by $Z_{V_0}$ given in \eqref{eq:Zward}}.
-\label{fig:Zward}
+\includegraphics[scale=0.55]{images/nrqcd/Bcetac_bothways_2.pdf}
+\caption{Comparison of form factors from $\langle V_0 \rangle,\langle S \rangle $ and $\langle V_0\rangle,\langle V_k\rangle$, $\langle V_0\rangle$ is mutliplied by $Z_{V_0}$ given in \eqref{eq:Zward}. The bands show the resuls of fitting the data to the BGL parameterization \eqref{eq:zexpansion}, where coefficients $a^{0,+}_n$ are fit parameters. \label{fig:Zward}}
 \end{figure}
-The same technique does not solve the issue in the $B_{(s)}\to D_{(s)}$ case, the divergence is too severe. An alternative could be to find a normalization of $\langle V_k \rangle$ by comparing the two methods on $B_c\to\eta_c$, then get $B_{(s)}\to D_{(s)}$ form factors from $\langle V_0 \rangle, \langle V_k \rangle$, with the renormalized $\langle V_k \rangle$.
-\\ \\
-We can determine a $Z_{V_k}$ by demanding that $f_{0,+}^{V_0,S}/f_{0,+}^{V_{\mu}}=1$, and claiming that $\langle V_0 \rangle, \langle S \rangle$ require no further normalization. This can be done with both $f_+$ and $f_0$, at any $q^2$. 
+Unfortunately the same technique does not solve the diverging $f_+$ issue in the $B_{(s)}\to D_{(s)}$ case, the statistics are not as good so the divergence is too severe. 
+
+\subsection{$Z_{V_k}$}
+\label{sec:ZVk}
+
+We can determine a $Z_{V_k}$ by demanding that $f_{0,+}^{V_0,S}/f_{0,+}^{V_{\mu}}=1$, with the knowledge that $\langle V_0 \rangle, \langle S \rangle$ require no further normalization. This can be done with both $f_+$ and $f_0$, at any $q^2$;
 \begin{align}
 	Z_{V_k} &= 1 + {f_+^{V_0,S} - f_+^{V_{\mu}} \over R_{+k} \langle V_k \rangle }  \\
-	&= 1 + {f_0^{V_0,S} - f_0^{V_{\mu}} \over R_{0k} \langle V_k \rangle }
+	&= 1 + {f_0^{V_0,S} - f_0^{V_{\mu}} \over R_{0k} \langle V_k \rangle },
 \end{align}
-where the $R$'s are some kinematic gunk: $R_{+k} = ( M_{B_c} - E_{\eta_c} )/2M_{B_c}p_{\eta_c}^k$,\\ $R_{0k} = R_{+k} - {( M_{B_c}^2-M_{\eta_c}^2 )(M_{B_c}-E_{\eta_c})/2M_{B_c} p_{\eta_c}^k q^2}$. The form factors here are the ones in fig. \ref{fig:Zward}. The results are shown in fig. \ref{fig:ZVk}.
+where the $R$'s are some kinematic gunk: $R_{+k} = ( M_{B_c} - E_{\eta_c} )/2M_{B_c}{\textbf{p}}_{\eta_c}/\sqrt{3}$, \\ $R_{0k} = R_{+k} - {( M_{B_c}^2-M_{\eta_c}^2 )(M_{B_c}-E_{\eta_c})/2M_{B_c} {\textbf{p}}_{\eta_c}/q^2\sqrt{3}}$. The results are shown in fig. \ref{fig:ZVk}.
 \begin{figure}[htb!]
 \centering
-\includegraphics[scale=0.5]{images/NRQCD/ZVk_fromBcetac.pdf}
-\caption{$Z_{V_k}$ from constraining form factors to be the same from both methods.}.
+\includegraphics[scale=0.5]{images/nrqcd/ZVk.pdf}
+\caption{$Z_{V_k}$ from constraining form factors to be the same from $\langle V_0 \rangle,\langle S \rangle$ and $\langle V_0 \rangle,\langle V_k \rangle$}
 \label{fig:ZVk}
 \end{figure}
-Since these are all estimates of the same value, we can average over them to get
+The fact that these are not varying by a statistically significant extent in $q^2$ implies that the spacial vector normalization does not vary strongly in ${\textbf{p}}_{\eta_c}$. Hence, since these are all estimates of the same value, we can average over them to get
 \begin{align}
-	Z_{V_k} = 1.070(46)
+	Z_{V_k} = 1.070(36).
 \end{align}
-When this normalization is given to $\langle V_k \rangle$, the $B_c\to\eta_c$ form factors from the two methods become consistent (fig. \ref{fig:identicle})
-\begin{figure}[htb!]
-\centering
-\includegraphics[scale=0.65]{images/NRQCD/Bcetac_bothways_withZVk.pdf}
-\caption{Comparison of form factors from $\langle V_0 \rangle, \langle S \rangle$ and $\langle V_0 \rangle,\langle V_k \rangle$, with $\langle V_0 \rangle$ normalized via $Z_{V_0}$ and $\langle V_k \rangle$ normalized with $Z_{V_k}$.}.
-\label{fig:ZVk}
-\end{figure}
-This $Z_{V_k}$ could be slapped onto the $B_{(s)}\to D_{(s)}$ spacial vector current, then we could use that. It has a $4\%$ error, but it's still an improvement on what was happening using $\langle S \rangle$ and $\langle V_0 \rangle$.
-
-\subsection{Another constraint: $f_+$ analyticity}
-
-{\red{
-    Are the $z_2$'s for $V_0$ and $S$ not the same? If so, $pf_+$ would have some single extra factor $\propto z_2$, and this could be tuned to force the below condition. Independent determination of $z_2$?
-}}
-
-Another thing that could be used to constrain some other normalization is the condition that the numerator of $f_+$ tends towards zero as ${\textbf{p}}^2_{\eta_c}\to 0$:
-\begin{align}
-	\displaystyle{\lim_{{\textbf{p}}_{\eta_c}^2\to 0}}\quad {1\over2M_{B_c}}\big( \delta^M  \langle S \rangle - q^2 \langle V_0 \rangle \big) = \displaystyle{\lim_{{\textbf{p}}_{\eta_c}^2\to 0}} \quad {\textbf{p}}^2_{\eta_c}f_+ = 0
-\end{align}
-This is not guaranteed even when $\langle V_0 \rangle$ is normalized to satisfy the Ward identity. In fig. \ref{fig:p2fp}, all the $q^2\neq q^2_{max}$ data is extrapolated to $q^2_{max}$, with fit form
-\begin{align}
-	{\textbf{p}}^2_{\eta_c}f_+ = r + {{\textbf{p}}^2_{\eta_c} \over P(q^2)}\sum a^+_n z^n
-\end{align}
-i.e., the usual z-expansion, with an extra fit parameter $r$ which represents the residue of $f_+$ at $q^2_{max}$ if one trusts the $q^2\neq q^2_{max}$ data.
+When this normalization is given to $\langle V_k \rangle$, the $B_c\to\eta_c$ form factors from the two methods become consistent, see Fig. \ref{fig:identicle}.
 
 \begin{figure}[htb!]
 \centering
-\includegraphics[scale=0.45]{images/NRQCD/p2fp_Bcetac_ward.pdf}
-\caption{\label{fig:p2fp}.}
+\includegraphics[scale=0.55]{images/nrqcd/Bcetac_bothways_3.pdf}
+\caption{Comparison of form factors from $\langle V_0 \rangle, \langle S \rangle$ and $\langle V_0 \rangle,\langle V_k \rangle$, with $\langle V_0 \rangle$ normalized via $Z_{V_0}$ and $\langle V_k \rangle$ normalized with $Z_{V_k}$. The bands show the resuls of fitting the data to the BGL parameterization \eqref{eq:zexpansion}, where coefficients $a^{0,+}_n$ are fit parameters. \label{fig:identicle}}
 \end{figure}
-This fit results in a residue of $r = 0.030(15)$. Perhaps there's something that can be normalized by demanding that $r=0(0)$. I haven't worked out a good way to implement this though, and where that information should go.
 
+One could imagine using these normalizations $Z_{V_0}$ and $Z_{V_k}$ in the $B_{(s)}\to D_{(s)}$ calculation. The errors of this normalization is around $4\%$, which would push the final results of the $B_{(s)}\to D_{(s)}$ study up to the $5-10\%$ range. At present this level of precision is not competative in comparison to other calculations of these quantities.
+
+\section{Conclusion of NRQCD work}
+
+As mentioned in the introduction - the main takehome of this thesis is that using NRQCD (namely NRQCD-HISQ currents) to compute form factors for $b\to c$ transitions, is far from optimal. 
+
+We rely here on truncations in many different interlocking series ($1/m_b, \alpha_s,\alpha_s/m_b,...$), which may leave out important information. The terms in the series we {\textit{do}} have access to rely on perturbation theory via the matching factors. Some progress was made to normalize currents non-perturbatively in the above work, but our results fall short of what would be required to obtain precise continuum results.
+
+I hope that in reading this chapter you experienced a similar feeling of confusion and anxiety as I felt when carrying out this work. It was only after many months of grappling with the problems of these calculations that we decided to put them aside and attempt instead the heavy-HISQ approach from scratch. Reading the following two chapters, both dedicated to successful heavy-HISQ studies, will feel like a warm bath in comparison to the NRQCD experience. The heavy-HISQ approach is in contrast very eligant, contains far assumptions, and results in cleaner signals.
