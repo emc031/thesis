@@ -1,0 +1,23 @@
+﻿\chapter{Conclusions}
+
+In this work, I have demonstrated some problems with using NRQCD-HISQ currents to compute semileptonic $b\to c$ transitions on the lattice. Namely, it was discovered that the expansion of NRQCD-HISQ currents do not converge as fast as was once assumed, terms in the expansion traditionally ignored in fact have large effects. We found specifically that
+\begin{align}
+  V_k^{(2)}\sim V_k^{(4)} \sim 0.35\times V_k^{(0)}.
+\end{align}
+I attempted some approaches to non-perturbatively normalizing the NRQCD-HISQ currents in order to account for these issues, with limited success. 
+
+I produced the first published results of applying the heavy-HISQ approach to semileptonic form factors. I found a new determination of $h_{A_1}^s(1)$, twice as accurate as the previous result and containing considerably fewer assumptions -
+\begin{align}
+  \mathcal{F}^{B_s\to D_s^*}(1) = h^s_{A_1}(1) = 0.8968(88)_{\text{stat}}(60)_{\text{sys}}\,.
+\end{align}
+Future experimental data may be combined with this result to produce a new determination of $|V_{cb}|$.
+
+I found $B_s\to D_sl\nu$ form factors using heavy-HISQ, also improving on the precision in comparison to previous lattice results. For the first time, we were able to obtain lattice data spanning the entire $q^2$ range, due to the properties of the heavy-HISQ method. From these form factors, we found
+\begin{align}
+  R_{D_s}|_{\text{SM}} = 0.2955(35),
+\end{align}
+which can be combined with future experimental data to provide a new test of the Standard Model, namely a new probe into the possibility of lepton flavour violation.
+
+Heavy-HISQ calculations are more computationally costly than their equivalent calculations using NRQCD for the $b$. Taking into account the need for finer lattices and multiple data with different $m_h$ values, heavy-HISQ costs something of the order of 20 times more than NRQCD. However, the cost in human time of NRQCD, via perturbative matching calculations and larger and less stable correlator fits, is clearly larger than for heavy-HISQ. Also, heavy-HISQ does not contain assumptions of negligible subleading terms in the relativistic expansion or validity of perturbation theory via the matching.
+
+Going into the future, where computational cost becomes less of an issue, it is clear which of these is the smart choice. Let no one ever have to scratch their head over such a choice again.

@@ -594,6 +594,12 @@ Christopher Monahan, Junko Shigemitsu, and Ron Horgan.
   nonrelativistic QCD and highly improved staggered quarks}.
 \newblock {\em Phys. Rev.}, D87(3):034017, 2013.
 
+\bibitem{Hughes:2017spc}
+C.~Hughes, C.~T.~H. Davies, and C.~J. Monahan.
+\newblock {New methods for B meson decay constants and form factors from
+  lattice NRQCD}.
+\newblock {\em Phys. Rev.}, D97(5):054509, 2018.
+
 \bibitem{Monahan:2017uby}
 Christopher~J Monahan, Heechang Na, Chris~M Bouchard, G~Peter Lepage, and Junko
   Shigemitsu.
@@ -622,6 +628,11 @@ Claude Bourrely, Laurent Lellouch, and Irinel Caprini.
   $b\ensuremath{\rightarrow}\ensuremath{\pi}l\ensuremath{\nu}$ decays and a
   determination of $|{V}_{ub}|$.
 \newblock {\em Phys. Rev. D}, 79:013008, Jan 2009.
+
+\bibitem{Hill:2006ub}
+Richard~J. Hill.
+\newblock {The Modern description of semileptonic meson form factors}.
+\newblock {\em eConf}, C060409:027, 2006.
 
 \bibitem{McNeile:2010ji}
 C.~McNeile, C.~T.~H. Davies, E.~Follana, K.~Hornbostel, and G.~P. Lepage.
@@ -821,12 +832,6 @@ A.~Bazavov et~al.
 Nathan Isgur, Daryl Scora, Benjamin Grinstein, and Mark~B. Wise.
 \newblock Semileptonic b and d decays in the quark model.
 \newblock {\em Phys. Rev. D}, 39:799--818, Feb 1989.
-
-\bibitem{PhysRevD.91.114511}
-Eigo Shintani, Rudy Arthur, Thomas Blum, Taku Izubuchi, Chulwoo Jung, and
-  Christoph Lehner.
-\newblock Covariant approximation averaging.
-\newblock {\em Phys. Rev. D}, 91:114511, Jun 2015.
 
 \bibitem{Buskulic:1996yq}
 D.~Buskulic et~al.
