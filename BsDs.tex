@@ -251,7 +251,7 @@ We choose not to perform tuning on $\{t_{\text{cut}}\}$ as was performed in the 
 
 These simultaneous fits are very large. For example, on set 4 (ultrafine) we fit 109 correlation functions to 1080 fit parameters, taking all correlations into account. Both the stability (e.g. invariance under changes of arbitrary hyperparameters such as $N_{\text{exp}}$) and the speed of such simultaneous fits take a hit when there is such a large amount of data and a large number of parameters.
 
-\begin{figure}[htb!]
+\begin{figure}
     \hspace{-85pt}
     \includegraphics[width=1.4\textwidth]{images/BsDs/finecorr_fittest.pdf}
     \caption{Tests on the correlator fits on the fine ensemble. At $N_{\text{test}}=1$ we give the final accepted result. $N_{\text{test}}=2$ and $3$ gives the results of setting $N_{\text{exp}}=4$ and $6$ respectively. $N_{\text{test}}=4$ gives the results when all priors are loosened by 50\%. $N_{\text{test}}=5$ gives the result of setting $t_{\text{cut}}=4$ rather than $2$ for all correlators. $N_{\text{test}}=6$ gives the result without marginalising out the $n=5$ excited state. $N_{\text{test}}=7$ gives the result of moving the SVD cut from $10^{-3}$ to $10^{-2}$. $N_{\text{test}}=8,9,10$ gives the result of using a chained fit described above with priors for the full correlated fit loosened by 100\%, 150\% and 200\% respectively. \label{fig:corr_tests_BsDs}}

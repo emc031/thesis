@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.29)  14 MAR 2019 22:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.29)  21 MAR 2019 22:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1217,16 +1217,16 @@ Overfull \hbox (19.84323pt too wide) in paragraph at lines 40--42
 [3] [4
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 82.
+LaTeX Font Info:    Try loading font information for U+msa on input line 94.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 82.
+LaTeX Font Info:    Try loading font information for U+msb on input line 94.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 82.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 94.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
@@ -1249,37 +1249,32 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
  (./intro.tex
 Chapter 1.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 4--19
+Underfull \hbox (badness 10000) in paragraph at lines 4--25
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--19
+Underfull \hbox (badness 10000) in paragraph at lines 4--25
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--19
+Underfull \hbox (badness 10000) in paragraph at lines 4--25
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--19
+Underfull \hbox (badness 10000) in paragraph at lines 4--25
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--19
+Underfull \hbox (badness 10000) in paragraph at lines 4--25
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--19
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--19
+Underfull \hbox (badness 10000) in paragraph at lines 4--25
 
  []
 
@@ -1315,94 +1310,83 @@ Package amsmath Warning: Foreign command \over;
 [5] [6] <images/fccc.jpg, id=87, 4175.6pt x 1875.005pt>
 File: images/fccc.jpg Graphic file (type jpg)
  <use images/fccc.jpg>
-Package pdftex.def Info: images/fccc.jpg used on input line 125.
+Package pdftex.def Info: images/fccc.jpg used on input line 118.
 (pdftex.def)             Requested size: 197.57582pt x 88.69173pt.
 
-[7]
-Overfull \hbox (5.7221pt too wide) in paragraph at lines 193--193
-[] 
- []
-
-[8 <./images/fccc.jpg>]
-<images/unitaritytriangle_sketch.jpg, id=95, 3899.56876pt x 2164.085pt>
+[7 <./images/fccc.jpg>]
+<images/unitaritytriangle_sketch.jpg, id=92, 3899.56876pt x 2164.085pt>
 File: images/unitaritytriangle_sketch.jpg Graphic file (type jpg)
 
 <use images/unitaritytriangle_sketch.jpg>
 Package pdftex.def Info: images/unitaritytriangle_sketch.jpg used on input line
- 225.
+ 224.
 (pdftex.def)             Requested size: 276.60495pt x 153.4827pt.
-
-Underfull \hbox (badness 3333) in paragraph at lines 237--239
-\T1/cmr/m/n/10.95 The uni-tar-ity tri-an-gle also con-tains in-for-ma-tion abou
-t CP-violation from
- []
-
-
-Underfull \hbox (badness 1642) in paragraph at lines 237--239
-\T1/cmr/m/n/10.95 flavour-changing charged cur-rents. The so-called Jarl-skog i
-n-vari-ant, $\OML/cmm/m/it/10.95 J \OT1/cmr/m/n/10.95 =
- []
-
-<images/ckmpdg.jpg, id=96, 1084.05pt x 960.58875pt>
+ [8 <./images/unitaritytriangle_sketch.jpg>] <images/ckmpdg.jpg, id=96, 1084.05
+pt x 960.58875pt>
 File: images/ckmpdg.jpg Graphic file (type jpg)
- <use images/ckmpdg.jpg>
+
+<use images/ckmpdg.jpg>
 Package pdftex.def Info: images/ckmpdg.jpg used on input line 254.
 (pdftex.def)             Requested size: 237.0934pt x 210.08429pt.
-
-[9 <./images/unitaritytriangle_sketch.jpg>]
+ [9 <./images/ckmpdg.jpg>]
 <images/leptonicdecay.jpg, id=100, 4175.6pt x 1899.095pt>
 File: images/leptonicdecay.jpg Graphic file (type jpg)
 
 <use images/leptonicdecay.jpg>
 Package pdftex.def Info: images/leptonicdecay.jpg used on input line 285.
 (pdftex.def)             Requested size: 237.0934pt x 107.82646pt.
- [10 <./images/ckmpdg.jpg>] [11 <./images/leptonicdecay.jpg>]
-<images/semileptonicdecay.jpg, id=107, 3995.92876pt x 2302.6025pt>
+ [10 <./images/leptonicdecay.jpg>]
+<images/semileptonicdecay.jpg, id=104, 3995.92876pt x 2302.6025pt>
 File: images/semileptonicdecay.jpg Graphic file (type jpg)
 
 <use images/semileptonicdecay.jpg>
 Package pdftex.def Info: images/semileptonicdecay.jpg used on input line 323.
 (pdftex.def)             Requested size: 237.0934pt x 136.60425pt.
+ [11 <./images/semileptonicdecay.jpg>]
+Underfull \vbox (badness 1286) has occurred while \output is active []
 
-
-LaTeX Warning: Reference `fig:semileptonic' on page 12 undefined on input line 
-331.
-
-[12 <./images/semileptonicdecay.jpg>] [13] [14]
-<images/Vcb_plot.pdf, id=119, 1015.39348pt x 406.51875pt>
+ [12]
+[13] <images/Vcb_plot.pdf, id=116, 1015.39348pt x 406.51875pt>
 File: images/Vcb_plot.pdf Graphic file (type pdf)
 
 <use images/Vcb_plot.pdf>
-Package pdftex.def Info: images/Vcb_plot.pdf used on input line 405.
-(pdftex.def)             Requested size: 395.15166pt x 158.2005pt.
- [15 <./images/Vcb_plot.pdf>] [16]
-<images/rdrds_summer18.pdf, id=156, 569.12625pt x 385.44pt>
+Package pdftex.def Info: images/Vcb_plot.pdf used on input line 406.
+(pdftex.def)             Requested size: 474.18077pt x 189.84184pt.
+
+Overfull \hbox (41.45073pt too wide) in paragraph at lines 404--410
+[]  [] 
+ []
+
+[14] [15 <./images/Vcb_plot.pdf>]
+<images/rdrds_summer18.pdf, id=152, 569.12625pt x 385.44pt>
 File: images/rdrds_summer18.pdf Graphic file (type pdf)
 
 <use images/rdrds_summer18.pdf>
-Package pdftex.def Info: images/rdrds_summer18.pdf used on input line 446.
+Package pdftex.def Info: images/rdrds_summer18.pdf used on input line 448.
 (pdftex.def)             Requested size: 316.12253pt x 214.10405pt.
- [17 <./images/rdrds_summer18.pdf, page is rotated 90 degrees>] [18] [19]
-LaTeX Font Info:    Try loading font information for U+euf on input line 524.
+ [16] [17 <./images/rdrds_summer18.pdf, page is rotated 90 degrees>] [18]
+LaTeX Font Info:    Try loading font information for U+euf on input line 526.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-)
-<images/QCD-running-coupling.png, id=211, 914.8725pt x 630.72pt>
+) [19]
+<images/QCD-running-coupling.png, id=212, 914.8725pt x 630.72pt>
 File: images/QCD-running-coupling.png Graphic file (type png)
 
 <use images/QCD-running-coupling.png>
-Package pdftex.def Info: images/QCD-running-coupling.png used on input line 534
+Package pdftex.def Info: images/QCD-running-coupling.png used on input line 536
 .
 (pdftex.def)             Requested size: 276.60495pt x 190.68993pt.
- [20 <./images/QCD-running-coupling.png>]
-[21] [22] [23] [24] [25] [26]
-Underfull \hbox (badness 1173) in paragraph at lines 812--813
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20 <./images/QCD-running-coupling.png>] [21] [22] [23] [24] [25]
+Underfull \hbox (badness 1173) in paragraph at lines 815--816
 \T1/cmr/m/n/10.95 An ef-fec-tive field the-ory closely re-lated to HQET is Non-
 Relativistic QCD
  []
 
-[27]) [28]
+[26] [27]) [28]
 \openout2 = `latticeqcd.aux'.
 
  (./latticeqcd.tex
@@ -1411,55 +1395,67 @@ Chapter 3.
 
 
 
-] [30] <images/fibres.jpg, id=249, 2463.2025pt x 3048.38875pt>
+] [30] <images/fibres.jpg, id=250, 2463.2025pt x 3048.38875pt>
 File: images/fibres.jpg Graphic file (type jpg)
 
 <use images/fibres.jpg>
-Package pdftex.def Info: images/fibres.jpg used on input line 55.
+Package pdftex.def Info: images/fibres.jpg used on input line 54.
 (pdftex.def)             Requested size: 217.33461pt x 268.94745pt.
 
-<images/wilson_line.jpg, id=250, 2369.85374pt x 1698.345pt>
+<images/wilson_line.jpg, id=251, 2369.85374pt x 1698.345pt>
 File: images/wilson_line.jpg Graphic file (type jpg)
 
 <use images/wilson_line.jpg>
-Package pdftex.def Info: images/wilson_line.jpg used on input line 87.
+Package pdftex.def Info: images/wilson_line.jpg used on input line 86.
 (pdftex.def)             Requested size: 217.33461pt x 155.74689pt.
- [31] [32 <./images/fibres.jpg> <./images/wilson_line.jpg>] <images/plaquette.j
-pg, id=260, 1700.3525pt x 1195.46625pt>
+ [31]
+Overfull \vbox (6.76955pt too high) has occurred while \output is active []
+
+
+[32 <./images/fibres.jpg> <./images/wilson_line.jpg>]
+<images/plaquette.jpg, id=260, 1700.3525pt x 1195.46625pt>
 File: images/plaquette.jpg Graphic file (type jpg)
 
 <use images/plaquette.jpg>
-Package pdftex.def Info: images/plaquette.jpg used on input line 111.
+Package pdftex.def Info: images/plaquette.jpg used on input line 110.
 (pdftex.def)             Requested size: 217.33461pt x 152.7893pt.
  [33 <./images/plaquette.jpg>] [34]
 <images/LuscherWeitz.jpg, id=267, 2801.46625pt x 1098.1025pt>
 File: images/LuscherWeitz.jpg Graphic file (type jpg)
 
 <use images/LuscherWeitz.jpg>
-Package pdftex.def Info: images/LuscherWeitz.jpg used on input line 172.
+Package pdftex.def Info: images/LuscherWeitz.jpg used on input line 171.
 (pdftex.def)             Requested size: 335.88132pt x 131.64932pt.
  [35 <./images/LuscherWeitz.jpg>] [36] [37]
 [38] [39] <images/taste_exchange.jpg, id=284, 1395.2125pt x 847.165pt>
 File: images/taste_exchange.jpg Graphic file (type jpg)
 
 <use images/taste_exchange.jpg>
-Package pdftex.def Info: images/taste_exchange.jpg used on input line 379.
+Package pdftex.def Info: images/taste_exchange.jpg used on input line 378.
 (pdftex.def)             Requested size: 237.0934pt x 143.9515pt.
- [40] [41 <./images/taste_exchange.jpg>]
-[42] <images/scales.jpg, id=295, 3388.66pt x 849.1725pt>
-File: images/scales.jpg Graphic file (type jpg)
+ [40]
+Underfull \vbox (badness 2460) has occurred while \output is active []
 
-<use images/scales.jpg>
-Package pdftex.def Info: images/scales.jpg used on input line 440.
+ [41 <./images/taste_exchange.jpg>] [42]
+<images/scales.jpg, id=295, 3388.66pt x 849.1725pt>
+File: images/scales.jpg Graphic file (type jpg)
+ <use images/scales.jpg>
+Package pdftex.def Info: images/scales.jpg used on input line 439.
 (pdftex.def)             Requested size: 375.39287pt x 94.07008pt.
 
-<images/fetah_heavyhisq.png, id=296, 501.875pt x 328.22626pt>
+[43 <./images/scales.jpg>]
+<images/fetah_heavyhisq.png, id=300, 501.875pt x 328.22626pt>
 File: images/fetah_heavyhisq.png Graphic file (type png)
 
 <use images/fetah_heavyhisq.png>
-Package pdftex.def Info: images/fetah_heavyhisq.png used on input line 461.
+Package pdftex.def Info: images/fetah_heavyhisq.png used on input line 460.
 (pdftex.def)             Requested size: 217.33461pt x 142.1362pt.
- [43 <./images/scales.jpg>] [44 <./images/fetah_heavyhisq.png>] [45]) [46]
+ [44 <./images/fetah_heavyhisq.png>]
+
+LaTeX Warning: Reference `sec:continuum_nrqcd' on page 45 undefined on input li
+ne 499.
+
+[45]) [46]
 \openout2 = `latticecalcs.aux'.
 
  (./latticecalcs.tex
@@ -1476,11 +1472,6 @@ Underfull \vbox (badness 1142) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [54]
-Underfull \hbox (badness 2096) in paragraph at lines 232--234
-\T1/cmr/m/n/10.95 where $\OML/cmm/m/it/10.95 ^^X\OT1/cmr/m/n/10.95 ([])$ \T1/cm
-r/m/n/10.95 is a ran-dom field of colour vec-tors, vary-ing configuration-by-
- []
-
 [55]
 Underfull \hbox (badness 1178) in paragraph at lines 266--268
 \T1/cmr/m/n/10.95 This can be built by first cre-at-ing prop-a-ga-tors for the 
@@ -1488,17 +1479,22 @@ $\OML/cmm/m/it/10.95 b$ \T1/cmr/m/n/10.95 and $\OML/cmm/m/it/10.95 s$ \T1/cmr/m
 /n/10.95 quarks -
  []
 
-[56] [57] [58] [59]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 378.
+[56] [57] [58] [59] [60]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 392.
 
- (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-[60] [61]) [62]
+) [61]) [62]
 \openout2 = `nrqcd.aux'.
 
- (./nrqcd.tex
+
+(./nrqcd.tex
 Chapter 5.
+
+LaTeX Warning: Reference `sec:renormalization' on page 63 undefined on input li
+ne 12.
+
 [63
 
 
@@ -1969,9 +1965,6 @@ Overfull \hbox (75.47986pt too wide) in paragraph at lines 255--257
  []
 
 [123]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \hbox (61.72716pt too wide) has occurred while \output is active
 \T1/cmr/m/n/10.95 124 \T1/cmr/m/sl/10.95 CHAPTER 7.  $\OML/cmm/m/it/10.95 B[] \
 OMS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.95 D[]L^^W$ \T1/cmr/m/sl/10.95 FORM FACTO
@@ -2004,9 +1997,6 @@ Overfull \hbox (60.9683pt too wide) in paragraph at lines 281--283
  []
 
 [125 <./images/BsDs/fine_2pt_summary.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \hbox (61.72716pt too wide) has occurred while \output is active
 \T1/cmr/m/n/10.95 126 \T1/cmr/m/sl/10.95 CHAPTER 7.  $\OML/cmm/m/it/10.95 B[] \
 OMS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.95 D[]L^^W$ \T1/cmr/m/sl/10.95 FORM FACTO
@@ -2014,7 +2004,7 @@ R AT ALL PHYSICAL $\OML/cmm/m/it/10.95 Q[]$ \T1/cmr/m/sl/10.95 FROM HEAVY-HISQ
  []
 
 [126 <./images/BsDs/fine_3pt_summary.pdf>]
-Underfull \vbox (badness 1205) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [127]
 Overfull \hbox (61.72716pt too wide) has occurred while \output is active
@@ -2038,6 +2028,9 @@ Package pdftex.def Info: images/BsDs/ratio/f0fHc_vsmh.pdf used on input line 43
 8.
 (pdftex.def)             Requested size: 335.88132pt x 251.90999pt.
  [131]
+Overfull \vbox (19.37257pt too high) has occurred while \output is active []
+
+
 Overfull \hbox (61.72716pt too wide) has occurred while \output is active
 \T1/cmr/m/n/10.95 132 \T1/cmr/m/sl/10.95 CHAPTER 7.  $\OML/cmm/m/it/10.95 B[] \
 OMS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.95 D[]L^^W$ \T1/cmr/m/sl/10.95 FORM FACTO
@@ -2065,26 +2058,22 @@ Overfull \hbox (75.47986pt too wide) in paragraph at lines 482--484
 []  [] 
  []
 
-[133 <./images/BsDs/ratio/f0dcq2max_stability.pdf>]
-<images/BsDs/direct/f0q2max_vsmh.pdf, id=7320, 578.16pt x 433.62pt>
+<images/BsDs/direct/f0q2max_vsmh.pdf, id=7276, 578.16pt x 433.62pt>
 File: images/BsDs/direct/f0q2max_vsmh.pdf Graphic file (type pdf)
 
 <use images/BsDs/direct/f0q2max_vsmh.pdf>
 Package pdftex.def Info: images/BsDs/direct/f0q2max_vsmh.pdf used on input line
  499.
 (pdftex.def)             Requested size: 335.88132pt x 251.90999pt.
-
+ [133]
 Overfull \hbox (61.72716pt too wide) has occurred while \output is active
 \T1/cmr/m/n/10.95 134 \T1/cmr/m/sl/10.95 CHAPTER 7.  $\OML/cmm/m/it/10.95 B[] \
 OMS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.95 D[]L^^W$ \T1/cmr/m/sl/10.95 FORM FACTO
 R AT ALL PHYSICAL $\OML/cmm/m/it/10.95 Q[]$ \T1/cmr/m/sl/10.95 FROM HEAVY-HISQ
  []
 
-[134 <./images/BsDs/ratio/f0fpfHc_vsq2.pdf>]
-Underfull \vbox (badness 2165) has occurred while \output is active []
-
- [135 <./images/BsDs/direct/f0q2max_vsmh.pdf>]
-<images/BsDs/direct/f0q2max_stability.pdf, id=7495, 578.16pt x 433.62pt>
+[134 <./images/BsDs/ratio/f0dcq2max_stability.pdf>]
+<images/BsDs/direct/f0q2max_stability.pdf, id=7324, 578.16pt x 433.62pt>
 File: images/BsDs/direct/f0q2max_stability.pdf Graphic file (type pdf)
 
 <use images/BsDs/direct/f0q2max_stability.pdf>
@@ -2092,7 +2081,7 @@ Package pdftex.def Info: images/BsDs/direct/f0q2max_stability.pdf used on input
  line 536.
 (pdftex.def)             Requested size: 335.88132pt x 251.90999pt.
 
-<images/BsDs/direct/f0fp_vsq2.pdf, id=7496, 1150.89972pt x 562.80264pt>
+<images/BsDs/direct/f0fp_vsq2.pdf, id=7325, 1150.89972pt x 562.80264pt>
 File: images/BsDs/direct/f0fp_vsq2.pdf Graphic file (type pdf)
 
 <use images/BsDs/direct/f0fp_vsq2.pdf>
@@ -2104,7 +2093,7 @@ Overfull \hbox (75.47986pt too wide) in paragraph at lines 545--547
 []  [] 
  []
 
-<images/BsDs/direct/f0fp_final.pdf, id=7497, 578.16pt x 433.62pt>
+<images/BsDs/direct/f0fp_final.pdf, id=7326, 578.16pt x 433.62pt>
 File: images/BsDs/direct/f0fp_final.pdf Graphic file (type pdf)
 
 <use images/BsDs/direct/f0fp_final.pdf>
@@ -2112,7 +2101,7 @@ Package pdftex.def Info: images/BsDs/direct/f0fp_final.pdf used on input line 5
 53.
 (pdftex.def)             Requested size: 335.88132pt x 251.90999pt.
 
-<images/BsDs/direct/errorbudget.pdf, id=7498, 1131.02554pt x 550.15535pt>
+<images/BsDs/direct/errorbudget.pdf, id=7327, 1131.02554pt x 550.15535pt>
 File: images/BsDs/direct/errorbudget.pdf Graphic file (type pdf)
 
 <use images/BsDs/direct/errorbudget.pdf>
@@ -2124,6 +2113,21 @@ Overfull \hbox (75.47986pt too wide) in paragraph at lines 559--561
 []  [] 
  []
 
+<images/BsDs/ratio_vs_direct.pdf, id=7328, 578.16pt x 433.62pt>
+File: images/BsDs/ratio_vs_direct.pdf Graphic file (type pdf)
+
+<use images/BsDs/ratio_vs_direct.pdf>
+Package pdftex.def Info: images/BsDs/ratio_vs_direct.pdf used on input line 572
+.
+(pdftex.def)             Requested size: 335.88132pt x 251.90999pt.
+ [135 <./images/BsDs/ratio/f0fpfHc_vsq2.pdf>] <images/BsDs/nrqcd_comparison.pdf
+, id=7454, 578.16pt x 433.62pt>
+File: images/BsDs/nrqcd_comparison.pdf Graphic file (type pdf)
+
+<use images/BsDs/nrqcd_comparison.pdf>
+Package pdftex.def Info: images/BsDs/nrqcd_comparison.pdf used on input line 58
+1.
+(pdftex.def)             Requested size: 335.88132pt x 251.90999pt.
 
 Overfull \hbox (61.72716pt too wide) has occurred while \output is active
 \T1/cmr/m/n/10.95 136 \T1/cmr/m/sl/10.95 CHAPTER 7.  $\OML/cmm/m/it/10.95 B[] \
@@ -2131,26 +2135,14 @@ OMS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.95 D[]L^^W$ \T1/cmr/m/sl/10.95 FORM FACTO
 R AT ALL PHYSICAL $\OML/cmm/m/it/10.95 Q[]$ \T1/cmr/m/sl/10.95 FROM HEAVY-HISQ
  []
 
-[136 <./images/BsDs/direct/f0q2max_stability.pdf>]
-<images/BsDs/ratio_vs_direct.pdf, id=7542, 578.16pt x 433.62pt>
-File: images/BsDs/ratio_vs_direct.pdf Graphic file (type pdf)
+[136 <./images/BsDs/direct/f0q2max_vsmh.pdf>] [137]
+<images/BsDs/direct/branchingfraction.pdf, id=7507, 578.16pt x 433.62pt>
+File: images/BsDs/direct/branchingfraction.pdf Graphic file (type pdf)
 
-<use images/BsDs/ratio_vs_direct.pdf>
-Package pdftex.def Info: images/BsDs/ratio_vs_direct.pdf used on input line 572
-.
-(pdftex.def)             Requested size: 335.88132pt x 251.90999pt.
-
-<images/BsDs/nrqcd_comparison.pdf, id=7543, 578.16pt x 433.62pt>
-File: images/BsDs/nrqcd_comparison.pdf Graphic file (type pdf)
-
-<use images/BsDs/nrqcd_comparison.pdf>
-Package pdftex.def Info: images/BsDs/nrqcd_comparison.pdf used on input line 58
-1.
-(pdftex.def)             Requested size: 335.88132pt x 251.90999pt.
- [137 <./images/BsDs/direct/f0fp_vsq2.pdf>]
-
-LaTeX Warning: Text page 138 contains only floats.
-
+<use images/BsDs/direct/branchingfraction.pdf>
+Package pdftex.def Info: images/BsDs/direct/branchingfraction.pdf used on input
+ line 656.
+(pdftex.def)             Requested size: 296.36374pt x 222.26808pt.
 
 Overfull \hbox (61.72716pt too wide) has occurred while \output is active
 \T1/cmr/m/n/10.95 138 \T1/cmr/m/sl/10.95 CHAPTER 7.  $\OML/cmm/m/it/10.95 B[] \
@@ -2158,149 +2150,154 @@ OMS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.95 D[]L^^W$ \T1/cmr/m/sl/10.95 FORM FACTO
 R AT ALL PHYSICAL $\OML/cmm/m/it/10.95 Q[]$ \T1/cmr/m/sl/10.95 FROM HEAVY-HISQ
  []
 
-[138 <./images/BsDs/direct/f0fp_final.pdf> <./images/BsDs/direct/errorbudget.pd
-f
+[138]
+Underfull \hbox (badness 10000) in paragraph at lines 710--712
 
-pdfTeX warning: pdflatex (file ./images/BsDs/direct/errorbudget.pdf): PDF inclu
-sion: multiple pdfs with page group included in a single page
->] [139 <./images/BsDs/ratio_vs_direct.pdf>]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 710--712
+
+ []
+
+[139]
 Overfull \hbox (61.72716pt too wide) has occurred while \output is active
 \T1/cmr/m/n/10.95 140 \T1/cmr/m/sl/10.95 CHAPTER 7.  $\OML/cmm/m/it/10.95 B[] \
 OMS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.95 D[]L^^W$ \T1/cmr/m/sl/10.95 FORM FACTO
 R AT ALL PHYSICAL $\OML/cmm/m/it/10.95 Q[]$ \T1/cmr/m/sl/10.95 FROM HEAVY-HISQ
  []
 
-[140 <./images/BsDs/nrqcd_comparison.pdf>]
-<images/BsDs/direct/branchingfraction.pdf, id=7733, 578.16pt x 433.62pt>
-File: images/BsDs/direct/branchingfraction.pdf Graphic file (type pdf)
+[140] <images/BsDs/hplus_vsmh.pdf, id=7518, 462.52798pt x 346.89601pt>
+File: images/BsDs/hplus_vsmh.pdf Graphic file (type pdf)
 
-<use images/BsDs/direct/branchingfraction.pdf>
-Package pdftex.def Info: images/BsDs/direct/branchingfraction.pdf used on input
- line 656.
-(pdftex.def)             Requested size: 296.36374pt x 222.26808pt.
+<use images/BsDs/hplus_vsmh.pdf>
+Package pdftex.def Info: images/BsDs/hplus_vsmh.pdf used on input line 782.
+(pdftex.def)             Requested size: 335.88132pt x 251.92456pt.
  [141]
+
+LaTeX Warning: Reference `eq:decayampfit' on page 142 undefined on input line 8
+59.
+
+
+LaTeX Warning: Reference `eq:decayconstantfit' on page 142 undefined on input l
+ine 859.
+
+
+LaTeX Warning: Reference `eq:decayampfit' on page 142 undefined on input line 8
+59.
+
+
+LaTeX Warning: Reference `eq:decayconstantfit' on page 142 undefined on input l
+ine 859.
+
+)
 Overfull \hbox (61.72716pt too wide) has occurred while \output is active
 \T1/cmr/m/n/10.95 142 \T1/cmr/m/sl/10.95 CHAPTER 7.  $\OML/cmm/m/it/10.95 B[] \
 OMS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.95 D[]L^^W$ \T1/cmr/m/sl/10.95 FORM FACTO
 R AT ALL PHYSICAL $\OML/cmm/m/it/10.95 Q[]$ \T1/cmr/m/sl/10.95 FROM HEAVY-HISQ
  []
 
-[142 <./images/BsDs/direct/branchingfraction.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 710--712
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 710--712
-
- []
-
-[143]
+[142] [143]
 Overfull \hbox (61.72716pt too wide) has occurred while \output is active
 \T1/cmr/m/n/10.95 144 \T1/cmr/m/sl/10.95 CHAPTER 7.  $\OML/cmm/m/it/10.95 B[] \
 OMS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.95 D[]L^^W$ \T1/cmr/m/sl/10.95 FORM FACTO
 R AT ALL PHYSICAL $\OML/cmm/m/it/10.95 Q[]$ \T1/cmr/m/sl/10.95 FROM HEAVY-HISQ
  []
 
-[144] <images/BsDs/hplus_vsmh.pdf, id=7762, 462.52798pt x 346.89601pt>
-File: images/BsDs/hplus_vsmh.pdf Graphic file (type pdf)
-
-<use images/BsDs/hplus_vsmh.pdf>
-Package pdftex.def Info: images/BsDs/hplus_vsmh.pdf used on input line 782.
-(pdftex.def)             Requested size: 335.88132pt x 251.92456pt.
- [145 <./images/BsDs/hplus_vsmh.pdf>]
-
-LaTeX Warning: Reference `eq:decayampfit' on page 146 undefined on input line 8
-59.
-
-
-LaTeX Warning: Reference `eq:decayconstantfit' on page 146 undefined on input l
-ine 859.
-
-
-LaTeX Warning: Reference `eq:decayampfit' on page 146 undefined on input line 8
-59.
-
-
-LaTeX Warning: Reference `eq:decayconstantfit' on page 146 undefined on input l
-ine 859.
-
-
+[144] [145]
 Overfull \hbox (61.72716pt too wide) has occurred while \output is active
 \T1/cmr/m/n/10.95 146 \T1/cmr/m/sl/10.95 CHAPTER 7.  $\OML/cmm/m/it/10.95 B[] \
 OMS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.95 D[]L^^W$ \T1/cmr/m/sl/10.95 FORM FACTO
 R AT ALL PHYSICAL $\OML/cmm/m/it/10.95 Q[]$ \T1/cmr/m/sl/10.95 FROM HEAVY-HISQ
  []
 
-[146]) [147]
+[146 <./images/BsDs/direct/f0q2max_stability.pdf>] [147 <./images/BsDs/direct/f
+0fp_vsq2.pdf>]
 Overfull \hbox (61.72716pt too wide) has occurred while \output is active
 \T1/cmr/m/n/10.95 148 \T1/cmr/m/sl/10.95 CHAPTER 7.  $\OML/cmm/m/it/10.95 B[] \
 OMS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.95 D[]L^^W$ \T1/cmr/m/sl/10.95 FORM FACTO
 R AT ALL PHYSICAL $\OML/cmm/m/it/10.95 Q[]$ \T1/cmr/m/sl/10.95 FROM HEAVY-HISQ
  []
 
-[148] [149]
+[148 <./images/BsDs/direct/f0fp_final.pdf> <./images/BsDs/direct/errorbudget.pd
+f
+
+pdfTeX warning: pdflatex (file ./images/BsDs/direct/errorbudget.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+>] [149 <./images/BsDs/ratio_vs_direct.pdf>]
 Overfull \hbox (61.72716pt too wide) has occurred while \output is active
 \T1/cmr/m/n/10.95 150 \T1/cmr/m/sl/10.95 CHAPTER 7.  $\OML/cmm/m/it/10.95 B[] \
 OMS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.95 D[]L^^W$ \T1/cmr/m/sl/10.95 FORM FACTO
 R AT ALL PHYSICAL $\OML/cmm/m/it/10.95 Q[]$ \T1/cmr/m/sl/10.95 FROM HEAVY-HISQ
  []
 
-[150]
+[150 <./images/BsDs/nrqcd_comparison.pdf> <./images/BsDs/direct/branchingfracti
+on.pdf
+
+pdfTeX warning: pdflatex (file ./images/BsDs/direct/branchingfraction.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+>] [151 <./images/BsDs/hplus_vsmh.pdf>]
 \openout2 = `conclusions.aux'.
 
  (./conclusions.tex
+Overfull \hbox (61.72716pt too wide) has occurred while \output is active
+\T1/cmr/m/n/10.95 152 \T1/cmr/m/sl/10.95 CHAPTER 7.  $\OML/cmm/m/it/10.95 B[] \
+OMS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.95 D[]L^^W$ \T1/cmr/m/sl/10.95 FORM FACTO
+R AT ALL PHYSICAL $\OML/cmm/m/it/10.95 Q[]$ \T1/cmr/m/sl/10.95 FROM HEAVY-HISQ
+ []
+
+[152
+
+
+
+]
 Chapter 8.
-[151
-
-
-
-]) [152] (./Thesis.lof [153
+[153]) [154] (./Thesis.lof [155
 
 
 ]
 Underfull \vbox (badness 3260) has occurred while \output is active []
 
- [154]
-[155]
+ [156]
+[157]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [156]
+ [158]
 Underfull \vbox (badness 2359) has occurred while \output is active []
 
- [157]
+ [159]
 Underfull \vbox (badness 4699) has occurred while \output is active []
 
- [158])
+ [160])
 \tf@lof=\write5
 \openout5 = `Thesis.lof'.
 
 
-[159] [160
+[161] [162
 
 ] (./Thesis.lot
 Underfull \vbox (badness 2608) has occurred while \output is active []
 
- [161]
-[162]
+ [163]
+[164]
 
-LaTeX Warning: Reference `eq:decayampfit' on page 148 undefined on input line 2
+LaTeX Warning: Reference `eq:decayampfit' on page 143 undefined on input line 2
 5.
 
 
-LaTeX Warning: Reference `eq:decayconstantfit' on page 148 undefined on input l
+LaTeX Warning: Reference `eq:decayconstantfit' on page 143 undefined on input l
 ine 25.
 
 )
 \tf@lot=\write6
 \openout6 = `Thesis.lot'.
 
- (./Thesis.bbl [163] [164
+ (./Thesis.bbl [165] [166
 
-] [165] [166] [167] [168] [169] [170] [171] [172]
-[173] [174] [175] [176]) [177] (./Thesis.aux (./TitlePage.aux) (./intro.aux)
-(./background.aux) (./latticeqcd.aux) (./latticecalcs.aux) (./nrqcd.aux)
-(./BsDsstar.aux) (./BsDs.aux) (./conclusions.aux))
+] [167] [168] [169] [170] [171] [172] [173] [174]
+[175] [176] [177] [178] [179]) [180] (./Thesis.aux (./TitlePage.aux)
+(./intro.aux) (./background.aux) (./latticeqcd.aux) (./latticecalcs.aux)
+(./nrqcd.aux) (./BsDsstar.aux) (./BsDs.aux) (./conclusions.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -2309,10 +2306,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 25787 strings out of 494910
- 623807 string characters out of 6179835
- 785808 words of memory out of 5000000
- 28409 multiletter control sequences out of 15000+600000
+ 25793 strings out of 494910
+ 623915 string characters out of 6179835
+ 794808 words of memory out of 5000000
+ 28415 multiletter control sequences out of 15000+600000
  44563 words of font info for 138 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  66i,18n,79p,1696b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2356,10 +2353,10 @@ t/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/rsfs/rsfs10.pfb>
-Output written on Thesis.pdf (189 pages, 7542630 bytes).
+Output written on Thesis.pdf (192 pages, 7543409 bytes).
 PDF statistics:
- 8559 PDF objects out of 8907 (max. 8388607)
- 1321 compressed objects within 14 object streams
+ 8567 PDF objects out of 8907 (max. 8388607)
+ 1326 compressed objects within 14 object streams
  0 named destinations out of 1000 (max. 500000)
  288 words of extra memory for PDF output out of 10000 (max. 10000000)
 

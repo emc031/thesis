@@ -111,11 +111,23 @@ John~E. Bartelt et~al.
   form-factor}.
 \newblock {\em Phys. Rev. Lett.}, 82:3746, 1999.
 
+\bibitem{Caprini:1997mu}
+Irinel Caprini, Laurent Lellouch, and Matthias Neubert.
+\newblock {Dispersive bounds on the shape of anti-B ---> D(*) lepton
+  anti-neutrino form-factors}.
+\newblock {\em Nucl. Phys.}, B530:153--181, 1998.
+
 \bibitem{Bigi:2017njr}
 Dante Bigi, Paolo Gambino, and Stefan Schacht.
 \newblock {A fresh look at the determination of $|V_{cb}|$ from $B\to D^{*}
   \ell \nu$}.
 \newblock {\em Phys. Lett.}, B769:441--445, 2017.
+
+\bibitem{GLENNBOYD1996493}
+C.~Glenn Boyd, Benjamín Grinstein, and Richard~F. Lebed.
+\newblock Model-independent determinations of $b \to d l\nu, d^*l\nu$ form
+  factors.
+\newblock {\em Nuclear Physics B}, 461(3):493 -- 511, 1996.
 
 \bibitem{Bailey:2018feb}
 Jon~A. Bailey, Sunkyu Lee, Weonjong Lee, Jaehoon Leem, and Sungwoo Park.
@@ -185,10 +197,29 @@ R.~Aaij et~al.
   decays}.
 \newblock {\em Phys. Rev.}, D97(7):072013, 2018.
 
-\bibitem{Fajfer:2012vx}
-Svjetlana Fajfer, Jernej~F. Kamenik, and Ivan Nisandzic.
-\newblock {On the $B \to D^* \tau \bar \nu_{\tau}$ Sensitivity to New Physics}.
-\newblock {\em Phys. Rev.}, D85:094025, 2012.
+\bibitem{Bigi:2016mdz}
+Dante Bigi and Paolo Gambino.
+\newblock {Revisiting $B\to D \ell \nu$}.
+\newblock {\em Phys. Rev.}, D94(9):094008, 2016.
+
+\bibitem{Bernlochner:2017jka}
+Florian~U. Bernlochner, Zoltan Ligeti, Michele Papucci, and Dean~J. Robinson.
+\newblock {Combined analysis of semileptonic $B$ decays to $D$ and $D^*$:
+  $R(D^{(*)})$, $|V_{cb}|$, and new physics}.
+\newblock {\em Phys. Rev.}, D95(11):115008, 2017.
+\newblock [erratum: Phys. Rev.D97,no.5,059902(2018)].
+
+\bibitem{Jaiswal:2017rve}
+Sneha Jaiswal, Soumitra Nandi, and Sunando~Kumar Patra.
+\newblock {Extraction of $|V_{cb}|$ from $B\to D^{(*)}\ell\nu_\ell$ and the
+  Standard Model predictions of $R(D^{(*)})$}.
+\newblock {\em JHEP}, 12:060, 2017.
+
+\bibitem{Bigi:2017jbd}
+Dante Bigi, Paolo Gambino, and Stefan Schacht.
+\newblock {$R(D^*)$, $|V_{cb}|$, and the Heavy Quark Symmetry relations between
+  form factors}.
+\newblock {\em JHEP}, 11:061, 2017.
 
 \bibitem{Altmannshofer:2017yso}
 Wolfgang Altmannshofer, Peter Stangl, and David~M. Straub.
@@ -330,6 +361,12 @@ Richard~F. Lebed and Mahiko Suzuki.
   symmetry of heavy quarks}.
 \newblock {\em Phys. Rev.}, D44:829--836, 1991.
 
+\bibitem{Falk:1992wt}
+Adam~F. Falk and Matthias Neubert.
+\newblock {Second order power corrections in the heavy quark effective theory.
+  1. Formalism and meson form-factors}.
+\newblock {\em Phys. Rev.}, D47:2965--2981, 1993.
+
 \bibitem{PhysRev.78.29}
 Leslie~L. Foldy and Siegfried~A. Wouthuysen.
 \newblock On the dirac theory of spin 1/2 particles and its non-relativistic
@@ -432,6 +469,11 @@ Jonna Koponen.
 \newblock {Lattice results for $D/D_s$ leptonic and semileptonic decays}.
 \newblock In {\em {Proceedings, 6th International Workshop on Charm Physics
   (Charm 2013): Manchester, UK, August 31-September 4, 2013}}, 2013.
+
+\bibitem{McNeile:2011ng}
+C.~McNeile, C.~T.~H. Davies, E.~Follana, K.~Hornbostel, and G.~P. Lepage.
+\newblock {High-Precision $f_{B_s}$ and HQET from Relativistic Lattice QCD}.
+\newblock {\em Phys. Rev.}, D85:031503, 2012.
 
 \bibitem{Lytle:2016ixw}
 Andrew Lytle, Brian Colquhoun, Christine Davies, Jonna Koponen, and Craig
@@ -546,11 +588,12 @@ A.~Bazavov et~al.
 \newblock {Scaling studies of QCD with the dynamical HISQ action}.
 \newblock {\em Phys. Rev.}, D82:074501, 2010.
 
-\bibitem{Dowdall:2013rya}
-R.~J. Dowdall, C.~T.~H. Davies, G.~P. Lepage, and C.~McNeile.
-\newblock {Vus from pi and K decay constants in full lattice QCD with physical
-  u, d, s and c quarks}.
-\newblock {\em Phys. Rev.}, D88:074504, 2013.
+\bibitem{Chakraborty:2016mwy}
+Bipasha Chakraborty, C.~T.~H. Davies, P.~G. de~Oliviera, J.~Koponen, G.~P.
+  Lepage, and R.~S. Van~de Water.
+\newblock {The hadronic vacuum polarization contribution to $a_{\mu}$ from full
+  lattice QCD}.
+\newblock {\em Phys. Rev.}, D96(3):034516, 2017.
 
 \bibitem{Chakraborty:2014aca}
 Bipasha Chakraborty, C.~T.~H. Davies, B.~Galloway, P.~Knecht, J.~Koponen, G.~C.
@@ -558,6 +601,16 @@ Bipasha Chakraborty, C.~T.~H. Davies, B.~Galloway, P.~Knecht, J.~Koponen, G.~C.
 \newblock {High-precision quark masses and QCD coupling from $n_f=4$ lattice
   QCD}.
 \newblock {\em Phys. Rev.}, D91(5):054508, 2015.
+
+\bibitem{mcneile:private}
+C.~McNeile.
+\newblock private communication, 2015.
+
+\bibitem{Dowdall:2013rya}
+R.~J. Dowdall, C.~T.~H. Davies, G.~P. Lepage, and C.~McNeile.
+\newblock {Vus from pi and K decay constants in full lattice QCD with physical
+  u, d, s and c quarks}.
+\newblock {\em Phys. Rev.}, D88:074504, 2013.
 
 \bibitem{Hestenes&Stiefel:1952}
 M.~R. Hestenes and E.~Stiefel.
@@ -776,11 +829,6 @@ Aida~X. El-Khadra, Andreas~S. Kronfeld, and Paul~B. Mackenzie.
 \bibitem{skopt}
 skopt: https://github.com/scikit-optimize/scikit-optimize.
 
-\bibitem{McNeile:2011ng}
-C.~McNeile, C.~T.~H. Davies, E.~Follana, K.~Hornbostel, and G.~P. Lepage.
-\newblock {High-Precision $f_{B_s}$ and HQET from Relativistic Lattice QCD}.
-\newblock {\em Phys. Rev.}, D85:031503, 2012.
-
 \bibitem{Donald:2013pea}
 G.~C. Donald, C.~T.~H. Davies, J.~Koponen, and G.~P. Lepage.
 \newblock {$V_{cs}$ from $D_s \to \phi \ell \nu$ semileptonic decay and full
@@ -792,12 +840,6 @@ A.~Bazavov et~al.
 \newblock {$B$- and $D$-meson leptonic decay constants from four-flavor lattice
   QCD}.
 \newblock 2017.
-
-\bibitem{Falk:1992wt}
-Adam~F. Falk and Matthias Neubert.
-\newblock {Second order power corrections in the heavy quark effective theory.
-  1. Formalism and meson form-factors}.
-\newblock {\em Phys. Rev.}, D47:2965--2981, 1993.
 
 \bibitem{Mannel:1994kv}
 Thomas Mannel.
@@ -887,12 +929,6 @@ Susumu Okubo.
 Susumu Okubo.
 \newblock Exact bounds for ${K}_{l3}$ decay parameters.
 \newblock {\em Phys. Rev. D}, 3:2807--2813, Jun 1971.
-
-\bibitem{GLENNBOYD1996493}
-C.~Glenn Boyd, Benjamín Grinstein, and Richard~F. Lebed.
-\newblock Model-independent determinations of $b \to d l\nu, d^*l\nu$ form
-  factors.
-\newblock {\em Nuclear Physics B}, 461(3):493 -- 511, 1996.
 
 \bibitem{BECHER200661}
 Thomas Becher and Richard~J. Hill.
