@@ -40,66 +40,69 @@
 \contentsline {section}{\numberline {4.2}Analysis of Correlation Functions}{58}
 \contentsline {subsection}{\numberline {4.2.1}Fitting Correlation Functions}{58}
 \contentsline {subsubsection}{Oscillating States}{60}
-\contentsline {subsection}{\numberline {4.2.2}Signal Degredation}{61}
-\contentsline {chapter}{\numberline {5}$b$-Physics from Lattice NRQCD}{63}
-\contentsline {section}{\numberline {5.1}NRQCD-HISQ currents}{63}
-\contentsline {section}{\numberline {5.2}Relativistic Normalization of the $b\to c$ temporal axial current}{65}
-\contentsline {subsubsection}{Kinetic Mass}{66}
-\contentsline {subsubsection}{Decay Amplitude Ratios}{67}
-\contentsline {section}{\numberline {5.3}$B_{(s)}\to D_{(s)}l\nu $ form factors}{69}
-\contentsline {subsection}{\numberline {5.3.1}Calculation Details}{69}
-\contentsline {subsection}{\numberline {5.3.2}Correlator Fits}{71}
-\contentsline {subsection}{\numberline {5.3.3}Form Factors}{72}
-\contentsline {subsection}{\numberline {5.3.4}Results}{73}
-\contentsline {subsubsection}{Anomalous Results}{73}
-\contentsline {subsubsection}{Large Subleading Currents}{75}
-\contentsline {subsection}{\numberline {5.3.5}Form factors from $V_0$ and $S$ in $B_{(s)}\to D_{(s)}$}{77}
-\contentsline {section}{\numberline {5.4}Non-Perturbative Renormalization using $B_c\to \eta _c$ Data}{79}
-\contentsline {subsection}{\numberline {5.4.1}$Z_S$}{79}
-\contentsline {subsection}{\numberline {5.4.2}$Z_{V_0}$}{81}
-\contentsline {subsection}{\numberline {5.4.3}$Z_{V_k}$}{82}
-\contentsline {section}{\numberline {5.5}Conclusion of NRQCD work}{85}
-\contentsline {chapter}{\numberline {6}$B_s\to D_s^*l\nu $ Axial Form Factor at Zero Recoil from Heavy-HISQ}{87}
-\contentsline {section}{\numberline {6.1}Motivation}{88}
-\contentsline {section}{\numberline {6.2}Calculation Details}{89}
-\contentsline {subsection}{\numberline {6.2.1}Lattice Setup}{89}
-\contentsline {subsection}{\numberline {6.2.2}Correlator Fits}{92}
-\contentsline {subsection}{\numberline {6.2.3}Normalization of Axial Current}{95}
-\contentsline {subsection}{\numberline {6.2.4}Extrapolation to Physical Point}{99}
+\contentsline {subsection}{\numberline {4.2.2}Signal Degredation}{62}
+\contentsline {chapter}{\numberline {5}$b$-Physics from Lattice NRQCD}{65}
+\contentsline {section}{\numberline {5.1}NRQCD-HISQ currents}{65}
+\contentsline {section}{\numberline {5.2}Relativistic Normalization of the $b\to c$ temporal axial current}{67}
+\contentsline {subsection}{\numberline {5.2.1}Calculation Setup}{67}
+\contentsline {subsection}{\numberline {5.2.2}Kinetic Mass}{68}
+\contentsline {subsection}{\numberline {5.2.3}Decay Amplitude Ratios}{69}
+\contentsline {section}{\numberline {5.3}$B_{(s)}\to D_{(s)}l\nu $ form factors}{71}
+\contentsline {subsection}{\numberline {5.3.1}Calculation Details}{71}
+\contentsline {subsection}{\numberline {5.3.2}Correlator Fits}{73}
+\contentsline {subsection}{\numberline {5.3.3}Form Factors}{74}
+\contentsline {subsection}{\numberline {5.3.4}Results}{76}
+\contentsline {subsubsection}{Anomalous Results}{76}
+\contentsline {subsubsection}{Large Subleading Currents}{78}
+\contentsline {subsection}{\numberline {5.3.5}Form factors from $V_0$ and $S$ in $B_{(s)}\to D_{(s)}$}{79}
+\contentsline {section}{\numberline {5.4}Non-Perturbative Renormalization using $B_c\to \eta _c$ Data}{81}
+\contentsline {subsection}{\numberline {5.4.1}$Z_S$}{82}
+\contentsline {subsection}{\numberline {5.4.2}$Z_{V_0}$}{84}
+\contentsline {subsection}{\numberline {5.4.3}$Z_{V_k}$}{85}
+\contentsline {section}{\numberline {5.5}Conclusion of NRQCD work}{87}
+\contentsline {chapter}{\numberline {6}$B_s\to D_s^*l\nu $ Axial Form Factor at Zero Recoil from Heavy-HISQ}{89}
+\contentsline {section}{\numberline {6.1}Motivation}{90}
+\contentsline {section}{\numberline {6.2}Calculation Details}{91}
+\contentsline {subsection}{\numberline {6.2.1}Lattice Setup}{91}
+\contentsline {subsection}{\numberline {6.2.2}Correlator Fits}{94}
+\contentsline {subsection}{\numberline {6.2.3}Normalization of Axial Current}{97}
+\contentsline {subsection}{\numberline {6.2.4}Extrapolation to the Physical Point}{99}
 \contentsline {subsubsection}{Heavy Mass Dependence}{99}
-\contentsline {subsubsection}{Quark Mass Ambiguities}{99}
-\contentsline {subsubsection}{Discretization Effects}{101}
-\contentsline {subsubsection}{Mass Mistunings}{102}
-\contentsline {subsubsection}{Other Effects}{103}
-\contentsline {section}{\numberline {6.3}Results and Discussion}{103}
-\contentsline {subsection}{\numberline {6.3.1}$h^s_{A_1}(1)$}{103}
-\contentsline {subsection}{\numberline {6.3.2}Extrapolation Stability}{106}
-\contentsline {subsection}{\numberline {6.3.3}Hints about $B\to D^*$}{108}
-\contentsline {subsection}{\numberline {6.3.4}HQET Low Energy Constants}{109}
-\contentsline {subsection}{\numberline {6.3.5}Extrapolation of $h_{A_1}^s(1)/(f_{H_c}\sqrt {M_{H_c}})$}{110}
-\contentsline {section}{\numberline {6.4}Conclusions}{112}
-\contentsline {chapter}{\numberline {7}$B_s\to D_sl\nu $ Form Factor at All Physical $q^2$ from Heavy-HISQ}{115}
-\contentsline {section}{\numberline {7.1}Motivation}{116}
-\contentsline {section}{\numberline {7.2}Calculation Details}{118}
-\contentsline {subsection}{\numberline {7.2.1}Lattice Setup}{118}
-\contentsline {subsection}{\numberline {7.2.2}Analysis of Correlation Functions}{122}
-\contentsline {subsection}{\numberline {7.2.3}Vector Current Renormalization}{126}
-\contentsline {subsection}{\numberline {7.2.4}Extrapolation to the Physical Point}{128}
-\contentsline {subsubsection}{Kinematic Behaviour}{128}
-\contentsline {subsubsection}{Heavy Mass and Discretisation Effects}{129}
-\contentsline {subsubsection}{Mass Mistunings}{130}
-\contentsline {subsubsection}{Finite Volume and Isospin Breaking Effects}{131}
-\contentsline {section}{\numberline {7.3}Results and Discussion}{131}
-\contentsline {subsection}{\numberline {7.3.1}Ratio Method}{132}
-\contentsline {subsubsection}{Zero Recoil}{132}
-\contentsline {subsubsection}{Non-zero Recoil}{133}
-\contentsline {subsection}{\numberline {7.3.2}Direct Method}{133}
-\contentsline {subsubsection}{Zero Recoil}{133}
-\contentsline {subsubsection}{Non-Zero Recoil}{135}
-\contentsline {subsection}{\numberline {7.3.3}Unitarity Test}{136}
-\contentsline {subsection}{\numberline {7.3.4}$R_{D_s}$}{138}
-\contentsline {section}{\numberline {7.4}Reconstructing Form Factors}{139}
-\contentsline {section}{\numberline {7.5}$h^s_+(1)$ and HQET low energy constants}{140}
-\contentsline {section}{\numberline {7.6}Conclusions}{142}
-\contentsline {section}{\numberline {7.7}Numerical Values for Lattice Results}{142}
-\contentsline {chapter}{\numberline {8}Conclusions}{153}
+\contentsline {subsubsection}{Quark Mass Ambiguities}{101}
+\contentsline {subsubsection}{Implementation of $\eta _A$}{102}
+\contentsline {subsubsection}{Discretization Effects}{103}
+\contentsline {subsubsection}{Mass Mistunings}{104}
+\contentsline {subsubsection}{Other Effects}{104}
+\contentsline {section}{\numberline {6.3}Results and Discussion}{105}
+\contentsline {subsection}{\numberline {6.3.1}$h^s_{A_1}(1)$}{105}
+\contentsline {subsection}{\numberline {6.3.2}Extrapolation Stability}{108}
+\contentsline {subsection}{\numberline {6.3.3}Hints about $B\to D^*$}{110}
+\contentsline {subsection}{\numberline {6.3.4}HQET Low Energy Constants}{112}
+\contentsline {subsection}{\numberline {6.3.5}$H_s$ and $D_s^*$ Masses}{113}
+\contentsline {subsection}{\numberline {6.3.6}Extrapolation of $h_{A_1}^s(1)/(f_{H_c}\sqrt {M_{H_c}})$}{113}
+\contentsline {section}{\numberline {6.4}Conclusions}{115}
+\contentsline {chapter}{\numberline {7}$B_s\to D_sl\nu $ Form Factor at All Physical $q^2$ from Heavy-HISQ}{117}
+\contentsline {section}{\numberline {7.1}Motivation}{118}
+\contentsline {section}{\numberline {7.2}Calculation Details}{120}
+\contentsline {subsection}{\numberline {7.2.1}Lattice Setup}{120}
+\contentsline {subsection}{\numberline {7.2.2}Analysis of Correlation Functions}{124}
+\contentsline {subsection}{\numberline {7.2.3}Vector Current Renormalization}{128}
+\contentsline {subsection}{\numberline {7.2.4}Extrapolation to the Physical Point}{130}
+\contentsline {subsubsection}{Kinematic Behaviour}{130}
+\contentsline {subsubsection}{Heavy Mass and Discretisation Effects}{131}
+\contentsline {subsubsection}{Mass Mistunings}{132}
+\contentsline {subsubsection}{Finite Volume and Isospin Breaking Effects}{133}
+\contentsline {section}{\numberline {7.3}Results and Discussion}{133}
+\contentsline {subsection}{\numberline {7.3.1}Ratio Method}{134}
+\contentsline {subsubsection}{Zero Recoil}{134}
+\contentsline {subsubsection}{Non-zero Recoil}{135}
+\contentsline {subsection}{\numberline {7.3.2}Direct Method}{135}
+\contentsline {subsubsection}{Zero Recoil}{135}
+\contentsline {subsubsection}{Non-Zero Recoil}{137}
+\contentsline {subsection}{\numberline {7.3.3}Unitarity Test}{138}
+\contentsline {subsection}{\numberline {7.3.4}$R_{D_s}$}{140}
+\contentsline {section}{\numberline {7.4}Reconstructing Form Factors}{141}
+\contentsline {section}{\numberline {7.5}$h^s_+(1)$ and HQET low energy constants}{142}
+\contentsline {section}{\numberline {7.6}Conclusions}{144}
+\contentsline {section}{\numberline {7.7}Numerical Values for Lattice Results}{144}
+\contentsline {chapter}{\numberline {8}Conclusions}{155}

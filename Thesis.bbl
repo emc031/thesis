@@ -635,11 +635,11 @@ G.~P. Lepage, B.~Clark, C.~T.~H. Davies, K.~Hornbostel, P.~B. Mackenzie,
 \newblock {\em Nucl. Phys. Proc. Suppl.}, 106:12--20, 2002.
 \newblock [,12(2001)].
 
-\bibitem{PhysRevD.59.094504}
+\bibitem{Morningstar:1998yx}
 Colin~J. Morningstar and J.~Shigemitsu.
-\newblock Perturbative matching of lattice and continuum heavy-light currents
-  with nrqcd heavy quarks.
-\newblock {\em Phys. Rev. D}, 59:094504, Mar 1999.
+\newblock {Perturbative matching of lattice and continuum heavy light currents
+  with NRQCD heavy quarks}.
+\newblock {\em Phys. Rev.}, D59:094504, 1999.
 
 \bibitem{Monahan:2012dq}
 Christopher Monahan, Junko Shigemitsu, and Ron Horgan.
@@ -681,11 +681,6 @@ Claude Bourrely, Laurent Lellouch, and Irinel Caprini.
   $b\ensuremath{\rightarrow}\ensuremath{\pi}l\ensuremath{\nu}$ decays and a
   determination of $|{V}_{ub}|$.
 \newblock {\em Phys. Rev. D}, 79:013008, Jan 2009.
-
-\bibitem{Hill:2006ub}
-Richard~J. Hill.
-\newblock {The Modern description of semileptonic meson form factors}.
-\newblock {\em eConf}, C060409:027, 2006.
 
 \bibitem{McNeile:2010ji}
 C.~McNeile, C.~T.~H. Davies, E.~Follana, K.~Hornbostel, and G.~P. Lepage.
@@ -846,6 +841,12 @@ Thomas Mannel.
 \newblock {Higher order 1/m corrections at zero recoil}.
 \newblock {\em Phys. Rev.}, D50:428--441, 1994.
 
+\bibitem{Bazavov:2018omf}
+A.~Bazavov et~al.
+\newblock {Up-, down-, strange-, charm-, and bottom-quark masses from
+  four-flavor lattice QCD}.
+\newblock {\em Phys. Rev.}, D98(5):054517, 2018.
+
 \bibitem{PhysRevLett.76.4124}
 Andrzej Czarnecki.
 \newblock Two-loop qcd corrections to
@@ -853,22 +854,11 @@ Andrzej Czarnecki.
   at zero recoil.
 \newblock {\em Phys. Rev. Lett.}, 76:4124--4127, May 1996.
 
-\bibitem{PASCHALIS1983473}
-J.E. Paschalis and G.J. Gounaris.
-\newblock Meson decays in the non-relativistic quark model.
-\newblock {\em Nuclear Physics B}, 222(3):473 -- 492, 1983.
-
-\bibitem{Bazavov:2018omf}
-A.~Bazavov et~al.
-\newblock {Up-, down-, strange-, charm-, and bottom-quark masses from
-  four-flavor lattice QCD}.
-\newblock {\em Phys. Rev.}, D98(5):054517, 2018.
-
-\bibitem{Bazavov:2014wgs}
-A.~Bazavov et~al.
-\newblock {Charmed and light pseudoscalar meson decay constants from
-  four-flavor lattice QCD with physical light quarks}.
-\newblock {\em Phys. Rev.}, D90(7):074509, 2014.
+\bibitem{CLOSE1984209}
+F.E. Close, G.J. Gounaris, and J.E. Paschalis.
+\newblock The ratio $\gamma(b\to dl\nu)/\gamma(b\to d^* l\nu)$ in the quark
+  model.
+\newblock {\em Physics Letters B}, 149(1):209 -- 212, 1984.
 
 \bibitem{PhysRevD.39.799}
 Nathan Isgur, Daryl Scora, Benjamin Grinstein, and Mark~B. Wise.
@@ -920,6 +910,12 @@ R.~J. Dowdall, C.~T.~H. Davies, T.~C. Hammant, and R.~R. Horgan.
   lattice QCD including charm quarks in the sea}.
 \newblock {\em Phys. Rev.}, D86:094510, 2012.
 
+\bibitem{Bazavov:2014wgs}
+A.~Bazavov et~al.
+\newblock {Charmed and light pseudoscalar meson decay constants from
+  four-flavor lattice QCD with physical light quarks}.
+\newblock {\em Phys. Rev.}, D90(7):074509, 2014.
+
 \bibitem{PhysRevD.4.725}
 Susumu Okubo.
 \newblock New improved bounds for ${K}_{l3}$ parameters.
@@ -935,5 +931,10 @@ Thomas Becher and Richard~J. Hill.
 \newblock Comment on form-factor shape and extraction of $|v_{ub}|$ from $b\to
   \pi l\nu$.
 \newblock {\em Physics Letters B}, 633(1):61 -- 69, 2006.
+
+\bibitem{PASCHALIS1983473}
+J.E. Paschalis and G.J. Gounaris.
+\newblock Meson decays in the non-relativistic quark model.
+\newblock {\em Nuclear Physics B}, 222(3):473 -- 492, 1983.
 
 \end{thebibliography}
