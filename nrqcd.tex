@@ -60,7 +60,7 @@ In this small project, we tested to see if a $B_c$ meson containing a HISQ $c$ q
 %% One would hope that, given the fully relativistic treatment of the light quark, and the relativistically corrected NRQCD heavy quark, that the behaviour of the meson emerging 
 %% from such a calculation (for example in \cite{Dowdall:2011wh},\cite{Colquhoun:2015oha},\cite{Colquhoun:2015mfa}) will be approximately relativistic.
 
-\subsection{Calculation Setup}
+\subsection{Calculation Details}
 
 To test this process we computed $B_c$ (pseudoscalar meson charged with $b$ and $c$ valence quarks) 2-point correlation functions on the fine ensemble (set 2 on table \ref{tab:ensembles}). The Wilson coefficients in the NRQCD action, the tadpole improvement factor $u_0$, and the bare valence quark masses are given in the bottom row of Table \ref{tab:quarkmasses}. The interpolating operators for creating/anihilating the momentum-space $B_c$ meson take the form
 \begin{align}
@@ -343,7 +343,7 @@ This study was not completed on account of two major problems:
 \end{itemize}
 We give an outline of the calculation here for completeness, but the crucial findings of this section are these two issues.
 
-\subsection{Calculation Details}
+\subsection{Lattice Setup}
 
 \begin{table}[t!]
 \hspace{-40pt}
@@ -573,8 +573,8 @@ A quick summary of the situation. We have 3 currents, $\langle S \rangle$, $\lan
 Here we define non-perturbative normalization constants $Z_J$ for the NRQCD-HISQ currents via 
 \begin{align}
   \nonumber
-	J &= ( 1 + z^J_0 \alpha_s )( J^{(0)} + J^{(1)} ) + \mathcal{O}(\, \alpha_s^2, \, (\Lambda_{\text{QCD}}/m_b)^2, \, ({\textbf{p}}/m_b)^2,\,\,\alpha_s \Lambda_{\text{QCD}} / m_b,\, \alpha_s {\textbf{p}}/m_b ) \\
-	&\equiv Z_{J}( 1 + z^J_0 \alpha_s )( J^{(0)} + J^{(1)} ), \\ \nonumber &\quad\quad Z_{J} = 1 +  \mathcal{O}(\, \alpha_s^2, \, (\Lambda_{\text{QCD}}/m_b)^2, \, ({\textbf{p}}/m_b)^2,\,\,\alpha_s \Lambda_{\text{QCD}} / m_b,\, \alpha_s {\textbf{p}}/m_b ).
+	J &= ( 1 + z^J_0 \alpha_s )( J^{(0)} + J^{(1)} ) + \mathcal{O}(\, \alpha_s^2, \, (\Lambda_{\text{QCD}}/m_b)^2, \, ({\textbf{p}}/m_b)^2,\,\,\alpha_s \Lambda_{\text{QCD}} / m_b,\, \alpha_s {\textbf{p}}/m_b ) \\ \nonumber
+	&\equiv Z_{J}( 1 + z^J_0 \alpha_s )( J^{(0)} + J^{(1)} ), \\  &\quad\quad Z_{J} = 1 +  \mathcal{O}(\, \alpha_s^2, \, (\Lambda_{\text{QCD}}/m_b)^2, \, ({\textbf{p}}/m_b)^2,\,\,\alpha_s \Lambda_{\text{QCD}} / m_b,\, \alpha_s {\textbf{p}}/m_b ).
 	\label{eq:overall}
 \end{align}
 The $Z_J$ factor compensates for the truncation of the series. One can imagine fixing $Z_J$ by demanding some property of $J$. One may be concerned that $Z_J$ is dependent on the spacial momenta in the current $Z_J=Z_J({\textbf{p}})$, however, we will see below that this variation is a negligable effect.
@@ -601,7 +601,8 @@ All analysis below is performed using data on the fine ensemble (set 2). In prin
 
 We have avaliable to us lattice results for $f_0^{B_c\to \eta_c}(q^2)\equiv f_0(q^2)$ for a number of $q^2$ values spanning the entire $q^2$ range (including $q^2_{\text{max}}$ and $q^2=0$) from the NRQCD-HISQ $S$ current on the fine ensemble. We also have a determination of $f_{B_c}$ also from NRQCD-HISQ lattice currents on the same ensemble. We denote these finite-$a$ lattice results as $\hat{f}_0(q^2)$, $\hat{f}_{B_c}$. We also have a continuum-extrapolated heavy-HISQ result for $f_0(q^2)/f_{B_c}$, for $q^2_{\text{max}}$ and $q^2=0$. This is given in the form of this ratio since discretization effects largely cancel in this ratio improving the continuum extrapolation (see Chapters \ref{chap:BsDsstar} and \ref{chap:BsDs}). The results are
 \begin{align}
-  {f_0(q^2_{\text{max}})\over f_{B_c}} = 2.104(36),\quad {f_0(0)\over f_{B_c}} = 1.288(42).
+  {f_0(q^2_{\text{max}})\over f_{B_c}} = 2.104(36),\quad {f_0(0)\over f_{B_c}} = 1.288(42)\,.
+  \label{eq:Andrews_numbers}
 \end{align}
 Since $f_0\propto \langle S \rangle$, we can assert that $f_0 = Z_S \hat{f}_0$, i.e., the continuum $f_0$ contains the normalization that $\hat{f}_0$ is missing. Similarly for $\hat{f}_{B_c}$ and $Z_{A_0}$. Hence by demanding that the NRQCD-HISQ finite-$a$ results match the continuum heavy-HISQ results, we can find, for example
 \begin{align}

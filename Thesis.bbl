@@ -19,6 +19,12 @@ C.~McNeile, C.~T.~H. Davies, E.~Follana, K.~Hornbostel, and G.~P. Lepage.
   quarks in full lattice QCD}.
 \newblock {\em Phys. Rev.}, D86:074503, 2012.
 
+\bibitem{Colquhoun:2016osw}
+Brian Colquhoun, Christine Davies, Jonna Koponen, Andrew Lytle, and Craig
+  McNeile.
+\newblock {$B_c$ decays from highly improved staggered quarks and NRQCD}.
+\newblock {\em PoS}, LATTICE2016:281, 2016.
+
 \bibitem{Borasoy:2007yi}
 Bugra Borasoy.
 \newblock {Introduction to Chiral Perturbation Theory}.
@@ -687,12 +693,6 @@ C.~McNeile, C.~T.~H. Davies, E.~Follana, K.~Hornbostel, and G.~P. Lepage.
 \newblock {High-Precision c and b Masses, and QCD Coupling from Current-Current
   Correlators in Lattice and Continuum QCD}.
 \newblock {\em Phys. Rev.}, D82:034512, 2010.
-
-\bibitem{Colquhoun:2016osw}
-Brian Colquhoun, Christine Davies, Jonna Koponen, Andrew Lytle, and Craig
-  McNeile.
-\newblock {$B_c$ decays from highly improved staggered quarks and NRQCD}.
-\newblock {\em PoS}, LATTICE2016:281, 2016.
 
 \bibitem{Schroder:1994aj}
 H.~Schroder.

@@ -389,11 +389,15 @@ There is a special case where oscillating states do not contribute. If the two q
   \bar{\psi}\gamma_5 \psi \to (-1)^{2\times t/a} \bar{\psi} (i\gamma_5\gamma_0) \gamma_5 (i\gamma_5\gamma_0) \psi = \bar{\psi}\gamma_5\psi.
 \end{align}
 
+\subsubsection{Bayesian $\chi^2$-Fitting}
+
 We use the \texttt{CorrFitter} package \cite{CorrFitter} for performing the $\chi^2$ fitting. We adopt a Bayesian approach first introduced in \cite{Lepage:2001ym}. The fitter uses the trust region algorithm for non-linear multivariant fits. Given a fit function $f_{\rho}(x)$ with parameters $\{\rho_{\alpha}\}$, a set of inputs $\{x_i\}$, and a set of corresponding observations $\{y_i\}$, with a covariance matrix $\sigma^y_{ij}$, the fitter minimizes
 \begin{align}
   \chi^2 = \sum_{ij} {( f_{\rho}(x_i) - y_i )( f_{\rho}(x_j) - y_j )\over \sigma_{ij}^{2}} + \sum_{\alpha}\left({\rho_{\alpha}-\rho^{\text{prior}}_{\alpha}\over\sigma_{\alpha}^{\text{prior}}}\right)^2\,.
 \end{align}
 $\rho_{\alpha}^{\text{prior}}$ and $\sigma_{\alpha}^{\text{prior}}$ are the mean and standard deviations of the prior distributions given to the fit parameters. In our case, $x_i$ is the set of times $t$, $y_i$ are the correlators $C_i(t)$, and $\rho_{\alpha}$ are $a_n,E_n,J_{nm}$. Using this $\chi^2$ means we take into account all correlations between different timeslices $t$, and between different correlators.
+
+The actual parameters $\rho_{\alpha}$ of these fits are slightly reparameterized from simply the amplitudes $a_j^M$, energies $E_j^M$ and transition amplitudes $J_{jk}$. Instead of energies, the fit is given the parameters log$(\delta E_j^M)$, which equals $E_0^M$ for $j=0$ and $E_j^M-E_{j-1}^M$ for $j>0$. Gaussian prior distributions are then given to these parameters. This forbids the ground state energy to become negative or go arbitrarily close to zero in the fit. Similarly for the excited-state differences $E_j^M-E_{j-1}^M$, setting gaussian priors for the log of these enforces $E_j^M > E_{j-1}^M$, a large reduction in the space of possible solutions to the fit. Often the fit is also given log-amplitudes rather than amplitudes as fit parameters. This also prevents the amplitudes $a_j^M$ from becoming negative or zero.
 
 A common problem for large fits involving many correlators is that the data’s covariance  matrix can be somewhat singular if there are strong correlations in the data. This makes the inversion of the covariance matrix for use in the $\chi^2$ succeptible to roundoff error. To address this we impose an {\it{svd cut}} $c_{\text{svd}}$. This replaces any eigenvalue of the covariance matrix smaller than $c_{\text{svd}} x$ with $c_{\text{svd}}x$, where $x$ is the largest eigenvalue in the matrix. This makes the matrix less singular. It can be considered a conservative move when it comes to the uncertainty of the results, since the only possible effect this can have is to inflate the uncertainty of the results.
 

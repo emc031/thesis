@@ -40,15 +40,16 @@
 \contentsline {section}{\numberline {4.2}Analysis of Correlation Functions}{58}
 \contentsline {subsection}{\numberline {4.2.1}Fitting Correlation Functions}{58}
 \contentsline {subsubsection}{Oscillating States}{60}
+\contentsline {subsubsection}{Bayesian $\chi ^2$-Fitting}{61}
 \contentsline {subsection}{\numberline {4.2.2}Signal Degredation}{62}
 \contentsline {chapter}{\numberline {5}$b$-Physics from Lattice NRQCD}{65}
 \contentsline {section}{\numberline {5.1}NRQCD-HISQ currents}{65}
 \contentsline {section}{\numberline {5.2}Relativistic Normalization of the $b\to c$ temporal axial current}{67}
-\contentsline {subsection}{\numberline {5.2.1}Calculation Setup}{67}
+\contentsline {subsection}{\numberline {5.2.1}Calculation Details}{67}
 \contentsline {subsection}{\numberline {5.2.2}Kinetic Mass}{68}
 \contentsline {subsection}{\numberline {5.2.3}Decay Amplitude Ratios}{69}
 \contentsline {section}{\numberline {5.3}$B_{(s)}\to D_{(s)}l\nu $ form factors}{71}
-\contentsline {subsection}{\numberline {5.3.1}Calculation Details}{71}
+\contentsline {subsection}{\numberline {5.3.1}Lattice Setup}{71}
 \contentsline {subsection}{\numberline {5.3.2}Correlator Fits}{73}
 \contentsline {subsection}{\numberline {5.3.3}Form Factors}{74}
 \contentsline {subsection}{\numberline {5.3.4}Results}{76}
@@ -68,41 +69,40 @@
 \contentsline {subsection}{\numberline {6.2.3}Normalization of Axial Current}{97}
 \contentsline {subsection}{\numberline {6.2.4}Extrapolation to the Physical Point}{99}
 \contentsline {subsubsection}{Heavy Mass Dependence}{99}
-\contentsline {subsubsection}{Quark Mass Ambiguities}{101}
+\contentsline {subsubsection}{Quark Mass Proxies}{101}
 \contentsline {subsubsection}{Implementation of $\eta _A$}{102}
 \contentsline {subsubsection}{Discretization Effects}{103}
 \contentsline {subsubsection}{Mass Mistunings}{104}
-\contentsline {subsubsection}{Other Effects}{104}
-\contentsline {section}{\numberline {6.3}Results and Discussion}{105}
+\contentsline {subsubsection}{Negligable Effects}{105}
+\contentsline {section}{\numberline {6.3}Results}{105}
 \contentsline {subsection}{\numberline {6.3.1}$h^s_{A_1}(1)$}{105}
-\contentsline {subsection}{\numberline {6.3.2}Extrapolation Stability}{108}
-\contentsline {subsection}{\numberline {6.3.3}Hints about $B\to D^*$}{110}
-\contentsline {subsection}{\numberline {6.3.4}HQET Low Energy Constants}{112}
-\contentsline {subsection}{\numberline {6.3.5}$H_s$ and $D_s^*$ Masses}{113}
-\contentsline {subsection}{\numberline {6.3.6}Extrapolation of $h_{A_1}^s(1)/(f_{H_c}\sqrt {M_{H_c}})$}{113}
-\contentsline {section}{\numberline {6.4}Conclusions}{115}
-\contentsline {chapter}{\numberline {7}$B_s\to D_sl\nu $ Form Factor at All Physical $q^2$ from Heavy-HISQ}{117}
-\contentsline {section}{\numberline {7.1}Motivation}{118}
-\contentsline {section}{\numberline {7.2}Calculation Details}{120}
-\contentsline {subsection}{\numberline {7.2.1}Lattice Setup}{120}
-\contentsline {subsection}{\numberline {7.2.2}Analysis of Correlation Functions}{124}
-\contentsline {subsection}{\numberline {7.2.3}Vector Current Renormalization}{128}
-\contentsline {subsection}{\numberline {7.2.4}Extrapolation to the Physical Point}{130}
-\contentsline {subsubsection}{Kinematic Behaviour}{130}
-\contentsline {subsubsection}{Heavy Mass and Discretisation Effects}{131}
-\contentsline {subsubsection}{Mass Mistunings}{132}
-\contentsline {subsubsection}{Finite Volume and Isospin Breaking Effects}{133}
-\contentsline {section}{\numberline {7.3}Results and Discussion}{133}
-\contentsline {subsection}{\numberline {7.3.1}Ratio Method}{134}
-\contentsline {subsubsection}{Zero Recoil}{134}
-\contentsline {subsubsection}{Non-zero Recoil}{135}
-\contentsline {subsection}{\numberline {7.3.2}Direct Method}{135}
+\contentsline {subsection}{\numberline {6.3.2}Hints about $B\to D^*$}{109}
+\contentsline {subsection}{\numberline {6.3.3}HQET Low Energy Constants}{111}
+\contentsline {subsection}{\numberline {6.3.4}Extrapolation Stability}{113}
+\contentsline {subsection}{\numberline {6.3.5}$H_s$ and $D_s^*$ Masses}{114}
+\contentsline {section}{\numberline {6.4}Conclusions}{116}
+\contentsline {chapter}{\numberline {7}$B_s\to D_sl\nu $ Form Factors at All Physical $q^2$ from Heavy-HISQ}{119}
+\contentsline {section}{\numberline {7.1}Motivation}{120}
+\contentsline {section}{\numberline {7.2}Calculation Details}{122}
+\contentsline {subsection}{\numberline {7.2.1}Lattice Setup}{122}
+\contentsline {subsection}{\numberline {7.2.2}Analysis of Correlation Functions}{126}
+\contentsline {subsection}{\numberline {7.2.3}Vector Current Renormalization}{129}
+\contentsline {subsection}{\numberline {7.2.4}Extrapolation to the Physical Point}{131}
+\contentsline {subsubsection}{Kinematic Behaviour}{132}
+\contentsline {subsubsection}{Heavy Mass and Discretisation Effects}{133}
+\contentsline {subsubsection}{Mass Mistunings}{134}
+\contentsline {subsubsection}{Finite Volume and Isospin Breaking Effects}{135}
+\contentsline {section}{\numberline {7.3}Results and Discussion}{135}
+\contentsline {subsection}{\numberline {7.3.1}Ratio Method}{135}
 \contentsline {subsubsection}{Zero Recoil}{135}
-\contentsline {subsubsection}{Non-Zero Recoil}{137}
-\contentsline {subsection}{\numberline {7.3.3}Unitarity Test}{138}
-\contentsline {subsection}{\numberline {7.3.4}$R_{D_s}$}{140}
-\contentsline {section}{\numberline {7.4}Reconstructing Form Factors}{141}
-\contentsline {section}{\numberline {7.5}$h^s_+(1)$ and HQET low energy constants}{142}
-\contentsline {section}{\numberline {7.6}Conclusions}{144}
-\contentsline {section}{\numberline {7.7}Numerical Values for Lattice Results}{144}
+\contentsline {subsubsection}{Non-zero Recoil}{137}
+\contentsline {subsection}{\numberline {7.3.2}Direct Method}{138}
+\contentsline {subsubsection}{Zero Recoil}{138}
+\contentsline {subsubsection}{Non-Zero Recoil}{140}
+\contentsline {subsection}{\numberline {7.3.3}Unitarity Test}{141}
+\contentsline {subsection}{\numberline {7.3.4}$R_{D_s}$}{145}
+\contentsline {section}{\numberline {7.4}Reconstructing Form Factors}{146}
+\contentsline {section}{\numberline {7.5}$h^s_+(1)$ and HQET low energy constants}{147}
+\contentsline {section}{\numberline {7.6}Conclusions}{150}
+\contentsline {section}{\numberline {7.7}Numerical Values for Lattice Results}{150}
 \contentsline {chapter}{\numberline {8}Conclusions}{155}
