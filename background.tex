@@ -1,21 +1,21 @@
-\chapter{Motivation \& Tools from the Continuum}
+﻿\chapter{Motivation \& Tools from the Continuum}
 \label{chap:background}
 
-In this chapter, I lay out the physics context of this work and some theoretical machinery that was useful this work. This section consists of a definition and empirical status of the Standard Model. Then, we will expand on the details of the specific sector we are interested in - the flavour sector and the CKM matrix.
+In this chapter, I lay out the physics context of this work and some theoretical machinery that was useful for this work. This section consists of a definition and the empirical status of the Standard Model. Then, I will expand on the details of the specific sector we are interested in - the flavour sector and the CKM matrix.
 
-I will also summarize some physics machinery useful for this work, namely QCD and chiral symmetry, and effective field theories for heavy quarks.
+I will also summarize some physics machinery useful for this work, namely QCD, chiral symmetry, and effective field theories for heavy quarks.
 
 \section{Testing the Standard Model}
 
-The Standard Model of Particle Physics (SM) is, so far, the most successful theory for describing fundamental particles and their interactions. It is an effective Yang-Mills quantum field theory. It is most succinctly defined by listing its symmetries, field content, and the irreducible representations (irreps) of the symmetries that those fields transform under.
+The Standard Model of Particle Physics (SM) \cite{GLASHOW1961579,PhysRevLett.19.1264,Salam:1968rm} is, so far, the most successful theory for describing fundamental particles and their interactions. It is an effective Yang-Mills quantum field theory. It is most succinctly defined by listing its symmetries, field content, and the irreducible representations (irreps) of the symmetries that those fields transform under. Below I follow discussion in \cite{Schwartz:2013pla}.
 
 The symmetries are the following. The Lorentz group $SO(3,1)$, the group of coordinate transformations that leave the Minkowski metric invariant, which can be decomposed into $SU(2)_l\times SU(2)_r$ ({\it{left-handed}} and {\it{right-handed}}). We denote an irrep as $(a,b)$ where $a$ is the $\sigma^z$ eigenvalue under $SU(2)_l$ transforms, and $b$ is that of $SU(2)_r$. Then there are internal local gauge symmetries:
 \begin{align}
   SU(3)_C\times SU(2)_L \times U(1)_Y,
 \end{align}
-irreps of which we denote with $(x,y,z)$, where $x,y$ are the $SU(3)_C$ and $SU(2)_W$ irreps and $z$ is the charge under $U(1)_Y$.
+irreps of which we denote with $(x,y,z)$, where $x,y$ label the $SU(3)_C$ and $SU(2)_W$ irreps and $z$ is the charge under $U(1)_Y$.
 
-The field content is: gauge bosons for each generator of the above gauge symmetries, each transforming in the adjoint of their corresponding symmetry and in the $(1/2,1/2)$ irrep of the Lorentz group, denoted $B_{\mu}$, $W_{\mu}$, $G_{\mu}$. There are 6 $SU(2)_L$ doublets in the $(1/2,0)$ Lorentz irrep:
+The field content is: gauge bosons for each of the above gauge symmetries, each transforming in the adjoint of their corresponding symmetry and in the $(1/2,1/2)$ irrep of the Lorentz group, denoted $B_{\mu}$, $W_{\mu}$, $G_{\mu}$ respectively. There are 6 $SU(2)_L$ doublets in the $(1/2,0)$ Lorentz irrep; the {\it{left-handed fermions}}:
 \begin{align}
   Q_{1,2,3} =&
   \begin{pmatrix} u_L \\ d_L \end{pmatrix},
@@ -30,27 +30,27 @@ The field content is: gauge bosons for each generator of the above gauge symmetr
   ,\quad\quad
   (\mathbf{1},\mathbf{2},-1)
 \end{align}
-and 9 $SU(2)_L$ singlets in the $(0,1/2)$ Lorentz irrep:
+and 9 $SU(2)_L$ singlets in the $(0,1/2)$ Lorentz irrep; the {\it{right-handed fermions}}:
 \begin{align}
   u^R_{1,2,3} &= u_R, c_R, t_R\,,\quad\quad (\bar{\mathbf{3}},\mathbf{1},2/3) \\
   d^R_{1,2,3} &= d_R, s_R, b_R\,,\quad\quad (\bar{\mathbf{3}},\mathbf{1},-1/3) \\
   e^R_{1,2,3} &= e_R, \mu_R, \tau_R\,,\quad\quad (\mathbf{1},\mathbf{1},-1).
 \end{align}
-We have also listed the SM gauge irreps next to each definition. There is also in principle a further set of right-handed $SU(2)_L$ singlets, $\nu^R_{1,2,3} = (\nu_{e,R}, \nu_{\mu,R}, \nu_{\tau,R})$, but these are singlets of the entire SM gauge group so in a phenomenological sense are very much 'not there'. There is also a Lorentz scalar $SU(2)_L$ doublet, the Higgs $H$, in gauge irrep $({\bf{1}},{\bf{2}},1/2)$. $H$ obtains a vacuum expectation value under $\sim 200$GeV and causes a breaking of the above gauge group to $SU(3)_C\times U(1)_E$, where $U(1)_E$ is the electromagnetic gauge group mediated by the photon.
+We have also listed the SM gauge irreps next to each definition. There is also in principle a further set of right-handed $SU(2)_L$ singlets, $\nu^R_{1,2,3} = (\nu_{e,R}, \nu_{\mu,R}, \nu_{\tau,R})$, but these are singlets of the entire SM gauge group so in a phenomenological sense are very much 'not there'. There is also a Lorentz scalar $SU(2)_L$ doublet, the Higgs $H$, in gauge irrep $({\bf{1}},{\bf{2}},1/2)$ \cite{PhysRevLett.13.321,PhysRevLett.13.508,PhysRevLett.13.585}. $H$ obtains a vacuum expectation value under $\sim 200$GeV and causes a breaking of the above gauge group to $SU(3)_C\times U(1)_E$, where $U(1)_E$ is the electromagnetic gauge group mediated by the photon.
 \\ \\
-There is at present no confirmed evidence of physics beyond the SM (or {\it{new physics}} ), besides the presence of neutrino ($\nu$) masses. However, there are a number of problems with the SM that heavily imply that there must be new physics. Among the most famous sources of concern are:
+There is at present no confirmed evidence of physics beyond the SM (or {\it{new physics}} ), besides the presence of neutrino ($\nu$) masses \cite{GONZALEZGARCIA20081}. However, there are a number of problems with the SM that heavily imply that there must be new physics. Among the most famous sources of concern are:
 \begin{itemize}
 \item
-  {\bf{Dark Matter \& Dark Energy}} - an estimated 96\% of the content of the universe is dark matter and dark energy, that does not interact with the SM gauge group (only via gravity), so cannot be explained by the SM.
+  {\bf{Dark Matter \& Dark Energy}} - an estimated 96\% of the content of the universe is dark matter \cite{Freese:2008cz} and dark energy \cite{Riess:1998cb,Perlmutter:1998np}, that does not interact with the SM gauge group (only via gravity), so cannot be explained by the SM.
 \item
-  {\bf{Matter/Antimatter Asymmetry}} - the SM requires there to be an equal amount of matter and antimatter in the universe, however, we observe a massive dominance of matter over antimatter.
+  {\bf{Matter/Antimatter Asymmetry}} - the SM requires there to be an equal amount of matter and antimatter in the universe, however, we observe a massive dominance of matter over antimatter \cite{Canetti:2012zc}.
 \item
-  {\bf{Neutrino Oscillations}} - different species of neutrinos oscillate into each other over time, there is no SM mechanism to explain this.
+  {\bf{Neutrino Oscillations}} - different species of neutrinos oscillate into each other over time implying neutrino masses. Neutrino masses cannot be naturally included in the SM.
 \item
-  {\bf{The Hierarchy Problem}} - the SM is 'finely tuned', the chances of the Higgs choosing its current vacuum expectation value is estimated to be one in $\sim 10^{45}$.
+  {\bf{The Hierarchy Problem}} - the SM is 'finely tuned', the chances of the Higgs choosing its current vacuum expectation value is estimated to be one in $\sim 10^{32}$ \cite{Wilson:1970ag,PhysRevD.14.1667,PhysRevD.13.3333}.
 \end{itemize}
 
-The central goal of particle physics is currently to pin down evidence against the SM. Only once we have detailed knowledge of how it breaks down will theorists be able to uniquely determine a new theory of fundamental physics.
+The central goal of particle physics is currently to pin down evidence against the SM. Only once we have detailed knowledge of how it breaks down will we be able to uniquely determine a new theory of fundamental physics.
 
 There are many promising approaches to achieve this. They are traditionally separated into
 \begin{itemize}
@@ -66,7 +66,7 @@ The work in this thesis contributes to the third approach. There is a rising tid
 \section{Flavour-Changing Charged Currents}
 \label{sec:fccc}
 
-The SM tests relevant to this work are on quark flavour-changing interactions. Here we will detail the parts of the SM relevant to these interactions.
+The SM tests relevant to this work are on quark flavour-changing interactions. Here I will detail the parts of the SM relevant to these interactions, following the discussion in \cite{Schwartz:2013pla}.
 
 The $SU(2)_L$ gauge symmetry of the SM is mediated by the vector boson $W=W^1\tau_1 + W^2\tau_2 + W^3\tau_3$, where $\tau_i$ are the three $SU(2)$ generators acting on the $SU(2)_L$ doublets defined in the last section. It is convenient to redefine the fields $W = W^+ ( \tau_0 + i\tau_1 ) + W^- ( \tau_0 - i\tau_1 ) + W^3 \tau_3$.\, $W^{\pm},W^3$ are the stationary states at low energies due to electroweak symmetry breaking.
 
@@ -94,9 +94,9 @@ where $M^{\psi}$ is diagonal. This results in diagonal mass terms. However, this
   \mathcal{L}_{\text{FCCC}} = {e\over \sqrt{2}\sin\theta_W} \left( V_{ij} \bar{u}_L^i \slashed{W}^+  d_L^j + V_{ij}^* \bar{d}_L^i \slashed{W}^- u_L^j + \bar{\nu}_L^i \slashed{W}^+ e_L^i + \bar{e}_L^i \slashed{W}^- \nu_L^i \right).
   \label{eq:FCCC}
 \end{align}
- $V$ is the famous Cabibbo–Kobayashi–Maskawa (CKM) matrix, consisting of parameters that must be fixed by experiment. $V = L^{u\,\dagger} L^d$ is by construction a unitary matrix ($V^{\dagger}V = (L^{d\,\dagger} L^u)(L^{u\,\dagger} L^d) = L^d L^{d\,\dagger} = 1)$.
+ $V$ is the famous Cabibbo–Kobayashi–Maskawa (CKM) matrix \cite{PhysRevLett.10.531,10.1143/PTP.49.652}, consisting of parameters that must be fixed by experiment. $V = L^{u\,\dagger} L^d$ is by construction a unitary matrix ($V^{\dagger}V = (L^{d\,\dagger} L^u)(L^{u\,\dagger} L^d) = L^d L^{d\,\dagger} = 1)$.
 
-There is no non-diagonal flavour structure in the last two terms because we have redefined the neutrino fields: $\nu_L \to L^{e\,\dagger} \nu_L$, absorbing the rotation of the $e_L$ fields. This can be done with impunity due to the lack of neutrino mass terms. While the SM does not include neutrino mass terms, it has in fact been experimentally confirmed that neutrinos have mass. It is however known that these masses are extremely small in comparison to the scales of the SM ($m_{\nu}\lessapprox 0.05$eV). Any effect this could in principle via lepton flavour-changing would be much smaller than the current sensitivity of any experiment. %For example, $\mathcal{B}(\mu\to \tau \gamma) \simeq 10^{-34}$.
+There is no non-diagonal flavour structure in the last two terms because we have redefined the neutrino fields: $\nu_L \to L^{e\,\dagger} \nu_L$, absorbing the rotation of the $e_L$ fields. This can be done with impunity due to the lack of neutrino mass terms. While the SM does not include neutrino mass terms, it has in fact been experimentally confirmed that neutrinos have mass. It is however known that these masses are extremely small in comparison to the scales of the SM ($m_{\nu}\lessapprox 0.05$eV) \cite{GONZALEZGARCIA20081}. Any effect this could in principle have via lepton flavour-changing would be much smaller than the current sensitivity of any experiment. %For example, $\mathcal{B}(\mu\to \tau \gamma) \simeq 10^{-34}$.
 
 Another useful redefinition is to collect the left-handed and right-handed fermion fields into Dirac spinors $\psi$:
 \begin{align}
@@ -110,7 +110,7 @@ In terms of Dirac spinors, $\mathcal{L}_{\text{FCCC}}$ can be written as
   &L^{ij}_{\mu} = {1\over2}\left(\bar{\nu}^i \gamma_{\mu} e^j - \bar{\nu}^i \gamma_5 \gamma_{\mu} e^j\right), \\ \nonumber
   &J^{ij}_{\mu} = {1\over2}\left(\bar{u}^i \gamma_{\mu} d^j - \bar{u}^i \gamma_5 \gamma_{\mu} d^j\right) \equiv V^{ij}_{\mu} - A^{ij}_{\mu}.
 \end{align}
-$J^{ij}_{\mu}$ is known as the Flavour-Changing Charged Current (FCCC). It is often broken up into the {\it{vector}} and {\it{axial-vector}} components, $V_{\mu}$ and $A_{\mu}$ respectively. These two componets can be categorised according to their transformations under the Lorentz group. $V_{\mu}$ is labelled $1^+$, where the $1$ represents it's total spin, and the $+$ represents it's positive parity $P: V_{\mu} \to V_{\mu}$. $A_{\mu}$ is instead labelled $1^-$, due to it's negative parity $P: A_{\mu} \to - A_{\mu}$.
+$J^{ij}_{\mu}$ is known as the Flavour-Changing Charged Current (FCCC). It is often broken up into the {\it{vector}} and {\it{axial-vector}} components, $V_{\mu}$ and $A_{\mu}$ respectively. These two componets can be categorised according to their transformations under the Lorentz group. $V_{\mu}$ is labelled $1^-$, where the $1$ represents its total spin, and the $-$ represents its negative parity $P: V_{\mu} \to -V_{\mu}$. $A_{\mu}$ is instead labelled $1^+$, due to its positive parity $P: A_{\mu} \to + A_{\mu}$.
 
 \begin{figure}[tb!]
   \begin{center}
@@ -130,7 +130,7 @@ Since there is no off-diagonal flavour structure for the Leptons, the equivalent
 
 \subsection{CKM Matrix Unitarity}
 
-The exact values of the CKM matrix elements are of interest in the search for new physics. The CKM matrix is unitary by construction. However, we may discover that the values we measure experimentally do not combine to produce a unitary matrix. This would be evidence that the elements we are measuring, in fact, compose a submatrix of a unitary matrix larger than $3\times 3$. This would imply the presence of further, heavier quark generations.
+The exact values of the CKM matrix elements are of interest in the search for new physics. The CKM matrix is unitary by construction. However, we may discover that the values we measure experimentally do not combine to produce a unitary matrix. This would be evidence that the elements we are measuring, in fact, compose a submatrix of a unitary matrix larger than $3\times 3$. This would imply the presence of further, heavier quark generations. Below once again I follow \cite{Schwartz:2013pla}.
 
 %% Another source of interest in the CKM values is CP violation. CP violation is a global symmetry exhibited by $\mathcal{L}_{\text{SM}}-\mathcal{L}_{\text{FCCC}}$, and physically corresponds to a symmetry between particles and antiparticles. CP violation is one of the famous {\it{Sakarov conditions}}, the conditions necessary for a theory to explain the matter/antimatter asymmetry observed in the universe. CP is generically violated when a parameter of the theory has an imaginary component. The CKM matrix contains one physical phase, making $\mathcal{L}_{\text{FCCC}}$ a source of CP violation. However, the extent of CP violation in the flavour sector is not sufficient to explain the matter/antimatter asymmetry, so the necessary CP violating processes will likely come from new physics beyond the standard model.
 
@@ -207,17 +207,6 @@ The exact values of the CKM matrix elements are of interest in the search for ne
 %% \end{align}
 %% There is a clear hierarchy between the values - the CKM matrix is close to the unit matrix. Inter-generational mixing is dominant, dropping from second to first generation is suppressed by $\lambda$, dropping from third to second by $\lambda^2$, and dropping from third to first by $\lambda^3$. The SM supplies no compelling explaination of why this hierarchy exists, it is expected that new physics beyond the SM will supply some natural explaination.
 
-The assumption of unitarity in $V$;
-\begin{align}
-  V_{ji}^*V_{jk}=\delta_{ik},
-  \label{eq:CKMunitarity}
-\end{align}
-imposes 9 constraints on the CKM elements. Each of these constraints gives a test of the SM, if one of these constraints is found to be violated, this represents evidence of new phyisics. The most studied constraint is given by taking $i=3,k=1$;
-\begin{align}
-  {V_{ud}V_{ub}^*\over V_{cd} V_{cb}^*} + {V_{td}V_{tb}^* \over V_{cd}V_{cb}^*} + 1 = 0.
-\end{align}
-This can be visualized as a triangle (known as the {\it{unitarity triangle}}) on the complex plane, as shown in Fig. \ref{fig:unitaritytriangle_sketch}.
-
 \begin{figure}
   \vspace{-10pt}
   \begin{center}
@@ -228,16 +217,27 @@ This can be visualized as a triangle (known as the {\it{unitarity triangle}}) on
   \label{fig:unitaritytriangle_sketch}
 \end{figure}
 
-For unitarity, the triangle must close, in other words, $\alpha+\beta+\gamma = \pi/2$. Hence to test the CKM unitarity experimentalists measure these angles
+The assumption of unitarity in $V$:
+\begin{align}
+  V_{ji}^*V_{jk}=\delta_{ik},
+  \label{eq:CKMunitarity}
+\end{align}
+imposes 9 constraints on the CKM elements. Each of these constraints gives a test of the SM. If one of these constraints is found to be violated, this would represent evidence of new physics. The most studied constraint is given by taking $i=3,k=1$:
+\begin{align}
+  {V_{ud}V_{ub}^*\over V_{cd} V_{cb}^*} + {V_{td}V_{tb}^* \over V_{cd}V_{cb}^*} + 1 = 0.
+\end{align}
+This can be visualized as a triangle (known as the {\it{unitarity triangle}}) on the complex plane, as shown in Fig. \ref{fig:unitaritytriangle_sketch}.
+
+For unitarity, the triangle must close, in other words, $\alpha+\beta+\gamma = \pi/2$. Hence to test the CKM unitarity we must find these angles
 \begin{align}
   \alpha = \arg \left( -{V_{td}V_{tb}^*\over V_{ud}V_{ub}^*}\right) \,,\,
   \beta = \arg \left( -{V_{cd}V_{cb}^*\over V_{td}V_{tb}^*} \right) \,,\,
   \gamma = \arg \left( -{V_{ud}V_{ub}^*\over V_{cd}V_{cb}^*} \right).
 \end{align}
-The unitarity triangle also contains information about CP-violation from flavour-changing charged currents. The Jarlskog invariant%, $J=\sin\theta_{12}\sin\theta_{23}\sin\theta_{31}\cos\theta_{12}\cos\theta_{23}\cos\theta_{31}^2\sin\delta$,
+These angles can be constructed from measured CKM elements. They can also measured directly from certain processes, for example $\gamma$ can be measured by studying $B\to DK$ decays \cite{GRONAU1991172,GRONAU1991483}. The unitarity triangle also contains information about CP-violation from flavour-changing charged currents. The Jarlskog invariant%, $J=\sin\theta_{12}\sin\theta_{23}\sin\theta_{31}\cos\theta_{12}\cos\theta_{23}\cos\theta_{31}^2\sin\delta$,
 , a measure of CP-violation, is proportional to the area enclosed by the triangle.
 
-The most recent PDG update \cite{PhysRevD.98.030001} reports the following averages for the measurements of CKM elements;
+The most recent PDG update \cite{PhysRevD.98.030001} reports the following averages for the measurements of CKM elements:
 \begin{align}
   |V| = \begin{pmatrix}
     0.97446\pm 0.00010 & 0.22452\pm 0.00044 & 0.00365\pm 0.00012 \\
@@ -253,7 +253,7 @@ The angles of the unitarity triangle currently satisfy $\alpha+\beta+\gamma = (1
   \begin{center}
     \includegraphics[width=0.6\textwidth]{images/ckmpdg.jpg}
   \end{center}
-  \vspace{-25pt}
+  \vspace{-15pt}
   \caption{Exclusion regions for the vertices of the CKM triangle from various measurements, coutresy of the most recent PDG update \cite{PhysRevD.98.030001}.}
   \label{fig:ckmpdg}
 \end{figure}
@@ -261,7 +261,7 @@ The angles of the unitarity triangle currently satisfy $\alpha+\beta+\gamma = (1
 \subsection{Weak Decays}
 \label{sec:weakdecays}
 
-I now move on to the methods of determining CKM elements. At the confinement scale ($\sim$1GeV and below), quarks are confined by QCD in hardons. At these energies, the dynamics of quarks are only experimentally accessible by probing the dynamics of hadrons. CKM matrix elements are determined by studying hadron decays.
+I now move on to the methods of determining CKM elements, following discussion in \cite{Fleischer:2006fx}. At the confinement scale ($\sim$1GeV and below), quarks are confined by QCD in hardons. At these energies, the dynamics of quarks are only experimentally accessible by probing the dynamics of hadrons. CKM matrix elements are determined by studying hadron decays.
 
 First some definitions of hadron classification. Hadrons are categorized into mesons (charged with one valence quark and one valence antiquark) and baryons (three valence quarks). The entirety of this thesis is concerned with mesons. Mesons are categorized in terms of the flavours they are charged under and their representations under the Lorentz group. We use the same notation as for the quantum numbers of the weak currents; $L^{\pm}$ where $L$ denotes spin and $\pm$ denotes parity. In this thesis, we are concerned mostly with pseudoscalar ($0^-$) and vector ($1^-$) mesons.
 
@@ -293,7 +293,7 @@ Fig. \ref{fig:leptonicdecay} shows a generic leptonic decay at tree level in ele
 \begin{align}
   \mathcal{M} = \left({ie\over \sqrt{2}\sin\theta_W}\right) V_{q_1q_2} \langle l\bar{\nu} | L^l_{\mu} D_W^{\mu\nu} J_{\nu}^{q_1q_2} | M \rangle,
 \end{align}
-where $D_{W}$ is a free $W^{\pm}$ propagator, $|M\rangle$ is the ground state of the meson $M$, and $|l\bar{\nu}\rangle$ is a lepton-antineutrino state. I'm using the notation $L^l_{\mu}=L^{kk}_{\mu}$, where $l$ indexes the $k$th charged lepton. If the momentum of the meson, $p^2$, is much smaller than the $W$ mass squared, one can integrate out the dynamics of the $W$ to move into the Fermi effective theory \cite{Borasoy:2007yi}:
+where $D_{W}$ is a free $W^{\pm}$ propagator, $|M\rangle$ is the ground state of the meson $M$, and $|l\bar{\nu}\rangle$ is a lepton-antineutrino state. I'm using the notation $L^l_{\mu}=L^{kk}_{\mu}$, where $l$ indexes the $k$th charged lepton. If the momentum of the meson, $p^2$, is much smaller than the $W$ mass squared, one can integrate out the dynamics of the $W$ to move into the Fermi effective theory:
 \begin{align}
   \nonumber
   \left({ie\over\sqrt{2}\sin\theta_W}\right)^2 D^{\mu\nu}_W(p^2) &= \left({ie\over\sqrt{2}\sin\theta_W}\right)^2 \left( -ig^{\mu\nu} \over p^2 - M_W^2 \right)
@@ -301,9 +301,9 @@ where $D_{W}$ is a free $W^{\pm}$ propagator, $|M\rangle$ is the ground state of
 \end{align}
 Then $\mathcal{M}$ can be factorised;
 \begin{align}
-  \mathcal{M} \simeq -2\sqrt{2} V_{q_1q_2} \langle l\bar{\nu} | L_{\mu}^l | \Omega \rangle \langle \Omega | J^{q_1q_2\, \mu} | M \rangle.
+  \mathcal{M} \simeq -2\sqrt{2} G_F V_{q_1q_2} \langle l\bar{\nu} | L_{\mu}^l | \Omega \rangle \langle \Omega | J^{q_1q_2\, \mu} | M \rangle.
 \end{align}
-$\langle \Omega | J^{q_1q_2}_{\mu}| M \rangle$ is a non-perturbative quantity, since it concerns the transitions of a strongly coupled bound state (QCD at the confinement scale). We know that it has a lorentz index $\mu$, and the only Lorentz vector in the system is the meson's 4-momentum $p_{\mu}$. So we define
+$\langle \Omega | J^{q_1q_2}_{\mu}| M \rangle$ is a non-perturbative quantity, since it concerns the transitions of a strongly coupled bound state (QCD at the confinement scale). We know that it has a Lorentz index $\mu$, and the only Lorentz vector in the system is the meson's 4-momentum $p_{\mu}$. So we define
 \begin{align}
   \langle\Omega | J_{q_1q_2}^{\mu} | M \rangle = p^{\mu} f_M,
   \label{eq:decay_constant_def}
@@ -314,7 +314,7 @@ By taking the modulus squared of $\mathcal{M}$ and integrating over all allowed 
 \begin{align}
   \Gamma(M\to l\bar{\nu}) = {G_F^2\over 8\pi} f_M^2 m_l^2 M_M \left( 1 - {m_l\over M_M^2} \right)^2 |V_{q_1q_2}|^2,
 \end{align}
-In order to find $|V_{q_1q_2}|$, one requires both a measurement of $\Gamma(M\to l\bar{\nu})$, and a value for $f_M$. $f_M$ can be computed in a Lattice QCD calculation.
+In order to find $|V_{q_1q_2}|$, one requires both a measurement of $\Gamma(M\to l\bar{\nu})$, and a value for $f_M$. $f_M$ can be computed in a lattice QCD calculation.
 
 %\begin{wrapfigure}{R}{0.55\textwidth}
 \begin{figure}
@@ -337,7 +337,7 @@ A similar story accompanies semileptonic decays. A typical semileptonic decay (a
   & \simeq -2\sqrt{2} G_F V_{q_1q_2} \langle l\bar{\nu} | L^{l\,\mu} | \Omega \rangle \langle M' | J_{\mu}^{q_1q_2} | M \rangle,
   \label{eq:semileptonic}
 \end{align}
-where on the second line we have integrated out the $W$ propagator in using the same expansion as in the leptonic case, and on the third line we have factorised the QCD part from the electroweak part. The matrix element $\langle M' | J_{\mu}^{q_1q_2} | M \rangle$ is a non-perturbative quantity. Unlike in the previous case, there are a number of ways one can choose to parameterise this matrix element, and appropriate choices vary depending on the quantum numbers of $M$ and $M'$. Of interest to us are the cases where $M$ is a pseudoscalar meson $0^-$, and $M'$ is either pseudoscalar or vector $1^-$.
+where on the second line we have integrated out the $W$ propagator by using the same expansion as in the leptonic case, and on the third line we have factorised the QCD part from the electroweak part. The matrix element $\langle M' | J_{\mu}^{q_1q_2} | M \rangle$ is a non-perturbative quantity. Unlike in the previous case, there are a number of ways one can choose to parameterise this matrix element, and appropriate choices vary depending on the quantum numbers of $M$ and $M'$. Of interest to us are the cases where $M$ is a pseudoscalar meson $0^-$, and $M'$ is either pseudoscalar or vector $1^-$.
 
 In the {\bf{pseudoscalar$\to$pseudoscalar}} case, only the vector component of the current survives in the matrix element, $\langle M' | J_{\mu}^{q_1q_2} | M \rangle = \langle M' | V_{\mu}^{q_1q_2} | M \rangle$. $\,\,\langle M' | A_{\mu}^{q_1q_2} | M \rangle$ vanishes since this does not respect the parity invariance of QCD. The most popular parameterisation of $\langle M' | V_{\mu}^{q_1q_2} | M \rangle$ is
 \begin{align}
@@ -354,7 +354,7 @@ By integrating $|\mathcal{M}|^2$ over all final lepton and neutrino momenta, one
   \label{eq:branchingfraction}
   &\left[ \left( 1 + {m_l^2\over 2q^2}\right) M^2 |{\bf{p}}|^2 f_+^2(q^2) + {3m_l^2\over 8q^2} (M^2-m^2)^2 f_0^2(q^2) \right]. \nonumber
 \end{align}
-${\eta}_{\text{EW}}$ accounts for electroweak corrections due to diagrams where photons or $Z$s are exchanged in addition to a $W^-$, as well as the Coulomb attraction of the final-state charged particles \cite{SIRLIN198283,Ginsberg1968,PhysRevD.41.1736}. ${\bf{p}}$ is the final meson state ($M'$) spacial momentum. Once again, to deduce $|V_{q_1q_2}|$, one requires both the decay rates $d\Gamma/dq^2$, and the form factors $f_0(q^2)$,$f_+(q^2)$. To precisely determine the form factors requires a Lattice QCD calculation.
+${\eta}_{\text{EW}}$ accounts for electroweak corrections due to diagrams where photons or $Z$s are exchanged in addition to a $W^-$, as well as the Coulomb attraction of the final-state charged particles \cite{SIRLIN198283,Ginsberg1968,PhysRevD.41.1736}. ${\bf{p}}$ is spacial momentum of the $M'$ state. Once again, to deduce $|V_{q_1q_2}|$, one requires both the decay rates $d\Gamma/dq^2$, and the form factors $f_0(q^2)$,$f_+(q^2)$. To precisely determine the form factors requires a Lattice QCD calculation.
 
 In the {\bf{pseudoscalar$\to$vector}} case, both the vector and axial-vector components of the current survive in the matrix element. A common choice of parameterisation is
 %% \begin{align}
@@ -375,17 +375,17 @@ $v = P/M$ and $v' = p/m$ are the 4-velocities of $M$ and $M'$ respectively. $\ep
 \end{align}
 where $\mathcal{F}(w)$ is a linear combination of the form factors and $\chi(w)$ is a known function of $w$ (both given in e.g. appendix G of \cite{Harrison:2017fmw}).
 
-At the zero recoil point, where $q^2$ is maximized at $q^2_{\text{max}} = (M-m)^2$, (correpsonding to $w=1$), a single form factor contributes
+At the zero recoil point, where $q^2$ is maximized at $q^2_{\text{max}} = (M-m)^2$, (correpsonding to $w=1$), a single form factor contributes:
 \begin{align}
   \mathcal{F}(1) = h_{A_1}(1).
 \end{align}
-However the differential decay rate vanishes at $w=1$. A common approach to determine $|V_{q_1q_2}|$, for example used to find $|V_{cb}|$ via the $B\to D^*l\bar{\nu}$ decay, is to find $|\mathcal{F}(1)V_{cb}|^2$ at zero recoil by extrapolating from experimental data at non-zero recoil, and combining this with a lattice QCD determination of $h_{A_1}(1)$.
+However the differential decay rate vanishes at $w=1$. A common approach to determine $|V_{q_1q_2}|$, for example used to find $|V_{cb}|$ via the $B\to D^*l\bar{\nu}$ decay, is to find $|\mathcal{F}(1)V_{cb}|^2$ away zero recoil by extrapolating from experimental data at non-zero recoil, and combining this with a lattice QCD determination of $h_{A_1}(1)$.
 
 \subsection{$b\to c$ Transitions and $|V_{cb}|$}
 
 The family of weak decays that have attracted the most attention are decays of $B$-mesons (pseudoscalar mesons containing a valence $b$ and $u,d,s$ or $c$ quark). %$b$ is the heaviest quark flavour that can be found in hadrons. The only heavier quark, the top quark, has a mass far above the confinement scale, so does not feature as a valence quark in hadrons. Hence $B$-mesons decay into a rich variety of decay products.
 
-The $b$ can decay into either a $c$ or a $u$ quark via the flavour changing charged current. In this thesis we are interested in the $b\to c$ transition, with an amplitude proportional to the CKM element $|V_{cb}|$. In this section, we give a brief overview of how this is calculated and the value's current status.
+The $b$ can decay into either a $c$ or a $u$ quark via the flavour changing charged current. In this thesis we are interested in the $b\to c$ transition, with an amplitude proportional to the CKM element $|V_{cb}|$. In this section, I'll give a brief overview of how this is calculated and the value's current status.
 
 $B$ meson decays can be measured in a number of experiments. There are two so-called $b$-factories, the Belle (II) experiment at the KEKB collider in Japan, and the BaBar experiment at the PEP-II collider at SLAC in the US. These are $e^+e^-$ colliders, that collide with an energy tuned to the mass of the $\Upsilon(4s)$, an excited state of the $\Upsilon$ meson (a $1^-$ state with $\bar{b}b$ valence quarks). The $\Upsilon(4s)$ has a large branching fraction into a $B\bar{B}$ pair, the decays of these can be measured with large statistics. $B$ decays can also be measured in proton colliders, like at the LHCb experiment at CERN. Measurements from LHCb have poorer statistics but cover a larger range of the phase space of final states, due to the variance of momenta in the initial state protons.
 
@@ -406,23 +406,23 @@ The first two are referred to as {\it{exclusive}} and the third {\it{inclusive}}
     \includegraphics[width=1.2\textwidth]{images/Vcb_plot.pdf}
 %  \end{center}
 %  \vspace{-20pt}
-  \caption{Different determinations of $|V_{cb}|$. Points labelled $w=1$ are determinations from extrapolating measurements of decay rates to the zero recoil point, and combining them with a lattice determination of the form factor at zero recoil. Points labelled $w\geq 1$ are results from using a combination of both branching fractions and lattice form factors through some range of $w$. The first name mentioned in the labels give the source of the lattice form factors, and the second gives the source of the experimental data (e.g. the HPQCD$+$BaBar point used form factors from the HPQCD collaboration and data from the BaBar experiment). The highest point is from \cite{Na:2015kha}, the second and third highest from \cite{Lattice:2015rga}, fourth from \cite{Bailey:2014tva}, fifth from \cite{Grinstein:2017nlq}. The bottom point is from the PDG \cite{PhysRevD.98.030001}, using data from the ALPEPH \cite{BUSKULIC1995236}, Belle \cite{Abe:2001yf}, BaBar \cite{Aubert:2008yv,Aubert:2009ac}, and CLEO \cite{Bartelt:1998dq} experiments.
+  \caption{Different determinations of $|V_{cb}|$. Points labelled $w=1$ are determinations from extrapolating measurements of decay rates to the zero recoil point and combining them with a lattice determination of the form factor at zero recoil. Points labelled $w\geq 1$ are results from using a combination of both branching fractions and lattice form factors through some range of $w$. The first name mentioned in the labels give the source of the lattice form factors, and the second gives the source of the experimental data (e.g. the HPQCD$+$BaBar point used form factors from the HPQCD collaboration and data from the BaBar experiment). The highest point is from \cite{Na:2015kha}, the second and third highest from \cite{Lattice:2015rga}, fourth from \cite{Bailey:2014tva}, fifth from \cite{Grinstein:2017nlq}. The bottom point is from the PDG \cite{PhysRevD.98.030001}, using data from the ALPEPH \cite{BUSKULIC1995236}, Belle \cite{Abe:2001yf}, BaBar \cite{Aubert:2008yv,Aubert:2009ac}, and CLEO \cite{Bartelt:1998dq} experiments.
     \label{fig:Vcb_plot}}
 \end{figure}
 
-This figure tells a story of the recent history of $|V_{cb}|$. Determinations from $B\to Dl\nu$ have been consistent with, but not as precise as, the other two methods. Until recently, there was a $\sim3\sigma$ tension between determinations from the $B\to D^* l\nu$ decay and inclusive decays. This was on it's the way to being resolved when concern was raised about the method of extrapolating experimental data for $B\to D^*l\bar{\nu}$ decay rates to the zero recoil point ($w=1$).
+This figure tells a story of the recent history of $|V_{cb}|$. Determinations from $B\to Dl\nu$ have been consistent with, but not as precise as, the other two methods. Until recently, there was a $\sim3\sigma$ tension between determinations from the $B\to D^* l\nu$ decay and inclusive decays. This was on its the way to being resolved when concern was raised about the method of extrapolating experimental data for $B\to D^*l\bar{\nu}$ decay rates to the zero recoil point ($w=1$).
 
-The Heavy Flavour Averaging Group HFAG (Now HFLAV) determination of $|V_{cb}h_{A_1}(1)|$ in 2015 parameterised the form factors in the extrapolation using the CLN parameterisation \cite{Caprini:1997mu}. It has become clear that the constraints imposes on the form factors in the CLN parameterisation are not justified. In \cite{Bigi:2017njr,Grinstein:2017nlq}, the results of an extrapolation using the CLN parameterisation were compared to results from a more general, model-independent parameterisation, the BGL parameterisation \cite{GLENNBOYD1996493}. It was found that they differed by $3.5\sigma$. Since BGL makes fewer assumptions, one may consider this the more reliable result.
+The Heavy Flavour Averaging Group HFAG (Now HFLAV) determination of $|V_{cb}h_{A_1}(1)|$ in 2015 parameterised the form factors in the extrapolation using the CLN parameterisation \cite{Caprini:1997mu}. It has become clear that the constraints imposed on the form factors in the CLN parameterisation are not justified. In \cite{Bigi:2017njr,Grinstein:2017nlq}, the results of an extrapolation using the CLN parameterisation were compared to results from a more general, model-independent parameterisation, the BGL parameterisation \cite{GLENNBOYD1996493}. It was found that they differed by $3.5\sigma$. Since BGL makes fewer assumptions, one may consider this the more reliable result.
 
 The $|V_{cb}|$ result using BGL to extrapolate the decay rates is given in the green point on Fig. \ref{fig:Vcb_plot}. Hence, if this work is to be trusted, the long-standing $|V_{cb}|$ tension has been resolved.
 
-There are however a number of other reasons to be interested in studying $|V_{cb}|$. It is currently the least precisely determined element of the CKM matrix. It constrains one side of the unitarity triangle via the ratio $|V_{ub}|/|V_{cb}|$, so it is the bottleneck for precise tests of CKM unitarity. It is also a dominant uncertainty in the determination of the $CP$-violation parameter $\epsilon_K$ (that is currently at tension between the SM and experiment, see for example \cite{Bailey:2018feb} where a $4\sigma$ tension is reported).
+There are however a number of other reasons to be interested in studying $|V_{cb}|$. It constrains one side of the unitarity triangle via the ratio $|V_{ub}|/|V_{cb}|$, so it is one of the bottlenecks for precise tests of CKM unitarity. It is also a dominant uncertainty in the determination of the $CP$-violation parameter $\epsilon_K$ (that is currently at tension between the SM and experiment, see for example \cite{Bailey:2018feb} where a $4\sigma$ tension is reported).
 
 %% A dominant motivation for the work presented in this thesis is the quest for a more precise determination of $|V_{cb}|$. The main results are form factors for $B_s\to D_s l\bar{\nu}$ and $B_s\to D_s^* l\bar{\nu}$. The benefit of these determinations is two-fold. Firstly, they can be combined with future experimental measurements of $B_s\to D_s^{(*)}l\bar{\nu}$ decays for a new $|V_{cb}|$ determination. Increasing the number of independent determinations of $|V_{cb}|$ makes each result more robust. Secondly, they demonstrate that our approach in the lattice calculations work well and can, therefore, be applied to $B\to Dl\bar{\nu}$ and $B\to Dl\bar{\nu}$ form factors in the future.
 
 \subsection{Flavour Anomalies \& Lepton Flavour Violation}
 
-The SM can be tested by studying semileptonic decays more directly, without any consideration of CKM elements. CKM-independent observables can be constructed by taking ratios of branching fractions for decays with common CKM dependence. Then, form factors from lattice QCD can be used to form pure SM predictions of these ratios, and compared to purely experimental measurements. Such comparisons have uncovered a number of tensions between the SM and experiment.
+The SM can be tested by studying semileptonic decays more directly, without any consideration of CKM elements. CKM-independent observables can be constructed by taking ratios of branching fractions for decays with common CKM dependence. Then, form factors from lattice QCD can be used to form pure SM predictions of these ratios and compared to purely experimental measurements. Such comparisons have uncovered a number of tensions between the SM and experiment.
 
 The ratios are defined by
 \begin{align}
@@ -458,19 +458,19 @@ There are also tensions in the quantitites \cite{Altmannshofer:2017yso}
 \end{align}
 LHCb measured $R_K$ between 1 and 6GeV, and found a disagreement with the SM value \cite{Bobeth:2007dw,Bouchard:2013mia} of 2.6$\sigma$ \cite{Aaij:2014ora}. LHCb also measured $R_{K^*}$ in 2 bins ($0.045<q^2<1.1 $GeV$^2$ and $1.1<q^2<1.6$GeV$^2$), and reported disagreement with the SM prediction \cite{Bordone:2016gaq,Descotes-Genon:2015uva,Capdevila:2016ivx,Capdevila:2017ert,Serra:2016ivr,Straub:2015ica,Altmannshofer:2017fio,Jager:2014rwa} of 2.1-2.3$\sigma$ and 2.4-2.5$\sigma$ respectively \cite{Aaij:2017vbb}.
 
-%% A useful direction we could go in, besides improving the precision of these ratios, is to test other ratios where LFV should show up. For example, in this thesis, we provide a new prediction of $R_{D_s}$, which when combined with future experimental data, will help eludicate this picture.
+%% A useful direction we could go in, besides improving the precision of these ratios, is to test other ratios where LFV should show up. For example, in this thesis, we provide a new prediction of $R_{D_s}$, which when combined with future experimental data, will help clarify this picture.
 
-Each of these anomalies points to one potential new physics scenario: lepton flavour violation (LFV). This is a breakdown of the lepton flavour universality in the SM discussed eariler in this section. A consequence of LFV would be that the different lepton generations would no longer have the same coupling to gauge fields. For example, imagine couplings like $U_{ij} \bar{e}_L^i \slashed{W}^+ \nu_L^j$, where $U_{ij}$ is unitary but non-diagonal, then the different lepton generations would have different couplings to $W$. This can lead to a modification of the $B\to D^{(*)}l\nu$ and $B\to K^{(*)}\bar{l}l$ decays rates by different amounts depending on the lepton flavours in the final state, resulting in the ratios $R_{D^{(*)}}$, $R_{K^{(*)}}$ deviating from the SM prediction.
+Each of these anomalies points to one potential new physics scenario: lepton flavour violation (LFV). This is a breakdown of the lepton flavour universality in the SM discussed earlier in this section. A consequence of LFV would be that the different lepton generations would no longer have the same coupling to gauge fields. For example, imagine couplings like $U_{ij} \bar{e}_L^i \slashed{W}^+ \nu_L^j$, where $U_{ij}$ is unitary but non-diagonal, then the different lepton generations would have different couplings to $W$. This can lead to a modification of the $B\to D^{(*)}l\nu$ and $B\to K^{(*)}\bar{l}l$ decays rates by different amounts depending on the lepton flavours in the final state, resulting in the ratios $R_{D^{(*)}}$, $R_{K^{(*)}}$ deviating from the SM prediction.
 
-There are broadly speaking two ways one can explain LFV. The first is to posit that there are in fact right-handed neutrinos, $\nu_R$, and neutrinos have Dirac mass terms $m\bar{\nu}_L\nu_R$, from their coupling with the Higgs, just like the charged leptons and quarks. Then, the argument preventing the presence of non-trivial lepton flavour structure in $\mathcal{L}_{\text{FCCC}}$ breaks down, we obtain an equivalent of the CKM matrix for leptons (the Pontecorvo-Maki-Nakagawa-Sakata (PMNS) matrix), and lepton flavour violation is mediated by the $W$. Neutrinos have in fact already been shown to have mass, the PMNS matrix exists, and it's elements have been measured. However, as mentioned already, these effects would be extremely small due to the extreme lightness of the neutrinos. Experiments have looked for evidence of $W$-mediated LFV processes, $\tau\to \mu\gamma$ and $\mu\to e\gamma$, and they found upper bounds for their branching fractions of $4.2\times 10^{-13}$ \cite{Abe:2003sx} and $3.1\times 10^{-7}$ \cite{TheMEG:2016wtm} respectively.
+There are broadly speaking two ways one can explain LFV. The first is to posit that there are in fact right-handed neutrinos, $\nu_R$, and neutrinos have Dirac mass terms $m\bar{\nu}_L\nu_R$ (from a coupling to the Higgs). Then, the argument preventing the presence of non-trivial lepton flavour structure in $\mathcal{L}_{\text{FCCC}}$ breaks down, we obtain an equivalent of the CKM matrix for leptons (the Pontecorvo-Maki-Nakagawa-Sakata (PMNS) matrix). Lepton flavour violation is then mediated by the $W$. Neutrinos have in fact already been shown to have mass, the PMNS matrix exists, and its elements have been measured. However, as mentioned already, these effects would be extremely small due to the extreme lightness of the neutrinos. Experiments have looked for evidence of $W$-mediated LFV processes, $\tau\to \mu\gamma$ and $\mu\to e\gamma$, and they found upper bounds for their branching fractions of $4.2\times 10^{-13}$ \cite{Abe:2003sx} and $3.1\times 10^{-7}$ \cite{TheMEG:2016wtm} respectively.
 
-Besides there being no evidence for $W$-mediated LFV, this picture of neutrino masses is not very aesthetically satisfying. It requires unnaturally small Yukawa couplings between the Higgs and the neutrinos. The second, and much more popular approach, to explaining both LFV and neutrino masses, is the existence of new particles.
+Besides there being no evidence for $W$-mediated LFV, this picture of neutrino masses is not very aesthetically satisfying. It requires unnaturally small Yukawa couplings between the Higgs and the neutrinos. The second,  much more popular approach to explaining both LFV and neutrino masses is the existence of new particles.
 
-In the face of evidence against the SM, the most general way to parameterise the space of possible new physics models is to study the Standard Model Effective Theory (SMEFT). In this approach, one introduces a higher dimension, non-renormalisable operators to the SM (the SM has only dimension 4 operators), and impose a hard momentum cutoff $\Lambda$. Then, the SMEFT is
+In the face of evidence against the SM, the most general way to parameterise the space of possible new physics models is to study the Standard Model Effective Theory (SMEFT) \cite{Brivio:2017vri}. In this approach, one introduces higher dimension, non-renormalisable operators to the SM (the SM has only dimension 4 operators), and impose a hard momentum cutoff $\Lambda$. Then the SMEFT is
 \begin{align}
   \mathcal{L}_{\text{SMEFT}} = \mathcal{L}_{\text{SM}} + \sum_i {c^{(5)}_i\over\Lambda} \mathcal{O}^{(5)}_i + \sum_i {c^{(6)}_i\over\Lambda^2} \mathcal{O}^{(6)}_i + ...
 \end{align}
-where $\mathcal{O}_i^{(d)}$ is the set of dimension-$d$ operators that satisfy the symmetries of the SM, and $c_i^{(d)}$ are coefficients to be measured, known as Wilson coefficients. Wilson coefficients differing from the SM expectation can be evidence that the SM must be augmented with new fields at energies above $\Lambda$, and the quantum numbers of the associated operators gives information about the quantum numbers of the new fields.
+where $\{\mathcal{O}_i^{(d)}\}$ is the set of dimension-$d$ operators that satisfy the symmetries of the SM, and $\{c_i^{(d)}\}$ are coefficients to be measured, known as Wilson coefficients. Wilson coefficients differing from the SM expectation can be evidence that the SM must be augmented with new fields at energies above $\Lambda$. The quantum numbers of the associated operators gives information about the quantum numbers of the new fields.
 
 One can fit the avaliable $B\to D^{(*)}l\bar{\nu}$ and $B\to K^{(*)}\bar{l}l$ data to predictions from SMEFT, in order to infer the Wilson coefficients neccesary to explain the anomalies. In \cite{Freytsis:2015qca} it was found that $R_{D^{(*)}}$ can be explained with the $d=6$ operators:
 \begin{gather}
@@ -497,7 +497,7 @@ This information, along with constraints from other measurements, strongly reduc
 \section{Strong Interaction Physics}
 \label{sec:stronginteractions}
 
-The work of this thesis is essentially quantifying the effect the strong interaction has on branching fractions for semileptonic decays. The strong interaction and the observed pattern of hadrons can be explained with Quantum Chromodynamics (QCD). In this section we review the fundamental theory, and the force's physical features.
+The work of this thesis is essentially quantifying the effect that the strong interaction has on branching fractions for semileptonic decays. The strong interaction and the observed pattern of hadrons can be explained with Quantum Chromodynamics (QCD). In this section, I review the fundamental theory and the force's physical features.
 
 \subsection{Quantum Chromodynamics}
 \label{sec:qcd}
@@ -505,13 +505,13 @@ The work of this thesis is essentially quantifying the effect the strong interac
 QCD is an $SU(3)$ Yang-Mills gauge theory. The Lagrangian is derived by requiring:
 \begin{itemize}
 \item
-  $N_f$ fermion fields transforming in the fundamental representation of the $SU(3)_C$ gauge group.
+  $N_f$ fermion fields transforming in the fundamental representation of the $SU(3)$ gauge group.
 \item
   Invariance under that gauge group.
 \item
   Renormalizability of all interactions.
 \end{itemize}
-From these we find \cite{Schwartz:2013pla}
+From these we find \cite{Schwartz:2013pla}:
 \begin{align}
   \mathscr{L}_{\text{QCD}} &= \sum_i \bar{q}_i (i \slashed{D} - m_i) q_i - {1\over 4} \text{Tr}G_{\mu\nu} G^{\mu\nu} - g{\bar{\theta}\over 64 \pi^2} \epsilon^{\mu\nu\rho\sigma} \text{Tr}G_{\mu\nu} G_{\rho\sigma} \\
   &D_{\mu} = \partial_{\mu} - i g G_{\mu} \,,\quad
@@ -528,7 +528,7 @@ where $\Lambda(x)$ is an $SU(3)$ matrix acting on the color space. $G_{\mu}$ are
   G_{\mu}(x) \to \Lambda(x) G_{\mu}(x) \Lambda^{\dagger}(x) - {i\over g} [ \partial_{\mu} \Lambda(x) ] \Lambda^{\dagger}(x).
   \label{eq:G_gauge_trans}
 \end{align}
-$g$ is the coupling constant of the theory, often expressed instead as $\alpha_s = (g/4\pi)^2$. $\bar{\theta}$ has strong experimental bounds on it's size, to the extent that for our purposes that term can be neglected \cite{ALTAREV1992242}.
+$g$ is the coupling constant of the theory, often expressed instead as $\alpha_s = (g/4\pi)^2$. $\bar{\theta}$ has strong experimental bounds on its size, to the extent that for our purposes that term can be neglected \cite{ALTAREV1992242}.
 
 The most notable feature of QCD is due to the running of $\alpha_s$ \cite{PhysRevLett.30.1343}.
 \begin{figure}
@@ -538,14 +538,14 @@ The most notable feature of QCD is due to the running of $\alpha_s$ \cite{PhysRe
   \caption{The relationship between scale $Q$ and the strong coupling constant $\alpha_s$, from the PDG \cite{PhysRevD.98.030001}.}
   \label{fig:alpha_s}
 \end{figure}
-In contrast with the electroweak force, the coupling of the strong force diverges at low energies. This is referred to as {\it{asymptotic freedom}}. At energies around or below $\Lqcd \sim 0.5$GeV, $\alpha_s$ becomes too large to be a good expansion parameter, and perturbation theory becomes unreliable for making predictions.
+Unlike in quantum electrodynamics, the coupling decreases as energy scales increase. This is referred to as {\it{asymptotic freedom}}. A corollary is that at low energies the coupling becomes strong. At energies around or below $\Lqcd \sim 0.5$GeV, $\alpha_s$ becomes too large to be a good expansion parameter, and perturbation theory becomes unreliable for making predictions.
 
-At large $\alpha_s$, quarks and gluons become strongly interacting, this is believed to be the source of confinement, the mechanism that bounds quarks together into hadrons. %A common assumption then is that all of the dynamics that occur inside hadrons have energies on the scale of $\Lqcd$.
+At large $\alpha_s$, quarks and gluons become strongly interacting. This is believed to be the source of confinement, the mechanism that bounds quarks together into hadrons. %A common assumption then is that all of the dynamics that occur inside hadrons have energies on the scale of $\Lqcd$.
 
 Broadly speaking there are two approaches to making predictions in QCD at low energies:
 \begin{enumerate}
 \item
-  Chiral Perturbation theory - an effective theory of hadrons with the same symmetry properties as QCD.
+  Chiral perturbation theory - an effective theory of hadrons with the same symmetry properties as QCD.
 \item
   Lattice QCD calculations - solve the path integral by brute force, eliminating the need for an expansion in $\alpha_s$. This is covered in chapters \ref{chap:latticeqcd} and \ref{chap:latticecalculations}.
 \end{enumerate}
@@ -553,23 +553,23 @@ Broadly speaking there are two approaches to making predictions in QCD at low en
 \subsection{Chiral Symmetry}
 \label{sec:chiralsymmetry}
 
-In the limit of $m_i\to 0\,\,\forall i$, QCD develops two new global symmetries between the flavours;
+Here I follow the discussion in \cite{Scherer:2002tk}. In the limit of $m_i\to 0\,\,\forall i$, QCD develops two new global symmetries between the flavours:
 \begin{align}
   \label{eq:vector_chiral}
-  q_i &\to \exp(i\theta_a^V \lambda^{ij}_a) q_j \\
-  q_i &\to \exp(i\gamma_5 \theta_a^A \lambda^{ij}_a) q_j
+  q_i &\to \exp(i\theta_a^V \lambda^{ij}_a) q_j\,, \\
+  q_i &\to \exp(i\gamma_5 \theta_a^A \lambda^{ij}_a) q_j\,,
 \end{align}
 where $\lambda_a$ are $U(N_f)$ generators. They are labelled $U(N_f)_V$ and $U(N_f)_A$ respectively, standing for vector and axial-vector.
 % Each of these groups can be decomposed into $U(1)_{V/A}\times SU(N_f)_{V/A}$, the $U(1)$ contains the single element corresponding to $\lambda_a=1$, and $SU(N_f)$ contains the elements where $\lambda_a$ are $SU(N_f)$ generators. Neccesary?
 
-From Noether's theorem, each generator of these symmetries implies a current that is conserved in the massless limit \cite{Scherer:2002tk}:
+From Noether's theorem, each generator of these symmetries implies a current that is conserved in the massless limit:
 \begin{align}
   \label{eq:chiralcurrents}
-  V_{\mu}^a = \bar{q} \gamma_{\mu} \lambda_a q \quad,\quad
-  A_{\mu}^a = \bar{q} \gamma_{\mu} \gamma_5 \lambda_a q
+  V_{\mu}^a = \bar{q} \gamma_{\mu} \lambda_a q\,, \quad\quad
+  A_{\mu}^a = \bar{q} \gamma_{\mu} \gamma_5 \lambda_a q\,.
 \end{align}
 
-The (partial) conservation of these currents in quantum mechanics is captured by the {\it{Ward identities}}. There is an infinite number of possible Ward identities, but for the purpose of our work, we only need to consider the most simple of them. %We will derive these below.
+The (partial) conservation of these currents in quantum mechanics is captured by the {\it{Ward identities}}. There is an infinite number of possible Ward identities, but for the purpose of this work, we only need to consider the most simple of them. %We will derive these below.
 
 Consider the partition function for QCD:
 \begin{align}
@@ -577,7 +577,7 @@ Consider the partition function for QCD:
 \end{align}
 where $[d\psi d\bar{\psi} dA]$ represents the functional integral over quark,antiquark and gauge fields. Consider performing a shift of the integration variables of the form \eqref{eq:vector_chiral}, and allow the parameters $\theta_a$ to be local, $\theta_a=\theta_a(x)$. The partition function becomes
 \begin{align}
-  \mathcal{Z} = \int \mathcal{J} [d\psi d\bar{\psi} dA] ( 1 + i\delta S ) e^{iS[\psi,\bar{\psi},A]}
+  \mathcal{Z} = \int \mathcal{J} [d\psi d\bar{\psi} dA] ( 1 + i\delta S ) e^{iS[\psi,\bar{\psi},A]}\,.
   \label{eq:partition_transformed}
 \end{align}
 %$\mathcal{J}$ is the Jacobian of the measure $[d\psi d\bar{\psi} dA]$ under the coordinate transform \eqref{eq:vector_chiral}. In many cases, this will be non-trivial, even if the transform is classically a symmetry of the theory. This can be due to a regularization of the path integral that does not respect the symmetries of the theory. Alternatively, it could be due to an anomaly - an instance of a classical symmetry not holding in quantum mechanics. The symmetries we will be concerned with in this work will always be anomaly-free, so let's set $\mathcal{J}=1$.
@@ -601,12 +601,12 @@ where $\langle \rangle$ represents a quantum expectation value, the state the ex
 \eqref{eq:vector_ward} and \eqref{eq:axial_ward} are examples of Ward identities, they describe the (parital) conservation of the chiral currents. \eqref{eq:vector_ward} is often referred to as the Partially Conserved Vector Current (PCVC) relation, and \eqref{eq:axial_ward} the Partially Conserved Axial Current (PCAC) relation.
 
 A useful theorem \cite{Fubini:1964boa} is that partially conserved currents (currents that become conserved when some parameter in the theory vanishes, like $V^{\mu}_a$ and $A^{\mu}_a$) require no renormalisation in any regularisation scheme. %We will now demonstrate this.
-The conserved or partially conserved current $J_a^{\mu}$ has a corresponding charge $Q_a(t) = \int d^3x J^{0}(\underline{x},t)$ that is the generator of it's corresponding symmetry transform on Hilbert space. In this case, these charges are members of the Lie algebra of the symmetry group;
+The conserved or partially conserved current $J_a^{\mu}$ has a corresponding charge $Q_a(t) = \int d^3x J_a^{0}(\underline{x},t)$ that is the generator of its corresponding symmetry transform on Hilbert space. In this case, these charges are members of the Lie algebra of the symmetry group:
 \begin{align}
-  [ Q_a(t), Q_b(t) ] = if_{abc} Q_c(t),
+  [ Q_a(t), Q_b(t) ] = if_{abc} Q_c(t)\,,
   \label{eq:charge_commutator}
 \end{align}
-where $f_{abc}$ are the structure constants of the algebra. Under some regularisation, change in regularisation scheme, or running of scale, each operator in the theory may require multiplicative renormalisations; $Q_a \to Z_Q Q_a$. Eq. \eqref{eq:charge_commutator} demands that $Z_Q=1$ in all cases. So $J^0$ obtains no renormalisation, and if the regularization is lorentz invariant, this carries on to $J^{\mu}$.
+where $f_{abc}$ are the structure constants of the algebra. Under some regularization, change in regularization scheme, or running of scale, each operator in the theory may require multiplicative renormalization $Q_a \to Z_Q Q_a$. Eq. \eqref{eq:charge_commutator} demands that $Z_Q=1$ in all cases. So $J^0$ obtains no renormalisation, and if the regularization is Lorentz invariant, this carries on to $J^{\mu}$.
 
 %% In the case of the chiral currents $V_a^{\mu},A_a^{\mu}$, the Ward identities \eqref{eq:vector_ward}, \eqref{eq:axial_ward} cause this property to carry onto the operators on the LHS, $\bar{q} [\lambda_a,M] q$ and $\bar{q} \{ \lambda_a,M \} q$, these operators receive no normalisation under any regularisation scheme.
 
@@ -623,21 +623,21 @@ The partially conserved currents $V^{ij}_{\mu}$ and $A^{ij}_{\mu}$ are the same 
 
 \section{Heavy Quark Physics}
 
-Quarks with mass $m_Q >> \Lqcd$ are referred to as heavy quarks. Charm and bottom quarks are considered heavy: $\Lqcd/m_c \sim 1/4$, $\Lqcd/m_b \sim 1/14$. This separation of scales can come in very useful. They mean one can integrate out some degrees of freedom at $m_Q$, and still have a good description of the dynamics at $\Lqcd$. This philosophy gives rise to Heavy Quark Effective Theory (HQET). Below I will summarise the aspects of this theory most relevant to our work.
+Quarks with mass $m_Q >> \Lqcd$ are referred to as heavy quarks. Charm and bottom quarks are considered heavy: $\Lqcd/m_c \sim 1/4$, $\Lqcd/m_b \sim 1/14$. This separation of scales can come in very useful. They mean one can integrate out some degrees of freedom at $m_Q$, and still have a good description of the dynamics at $\Lqcd$. This philosophy gives rise to Heavy Quark Effective Theory (HQET) and Non-Relativistic QCD (NRQCD). Below I will summarise the aspects of this theory most relevant to our work.
 
 %% The physical picture of a meson containing a heavy quark is very similar to that of a hydrogen atom. In the hydrogen atom, the nucleus has a mass much greater than the characteristic energies of the electron and photons. One can treat the nucleus as a static source of electric charge, and solve to high precision the dynamics of the electron. The electron's behaviour is not affected by the mass or the spin of the nucleus. Similarly, one can consider a heavy quark in a meson to be a static source of colour charge, and solve the $\Lqcd$ dynamics in its presence. The mass and spin of the heavy quark does not effect the light degrees of freedom, this is the well understood {\it{heavy quark symmetries}}. The effective field theories introduced in this section gives us a framework to take this approximation and systematically correct for it.
 
 \subsection{HQET}
 
-HQET is an effective field theory with the cutoff at the heavy quark mass $m_Q$, and operators organized in a series in $\Lambda_{\text{QCD}}/m_Q$. Since at the $b$ (and $c$) mass QCD is perturbative ($\alpha_s(m_Q) << 1$), one can match HQET to perturbative QCD at $m_Q$, then run the couplings of HQET down to produce useful predictions at the confinement scale.
+HQET \cite{Georgi:1990um} is an effective field theory with the cutoff at the heavy quark mass $m_Q$, and operators organized in a series in $\Lambda_{\text{QCD}}/m_Q$. Since at the $b$ (and $c$) mass QCD is perturbative ($\alpha_s(m_Q) << 1$), one can match HQET to perturbative QCD at $m_Q$, then run the couplings of HQET down to produce useful predictions at the confinement scale.
 
 %% It is a useful tool for when we perform extrapolations in heavy quark mass, as it supplies us with explicit expressions for the heavy quark mass dependence on various phenomenological quantities.
 
 \subsubsection{HQET Lagrangian}
 
-Here is the derivation of HQET for a single heavy quark interacting with gluons (the generalization to many flavours is straightforward). The fermion part of the Lagrangian is
+Here is the derivation of HQET for a single heavy quark interacting with gluons, following \cite{Neubert:2005mu} (the generalization to many flavours is straightforward). The fermion part of the Lagrangian is
 \begin{align}
-  \mathscr{L}_{\text{QCD}} = \bar{Q} ( i\slashed{D} - m_Q ) Q,
+  \mathscr{L}_{\text{QCD}} = \bar{Q} ( i\slashed{D} - m_Q ) Q\,,
   \label{eq:dirac}
 \end{align}
 where $Q$ is the heavy quark field. Define the heavy quark velocity $v$ according to $v = p_Q/m_Q$. Split $Q$ into ``heavy'' and ``light'' components:
@@ -661,7 +661,7 @@ A physical interpretation of the definition of $h$ in Eq. \eqref{eq:hdef} can be
 \begin{align}
   p_Q = m_Q v + p_h.
 \end{align}
-Since $p_h << p_Q$, we see that the quark's momentum is dominated by it's mass (the quark is close to on-shell), and the $h$ field represents perturbations around on-shell due to interactions with the lighter degrees of freedom at $\Lambda_{\text{QCD}}$.
+Since $p_h << p_Q$, we see that the quark's momentum is dominated by its mass (the quark is close to on-shell), and the $h$ field represents perturbations around on-shell due to interactions with the lighter degrees of freedom at $\Lambda_{\text{QCD}}$.
 
 From the Lagrangian \eqref{eq:HQET_preintegral}, we see that $h$ is a massless field and $H$ has a mass of $2m_Q$. From this Lagrangian we can derive an equation of motion for $H$:
 \begin{align}
@@ -683,9 +683,9 @@ Since we expect $v\cdot D \sim \Lambda_{\text{QCD}}$, we can interpret the infin
 %% \label{eq:HQET1}
 %% \end{align}
 
-Leading order HQET exhibits new symmetries not present in full QCD, known as the heavy quark symmetries. Since $m_Q$ is not present in the leading order Lagrangian, there is a flavour symmetry - a set of $N$ heavy quarks with the same $v$ can be mixed via an $SU(N)$ symmetry. Similarly, due to the absence of spin-mixing matrices, a heavy quark has an $SU(2)$ spin symmetry. At leading order a heavy quark in a meson behaves like a static colour charge, the dynamics at $\Lambda_{\text{QCD}}$ are not effected by its mass or spin.
+Leading order HQET exhibits new symmetries not present in full QCD, known as the heavy quark symmetries. Since $m_Q$ is not present in the leading order Lagrangian, there is a flavour symmetry - a set of $N$ heavy quarks with the same $v$ can be mixed via an $SU(N)$ symmetry. Similarly, due to the absence of spin-mixing matrices, a heavy quark has an $SU(2)$ spin symmetry. At leading order a heavy quark in a meson behaves like a static colour charge, the dynamics at $\Lambda_{\text{QCD}}$ are not affected by its mass or spin.
 
-I will now use HQET to derive a useful theorem used in our work.
+I will now use HQET to derive a useful theorem used in our work, following the proof given in \cite{Lebed:1991sq}.
 
 %% \subsubsection{Isgur-Wise Function}
 %% \label{sec:isgurwise}
@@ -724,13 +724,13 @@ I will now use HQET to derive a useful theorem used in our work.
 \subsubsection{Luke's Theorem}
 \label{sec:Luke}
 
-Luke's theorem, which can be derived from the Ademollo-Gatto (AG) theorem, tells us the leading order heavy quark mass dependence of form factors. First I will derive the AG theorem. I'll follow the proof given in \cite{Lebed:1991sq}.
+Luke's theorem \cite{LUKE1990447}, which can be derived from the Ademollo-Gatto (AG) theorem \cite{PhysRevLett.13.264}, tells us the leading order heavy quark mass dependence of form factors. First I will derive the AG theorem.
 
 Consider the transition amplitude
 \begin{align}
   \langle \alpha | Q_a | \beta \rangle,
 \end{align}
-where $Q_a$ is a conserved charge associated with some global symmetry $\mathcal{G}$, and $|\alpha\rangle$ and $|\beta\rangle$ belong to some irrep of $\mathcal{G}$, $\mathcal{R}(\mathcal{G})$. Imagine explicitly breaking the symmetry with a term like $\mathscr{L}_{\text{break}} = \lambda \mathcal{O}_{\text{break}}$. The states $|\alpha\rangle,|\beta\rangle$ are asymptotic states of the complete Lagrangian including the symmetry breaking. The breaking causes the states to mix with states in other irreps of $\mathcal{G}$:
+where $Q_a$ is a conserved charge associated with some global symmetry $\mathcal{G}$, and $|\alpha\rangle$ and $|\beta\rangle$ belong to some irrep of $\mathcal{G}$, $\mathcal{R}(\mathcal{G})$. Imagine explicitly breaking the symmetry with a term like $\mathscr{L}_{\text{break}} = \lambda \mathcal{O}_{\text{break}}$. The states $|\alpha\rangle,|\beta\rangle$ are asymptotic states of the complete lagrangian including the symmetry breaking. The breaking causes the states to mix with states in other irreps of $\mathcal{G}$:
 \begin{align}
   |\beta \rangle = c_{\beta\beta} | \beta' \rangle + \sum_{m} c_{\beta m} | m' \rangle \\
   \langle \alpha | = c^*_{\alpha\alpha} \langle \alpha' | + \sum_{n} c^*_{\alpha n} \langle n' |.
@@ -758,7 +758,7 @@ Now we can apply this to HQET to produce Luke's theorem. Consider a transition i
 %%   {1\over 4m_Q} \bar{h} \gamma^{\mu} \gamma^{\nu} F_{\mu\nu} h.
 %% \end{align}
 %% for both $h=b$ and $h=c$.
-The theory is now HQET with two heavy quark flavours, $h=(b,c)$. Luke's theorem applies the AG theorem to the breaking of the flavour symmetry between heavy quarks. By unpacking the $1/m$-order terms in the Lagrangian \eqref{eq:HQET_lagrangian}, we find the leading order flavour breaking term to be
+The theory is now HQET with two heavy quark flavours, $h=(b,c)$. Luke's theorem applies the AG theorem to the breaking of the flavour symmetry between heavy quarks. By unpacking the $1/m$-order terms in the lagrangian \eqref{eq:HQET_lagrangian}, we find the leading order flavour breaking term to be
 \begin{align}
   \left({1\over 2m_b} - {1\over 2m_c} \right) {1\over 2} \bar{h} \sigma_z \slashed{D}^{\perp 2} h,
 \end{align}
@@ -772,7 +772,7 @@ where $\xi$ is some $b$- and $c$-mass independent number.
 This carries onto the pseudoscalar-vector and pseudoscalar-pseudoscalar form factors at zero recoil \cite{Falk:1992wt}:
 \begin{align}
   \label{eq:hA1}
-  h_{A_1}(1) &= \eta_A \left( 1 + {l_V\over (2m_c)^2} + {l_A\over m_b m_c} - {l_P\over (2m_b)^2} \right), \\
+  h_{A_1}(1) &= \eta_A \left( 1 + {l_V\over (2m_c)^2} + {l_A\over 2m_b m_c} - {l_P\over (2m_b)^2} \right), \\
   h_+(1) &= \eta_V \left( 1 - l_P \left( {1\over 2m_b} - {1\over 2m_c} \right)^2 \right),
   \label{eq:hplus}
 \end{align}
@@ -812,13 +812,13 @@ The factors $\eta_{A,V}$ in \eqref{eq:hA1} and \eqref{eq:hplus} are matching fac
 
 \subsection{NRQCD}
 
-An effective field theory closely related to HQET is Non-Relativistic QCD (NRQCD). This differs from HQET only by the power counting; instead of organizing terms in the Lagrangian according to their order in $\Lambda_{\text{QCD}}/m$, the terms are organized in terms of powers of the heavy quark's spacial velocity $v \sim |{\textbf{p}}|/m$. NRQCD is derived with the following process:
+An effective field theory closely related to HQET is Non-Relativistic QCD (NRQCD) \cite{CASWELL1986437,Bodwin:1994jh}. This differs from HQET only by the power counting; instead of organizing terms in the Lagrangian according to their order in $\Lambda_{\text{QCD}}/m$, the terms are organized in terms of powers of the heavy quark's spacial velocity $v \sim |{\textbf{p}}|/m$. NRQCD is derived with the following process \cite{Brambilla:2000cs}:
 \begin{itemize}
 \item
   Separate the quark and antiquark components of the heavy quark. Since a non-relativistic fermion is decoupled from its antiparticle, our action only requires to describe the top two components of a Dirac spinor.
-  Define the antiquark-free 2-component spinor $h$ via the Foldy-Wouthuysen transformation $\psi \to h = e^{ {\bf{\gamma}}\cdot {\bf{D}}/2m} \psi$ \cite{PhysRev.78.29}. This acts to remove the ${\bf{\gamma}}\cdot {\bf{D}}$ term from the Dirac part of the Lagrangian, which is the only part that couples the fermion to the anti-fermion.
+  Define the antiquark-free 2-component spinor $h$ via the Foldy-Wouthuysen transformation $\psi \to h = e^{ {\bf{\gamma}}\cdot {\bf{D}}/2m} \psi$ \cite{PhysRev.78.29}. This acts to remove the ${\bf{\gamma}}\cdot {\bf{D}}$ term from the Dirac part of the Lagrangian, which is the only part that couples the fermion to the anti-fermion (at leading order in $1/m$).
 \item
-  Define power-counting by considering the expected expectation values of operators for heavy mesons \cite{Lepage:1992tx}. The three relevant scales concerning the heavy meson are $M$,$p\sim Mv$ and $E_K\sim Mv^2$, where $M$ is the meson mass, $p$ the spacial momentum and $E_K$ the kinetic energy. By relating operators to these three scales, we deduce their order in $v$. Start with the normalization of a scalar current:
+  Define power-counting by considering the expected expectation values of operators for heavy mesons \cite{Lepage:1992tx}. The three relevant scales concerning the heavy meson are $M$,$\,p\sim Mv$ and $E_K\sim Mv^2$, where $M$ is the meson mass, $p$ the spacial momentum and $E_K$ the kinetic energy. By relating operators to these three scales, we can deduce their order in $v$. Start with the normalization of a scalar current:
   \begin{align}
     \langle M | \int d^3x h^{\dagger}(x) h(x) | M \rangle \sim 1,
     \label{eq:nrqcd_scalarnormalization}
@@ -835,7 +835,7 @@ An effective field theory closely related to HQET is Non-Relativistic QCD (NRQCD
   to be $D \sim v$. Following such a chain of arguments, we can deduce the order in $v$ of any operator.
 
 \item
-  The Lagrangian to $\order{v^n}$ is then simply all of the operators satisfying the symmetries of QCD of orders below $v^n$, with some Wilson coefficients \cite{Lepage:1992tx}. To $\order{v^6}$:
+  The Lagrangian to $\order{v^n}$ is then simply all of the operators satisfying the symmetries of QCD of orders below $v^n$, with some Wilson coefficients \cite{Lepage:1992tx}. To $\order{v^6}$ \cite{Brambilla:2000cs}:
   \begin{align}
     \nonumber
     &\mathscr{L}_{\text{NRQCD}} = h^{\dagger} \Bigg( i D_0 + {{\textbf{D}}^2 \over 2m} + c_1 {{\textbf{D}}^4\over m^3}

@@ -25,10 +25,109 @@ Brian Colquhoun, Christine Davies, Jonna Koponen, Andrew Lytle, and Craig
 \newblock {$B_c$ decays from highly improved staggered quarks and NRQCD}.
 \newblock {\em PoS}, LATTICE2016:281, 2016.
 
-\bibitem{Borasoy:2007yi}
-Bugra Borasoy.
-\newblock {Introduction to Chiral Perturbation Theory}.
-\newblock {\em Springer Proc. Phys.}, 118:1--26, 2008.
+\bibitem{GLASHOW1961579}
+Sheldon~L. Glashow.
+\newblock Partial-symmetries of weak interactions.
+\newblock {\em Nuclear Physics}, 22(4):579 -- 588, 1961.
+
+\bibitem{PhysRevLett.19.1264}
+Steven Weinberg.
+\newblock A model of leptons.
+\newblock {\em Phys. Rev. Lett.}, 19:1264--1266, Nov 1967.
+
+\bibitem{Salam:1968rm}
+Abdus Salam.
+\newblock {Weak and Electromagnetic Interactions}.
+\newblock {\em Conf. Proc.}, C680519:367--377, 1968.
+
+\bibitem{Schwartz:2013pla}
+Matthew~D. Schwartz.
+\newblock {\em {Quantum Field Theory and the Standard Model}}.
+\newblock Cambridge University Press, 2014.
+
+\bibitem{PhysRevLett.13.321}
+F.~Englert and R.~Brout.
+\newblock Broken symmetry and the mass of gauge vector mesons.
+\newblock {\em Phys. Rev. Lett.}, 13:321--323, Aug 1964.
+
+\bibitem{PhysRevLett.13.508}
+Peter~W. Higgs.
+\newblock Broken symmetries and the masses of gauge bosons.
+\newblock {\em Phys. Rev. Lett.}, 13:508--509, Oct 1964.
+
+\bibitem{PhysRevLett.13.585}
+G.~S. Guralnik, C.~R. Hagen, and T.~W.~B. Kibble.
+\newblock Global conservation laws and massless particles.
+\newblock {\em Phys. Rev. Lett.}, 13:585--587, Nov 1964.
+
+\bibitem{GONZALEZGARCIA20081}
+M.C. Gonzalez-Garcia and Michele Maltoni.
+\newblock Phenomenology with massive neutrinos.
+\newblock {\em Physics Reports}, 460(1):1 -- 129, 2008.
+
+\bibitem{Freese:2008cz}
+Katherine Freese.
+\newblock {Review of Observational Evidence for Dark Matter in the Universe and
+  in upcoming searches for Dark Stars}.
+\newblock {\em EAS Publ. Ser.}, 36:113--126, 2009.
+
+\bibitem{Riess:1998cb}
+Adam~G. Riess et~al.
+\newblock {Observational evidence from supernovae for an accelerating universe
+  and a cosmological constant}.
+\newblock {\em Astron. J.}, 116:1009--1038, 1998.
+
+\bibitem{Perlmutter:1998np}
+S.~Perlmutter et~al.
+\newblock {Measurements of Omega and Lambda from 42 high redshift supernovae}.
+\newblock {\em Astrophys. J.}, 517:565--586, 1999.
+
+\bibitem{Canetti:2012zc}
+Laurent Canetti, Marco Drewes, and Mikhail Shaposhnikov.
+\newblock {Matter and Antimatter in the Universe}.
+\newblock {\em New J. Phys.}, 14:095012, 2012.
+
+\bibitem{Wilson:1970ag}
+Kenneth~G. Wilson.
+\newblock {The Renormalization Group and Strong Interactions}.
+\newblock {\em Phys. Rev.}, D3:1818, 1971.
+
+\bibitem{PhysRevD.14.1667}
+Eldad Gildener.
+\newblock Gauge-symmetry hierarchies.
+\newblock {\em Phys. Rev. D}, 14:1667--1672, Sep 1976.
+
+\bibitem{PhysRevD.13.3333}
+Eldad Gildener and Steven Weinberg.
+\newblock Symmetry breaking and scalar bosons.
+\newblock {\em Phys. Rev. D}, 13:3333--3341, Jun 1976.
+
+\bibitem{PhysRevLett.10.531}
+Nicola Cabibbo.
+\newblock Unitary symmetry and leptonic decays.
+\newblock {\em Phys. Rev. Lett.}, 10:531--533, Jun 1963.
+
+\bibitem{10.1143/PTP.49.652}
+Makoto Kobayashi and Toshihide Maskawa.
+\newblock {CP-Violation in the Renormalizable Theory of Weak Interaction}.
+\newblock {\em Progress of Theoretical Physics}, 49(2):652--657, 02 1973.
+
+\bibitem{GRONAU1991172}
+Michael Gronau and Daniel Wyler.
+\newblock On determining a weak phase from charged b decay asymmetries.
+\newblock {\em Physics Letters B}, 265(1):172 -- 176, 1991.
+
+\bibitem{GRONAU1991483}
+Michael Gronau and David London.
+\newblock How to determine all the angles of the unitarity triangle from $b_d^0
+  \to dk_s$ and $b_s^0 \to d\phi$.
+\newblock {\em Physics Letters B}, 253(3):483 -- 488, 1991.
+
+\bibitem{Fleischer:2006fx}
+Robert Fleischer.
+\newblock {Flavour Physics and CP Violation}.
+\newblock In {\em {High-energy physics. Proceedings, European School,
+  Kitzbuehel, Austria, August 21-September, 2005}}, 2006.
 
 \bibitem{SIRLIN198283}
 Large $m_w$, $m_z$ behaviour of the $\mathcal{O}(a)$ corrections to
@@ -315,6 +414,11 @@ A.~M. Baldini et~al.
   \mathrm {e}^+ \gamma $ with the full dataset of the MEG experiment}.
 \newblock {\em Eur. Phys. J.}, C76(8):434, 2016.
 
+\bibitem{Brivio:2017vri}
+Ilaria Brivio and Michael Trott.
+\newblock {The Standard Model as an Effective Field Theory}.
+\newblock {\em Phys. Rept.}, 793:1--98, 2019.
+
 \bibitem{Freytsis:2015qca}
 Marat Freytsis, Zoltan Ligeti, and Joshua~T. Ruderman.
 \newblock {Flavor models for $\bar{B} \to D^{(*)} \tau \bar{\nu}$}.
@@ -332,11 +436,6 @@ Andreas Crivellin, Giancarlo D'Ambrosio, and Julian Heeck.
   \mu^+\mu^-/B\to K e^+e^-$ in a two-Higgs-doublet model with gauged
   $L_\mu-L_\tau$}.
 \newblock {\em Phys. Rev. Lett.}, 114:151801, 2015.
-
-\bibitem{Schwartz:2013pla}
-Matthew~D. Schwartz.
-\newblock {\em {Quantum Field Theory and the Standard Model}}.
-\newblock Cambridge University Press, 2014.
 
 \bibitem{ALTAREV1992242}
 I.S. Altarev, Yu.V. Borisov, N.V. Borovikova, S.N. Ivanov, E.A. Kolomensky,
@@ -361,17 +460,60 @@ S.~Fubini and G.~Furlan.
 \newblock {Renormalization effects for partially conserved currents}.
 \newblock {\em Physics Physique Fizika}, 1(4):229--247, 1965.
 
+\bibitem{Georgi:1990um}
+Howard Georgi.
+\newblock {An Effective Field Theory for Heavy Quarks at Low-energies}.
+\newblock {\em Phys. Lett.}, B240:447--450, 1990.
+
+\bibitem{Neubert:2005mu}
+Matthias Neubert.
+\newblock {Effective field theory and heavy quark physics}.
+\newblock In {\em {Physics in D >= 4. Proceedings, Theoretical Advanced Study
+  Institute in elementary particle physics, TASI 2004, Boulder, USA, June
+  6-July 2, 2004}}, pages 149--194, 2005.
+
 \bibitem{Lebed:1991sq}
 Richard~F. Lebed and Mahiko Suzuki.
 \newblock {Current algebra and the Ademollo-Gatto theorem in spin flavor
   symmetry of heavy quarks}.
 \newblock {\em Phys. Rev.}, D44:829--836, 1991.
 
+\bibitem{LUKE1990447}
+Michael~E. Luke.
+\newblock Effects of subleading operators in the heavy quark effective theory.
+\newblock {\em Physics Letters B}, 252(3):447 -- 455, 1990.
+
+\bibitem{PhysRevLett.13.264}
+M.~Ademollo and R.~Gatto.
+\newblock Nonrenormalization theorem for the strangeness-violating vector
+  currents.
+\newblock {\em Phys. Rev. Lett.}, 13:264--266, Aug 1964.
+
 \bibitem{Falk:1992wt}
 Adam~F. Falk and Matthias Neubert.
 \newblock {Second order power corrections in the heavy quark effective theory.
   1. Formalism and meson form-factors}.
 \newblock {\em Phys. Rev.}, D47:2965--2981, 1993.
+
+\bibitem{CASWELL1986437}
+W.E. Caswell and G.P. Lepage.
+\newblock Effective lagrangians for bound state problems in qed, qcd, and other
+  field theories.
+\newblock {\em Physics Letters B}, 167(4):437 -- 442, 1986.
+
+\bibitem{Bodwin:1994jh}
+Geoffrey~T. Bodwin, Eric Braaten, and G.~Peter Lepage.
+\newblock {Rigorous QCD analysis of inclusive annihilation and production of
+  heavy quarkonium}.
+\newblock {\em Phys. Rev.}, D51:1125--1171, 1995.
+\newblock [Erratum: Phys. Rev.D55,5853(1997)].
+
+\bibitem{Brambilla:2000cs}
+Nora Brambilla.
+\newblock {A Short introduction to nonrelativistic effective field theories}.
+\newblock In {\em {Proceedings, 23rd International Workshop on the Fundamental
+  Problems of High Energy Physics and Field Theory: Protvino, Russia, June
+  21-23, 2000}}, 2000.
 
 \bibitem{PhysRev.78.29}
 Leslie~L. Foldy and Siegfried~A. Wouthuysen.
@@ -431,55 +573,48 @@ E.~Follana, Q.~Mason, C.~Davies, K.~Hornbostel, G.~P. Lepage, J.~Shigemitsu,
   to charm physics}.
 \newblock {\em Phys. Rev.}, D75:054502, 2007.
 
-\bibitem{Davies:2008nq}
-C.~T.~H. Davies et~al.
-\newblock {Precision charm physics, m(c) and alpha(s) from lattice QCD}.
-\newblock {\em PoS}, LATTICE2008:118, 2008.
+\bibitem{Monahan:2012dq}
+Christopher Monahan, Junko Shigemitsu, and Ron Horgan.
+\newblock {Matching lattice and continuum axial-vector and vector currents with
+  nonrelativistic QCD and highly improved staggered quarks}.
+\newblock {\em Phys. Rev.}, D87(3):034017, 2013.
 
-\bibitem{Davies:2008hs}
-C.~T.~H. Davies.
-\newblock {Precision charmonium and D physics from lattice QCD and
-  determination of the charm quark mass}.
-\newblock In {\em {Proceedings, 34th International Conference on High Energy
-  Physics (ICHEP 2008): Philadelphia, Pennsylvania, July 30-August 5, 2008}},
-  2008.
+\bibitem{Allison:2008xk}
+I.~Allison et~al.
+\newblock {High-Precision Charm-Quark Mass from Current-Current Correlators in
+  Lattice and Continuum QCD}.
+\newblock {\em Phys. Rev.}, D78:054513, 2008.
 
-\bibitem{Koponen:2011ev}
-Jonna Koponen, Christine T.~H. Davies, Gordon Donald, Eduardo Follana, G.~Peter
-  Lepage, Heechang Na, and Junko Shigemitsu.
-\newblock {The D to K and D to pi semileptonic decay form factors from Lattice
-  QCD}.
-\newblock {\em PoS}, LATTICE2011:286, 2011.
+\bibitem{Davies:2010ip}
+C.~T.~H. Davies, C.~McNeile, E.~Follana, G.~P. Lepage, H.~Na, and
+  J.~Shigemitsu.
+\newblock {Update: Precision $D_s$ decay constant from full lattice QCD using
+  very fine lattices}.
+\newblock {\em Phys. Rev.}, D82:114504, 2010.
 
-\bibitem{Na:2011mc}
-Heechang Na, Christine T.~H. Davies, Eduardo Follana, Jonna Koponen, G.~Peter
-  Lepage, and Junko Shigemitsu.
-\newblock {$D \rightarrow \pi, l \nu$ Semileptonic Decays, $|V_{cd}|$ and
-  2$^{nd}$ Row Unitarity from Lattice QCD}.
-\newblock {\em Phys. Rev.}, D84:114505, 2011.
-
-\bibitem{Na:2012uh}
-Heechang Na, Chris Monahan, Christine Davies, Eduardo Follana, Ron Horgan,
-  Peter Lepage, and Junko Shigemitsu.
-\newblock {Precise Determinations of the Decay Constants of B and D mesons}.
-\newblock {\em PoS}, LATTICE2012:102, 2012.
-
-\bibitem{Na:2012iu}
-Heechang Na, Christine T.~H. Davies, Eduardo Follana, G.~Peter Lepage, and
-  Junko Shigemitsu.
-\newblock {$|V_{cd}|$ from D Meson Leptonic Decays}.
-\newblock {\em Phys. Rev.}, D86:054510, 2012.
-
-\bibitem{Koponen:2013ila}
-Jonna Koponen.
-\newblock {Lattice results for $D/D_s$ leptonic and semileptonic decays}.
-\newblock In {\em {Proceedings, 6th International Workshop on Charm Physics
-  (Charm 2013): Manchester, UK, August 31-September 4, 2013}}, 2013.
+\bibitem{Donald:2012ga}
+G.~C. Donald, C.~T.~H. Davies, R.~J. Dowdall, E.~Follana, K.~Hornbostel,
+  J.~Koponen, G.~P. Lepage, and C.~McNeile.
+\newblock {Precision tests of the $J/{\psi}$ from full lattice QCD: mass,
+  leptonic width and radiative decay rate to ${\eta}_c$}.
+\newblock {\em Phys. Rev.}, D86:094501, 2012.
 
 \bibitem{McNeile:2011ng}
 C.~McNeile, C.~T.~H. Davies, E.~Follana, K.~Hornbostel, and G.~P. Lepage.
 \newblock {High-Precision $f_{B_s}$ and HQET from Relativistic Lattice QCD}.
 \newblock {\em Phys. Rev.}, D85:031503, 2012.
+
+\bibitem{Bazavov:2017lyh}
+A.~Bazavov et~al.
+\newblock {$B$- and $D$-meson leptonic decay constants from four-flavor lattice
+  QCD}.
+\newblock 2017.
+
+\bibitem{McNeile:2010ji}
+C.~McNeile, C.~T.~H. Davies, E.~Follana, K.~Hornbostel, and G.~P. Lepage.
+\newblock {High-Precision c and b Masses, and QCD Coupling from Current-Current
+  Correlators in Lattice and Continuum QCD}.
+\newblock {\em Phys. Rev.}, D82:034512, 2010.
 
 \bibitem{Lytle:2016ixw}
 Andrew Lytle, Brian Colquhoun, Christine Davies, Jonna Koponen, and Craig
@@ -565,6 +700,34 @@ Michael Creutz.
 \newblock {Why rooting fails}.
 \newblock {\em PoS}, LATTICE2007:007, 2007.
 
+\bibitem{Kronfeld:2007ek}
+Andreas~S. Kronfeld.
+\newblock {Lattice Gauge Theory with Staggered Fermions: How, Where, and Why
+  (Not)}.
+\newblock {\em PoS}, LATTICE2007:016, 2007.
+
+\bibitem{Sharpe:2006re}
+Stephen~R. Sharpe.
+\newblock {Rooted staggered fermions: Good, bad or ugly?}
+\newblock {\em PoS}, LAT2006:022, 2006.
+
+\bibitem{Follana:2004sz}
+E.~Follana, A.~Hart, and C.~T.~H. Davies.
+\newblock {The Index theorem and universality properties of the low-lying
+  eigenvalues of improved staggered quarks}.
+\newblock {\em Phys. Rev. Lett.}, 93:241601, 2004.
+
+\bibitem{Donald:2011if}
+Gordon~C. Donald, Christine T.~H. Davies, Eduardo Follana, and Andreas~S.
+  Kronfeld.
+\newblock {Staggered fermions, zero modes, and flavor-singlet mesons}.
+\newblock {\em Phys. Rev.}, D84:054504, 2011.
+
+\bibitem{Durr:2012te}
+Stephan Durr.
+\newblock {Physics of $\eta'$ with rooted staggered quarks}.
+\newblock {\em Phys. Rev.}, D85:114503, 2012.
+
 \bibitem{Clark:2006fx}
 M.~A. Clark and A.~D. Kennedy.
 \newblock {Accelerating dynamical fermion computations using the rational
@@ -641,17 +804,21 @@ G.~P. Lepage, B.~Clark, C.~T.~H. Davies, K.~Hornbostel, P.~B. Mackenzie,
 \newblock {\em Nucl. Phys. Proc. Suppl.}, 106:12--20, 2002.
 \newblock [,12(2001)].
 
+\bibitem{Parisi:1983ae}
+G.~Parisi.
+\newblock {The Strategy for Computing the Hadronic Mass Spectrum}.
+\newblock {\em Phys. Rept.}, 103:203--211, 1984.
+
+\bibitem{Lepage:1989hd}
+G.~Peter Lepage.
+\newblock {The Analysis of Algorithms for Lattice Field Theory}.
+\newblock In {\em {Boulder ASI 1989:97-120}}, pages 97--120, 1989.
+
 \bibitem{Morningstar:1998yx}
 Colin~J. Morningstar and J.~Shigemitsu.
 \newblock {Perturbative matching of lattice and continuum heavy light currents
   with NRQCD heavy quarks}.
 \newblock {\em Phys. Rev.}, D59:094504, 1999.
-
-\bibitem{Monahan:2012dq}
-Christopher Monahan, Junko Shigemitsu, and Ron Horgan.
-\newblock {Matching lattice and continuum axial-vector and vector currents with
-  nonrelativistic QCD and highly improved staggered quarks}.
-\newblock {\em Phys. Rev.}, D87(3):034017, 2013.
 
 \bibitem{Hughes:2017spc}
 C.~Hughes, C.~T.~H. Davies, and C.~J. Monahan.
@@ -687,12 +854,6 @@ Claude Bourrely, Laurent Lellouch, and Irinel Caprini.
   $b\ensuremath{\rightarrow}\ensuremath{\pi}l\ensuremath{\nu}$ decays and a
   determination of $|{V}_{ub}|$.
 \newblock {\em Phys. Rev. D}, 79:013008, Jan 2009.
-
-\bibitem{McNeile:2010ji}
-C.~McNeile, C.~T.~H. Davies, E.~Follana, K.~Hornbostel, and G.~P. Lepage.
-\newblock {High-Precision c and b Masses, and QCD Coupling from Current-Current
-  Correlators in Lattice and Continuum QCD}.
-\newblock {\em Phys. Rev.}, D82:034512, 2010.
 
 \bibitem{Schroder:1994aj}
 H.~Schroder.
@@ -829,12 +990,6 @@ G.~C. Donald, C.~T.~H. Davies, J.~Koponen, and G.~P. Lepage.
 \newblock {$V_{cs}$ from $D_s \to \phi \ell \nu$ semileptonic decay and full
   lattice QCD}.
 \newblock {\em Phys. Rev.}, D90(7):074506, 2014.
-
-\bibitem{Bazavov:2017lyh}
-A.~Bazavov et~al.
-\newblock {$B$- and $D$-meson leptonic decay constants from four-flavor lattice
-  QCD}.
-\newblock 2017.
 
 \bibitem{Mannel:1994kv}
 Thomas Mannel.

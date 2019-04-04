@@ -1,4 +1,5 @@
-﻿\chapter{$B_s\to D_sl\nu$ Form Factors at All Physical $q^2$ from Heavy-HISQ}
+﻿
+\chapter{$B_s\to D_sl\nu$ Form Factors at All Physical $q^2$ from Heavy-HISQ}
 \label{chap:BsDs}
 
 In this chapter, I present the second of our two heavy-HISQ studies, the calculation of the $B_s\to D_sl\nu$ form factors $f^s_0(q^2)$ and $f^s_+(q^2)$ throughout all physical $q^2$, as defined in Sec. \ref{sec:weakdecays}. Like for $h_{A_1}^s(1)$, I'm giving this quantity the superscript $s$ to differentiate it from the more often referred to form factors for $B\to Dl\nu$ decays.
@@ -365,7 +366,7 @@ To estimate $M_{H^*_c}$, the vector heavy-charm mass, we use the fact that the s
 To account for variation in heavy mass and discretisation effects in a general way, we give the following form to each of the $a_l^{0,+}$ coefficients:
 \begin{align}
   \nonumber  a_n^{0,+} = & \,\,\left( 1 + \rho^{0,+}_n \text{log}\left(M_{\eta_h}\over M_{\eta_c}\right)\right) \times \\ \nonumber
-  &\sum_{i,j,k = 0}^{2,2,2} d^{0,+}_{ijkn} \left({\Lambda_{\text{QCD}}\over M_{\eta_h} }\right)^{i} \left({ am^{\text{val}}_{h0} \over \pi }\right)^{2j} \left({ aE_{D_s} \over \pi }\right)^{2k} \\ &+ \mathcal{N}_{\text{mistuning},n}^{0,+}
+  &\sum_{i,j,k = 0}^{2,2,2} d^{0,+}_{ijkn} \left({\Lambda_{\text{QCD}}\over M_{\eta_h} }\right)^{i} \left({ am^{\text{val}}_{h0} \over \pi }\right)^{2j} \left({ aE_{D_s} \over \pi }\right)^{2k} \\ &\times\left(1 + \mathcal{N}_{\text{mistuning},n}^{0,+} \right)
       \label{eq:mhfitfun}
 \end{align}
 
@@ -385,10 +386,10 @@ We deal with possible mistunings in the $c$, $s$ and $l$ masses in the same way 
 \begin{align}
   \mathcal{N}_{\text{mistuning},n} &= c_{s,n} {\delta_s\over \Lambda_{\chi}} + c_{l,n} {\delta_l\over \Lambda_{\chi}}
     \label{eq:mistuning}
-  \\ &+\left(c_{c,n}^{0,+} + c_{c,n}^{'\,0,+}{\Lambda_{\text{QCD}}\over M_{\eta_h}}\right) \times (M_{\eta_c} - M_{\eta_c}^{\text{phys}})
+  \\ &+c_{c,n}^{0,+} (M_{\eta_c} - M_{\eta_c}^{\text{phys}})
   \nonumber
 \end{align}
-where $c^{0,+}_{l,n}$, $c^{'\,0,+}_{l,n}$, $c^{0,+}_s$ and $c^{0,+}_{ci}$ are fit parameters with prior distributions $0\pm 1$. $\Lambda_{\chi}$ is the chiral breaking scale, which we set to $1$GeV.
+where $c^{0,+}_{l,n}$, $c^{0,+}_s$ and $c^{0,+}_{ci}$ are fit parameters with prior distributions $0\pm 1$. $\Lambda_{\chi}$ is the chiral breaking scale, which we set to $1$GeV.
 
 The strange mistuning is accounted for here using an approach first used in \cite{Chakraborty:2014aca}. We define the term $\delta_s = m^{\text{val}}_{s0} - m_s^{\text{tuned}}$, where $m_s^{\text{tuned}}$ is defined by
 \begin{align}
@@ -398,7 +399,7 @@ $M_{\eta_s}^{\text{phys}}$ was determined in a lattice simulation from the masse
 
 We similarly account for (sea) light quark mistuning by defining $\delta_l = m_{l0} - m_l^{\text{tuned}}$. We find $m_l^{\text{tuned}}$ from $m_s^{\text{tuned}}$, using the fact that the ratio of quark masses is regularization independent, and was calculated in \cite{Bazavov:2014wgs}:
 \begin{align}
-  \left.\frac{m_s}{m_l}\right\rvert_{\textrm{phys}} = 27.35(11).
+  \left.\frac{m_s}{m_l}\right\rvert_{\textrm{phys}} = 27.18(10).
 \end{align}
 We set $m_l^{\text{tuned}}$ to $m_s^{\text{tuned}}$ divided by this ratio.
 
@@ -571,7 +572,7 @@ In figure \ref{fig:nrqcd}, we show our final results (direct approach) against l
 \begin{figure}[htb!]
 \begin{center}
   \includegraphics[width=0.85\textwidth]{images/BsDs/nrqcd_comparison.pdf}
-  \caption{ Our final result for $f_{0,+}^s(q^2)$ against form factors calculated from a previous study using the NRQCD action for the $b$ quark  \cite{Monahan:2017uby} .\label{fig:nrqcd}}
+  \caption{ Our final result for $f_{0,+}^s(q^2)$ against form factors calculated from a previous study using the NRQCD action for the $b$ quark  \cite{Monahan:2017uby}. The darker shaded region of the NRQCD band shows where lattice data was avaliable in that study, the rest of the band shows the result of an extrapolation in $q^2$ using the BCL parameterization.\label{fig:nrqcd}}
   \end{center}
 \end{figure}
 
@@ -632,7 +633,7 @@ where $\{\eta_n\}$ are the taylor coefficients of $\psi(z)$.
   \caption{Numerical values for $B_{jk}$ appearing in the unitarity bound for BCL coefficients, defined in \eqref{eq:Bmatrix}, for the $f^s_0$ and $f^s_+$ cases. The rest of the elements can be obtained from these using the properties $B_{j(j+k)}=B_{0k}$ and $B_{jk}=B_{kj}$. \label{tab:Bmatrix}}
 \end{table}
 
-$\psi(z)$ is bounded on the closed disk $|z|<1$, so it's taylor coefficients are rapidly decreasing. We computed values for $B_{jk}$ by truncating the sum in it's definition \eqref{eq:Bmatrix} at 100. These values are given in table \ref{tab:Bmatrix}. With these $B_{jk}$ values, and the $a_n$ coefficients from our fit (via the direct method), we find
+$\psi(z)$ is bounded on the closed disk $|z|<1$, so its taylor coefficients are rapidly decreasing. We computed values for $B_{jk}$ by truncating the sum in its definition \eqref{eq:Bmatrix} at 100. These values are given in table \ref{tab:Bmatrix}. With these $B_{jk}$ values, and the $a_n$ coefficients from our fit (via the direct method), we find
 \begin{align}
   \nonumber
   \mathcal{B}_0 = 0.00059(67)\,,

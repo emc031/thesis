@@ -22,7 +22,7 @@ To avoid having to integrate over imaginary numbers (equivalently to avoid the s
 
 To obtain the 'real world' result for some expectation value, where real world means $a=0$, one must perform the path integral at a number of different $a$ values, and then extrapolate the results to $a=0$.
 
-One must choose a discretized version of the QCD action, one that becomes continuum QCD in the $a\to 0$ limit. This is a far from trivial step. There is an infinite number of choices of lattice actions that become QCD in the continuum limit. There therefore is a huge literature of different choices of discrete lattice actions. Different collaborations use different actions, and there is never-ending argument about the merits and pitfalls of each.
+One must choose a discretized version of the QCD action, one that becomes continuum QCD in the $a\to 0$ limit. This is a far from trivial step. There is an infinite number of choices of lattice actions that become QCD in the continuum limit. There therefore is a huge literature of different choices of discrete lattice actions.
 
 The rest of this chapter is dedicated to motivating and detailing the choices of discretisation used in the work of this thesis.
 
@@ -353,12 +353,12 @@ If we interpret $(\gamma_{\mu}\otimes 1)$ as a gamma matrix acting on spin in th
     \begin{align}
       \bar{\psi}(x_B)(\gamma_n\otimes \gamma_m) \psi(x_B) = \sum_{\eta,\eta'} \text{Tr} (\gamma_{\eta} \gamma_n \gamma_{\eta'} \gamma_m) \chi^{\dagger}(x_B+a\eta) \chi(x_B+a\eta').
     \end{align}
-    The $n=m$ case results in local operators in terms of $\chi$, since the trace will vanish unless $\eta=\eta'$. To build the case with $n\neq m$, one must use 'point-split' operators, i.e. $\chi^{\dagger} (x) \chi(x+\delta x)$.
+    The $n=m$ case results in local operators in terms of $\chi$, since the trace will vanish unless $\eta=\eta'$. To build the case with $n\neq m$, one must use 'point-split' operators, i.e. $\chi^{\dagger} (x) \chi(x+\delta x)$. Each choice of $\delta x$ corresponds to a different {\it{meson taste}}, i.e, a different combination of tastes in the two valence quarks of the meson.
 
     In practice in lattice calculations, the remaining 4-fold multiplicity of tastes is tackled in 3 steps:
     \begin{enumerate}
     \item
-      Ensure only one taste is created and destroyed at the source and sink of the propagator.
+      Ensure only one meson taste is created and destroyed at the source and sink of correlation functions. 
     \item
       Minimize the interaction between tastes by a modification of the action.
     \item
@@ -417,10 +417,12 @@ If we interpret $(\gamma_{\mu}\otimes 1)$ as a gamma matrix acting on spin in th
     \begin{align}
       \lim_{\underline{p}\to 0} {E^2(\underline{p})-m^2\over \underline{p}^2} = 1.
     \end{align}
-    where $E(\underline{p})$ obeys the tree-level dispersion relation from the HISQ action. Tuning $\epsilon_{\text{Naik}}$ according to this constraint gives us the expression
+    where $E(\underline{p})$ obeys the tree-level dispersion relation from the HISQ action. Tuning $\epsilon_{\text{Naik}}$ according to this constraint gives us the expression \cite{Monahan:2012dq}
     \begin{align}
-      \epsilon_{\text{Naik}} = \,&{ 4 - \sqrt{ 4 + 12 {m_{\text{tree}}\over \cosh(m_{\text{tree}}) \sinh(m_{\text{tree}})} } \over \sinh^2(m_{\text{tree}}) - 1 }, \\
-      \nonumber
+      \epsilon_{\text{Naik}} = \,&{ 4 - \sqrt{ 4 + 12 {m_{\text{tree}}\over \cosh(m_{\text{tree}}) \sinh(m_{\text{tree}})} } \over \sinh^2(m_{\text{tree}}) - 1 },
+    \end{align}
+    where $m_{\text{tree}}$ is the tree-level pole mass given by the expansion \cite{Follana:2006rc}
+    \begin{align}
       m_{\text{tree}} &= m\Big( 1 - {3\over 80}m^4 + {23\over 2240}m^6 + {1783\over 537600 }m^8 \\ &- {76943\over 23654400} m^{10} \Big) + \order{m^{12}}. \nonumber
     \end{align}
 
@@ -442,11 +444,11 @@ If we interpret $(\gamma_{\mu}\otimes 1)$ as a gamma matrix acting on spin in th
       \caption{Different scales relevent to non-perturbative physics, and brackets showing the range of scales that typical lattices can resolve. The larger the range of scales resolved, the more computationally expensive the calculation.}
     \end{figure}
 
-    In the past, $c$ quarks resulted in uncontrollable discretisation effects, but now armed with highly improved actions like HISQ, and very fine lattices, $c$ physics has been conquered on the lattice \cite{Davies:2008nq,Davies:2008hs,Koponen:2011ev,Na:2011mc,Na:2012uh,Na:2012iu,Koponen:2013ila}.
+    In the past, $c$ quarks resulted in uncontrollable discretisation effects, but now armed with highly improved actions like HISQ, and very fine lattices, $c$ physics has been conquered on the lattice \cite{Follana:2006rc,Allison:2008xk,Davies:2010ip,Donald:2012ga}.
 
-    The mass of the $b$ is still somewhat out of reach. Even with the HISQ action and the finest lattices available with current computational constraints, physical $b$ quarks will create uncontrollable discretisation effects.
-
-    The work in this thesis concerns the decays of mesons containing $b$ quarks. We approach the issue of the heavy $b$ in two different ways, the {\it{heavy-HISQ}} approach, and the {\it{Lattice NRQCD}} approach. Since the main results of this thesis result from our heavy-HISQ studies, we will not go into too much detail in describing lattice NRQCD.
+    Physics of the $b$ quark is less well developed since the $b$ mass is so much heavier than the $c$. The $b$ can only be resolved by the very finest of lattice spacings avaliable, and using such fine lattices can be prohibitively costly. Putting physical $b$ quark on coarser lattices will create uncontrollable discretization effects.
+    
+    The work in this thesis concerns the decays of mesons containing $b$ quarks. We approach the issue of the heavy $b$ in two different ways, the {\it{heavy-HISQ}} approach, and the {\it{Lattice NRQCD}} approach. Since the main results of this thesis result from our heavy-HISQ studies, I will not go into too much detail in describing lattice NRQCD.
 
     \subsection{Heavy HISQ}
 
@@ -457,13 +459,13 @@ If we interpret $(\gamma_{\mu}\otimes 1)$ as a gamma matrix acting on spin in th
     \begin{figure}
       \begin{center}
         \includegraphics[width=
-          0.55\textwidth]{images/fetah_heavyhisq.png}
+          0.55\textwidth]{images/fHs_heavyhisq.png}
       \end{center}
       \vspace{-5pt}
-      \caption{An extrapolation to $m_h=m_b$ of the $\eta_h$ decay constant (where $\eta_h$ is a pseudoscalar $\bar{h}h$ meson)\cite{McNeile:2012qf}. The colorful points are measurements of $f_{\eta_h}$ on the lattice, the color denotes lattice spacing. The $x$ axis, $M_{\eta_h}$, is a proxy for the $h$-quark mass. \label{fig:McNeile}}
+      \caption{An extrapolation to $m_h=m_b$ of the $H_s$ decay constant (where $H_s$ is a pseudoscalar $\bar{h}s$ meson)\cite{McNeile:2012qf}. The colorful points are measurements of $f_{\eta_h}$ on the lattice, the color denotes lattice spacing. The $x$ axis, $M_{\eta_h}$, is a proxy for the $h$-quark mass. \label{fig:McNeile}}
     \end{figure}
 
-    The heavy-HISQ approach is a reasonably new program. It has so far been used for computing $b$ decay constants and masses \cite{McNeile:2011ng,McNeile:2012qf}, and a number of heavy-HISQ calculations of semileptonic form factors are currently underway. The work presented in chapters \ref{chap:BsDsstar} and \ref{chap:BsDs} adopt the heavy-HISQ approach for computing $B_s\to D_s^*l\nu$ and $B_s\to D_sl\nu$ form factors. Besides these, there are also currently ongoing calculations of form factors for the $B_c\to \eta_cl\nu$, $B_c\to J/\psi l\nu$ \cite{Lytle:2016ixw}, $B_c\to B_sl\nu$, $B_s\to \eta_sl\nu$, and $B\to D^*l\nu$ decays.
+    The heavy-HISQ has so far been used for computing $b$ decay constants and masses \cite{McNeile:2011ng,McNeile:2012qf,Bazavov:2017lyh}. In \cite{McNeile:2010ji}, the approach was used to determine $c$ and $b$ quark masses and produce a new determination of $\alpha_s$. A number of heavy-HISQ calculations of semileptonic form factors are currently underway. The work presented in chapters \ref{chap:BsDsstar} and \ref{chap:BsDs} adopt the heavy-HISQ approach for computing $B_s\to D_s^*l\nu$ and $B_s\to D_sl\nu$ form factors. Besides these, there are also currently ongoing calculations of form factors for the $B_c\to \eta_cl\nu$, $B_c\to J/\psi l\nu$ \cite{Lytle:2016ixw}, $B_c\to B_sl\nu$, $B_s\to \eta_sl\nu$, and $B\to D^*l\nu$ decays.
 
     \subsection{Lattice NRQCD}
 

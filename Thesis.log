@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.29)  27 MAR 2019 15:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.29)  4 APR 2019 17:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1296,7 +1296,7 @@ Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 77.
 
-[5] [6] <images/fccc.jpg, id=87, 4175.6pt x 1875.005pt>
+[5] [6] <images/fccc.jpg, id=86, 4175.6pt x 1875.005pt>
 File: images/fccc.jpg Graphic file (type jpg)
  <use images/fccc.jpg>
 Package pdftex.def Info: images/fccc.jpg used on input line 118.
@@ -1308,7 +1308,7 @@ File: images/unitaritytriangle_sketch.jpg Graphic file (type jpg)
 
 <use images/unitaritytriangle_sketch.jpg>
 Package pdftex.def Info: images/unitaritytriangle_sketch.jpg used on input line
- 224.
+ 213.
 (pdftex.def)             Requested size: 276.60495pt x 153.4827pt.
  [8 <./images/unitaritytriangle_sketch.jpg>] <images/ckmpdg.jpg, id=96, 1084.05
 pt x 960.58875pt>
@@ -1331,11 +1331,8 @@ File: images/semileptonicdecay.jpg Graphic file (type jpg)
 <use images/semileptonicdecay.jpg>
 Package pdftex.def Info: images/semileptonicdecay.jpg used on input line 323.
 (pdftex.def)             Requested size: 237.0934pt x 136.60425pt.
- [11 <./images/semileptonicdecay.jpg>]
-Underfull \vbox (badness 1286) has occurred while \output is active []
-
- [12]
-[13] <images/Vcb_plot.pdf, id=116, 1015.39348pt x 406.51875pt>
+ [11] [12 <./images/semileptonicdecay.jpg>]
+[13] <images/Vcb_plot.pdf, id=115, 1015.39348pt x 406.51875pt>
 File: images/Vcb_plot.pdf Graphic file (type pdf)
 
 <use images/Vcb_plot.pdf>
@@ -1346,36 +1343,28 @@ Overfull \hbox (41.45073pt too wide) in paragraph at lines 404--410
 []  [] 
  []
 
-[14] [15 <./images/Vcb_plot.pdf>]
-<images/rdrds_summer18.pdf, id=152, 569.12625pt x 385.44pt>
+[14] [15 <./images/Vcb_plot.pdf>] [16]
+<images/rdrds_summer18.pdf, id=156, 569.12625pt x 385.44pt>
 File: images/rdrds_summer18.pdf Graphic file (type pdf)
 
 <use images/rdrds_summer18.pdf>
 Package pdftex.def Info: images/rdrds_summer18.pdf used on input line 448.
 (pdftex.def)             Requested size: 316.12253pt x 214.10405pt.
- [16] [17 <./images/rdrds_summer18.pdf, page is rotated 90 degrees>] [18]
+ [17 <./images/rdrds_summer18.pdf, page is rotated 90 degrees>] [18] [19]
 LaTeX Font Info:    Try loading font information for U+euf on input line 526.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-) [19]
-<images/QCD-running-coupling.png, id=212, 914.8725pt x 630.72pt>
+)
+<images/QCD-running-coupling.png, id=211, 914.8725pt x 630.72pt>
 File: images/QCD-running-coupling.png Graphic file (type png)
 
 <use images/QCD-running-coupling.png>
 Package pdftex.def Info: images/QCD-running-coupling.png used on input line 536
 .
 (pdftex.def)             Requested size: 276.60495pt x 190.68993pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [20 <./images/QCD-running-coupling.png>] [21] [22] [23] [24] [25]
-Underfull \hbox (badness 1173) in paragraph at lines 815--816
-\T1/cmr/m/n/10.95 An ef-fec-tive field the-ory closely re-lated to HQET is Non-
-Relativistic QCD
- []
-
-[26] [27]) [28]
+ [20 <./images/QCD-running-coupling.png>]
+[21] [22] [23] [24] [25] [26] [27]) [28]
 \openout2 = `latticeqcd.aux'.
 
  (./latticeqcd.tex
@@ -1429,20 +1418,20 @@ Underfull \vbox (badness 2460) has occurred while \output is active []
 <images/scales.jpg, id=295, 3388.66pt x 849.1725pt>
 File: images/scales.jpg Graphic file (type jpg)
  <use images/scales.jpg>
-Package pdftex.def Info: images/scales.jpg used on input line 439.
+Package pdftex.def Info: images/scales.jpg used on input line 441.
 (pdftex.def)             Requested size: 375.39287pt x 94.07008pt.
 
 [43 <./images/scales.jpg>]
-<images/fetah_heavyhisq.png, id=300, 501.875pt x 328.22626pt>
-File: images/fetah_heavyhisq.png Graphic file (type png)
+<images/fHs_heavyhisq.png, id=300, 501.875pt x 323.2075pt>
+File: images/fHs_heavyhisq.png Graphic file (type png)
 
-<use images/fetah_heavyhisq.png>
-Package pdftex.def Info: images/fetah_heavyhisq.png used on input line 460.
-(pdftex.def)             Requested size: 217.33461pt x 142.1362pt.
- [44 <./images/fetah_heavyhisq.png>]
+<use images/fHs_heavyhisq.png>
+Package pdftex.def Info: images/fHs_heavyhisq.png used on input line 462.
+(pdftex.def)             Requested size: 217.33461pt x 139.96286pt.
+ [44 <./images/fHs_heavyhisq.png>]
 
 LaTeX Warning: Reference `sec:continuum_nrqcd' on page 45 undefined on input li
-ne 499.
+ne 501.
 
 [45]) [46]
 \openout2 = `latticecalcs.aux'.
@@ -1457,23 +1446,26 @@ Underfull \vbox (badness 1142) has occurred while \output is active []
 
 
 ]
-[48] [49] [50] [51] [52] [53]
+[48] [49] [50] [51]
+Underfull \vbox (badness 2119) has occurred while \output is active []
+
+ [52]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [54]
-[55]
-Underfull \hbox (badness 1178) in paragraph at lines 266--268
+ [53]
+[54] [55] [56]
+Underfull \hbox (badness 1178) in paragraph at lines 267--269
 \T1/cmr/m/n/10.95 This can be built by first cre-at-ing prop-a-ga-tors for the 
 $\OML/cmm/m/it/10.95 b$ \T1/cmr/m/n/10.95 and $\OML/cmm/m/it/10.95 s$ \T1/cmr/m
 /n/10.95 quarks -
  []
 
-[56] [57]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[57]
+Underfull \vbox (badness 2644) has occurred while \output is active []
 
  [58]
 [59] [60]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 394.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 395.
 
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -1924,19 +1916,19 @@ RS AT ALL PHYSICAL $\OML/cmm/m/it/10.95 Q[]$ \T1/cmr/m/sl/10.95 FROM HEAVY-HISQ
  []
 
 [124] [125]
-Underfull \hbox (badness 3189) in paragraph at lines 219--220
+Underfull \hbox (badness 3189) in paragraph at lines 220--221
 \T1/cmr/m/n/10.95 We then ex-tract cur-rent ma-trix el-e-ments from the gen-er-
 ated cor-re-la-tion
  []
 
 
-Underfull \hbox (badness 4132) in paragraph at lines 219--220
+Underfull \hbox (badness 4132) in paragraph at lines 220--221
 \T1/cmr/m/n/10.95 func-tions, via si-mul-ta-ne-ous Bayesian fits, as de-scribed
  in Sec. 4.2.1[].
  []
 
 
-Underfull \hbox (badness 2096) in paragraph at lines 219--220
+Underfull \hbox (badness 2096) in paragraph at lines 220--221
 \T1/cmr/m/n/10.95 We per-form a sin-gle si-mul-tan-ious fit con-tain-ing each c
 or-re-la-tor com-puted
  []
@@ -1954,10 +1946,10 @@ File: images/BsDs/finecorr_fittest.pdf Graphic file (type pdf)
 
 <use images/BsDs/finecorr_fittest.pdf>
 Package pdftex.def Info: images/BsDs/finecorr_fittest.pdf used on input line 24
-8.
+9.
 (pdftex.def)             Requested size: 553.2099pt x 287.85219pt.
 
-Overfull \hbox (75.47986pt too wide) in paragraph at lines 247--249
+Overfull \hbox (75.47986pt too wide) in paragraph at lines 248--250
 []  [] 
  []
 
@@ -1978,10 +1970,10 @@ File: images/BsDs/fine_2pt_summary.pdf Graphic file (type pdf)
 
 <use images/BsDs/fine_2pt_summary.pdf>
 Package pdftex.def Info: images/BsDs/fine_2pt_summary.pdf used on input line 26
-7.
+8.
 (pdftex.def)             Requested size: 474.18077pt x 298.30565pt.
 
-Overfull \hbox (43.87234pt too wide) in paragraph at lines 265--269
+Overfull \hbox (43.87234pt too wide) in paragraph at lines 266--270
 []    [] 
  []
 
@@ -1990,10 +1982,10 @@ File: images/BsDs/fine_3pt_summary.pdf Graphic file (type pdf)
 
 <use images/BsDs/fine_3pt_summary.pdf>
 Package pdftex.def Info: images/BsDs/fine_3pt_summary.pdf used on input line 27
-4.
+5.
 (pdftex.def)             Requested size: 513.69835pt x 217.42712pt.
 
-Overfull \hbox (60.9683pt too wide) in paragraph at lines 273--275
+Overfull \hbox (60.9683pt too wide) in paragraph at lines 274--276
 []  [] 
  []
 
@@ -2032,7 +2024,7 @@ File: images/BsDs/ratio/f0fHc_vsmh.pdf Graphic file (type pdf)
 
 <use images/BsDs/ratio/f0fHc_vsmh.pdf>
 Package pdftex.def Info: images/BsDs/ratio/f0fHc_vsmh.pdf used on input line 43
-0.
+1.
 (pdftex.def)             Requested size: 335.88132pt x 251.90999pt.
  [135]
 Overfull \hbox (67.77554pt too wide) has occurred while \output is active
@@ -2048,7 +2040,7 @@ File: images/BsDs/ratio/f0dcq2max_stability.pdf Graphic file (type pdf)
 
 <use images/BsDs/ratio/f0dcq2max_stability.pdf>
 Package pdftex.def Info: images/BsDs/ratio/f0dcq2max_stability.pdf used on inpu
-t line 465.
+t line 466.
 (pdftex.def)             Requested size: 335.88132pt x 251.90999pt.
 
 <images/BsDs/ratio/f0fpfHc_vsq2.pdf, id=5431, 1180.71118pt x 542.9284pt>
@@ -2056,10 +2048,10 @@ File: images/BsDs/ratio/f0fpfHc_vsq2.pdf Graphic file (type pdf)
 
 <use images/BsDs/ratio/f0fpfHc_vsq2.pdf>
 Package pdftex.def Info: images/BsDs/ratio/f0fpfHc_vsq2.pdf used on input line 
-475.
+476.
 (pdftex.def)             Requested size: 553.2099pt x 254.38107pt.
 
-Overfull \hbox (75.47986pt too wide) in paragraph at lines 474--476
+Overfull \hbox (75.47986pt too wide) in paragraph at lines 475--477
 []  [] 
  []
 
@@ -2069,7 +2061,7 @@ File: images/BsDs/direct/f0q2max_vsmh.pdf Graphic file (type pdf)
 
 <use images/BsDs/direct/f0q2max_vsmh.pdf>
 Package pdftex.def Info: images/BsDs/direct/f0q2max_vsmh.pdf used on input line
- 491.
+ 492.
 (pdftex.def)             Requested size: 335.88132pt x 251.90999pt.
 
 Overfull \hbox (67.77554pt too wide) has occurred while \output is active
@@ -2088,7 +2080,7 @@ File: images/BsDs/direct/f0q2max_stability.pdf Graphic file (type pdf)
 
 <use images/BsDs/direct/f0q2max_stability.pdf>
 Package pdftex.def Info: images/BsDs/direct/f0q2max_stability.pdf used on input
- line 528.
+ line 529.
 (pdftex.def)             Requested size: 335.88132pt x 251.90999pt.
 
 <images/BsDs/direct/f0fp_vsq2.pdf, id=5652, 1150.89972pt x 562.80264pt>
@@ -2096,10 +2088,10 @@ File: images/BsDs/direct/f0fp_vsq2.pdf Graphic file (type pdf)
 
 <use images/BsDs/direct/f0fp_vsq2.pdf>
 Package pdftex.def Info: images/BsDs/direct/f0fp_vsq2.pdf used on input line 53
-8.
+9.
 (pdftex.def)             Requested size: 553.2099pt x 270.52864pt.
 
-Overfull \hbox (75.47986pt too wide) in paragraph at lines 537--539
+Overfull \hbox (75.47986pt too wide) in paragraph at lines 538--540
 []  [] 
  []
 
@@ -2108,7 +2100,7 @@ File: images/BsDs/direct/f0fp_final.pdf Graphic file (type pdf)
 
 <use images/BsDs/direct/f0fp_final.pdf>
 Package pdftex.def Info: images/BsDs/direct/f0fp_final.pdf used on input line 5
-45.
+46.
 (pdftex.def)             Requested size: 335.88132pt x 251.90999pt.
 
 <images/BsDs/direct/errorbudget.pdf, id=5654, 1131.02554pt x 550.15535pt>
@@ -2116,10 +2108,10 @@ File: images/BsDs/direct/errorbudget.pdf Graphic file (type pdf)
 
 <use images/BsDs/direct/errorbudget.pdf>
 Package pdftex.def Info: images/BsDs/direct/errorbudget.pdf used on input line 
-552.
+553.
 (pdftex.def)             Requested size: 553.2099pt x 269.09158pt.
 
-Overfull \hbox (75.47986pt too wide) in paragraph at lines 551--553
+Overfull \hbox (75.47986pt too wide) in paragraph at lines 552--554
 []  [] 
  []
 
@@ -2136,7 +2128,7 @@ RS AT ALL PHYSICAL $\OML/cmm/m/it/10.95 Q[]$ \T1/cmr/m/sl/10.95 FROM HEAVY-HISQ
 File: images/BsDs/ratio_vs_direct.pdf Graphic file (type pdf)
 
 <use images/BsDs/ratio_vs_direct.pdf>
-Package pdftex.def Info: images/BsDs/ratio_vs_direct.pdf used on input line 564
+Package pdftex.def Info: images/BsDs/ratio_vs_direct.pdf used on input line 565
 .
 (pdftex.def)             Requested size: 335.88132pt x 251.90999pt.
 
@@ -2145,7 +2137,7 @@ File: images/BsDs/nrqcd_comparison.pdf Graphic file (type pdf)
 
 <use images/BsDs/nrqcd_comparison.pdf>
 Package pdftex.def Info: images/BsDs/nrqcd_comparison.pdf used on input line 57
-3.
+4.
 (pdftex.def)             Requested size: 335.88132pt x 251.90999pt.
  [141 <./images/BsDs/direct/f0fp_vsq2.pdf>]
 
@@ -2173,12 +2165,12 @@ RS AT ALL PHYSICAL $\OML/cmm/m/it/10.95 Q[]$ \T1/cmr/m/sl/10.95 FROM HEAVY-HISQ
  []
 
 [144 <./images/BsDs/nrqcd_comparison.pdf>]
-<images/BsDs/direct/branchingfraction.pdf, id=5888, 578.16pt x 433.62pt>
+<images/BsDs/direct/branchingfraction.pdf, id=5890, 578.16pt x 433.62pt>
 File: images/BsDs/direct/branchingfraction.pdf Graphic file (type pdf)
 
 <use images/BsDs/direct/branchingfraction.pdf>
 Package pdftex.def Info: images/BsDs/direct/branchingfraction.pdf used on input
- line 648.
+ line 649.
 (pdftex.def)             Requested size: 296.36374pt x 222.26808pt.
  [145]
 Overfull \hbox (67.77554pt too wide) has occurred while \output is active
@@ -2189,12 +2181,12 @@ RS AT ALL PHYSICAL $\OML/cmm/m/it/10.95 Q[]$ \T1/cmr/m/sl/10.95 FROM HEAVY-HISQ
  []
 
 [146 <./images/BsDs/direct/branchingfraction.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 702--704
+Underfull \hbox (badness 10000) in paragraph at lines 703--705
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 702--704
+Underfull \hbox (badness 10000) in paragraph at lines 703--705
 
  []
 
@@ -2206,28 +2198,28 @@ RS AT ALL PHYSICAL $\OML/cmm/m/it/10.95 Q[]$ \T1/cmr/m/sl/10.95 FROM HEAVY-HISQ
 
  []
 
-[148] <images/BsDs/hplus_vsmh.pdf, id=5918, 462.52798pt x 346.89601pt>
+[148] <images/BsDs/hplus_vsmh.pdf, id=5920, 462.52798pt x 346.89601pt>
 File: images/BsDs/hplus_vsmh.pdf Graphic file (type pdf)
 
 <use images/BsDs/hplus_vsmh.pdf>
-Package pdftex.def Info: images/BsDs/hplus_vsmh.pdf used on input line 774.
+Package pdftex.def Info: images/BsDs/hplus_vsmh.pdf used on input line 775.
 (pdftex.def)             Requested size: 335.88132pt x 251.92456pt.
  [149 <./images/BsDs/hplus_vsmh.pdf>]
 
 LaTeX Warning: Reference `eq:decayampfit' on page 150 undefined on input line 8
-51.
+52.
 
 
 LaTeX Warning: Reference `eq:decayconstantfit' on page 150 undefined on input l
-ine 851.
+ine 852.
 
 
 LaTeX Warning: Reference `eq:decayampfit' on page 150 undefined on input line 8
-51.
+52.
 
 
 LaTeX Warning: Reference `eq:decayconstantfit' on page 150 undefined on input l
-ine 851.
+ine 852.
 
 
 Overfull \hbox (67.77554pt too wide) has occurred while \output is active
@@ -2312,9 +2304,10 @@ ine 24.
  (./Thesis.bbl [167] [168
 
 ] [169] [170] [171] [172] [173] [174] [175]
-[176] [177] [178] [179] [180] [181]) [182] (./Thesis.aux (./TitlePage.aux)
-(./intro.aux) (./background.aux) (./latticeqcd.aux) (./latticecalcs.aux)
-(./nrqcd.aux) (./BsDsstar.aux) (./BsDs.aux) (./conclusions.aux))
+[176] [177] [178] [179] [180] [181] [182] [183]) [184] (./Thesis.aux
+(./TitlePage.aux) (./intro.aux) (./background.aux) (./latticeqcd.aux)
+(./latticecalcs.aux) (./nrqcd.aux) (./BsDsstar.aux) (./BsDs.aux)
+(./conclusions.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -2323,10 +2316,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 25798 strings out of 494910
- 624003 string characters out of 6179835
+ 25827 strings out of 494910
+ 624497 string characters out of 6179835
  785808 words of memory out of 5000000
- 28419 multiletter control sequences out of 15000+600000
+ 28448 multiletter control sequences out of 15000+600000
  44563 words of font info for 138 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  66i,18n,79p,2299b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2369,10 +2362,10 @@ xmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on Thesis.pdf (194 pages, 7047364 bytes).
+Output written on Thesis.pdf (196 pages, 7080935 bytes).
 PDF statistics:
- 6715 PDF objects out of 7423 (max. 8388607)
- 1362 compressed objects within 14 object streams
+ 6724 PDF objects out of 7423 (max. 8388607)
+ 1366 compressed objects within 14 object streams
  0 named destinations out of 1000 (max. 500000)
  288 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -3,8 +3,8 @@
 \contentsline {section}{\numberline {2.1}Testing the Standard Model}{3}
 \contentsline {section}{\numberline {2.2}Flavour-Changing Charged Currents}{5}
 \contentsline {subsection}{\numberline {2.2.1}CKM Matrix Unitarity}{8}
-\contentsline {subsection}{\numberline {2.2.2}Weak Decays}{9}
-\contentsline {subsection}{\numberline {2.2.3}$b\to c$ Transitions and $|V_{cb}|$}{13}
+\contentsline {subsection}{\numberline {2.2.2}Weak Decays}{10}
+\contentsline {subsection}{\numberline {2.2.3}$b\to c$ Transitions and $|V_{cb}|$}{14}
 \contentsline {subsection}{\numberline {2.2.4}Flavour Anomalies \& Lepton Flavour Violation}{16}
 \contentsline {section}{\numberline {2.3}Strong Interaction Physics}{19}
 \contentsline {subsection}{\numberline {2.3.1}Quantum Chromodynamics}{19}
@@ -31,8 +31,8 @@
 \contentsline {subsubsection}{Quenched MCMC}{49}
 \contentsline {subsubsection}{Unquenched MCMC}{50}
 \contentsline {subsubsection}{The dreaded Rooting Trick}{51}
-\contentsline {subsubsection}{The $N_f=2+1+1$ MILC Ensembles}{51}
-\contentsline {subsection}{\numberline {4.1.2}Dirac Operator Inversion}{52}
+\contentsline {subsubsection}{The $N_f=2+1+1$ MILC Ensembles}{52}
+\contentsline {subsection}{\numberline {4.1.2}Dirac Operator Inversion}{53}
 \contentsline {subsection}{\numberline {4.1.3}Staggered Correlation Functions}{54}
 \contentsline {subsubsection}{2-point Correlation Functions}{55}
 \contentsline {subsubsection}{3-point Correlation Functions}{56}

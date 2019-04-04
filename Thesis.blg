@@ -12,975 +12,971 @@ A level-1 auxiliary file: BsDs.aux
 A level-1 auxiliary file: conclusions.aux
 The style file: unsrt.bst
 Database file #1: Thesis.bib
-I was expecting a `,' or a `}'---line 996 of file Thesis.bib
+I was expecting a `,' or a `}'---line 1039 of file Thesis.bib
  : 
  : @article{Bigi:2016mdz,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "CorrFitter" isn't style-file defined
---line 1274 of file Thesis.bib
-I was expecting a `,' or a `}'---line 1282 of file Thesis.bib
+--line 1317 of file Thesis.bib
+I was expecting a `,' or a `}'---line 1325 of file Thesis.bib
  : 
  : @article{Monahan:2012dq,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 1389 of file Thesis.bib
+Repeated entry---line 1432 of file Thesis.bib
  : @article{Altmannshofer:2017yso
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1401 of file Thesis.bib
+Repeated entry---line 1444 of file Thesis.bib
  : @article{Aaij:2015yra
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1516 of file Thesis.bib
+Repeated entry---line 1559 of file Thesis.bib
  : @article{Bazavov:2012xda
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1903 of file Thesis.bib
+Repeated entry---line 1946 of file Thesis.bib
  : @article{Jager:2014rwa
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1987 of file Thesis.bib
+Repeated entry---line 2030 of file Thesis.bib
  : @article{Bailey:2014tva
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2007 of file Thesis.bib
+Repeated entry---line 2050 of file Thesis.bib
  : @article{Lattice:2015rga
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2025 of file Thesis.bib
+Repeated entry---line 2068 of file Thesis.bib
  : @article{Bigi:2017njr
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2041 of file Thesis.bib
+Repeated entry---line 2084 of file Thesis.bib
  : @article{Falk:1992wt
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2074 of file Thesis.bib
+Repeated entry---line 2117 of file Thesis.bib
  : @article{Scherer:2002tk
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2089 of file Thesis.bib
+Repeated entry---line 2132 of file Thesis.bib
  : @article{Fubini:1964boa
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2103 of file Thesis.bib
+Repeated entry---line 2146 of file Thesis.bib
  : @article{Hammant:2013sca
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2123 of file Thesis.bib
+Repeated entry---line 2166 of file Thesis.bib
  : @article{Lebed:1991sq
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2137 of file Thesis.bib
+Repeated entry---line 2180 of file Thesis.bib
  : @article{Bazavov:2012xda
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2192 of file Thesis.bib
+Repeated entry---line 2235 of file Thesis.bib
  : @article{Monahan:2017uby
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2204 of file Thesis.bib
+Repeated entry---line 2247 of file Thesis.bib
  : @online{CorrFitter
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2212 of file Thesis.bib
+Repeated entry---line 2255 of file Thesis.bib
  : @article{Monahan:2012dq
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2249 of file Thesis.bib
+Repeated entry---line 2292 of file Thesis.bib
  : @article{PhysRevD.79.013008
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2282 of file Thesis.bib
+Repeated entry---line 2325 of file Thesis.bib
  : @article{Colquhoun:2016osw
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2301 of file Thesis.bib
+Repeated entry---line 2344 of file Thesis.bib
  : @article{Altmannshofer:2017yso
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2313 of file Thesis.bib
+Repeated entry---line 2356 of file Thesis.bib
  : @article{Aaij:2015yra
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2335 of file Thesis.bib
+Repeated entry---line 2378 of file Thesis.bib
  : @article{Na:2015kha
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2354 of file Thesis.bib
+Repeated entry---line 2397 of file Thesis.bib
  : @article{PhysRev.78.29
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2384 of file Thesis.bib
+Repeated entry---line 2429 of file Thesis.bib
  : @article{Gray:2005ur
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2399 of file Thesis.bib
+Repeated entry---line 2444 of file Thesis.bib
  : @article{PhysRevD.91.054508
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2442 of file Thesis.bib
+Repeated entry---line 2487 of file Thesis.bib
  : @article{Bazavov:2012xda
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2488 of file Thesis.bib
+Repeated entry---line 2533 of file Thesis.bib
  : @book{Schwartz:2013pla
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2513 of file Thesis.bib
+Repeated entry---line 2558 of file Thesis.bib
  : @book{Peskin:1995ev
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2605 of file Thesis.bib
+Repeated entry---line 2650 of file Thesis.bib
  : @article{Follana:2006rc
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2638 of file Thesis.bib
+Repeated entry---line 2683 of file Thesis.bib
  : @article{Lepage:1992tx
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2654 of file Thesis.bib
+Repeated entry---line 2699 of file Thesis.bib
  : @article{Dowdall:2011wh
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2687 of file Thesis.bib
+Repeated entry---line 2732 of file Thesis.bib
  : @article{Lepage:2001ym
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2722 of file Thesis.bib
- : @article{Borasoy:2007yi
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2800 of file Thesis.bib
+Repeated entry---line 2845 of file Thesis.bib
  : @article{ALTAREV1992242
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2815 of file Thesis.bib
+Repeated entry---line 2860 of file Thesis.bib
  : @article{PhysRevLett.30.1343
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2831 of file Thesis.bib
+Repeated entry---line 2876 of file Thesis.bib
  : @article{Jager:2014rwa
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2916 of file Thesis.bib
+Repeated entry---line 2961 of file Thesis.bib
  : @article{BUSKULIC1995236
  :                         ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3111 of file Thesis.bib
+I was expecting a `,' or a `}'---line 3156 of file Thesis.bib
  : 
  : @article{Bazavov:2012xda,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 3111 of file Thesis.bib
+Repeated entry---line 3156 of file Thesis.bib
  : @article{Bazavov:2012xda
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3250 of file Thesis.bib
+Repeated entry---line 3295 of file Thesis.bib
  : @article{Lepage:2001ym
  :                       ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3409 of file Thesis.bib
+I was expecting a `,' or a `}'---line 3454 of file Thesis.bib
  : 
  : @article{Aaij:2015oid,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 3505 of file Thesis.bib
+Repeated entry---line 3550 of file Thesis.bib
  : @article{Aaij:2014ora
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3523 of file Thesis.bib
+Repeated entry---line 3568 of file Thesis.bib
  : @article{Aaij:2017vbb
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3540 of file Thesis.bib
+Repeated entry---line 3585 of file Thesis.bib
  : @article{Aaij:2017uff
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3562 of file Thesis.bib
+Repeated entry---line 3607 of file Thesis.bib
  : @article{Huschle:2015rga
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3624 of file Thesis.bib
+Repeated entry---line 3669 of file Thesis.bib
  : @article{Aaij:2017deq
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3644 of file Thesis.bib
+Repeated entry---line 3689 of file Thesis.bib
  : @article{Hirose:2017dxl
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3664 of file Thesis.bib
+Repeated entry---line 3709 of file Thesis.bib
  : @article{Sato:2016svk
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3684 of file Thesis.bib
+Repeated entry---line 3729 of file Thesis.bib
  : @article{Aaij:2015yra
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3706 of file Thesis.bib
+Repeated entry---line 3751 of file Thesis.bib
  : @article{Lees:2012xj
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3741 of file Thesis.bib
+Repeated entry---line 3786 of file Thesis.bib
  : @article{Lees:2013uzd
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3811 of file Thesis.bib
+Repeated entry---line 3856 of file Thesis.bib
  : @article{Bailey:2018feb
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3894 of file Thesis.bib
+Repeated entry---line 3939 of file Thesis.bib
  : @article{Bailey:2014tva
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3953 of file Thesis.bib
+Repeated entry---line 3998 of file Thesis.bib
  : @article{Bigi:2017njr
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3970 of file Thesis.bib
+Repeated entry---line 4015 of file Thesis.bib
  : @article{Bazavov:2010ru
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3986 of file Thesis.bib
+Repeated entry---line 4031 of file Thesis.bib
  : @article{Bazavov:2012xda
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4038 of file Thesis.bib
+Repeated entry---line 4083 of file Thesis.bib
  : @article{Falk:1992wt
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4146 of file Thesis.bib
+Repeated entry---line 4191 of file Thesis.bib
  : @article{McNeile:2012qf
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4181 of file Thesis.bib
+Repeated entry---line 4226 of file Thesis.bib
  : @article{Donald:2013pea
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4199 of file Thesis.bib
+Repeated entry---line 4244 of file Thesis.bib
  : @article{Hart:2008sq
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4231 of file Thesis.bib
+Repeated entry---line 4276 of file Thesis.bib
  : @article{Hammant:2013sca
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4305 of file Thesis.bib
+Repeated entry---line 4297 of file Thesis.bib
+ : @article{McNeile:2010ji
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4368 of file Thesis.bib
  : @article{Bailey:2014tva
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4324 of file Thesis.bib
+Repeated entry---line 4387 of file Thesis.bib
  : @article{Lattice:2015rga
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4344 of file Thesis.bib
+Repeated entry---line 4407 of file Thesis.bib
  : @article{Monahan:2017uby
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4365 of file Thesis.bib
+Repeated entry---line 4428 of file Thesis.bib
  : @article{Monahan:2012dq
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4402 of file Thesis.bib
+Repeated entry---line 4465 of file Thesis.bib
  : @article{PhysRevD.79.013008
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4435 of file Thesis.bib
+Repeated entry---line 4498 of file Thesis.bib
  : @article{Colquhoun:2016osw
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4454 of file Thesis.bib
+Repeated entry---line 4517 of file Thesis.bib
  : @article{Altmannshofer:2017yso
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4466 of file Thesis.bib
+Repeated entry---line 4529 of file Thesis.bib
  : @article{Aaij:2015yra
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4488 of file Thesis.bib
+Repeated entry---line 4551 of file Thesis.bib
  : @article{Na:2015kha
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4507 of file Thesis.bib
+Repeated entry---line 4570 of file Thesis.bib
  : @article{PhysRev.78.29
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4523 of file Thesis.bib
+Repeated entry---line 4586 of file Thesis.bib
  : @article{PhysRevD.98.030001
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4540 of file Thesis.bib
+Repeated entry---line 4603 of file Thesis.bib
  : @article{Gray:2005ur
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4555 of file Thesis.bib
+Repeated entry---line 4618 of file Thesis.bib
  : @article{PhysRevD.91.054508
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4626 of file Thesis.bib
+Repeated entry---line 4689 of file Thesis.bib
  : @book{Schwartz:2013pla
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4651 of file Thesis.bib
+Repeated entry---line 4714 of file Thesis.bib
  : @book{Peskin:1995ev
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4760 of file Thesis.bib
+Repeated entry---line 4823 of file Thesis.bib
  : @article{Follana:2006rc
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4809 of file Thesis.bib
+Repeated entry---line 4872 of file Thesis.bib
  : @article{Lepage:1992tx
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4825 of file Thesis.bib
+Repeated entry---line 4888 of file Thesis.bib
  : @article{Chakraborty:2014aca
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4844 of file Thesis.bib
+Repeated entry---line 4907 of file Thesis.bib
  : @article{Dowdall:2011wh
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4877 of file Thesis.bib
+Repeated entry---line 4940 of file Thesis.bib
  : @article{Lepage:2001ym
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4912 of file Thesis.bib
- : @article{Borasoy:2007yi
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 4990 of file Thesis.bib
+Repeated entry---line 5053 of file Thesis.bib
  : @article{Jager:2014rwa
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5091 of file Thesis.bib
+Repeated entry---line 5154 of file Thesis.bib
  :               @article{Hammant:2013sca
  :                                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5150 of file Thesis.bib
+Repeated entry---line 5213 of file Thesis.bib
  : @article{Monahan:2017uby
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5162 of file Thesis.bib
+Repeated entry---line 5225 of file Thesis.bib
  : @online{CorrFitter
  :                   ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 5178 of file Thesis.bib
+I was expecting a `,' or a `}'---line 5241 of file Thesis.bib
  : 
  : @online{skopt,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "skopt" isn't style-file defined
---line 5178 of file Thesis.bib
-I was expecting a `,' or a `}'---line 5185 of file Thesis.bib
+--line 5241 of file Thesis.bib
+I was expecting a `,' or a `}'---line 5248 of file Thesis.bib
  : 
  : @online{MILCcode,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 5192 of file Thesis.bib
+I was expecting a `,' or a `}'---line 5255 of file Thesis.bib
  : 
  : @online{HFAG,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 5201 of file Thesis.bib
+I was expecting a `,' or a `}'---line 5264 of file Thesis.bib
  : 
  : @article{Monahan:2012dq,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 5201 of file Thesis.bib
+Repeated entry---line 5264 of file Thesis.bib
  : @article{Monahan:2012dq
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5238 of file Thesis.bib
+Repeated entry---line 5301 of file Thesis.bib
  : @article{PhysRevD.79.013008
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5271 of file Thesis.bib
+Repeated entry---line 5334 of file Thesis.bib
  : @article{Colquhoun:2016osw
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5290 of file Thesis.bib
+Repeated entry---line 5353 of file Thesis.bib
  : @article{Altmannshofer:2017yso
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5302 of file Thesis.bib
+Repeated entry---line 5365 of file Thesis.bib
  : @article{Aaij:2015yra
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5324 of file Thesis.bib
+Repeated entry---line 5387 of file Thesis.bib
  : @article{Na:2015kha
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5343 of file Thesis.bib
+Repeated entry---line 5406 of file Thesis.bib
  : @article{PhysRev.78.29
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5359 of file Thesis.bib
+Repeated entry---line 5422 of file Thesis.bib
  : @article{Gray:2005ur
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5374 of file Thesis.bib
+Repeated entry---line 5437 of file Thesis.bib
  : @article{PhysRevD.91.054508
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5446 of file Thesis.bib
+Repeated entry---line 5509 of file Thesis.bib
  : @book{Schwartz:2013pla
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5471 of file Thesis.bib
+Repeated entry---line 5534 of file Thesis.bib
  : @book{Peskin:1995ev
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5544 of file Thesis.bib
+Repeated entry---line 5607 of file Thesis.bib
  : @article{Follana:2006rc
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5577 of file Thesis.bib
+Repeated entry---line 5640 of file Thesis.bib
  : @article{Lepage:1992tx
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5599 of file Thesis.bib
+Repeated entry---line 5662 of file Thesis.bib
  : @article{Dowdall:2013rya
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5615 of file Thesis.bib
+Repeated entry---line 5678 of file Thesis.bib
  : @article{Dowdall:2011wh
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5648 of file Thesis.bib
+Repeated entry---line 5711 of file Thesis.bib
  : @article{Lepage:2001ym
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5683 of file Thesis.bib
- : @article{Borasoy:2007yi
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5761 of file Thesis.bib
+Repeated entry---line 5824 of file Thesis.bib
  : @article{Jager:2014rwa
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6007 of file Thesis.bib
+Repeated entry---line 6070 of file Thesis.bib
  : @article{Aubert:2008yv
  :                       ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 6053 of file Thesis.bib
+I was expecting a `,' or a `}'---line 6116 of file Thesis.bib
  : url = "http://www.sciencedirect.com/science/article/pii/0550321382903030"
  :                                                                          \
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 6065 of file Thesis.bib
+I was expecting a `,' or a `}'---line 6128 of file Thesis.bib
  : 
  : year = "1968",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 6106 of file Thesis.bib
+Repeated entry---line 6169 of file Thesis.bib
  : @article{Guadagnoli:2005be
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6123 of file Thesis.bib
+Repeated entry---line 6186 of file Thesis.bib
  : @article{Bigi:2017njr
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6139 of file Thesis.bib
+Repeated entry---line 6202 of file Thesis.bib
  : @article{Grinstein:2017nlq
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6201 of file Thesis.bib
+Repeated entry---line 6264 of file Thesis.bib
  : @article{Bartelt:1998dq
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6218 of file Thesis.bib
+Repeated entry---line 6281 of file Thesis.bib
  : @article{Aubert:2008yv
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6237 of file Thesis.bib
+Repeated entry---line 6300 of file Thesis.bib
  : @article{Aubert:2009ac
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6257 of file Thesis.bib
+Repeated entry---line 6320 of file Thesis.bib
  : @article{Lattice:2015rga
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6313 of file Thesis.bib
+Repeated entry---line 6376 of file Thesis.bib
  : @article{Monahan:2017uby
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6330 of file Thesis.bib
+Repeated entry---line 6393 of file Thesis.bib
  : @article{Na:2015kha
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6351 of file Thesis.bib
+Repeated entry---line 6414 of file Thesis.bib
  : @article{Abdesselam:2018nnh
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6365 of file Thesis.bib
+Repeated entry---line 6428 of file Thesis.bib
  : @article{Lepage:2001ym
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6385 of file Thesis.bib
+Repeated entry---line 6448 of file Thesis.bib
  : @article{Bailey:2017xjk
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6407 of file Thesis.bib
+Repeated entry---line 6470 of file Thesis.bib
  : @article{Bazavov:2017lyh
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6419 of file Thesis.bib
+Repeated entry---line 6482 of file Thesis.bib
  : @article{McNeile:2011ng
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6437 of file Thesis.bib
+Repeated entry---line 6500 of file Thesis.bib
  : @article{PhysRevD.39.799
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6470 of file Thesis.bib
+Repeated entry---line 6533 of file Thesis.bib
  : @article{Donald:2013pea
  :                        ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 6524 of file Thesis.bib
+I was expecting a `,' or a `}'---line 6587 of file Thesis.bib
  : 
  : @article{Aaij:2015oid,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 6620 of file Thesis.bib
+Repeated entry---line 6683 of file Thesis.bib
  : @article{Aaij:2014ora
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6638 of file Thesis.bib
+Repeated entry---line 6701 of file Thesis.bib
  : @article{Aaij:2017vbb
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6655 of file Thesis.bib
+Repeated entry---line 6718 of file Thesis.bib
  : @article{Aaij:2017uff
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6677 of file Thesis.bib
+Repeated entry---line 6740 of file Thesis.bib
  : @article{Huschle:2015rga
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6739 of file Thesis.bib
+Repeated entry---line 6802 of file Thesis.bib
  : @article{Aaij:2017deq
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6759 of file Thesis.bib
+Repeated entry---line 6822 of file Thesis.bib
  : @article{Hirose:2017dxl
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6779 of file Thesis.bib
+Repeated entry---line 6842 of file Thesis.bib
  : @article{Sato:2016svk
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6799 of file Thesis.bib
+Repeated entry---line 6862 of file Thesis.bib
  : @article{Aaij:2015yra
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6821 of file Thesis.bib
+Repeated entry---line 6884 of file Thesis.bib
  : @article{Lees:2012xj
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6856 of file Thesis.bib
+Repeated entry---line 6919 of file Thesis.bib
  : @article{Lees:2013uzd
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6882 of file Thesis.bib
+Repeated entry---line 6945 of file Thesis.bib
  : @inproceedings{Schroder:1994aj
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6892 of file Thesis.bib
+Repeated entry---line 6955 of file Thesis.bib
  : @article{PhysRevLett.64.2117
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6907 of file Thesis.bib
+Repeated entry---line 6970 of file Thesis.bib
  : @article{PhysRevD.43.651
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6926 of file Thesis.bib
+Repeated entry---line 6989 of file Thesis.bib
  : @article{Bailey:2018feb
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6938 of file Thesis.bib
+Repeated entry---line 7001 of file Thesis.bib
  : @article{ElKhadra:1996mp
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6955 of file Thesis.bib
+Repeated entry---line 7018 of file Thesis.bib
  : @article{Barish:1994mu
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7009 of file Thesis.bib
+Repeated entry---line 7072 of file Thesis.bib
  : @article{Bailey:2014tva
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7029 of file Thesis.bib
+Repeated entry---line 7092 of file Thesis.bib
  : @article{Flynn:2016vej
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7068 of file Thesis.bib
+Repeated entry---line 7131 of file Thesis.bib
  : @article{Bigi:2017njr
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7085 of file Thesis.bib
+Repeated entry---line 7148 of file Thesis.bib
  : @article{Bazavov:2010ru
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7101 of file Thesis.bib
+Repeated entry---line 7164 of file Thesis.bib
  : @article{Bazavov:2012xda
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7119 of file Thesis.bib
+Repeated entry---line 7182 of file Thesis.bib
  : @article{Bazavov:2014wgs
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7137 of file Thesis.bib
+Repeated entry---line 7200 of file Thesis.bib
  : @article{Mannel:1994kv
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7153 of file Thesis.bib
+Repeated entry---line 7216 of file Thesis.bib
  : @article{Falk:1992wt
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7169 of file Thesis.bib
+Repeated entry---line 7232 of file Thesis.bib
  : @article{PhysRevLett.76.4124
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7203 of file Thesis.bib
+Repeated entry---line 7266 of file Thesis.bib
  : @article{Harrison:2017fmw
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7242 of file Thesis.bib
+Repeated entry---line 7305 of file Thesis.bib
  : @article{Bourrely:2008za
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7278 of file Thesis.bib
+Repeated entry---line 7341 of file Thesis.bib
  : @article{McNeile:2012qf
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7294 of file Thesis.bib
+Repeated entry---line 7357 of file Thesis.bib
  : @article{Bazavov:2018omf
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7313 of file Thesis.bib
+Repeated entry---line 7376 of file Thesis.bib
  : @article{Donald:2013pea
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7331 of file Thesis.bib
+Repeated entry---line 7394 of file Thesis.bib
  : @article{Hart:2008sq
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7349 of file Thesis.bib
+Repeated entry---line 7412 of file Thesis.bib
  : @article{Hammant:2013sca
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7423 of file Thesis.bib
+Repeated entry---line 7432 of file Thesis.bib
+ : @article{Donald:2012ga
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7486 of file Thesis.bib
  : @article{Bailey:2014tva
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7443 of file Thesis.bib
+Repeated entry---line 7506 of file Thesis.bib
  : @article{PhysRevD.85.114502
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7460 of file Thesis.bib
+Repeated entry---line 7523 of file Thesis.bib
  : @article{Monahan:2017uby
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7481 of file Thesis.bib
+Repeated entry---line 7544 of file Thesis.bib
  : @article{Monahan:2012dq
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7518 of file Thesis.bib
+Repeated entry---line 7581 of file Thesis.bib
  : @article{PhysRevD.79.013008
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7551 of file Thesis.bib
+Repeated entry---line 7614 of file Thesis.bib
  : @article{Colquhoun:2016osw
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7570 of file Thesis.bib
+Repeated entry---line 7633 of file Thesis.bib
  : @article{Altmannshofer:2017yso
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7582 of file Thesis.bib
+Repeated entry---line 7645 of file Thesis.bib
  : @article{Aaij:2015yra
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7604 of file Thesis.bib
+Repeated entry---line 7667 of file Thesis.bib
  : @article{Na:2015kha
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7623 of file Thesis.bib
+Repeated entry---line 7686 of file Thesis.bib
  : @article{PhysRev.78.29
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7639 of file Thesis.bib
+Repeated entry---line 7702 of file Thesis.bib
  : @article{PhysRevD.98.030001
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7656 of file Thesis.bib
+Repeated entry---line 7719 of file Thesis.bib
  : @article{Gray:2005ur
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7671 of file Thesis.bib
+Repeated entry---line 7734 of file Thesis.bib
  : @article{PhysRevD.91.054508
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7742 of file Thesis.bib
+Repeated entry---line 7805 of file Thesis.bib
  : @book{Schwartz:2013pla
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7767 of file Thesis.bib
+Repeated entry---line 7830 of file Thesis.bib
  : @book{Peskin:1995ev
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7865 of file Thesis.bib
+Repeated entry---line 7928 of file Thesis.bib
  : @misc{corrfitter
  :                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7871 of file Thesis.bib
+Repeated entry---line 7934 of file Thesis.bib
  : @misc{skopt
  :            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7900 of file Thesis.bib
+Repeated entry---line 7963 of file Thesis.bib
  : @article{Follana:2006rc
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7933 of file Thesis.bib
+Repeated entry---line 7996 of file Thesis.bib
  : @article{Wilson:1977xx
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7949 of file Thesis.bib
+Repeated entry---line 8012 of file Thesis.bib
  : @article{Lepage:1992tx
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7965 of file Thesis.bib
+Repeated entry---line 8028 of file Thesis.bib
  : @article{Chakraborty:2014aca
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7984 of file Thesis.bib
+Repeated entry---line 8047 of file Thesis.bib
  : @article{Dowdall:2011wh
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8017 of file Thesis.bib
+Repeated entry---line 8080 of file Thesis.bib
  : @article{Lepage:2001ym
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8052 of file Thesis.bib
- : @article{Borasoy:2007yi
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 8130 of file Thesis.bib
+Repeated entry---line 8193 of file Thesis.bib
  : @article{Jager:2014rwa
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8231 of file Thesis.bib
+Repeated entry---line 8294 of file Thesis.bib
  :               @article{Hammant:2013sca
  :                                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8290 of file Thesis.bib
+Repeated entry---line 8353 of file Thesis.bib
  : @article{Monahan:2017uby
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8302 of file Thesis.bib
+Repeated entry---line 8365 of file Thesis.bib
  : @online{CorrFitter
  :                   ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 8319 of file Thesis.bib
+I was expecting a `,' or a `}'---line 8382 of file Thesis.bib
  : 
  : @article{Monahan:2012dq,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 8319 of file Thesis.bib
+Repeated entry---line 8382 of file Thesis.bib
  : @article{Monahan:2012dq
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8356 of file Thesis.bib
+Repeated entry---line 8419 of file Thesis.bib
  : @article{PhysRevD.79.013008
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8389 of file Thesis.bib
+Repeated entry---line 8452 of file Thesis.bib
  : @article{Colquhoun:2016osw
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8408 of file Thesis.bib
+Repeated entry---line 8471 of file Thesis.bib
  : @article{Altmannshofer:2017yso
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8420 of file Thesis.bib
+Repeated entry---line 8483 of file Thesis.bib
  : @article{Aaij:2015yra
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8442 of file Thesis.bib
+Repeated entry---line 8505 of file Thesis.bib
  : @article{Na:2015kha
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8461 of file Thesis.bib
+Repeated entry---line 8524 of file Thesis.bib
  : @article{PhysRev.78.29
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8477 of file Thesis.bib
+Repeated entry---line 8540 of file Thesis.bib
  : @article{Gray:2005ur
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8492 of file Thesis.bib
+Repeated entry---line 8555 of file Thesis.bib
  : @article{PhysRevD.91.054508
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8564 of file Thesis.bib
+Repeated entry---line 8627 of file Thesis.bib
  : @book{Schwartz:2013pla
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8589 of file Thesis.bib
+Repeated entry---line 8652 of file Thesis.bib
  : @book{Peskin:1995ev
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8662 of file Thesis.bib
+Repeated entry---line 8725 of file Thesis.bib
  : @article{Follana:2006rc
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8695 of file Thesis.bib
+Repeated entry---line 8758 of file Thesis.bib
  : @article{Lepage:1992tx
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8711 of file Thesis.bib
+Repeated entry---line 8774 of file Thesis.bib
  : @article{Dowdall:2013rya
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8727 of file Thesis.bib
+Repeated entry---line 8790 of file Thesis.bib
  : @article{Dowdall:2011wh
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8760 of file Thesis.bib
+Repeated entry---line 8823 of file Thesis.bib
  : @article{Lepage:2001ym
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8795 of file Thesis.bib
- : @article{Borasoy:2007yi
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 8873 of file Thesis.bib
+Repeated entry---line 8936 of file Thesis.bib
  : @article{Jager:2014rwa
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8941 of file Thesis.bib
+Repeated entry---line 9004 of file Thesis.bib
  : @article{Laiho:2005ue
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8958 of file Thesis.bib
+Repeated entry---line 9021 of file Thesis.bib
  : @article{SHEIKHOLESLAMI1985572
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8971 of file Thesis.bib
+Repeated entry---line 9034 of file Thesis.bib
  : @article{ALBRECHT1992195
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8984 of file Thesis.bib
+Repeated entry---line 9047 of file Thesis.bib
  : @article{Buskulic:1994dz
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8997 of file Thesis.bib
+Repeated entry---line 9060 of file Thesis.bib
  : @article{Abbiendi:2000hk
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 9014 of file Thesis.bib
+Repeated entry---line 9077 of file Thesis.bib
  : @article{Abreu:2001ic
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 9031 of file Thesis.bib
+Repeated entry---line 9094 of file Thesis.bib
  : @article{Adam:2002uw
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 9048 of file Thesis.bib
+Repeated entry---line 9111 of file Thesis.bib
  : @article{Abdallah:2004rz
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 9066 of file Thesis.bib
+Repeated entry---line 9129 of file Thesis.bib
  : @article{Aubert:2007rs
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 9085 of file Thesis.bib
+Repeated entry---line 9148 of file Thesis.bib
  : @article{Aubert:2007qs
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 9103 of file Thesis.bib
+Repeated entry---line 9166 of file Thesis.bib
  : @article{Aubert:2008yv
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 9122 of file Thesis.bib
+Repeated entry---line 9185 of file Thesis.bib
  : @article{Dungel:2010uk
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 9140 of file Thesis.bib
+Repeated entry---line 9203 of file Thesis.bib
  : @article{Abdesselam:2017kjf
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 9155 of file Thesis.bib
+Repeated entry---line 9218 of file Thesis.bib
  : @article{BUSKULIC1996449
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 9168 of file Thesis.bib
+Repeated entry---line 9231 of file Thesis.bib
  : @article{SIRLIN198283
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 9181 of file Thesis.bib
+Repeated entry---line 9244 of file Thesis.bib
  : @article{PhysRevD.41.1736
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 9197 of file Thesis.bib
+Repeated entry---line 9260 of file Thesis.bib
  : @article{Ginsberg1968
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 9286 of file Thesis.bib
+Repeated entry---line 9349 of file Thesis.bib
  : @article{Monahan:2012dq
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 9789 of file Thesis.bib
+ : @book{Schwartz:2013pla
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 9832 of file Thesis.bib
+ : @article{Scherer:2002tk
  :                        ,
 I'm skipping whatever remains of this entry
 Warning--empty author in SIRLIN198283
 Warning--empty author in Ginsberg1968
 Warning--empty title in Ginsberg1968
 Warning--empty year in Ginsberg1968
+Warning--empty journal in Bazavov:2017lyh
 Warning--empty journal in Davies:2018fwg
 Warning--empty publisher in Peskin:1995ev
 Warning--empty journal in Jegerlehner:1996pm
 Warning--empty journal in Monahan:2017uby
 Warning--empty journal in Abdesselam:2017kjf
 Warning--empty journal in Abdesselam:2018nnh
-Warning--empty journal in Bazavov:2017lyh
-You've used 157 entries,
+You've used 186 entries,
             1791 wiz_defined-function locations,
-            1408 strings with 31972 characters,
-and the built_in function-call counts, 35606 in all, are:
-= -- 3000
-> -- 1720
-< -- 1
-+ -- 634
-- -- 477
-* -- 2677
-:= -- 5905
-add.period$ -- 477
-call.type$ -- 157
-change.case$ -- 153
+            1588 strings with 35740 characters,
+and the built_in function-call counts, 42334 in all, are:
+= -- 3651
+> -- 1889
+< -- 3
++ -- 705
+- -- 519
+* -- 3145
+:= -- 6937
+add.period$ -- 565
+call.type$ -- 186
+change.case$ -- 182
 chr.to.int$ -- 0
-cite$ -- 168
-duplicate$ -- 1411
-empty$ -- 3483
-format.name$ -- 477
-if$ -- 7748
+cite$ -- 197
+duplicate$ -- 1694
+empty$ -- 4201
+format.name$ -- 519
+if$ -- 9266
 int.to.chr$ -- 0
-int.to.str$ -- 157
-missing$ -- 156
-newline$ -- 794
-num.names$ -- 154
-pop$ -- 218
+int.to.str$ -- 186
+missing$ -- 185
+newline$ -- 940
+num.names$ -- 183
+pop$ -- 256
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 553
+skip$ -- 674
 stack$ -- 0
-substring$ -- 2721
-swap$ -- 159
-text.length$ -- 1
+substring$ -- 3419
+swap$ -- 206
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 11
-while$ -- 314
-width$ -- 160
-write$ -- 1719
-(There were 226 error messages)
+while$ -- 382
+width$ -- 189
+write$ -- 2040
+(There were 225 error messages)
