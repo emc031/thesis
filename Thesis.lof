@@ -9,9 +9,9 @@
 \contentsline {figure}{\numberline {2.7}{\ignorespaces $R(D^{(*)})$ determinations from SM and measurement \cite {HFLAV16}. \relax }}{17}
 \contentsline {figure}{\numberline {2.8}{\ignorespaces The relationship between scale $Q$ and the strong coupling constant $\alpha _s$, from the PDG \cite {PhysRevD.98.030001}.\relax }}{20}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Depiction of color spaces (fibres) at two points in spactime (base space) with the value of the quark field $q$ represented at each point as a color vector, and the connection $W(x,y)$ needed to compare the two color vectors. A gauge transform changes the two vectors in different ways, for the comparison to be gauge independent, the connection must also transform appropriately.\relax }}{32}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Depiction of color spaces (fibres) at two points in spactime (base space) with the value of the quark field $q$ represented at each point as a color vector, and the connection $W(x,y)$ needed to compare the two color vectors. A gauge transform changes the two vectors in different ways, so for the comparison to be gauge independent the connection must also transform appropriately.\relax }}{32}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Depiction of a gauge invariant quark bilinear, connected by a Wilson line made of gauge links.\relax }}{32}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Elementary Plaquette. \relax }}{33}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces The elementary plaquette. \relax }}{33}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Terms additional to the elementary plaquette in the improved pure QCD action. \relax }}{35}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Taste mixing at tree level.\relax }}{41}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Different scales relevent to non-perturbative physics, and brackets showing the range of scales that typical lattices can resolve. The larger the range of scales resolved, the more computationally expensive the calculation.\relax }}{43}

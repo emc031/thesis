@@ -489,12 +489,6 @@ M.~Ademollo and R.~Gatto.
   currents.
 \newblock {\em Phys. Rev. Lett.}, 13:264--266, Aug 1964.
 
-\bibitem{Falk:1992wt}
-Adam~F. Falk and Matthias Neubert.
-\newblock {Second order power corrections in the heavy quark effective theory.
-  1. Formalism and meson form-factors}.
-\newblock {\em Phys. Rev.}, D47:2965--2981, 1993.
-
 \bibitem{CASWELL1986437}
 W.E. Caswell and G.P. Lepage.
 \newblock Effective lagrangians for bound state problems in qed, qcd, and other
@@ -527,21 +521,43 @@ G.~Peter Lepage, Lorenzo Magnea, Charles Nakhleh, Ulrika Magnea, and Kent
 \newblock {Improved nonrelativistic QCD for heavy quark physics}.
 \newblock {\em Phys. Rev.}, D46:4052--4067, 1992.
 
+\bibitem{Peskin:1995ev}
+Michael~E. Peskin and Daniel~V. Schroeder.
+\newblock {\em {An Introduction to quantum field theory}}.
+\newblock 1995.
+
+\bibitem{DeGrand:2006zz}
+Thomas DeGrand and Carleton~E. Detar.
+\newblock {\em {Lattice methods for quantum chromodynamics}}.
+\newblock 2006.
+
 \bibitem{deForcrand:2010ys}
 Philippe de~Forcrand.
 \newblock {Simulating QCD at finite density}.
 \newblock {\em PoS}, LAT2009:010, 2009.
 
-\bibitem{luscher1985}
-M.~Lüscher and P.~Weisz.
-\newblock On-shell improved lattice gauge theories.
-\newblock {\em Comm. Math. Phys.}, 97(1-2):59--77, 1985.
+\bibitem{PhysRev.96.1124}
+G.~C. Wick.
+\newblock Properties of bethe-salpeter wave functions.
+\newblock {\em Phys. Rev.}, 96:1124--1134, Nov 1954.
+
+\bibitem{Symanzik:1981hc}
+K.~Symanzik.
+\newblock {Some Topics in Quantum Field Theory}.
+\newblock In {\em { Mathematical Problems in Theoretical Physics. Proceedings,
+  6th interational conference on mathematical phyiscs, West Berlin, Germany,
+  August 11-20, 1981 }}, pages 47--58, 1981.
 
 \bibitem{WEISZ19831}
 P.~Weisz.
 \newblock Continuum limit improved lattice action for pure yang-mills theory
   (i).
 \newblock {\em Nuclear Physics B}, 212(1):1 -- 17, 1983.
+
+\bibitem{luscher1985}
+M.~Lüscher and P.~Weisz.
+\newblock On-shell improved lattice gauge theories.
+\newblock {\em Comm. Math. Phys.}, 97(1-2):59--77, 1985.
 
 \bibitem{WEISZ1984397}
 P.~Weisz and R.~Wohlert.
@@ -555,6 +571,13 @@ A.~Hart, G.~M. von Hippel, and R.~R. Horgan.
   staggered quarks and the effect of such corrections on the static potential}.
 \newblock {\em Phys. Rev.}, D79:074008, 2009.
 
+\bibitem{Follana:2006rc}
+E.~Follana, Q.~Mason, C.~Davies, K.~Hornbostel, G.~P. Lepage, J.~Shigemitsu,
+  H.~Trottier, and K.~Wong.
+\newblock {Highly improved staggered quarks on the lattice, with applications
+  to charm physics}.
+\newblock {\em Phys. Rev.}, D75:054502, 2007.
+
 \bibitem{Wilson:1974sk}
 Kenneth~G. Wilson.
 \newblock {Confinement of Quarks}.
@@ -565,13 +588,6 @@ Kenneth~G. Wilson.
 John~B. Kogut and Leonard Susskind.
 \newblock {Hamiltonian Formulation of Wilson's Lattice Gauge Theories}.
 \newblock {\em Phys. Rev.}, D11:395--408, 1975.
-
-\bibitem{Follana:2006rc}
-E.~Follana, Q.~Mason, C.~Davies, K.~Hornbostel, G.~P. Lepage, J.~Shigemitsu,
-  H.~Trottier, and K.~Wong.
-\newblock {Highly improved staggered quarks on the lattice, with applications
-  to charm physics}.
-\newblock {\em Phys. Rev.}, D75:054502, 2007.
 
 \bibitem{Monahan:2012dq}
 Christopher Monahan, Junko Shigemitsu, and Ron Horgan.
@@ -639,11 +655,6 @@ R.~J. Dowdall et~al.
 \newblock {The Upsilon spectrum and the determination of the lattice spacing
   from lattice QCD including charm quarks in the sea}.
 \newblock {\em Phys. Rev.}, D85:054509, 2012.
-
-\bibitem{Peskin:1995ev}
-Michael~E. Peskin and Daniel~V. Schroeder.
-\newblock {\em {An Introduction to quantum field theory}}.
-\newblock 1995.
 
 \bibitem{PhysRevLett.49.613}
 David J.~E. Callaway and Aneesur Rahman.
@@ -990,6 +1001,12 @@ G.~C. Donald, C.~T.~H. Davies, J.~Koponen, and G.~P. Lepage.
 \newblock {$V_{cs}$ from $D_s \to \phi \ell \nu$ semileptonic decay and full
   lattice QCD}.
 \newblock {\em Phys. Rev.}, D90(7):074506, 2014.
+
+\bibitem{Falk:1992wt}
+Adam~F. Falk and Matthias Neubert.
+\newblock {Second order power corrections in the heavy quark effective theory.
+  1. Formalism and meson form-factors}.
+\newblock {\em Phys. Rev.}, D47:2965--2981, 1993.
 
 \bibitem{Mannel:1994kv}
 Thomas Mannel.

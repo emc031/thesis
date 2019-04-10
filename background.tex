@@ -758,30 +758,42 @@ Now we can apply this to HQET to produce Luke's theorem. Consider a transition i
 %%   {1\over 4m_Q} \bar{h} \gamma^{\mu} \gamma^{\nu} F_{\mu\nu} h.
 %% \end{align}
 %% for both $h=b$ and $h=c$.
-The theory is now HQET with two heavy quark flavours, $h=(b,c)$. Luke's theorem applies the AG theorem to the breaking of the flavour symmetry between heavy quarks. By unpacking the $1/m$-order terms in the lagrangian \eqref{eq:HQET_lagrangian}, we find the leading order flavour breaking term to be
+The theory is now HQET with two heavy quark flavours, $h=(b,c)$. Luke's theorem applies the AG theorem to the breaking of the flavour and spin symmetry at leading order HQET. First consider the flavour breaking. By unpacking the $1/m$-order terms in the lagrangian \eqref{eq:HQET_lagrangian}, we find the leading order flavour breaking term to be
 \begin{align}
   \left({1\over 2m_b} - {1\over 2m_c} \right) {1\over 2} \bar{h} \sigma_z \slashed{D}^{\perp 2} h,
 \end{align}
-where $\sigma_z$ is the third pauli matrix acting on flavour. These terms cause states like $| B \rangle$ to mix with other states $|n'\rangle$. It can be shown \cite{Lebed:1991sq} that the leading order symmetry breaking terms can only mix pseudoscalar and vector mesons with other irreps of the heavy quark symmetries. Hence, for example, in the $B \to D^*$ transition we can write
+where $\sigma_z$ is the third pauli matrix acting on flavour. These terms cause states like that of a $B$-meson, $| B \rangle$, to mix with other states $|n'\rangle$ in different irreps of the flavour symmetry. Consider for example the $B\to D$ decay at zero recoil. Since this is mediated by a generator of the flavour symmetry, the AG theorem leads to 
 \begin{align}
-  {\langle D^* | \bar{c}\gamma_{\mu} b | B \rangle \over \sqrt{M_B M_{D^*}}} &= \xi + \order{\left( {1\over 2m_b} - {1\over 2m_c} \right)^2}, \\
-  {\langle D^* | \bar{c}\gamma_{\mu}\gamma_5 b | B \rangle \over \sqrt{M_B M_{D^*}}} &= \xi + \order{\left( {1\over 2m_b} - {1\over 2m_c} \right)^2}.
+  {\langle D | \bar{c}\gamma_{\mu} b | B \rangle \over \sqrt{M_B M_{D^*}}} &= \xi + \order{\left( {1\over 2m_b} - {1\over 2m_c} \right)^2}\,,
+  \label{eq:B-D_lukestheorem}
 \end{align}
-where $\xi$ is some $b$- and $c$-mass independent number.
-
-This carries onto the pseudoscalar-vector and pseudoscalar-pseudoscalar form factors at zero recoil \cite{Falk:1992wt}:
+where $\xi$ is some $b$- and $c$-mass independent number. This motivates a new parameterisation of pseudoscalar-pseudoscalar transition amplitudes alternative to \eqref{eq:formfactors_experimental}:
 \begin{align}
-  \label{eq:hA1}
-  h_{A_1}(1) &= \eta_A \left( 1 + {l_V\over (2m_c)^2} + {l_A\over 2m_b m_c} - {l_P\over (2m_b)^2} \right), \\
-  h_+(1) &= \eta_V \left( 1 - l_P \left( {1\over 2m_b} - {1\over 2m_c} \right)^2 \right),
-  \label{eq:hplus}
-\end{align}
-where here $h_+$ comes from an HQET-inspired parameterisation of pseudoscalar-pseudoscalar transition amplitudes alternative to \eqref{eq:formfactors_experimental}:
-\begin{align}
-  {\langle M' | V^{q_1q_2}_{\mu} | M \rangle \over \sqrt{Mm}} = h_+(w)(v+v')_{\mu} + h_-(w)(v-v')_{\mu}.
+  {\langle M' | V^{q_1q_2}_{\mu} | M \rangle \over \sqrt{Mm}} = h_+(w)(v+v')_{\mu} + h_-(w)(v-v')_{\mu}\,,
   \label{eq:pseudoscalar_hqet}
 \end{align}
-The factors $\eta_{A,V}$ in \eqref{eq:hA1} and \eqref{eq:hplus} are matching factors between QCD and HQET, and can contain logarithms of heavy masses. The factors $l_{V,A,P}$ are free non-perturbative parameters that must be fixed by some non-perturbative calculation e.g. a lattice QCD calculation.
+since Eq. \eqref{eq:B-D_lukestheorem} implies a form of $h_+(1)$:
+\begin{align}
+    h_+(1) &= \eta_V \left( 1 - l_P \left( {1\over 2m_b} - {1\over 2m_c} \right)^2 \right)\,.
+  \label{eq:hplus}
+\end{align}
+$\eta_V$ is a matching factor between QCD and HQET, and can contain logarithms of heavy masses. The factor $l_P$ is a free non-perturbative parameter that must be fixed by some non-perturbative calculation e.g. a lattice QCD calculation.
+
+Another decay that the AG theorem can be applied to is the $B\to D^*$ decay. At zero recoil, the amplitude of this decay is $\langle D^* | \bar{c} \gamma_{\mu}\gamma_5 b | B \rangle$. The operator here is not only a generator of the flavour symmetry but also of the spin symmetry, so we must also take spin breaking into account. The leading order spin breaking terms are
+\begin{align}
+  {1\over 2m_c} \bar{h}_c \gamma^{\mu} \gamma^{\nu} F_{\mu\nu} h_c + {1\over 2m_b} \bar{h}_b \gamma^{\mu} \gamma^{\nu} F_{\mu\nu} h_b\,.
+\end{align}
+So by an analagous argument to that of the $B\to D$ case, we end up with 
+\begin{align}
+  {\langle D^* | \bar{c}\gamma_{\mu}\gamma_5 b | B \rangle \over \sqrt{M_B M_{D^*}}} &= \xi + \order{\left( {1\over 2m_b} - {1\over 2m_c} \right)^2} + \order{\left({1\over 2m_c}\right)^2} + \order{\left({1\over 2m_b}\right)^2}\,.
+\end{align}
+This carries onto the form factor $h_{A_1}$ at zero recoil:
+\begin{align}
+  \label{eq:hA1}
+  h_{A_1}(1) &= \eta_A \left( 1 + {l_V\over (2m_c)^2} + {l_A\over 2m_b m_c} - {l_P\over (2m_b)^2} \right)\,,
+\end{align}
+where $\eta_A$ is again a matching factor between HQET and QCD, and $l_{V,A,P}$ are non-perturbative quantities.
+
 
 %% As we move away from the infinite-mass limit, $\xi$ becomes $h_+$, and $h_-$ becomes non-zero. In this case we see that
 %% \begin{align}

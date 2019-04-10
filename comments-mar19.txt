@@ -1,14 +1,12 @@
 
-==== ask christine about ====
-
-get rid of eq. 3.44
-
-page 61 - trust region algorithm ? 
-
 ==== General comments =====
 
 Quite a lot of typos ...
 
 weird capitalization in titles
 
-Chapter 2 - needs more general references for some of the statements you make  early on plus some more specific references later e.g. on chiral perturbation theory and HQET.
+needs more general references for some of the statements you make  early on plus some more specific references later e.g. on chiral perturbation theory and HQET.
+
+get rid of eq. 3.44
+
+page 61 - trust region algorithm ? 
