@@ -382,6 +382,7 @@ At the zero recoil point, where $q^2$ is maximized at $q^2_{\text{max}} = (M-m)^
 However the differential decay rate vanishes at $w=1$. A common approach to determine $|V_{q_1q_2}|$, for example used to find $|V_{cb}|$ via the $B\to D^*l\bar{\nu}$ decay, is to find $|\mathcal{F}(1)V_{cb}|^2$ away zero recoil by extrapolating from experimental data at non-zero recoil, and combining this with a lattice QCD determination of $h_{A_1}(1)$.
 
 \subsection{$b\to c$ Transitions and $|V_{cb}|$}
+\label{sec:Vcb}
 
 The family of weak decays that have attracted the most attention are decays of $B$-mesons (pseudoscalar mesons containing a valence $b$ and $u,d,s$ or $c$ quark). %$b$ is the heaviest quark flavour that can be found in hadrons. The only heavier quark, the top quark, has a mass far above the confinement scale, so does not feature as a valence quark in hadrons. Hence $B$-mesons decay into a rich variety of decay products.
 
@@ -772,9 +773,9 @@ where $\xi$ is some $b$- and $c$-mass independent number. This motivates a new p
   {\langle M' | V^{q_1q_2}_{\mu} | M \rangle \over \sqrt{Mm}} = h_+(w)(v+v')_{\mu} + h_-(w)(v-v')_{\mu}\,,
   \label{eq:pseudoscalar_hqet}
 \end{align}
-since Eq. \eqref{eq:B-D_lukestheorem} implies a form of $h_+(1)$:
+since Eq. \eqref{eq:B-D_lukestheorem} implies a form of $h_+(1)$ \cite{Falk:1992wt}:
 \begin{align}
-    h_+(1) &= \eta_V \left( 1 - l_P \left( {1\over 2m_b} - {1\over 2m_c} \right)^2 \right)\,.
+  h_+(1) &= \eta_V \left( 1 - l_P \left( {1\over 2m_b} - {1\over 2m_c} \right)^2 \right) + \mathcal{O}\left( \, {1\over m_c^n m_h^m}, \, n+m\geq 3 \, \right)\,.
   \label{eq:hplus}
 \end{align}
 $\eta_V$ is a matching factor between QCD and HQET, and can contain logarithms of heavy masses. The factor $l_P$ is a free non-perturbative parameter that must be fixed by some non-perturbative calculation e.g. a lattice QCD calculation.
@@ -787,10 +788,11 @@ So by an analagous argument to that of the $B\to D$ case, we end up with
 \begin{align}
   {\langle D^* | \bar{c}\gamma_{\mu}\gamma_5 b | B \rangle \over \sqrt{M_B M_{D^*}}} &= \xi + \order{\left( {1\over 2m_b} - {1\over 2m_c} \right)^2} + \order{\left({1\over 2m_c}\right)^2} + \order{\left({1\over 2m_b}\right)^2}\,.
 \end{align}
-This carries onto the form factor $h_{A_1}$ at zero recoil:
+This carries onto the form factor $h_{A_1}$ at zero recoil \cite{Falk:1992wt}:
 \begin{align}
-  \label{eq:hA1}
-  h_{A_1}(1) &= \eta_A \left( 1 + {l_V\over (2m_c)^2} + {l_A\over 2m_b m_c} - {l_P\over (2m_b)^2} \right)\,,
+  \label{eq:hA1_hqet}
+  h_{A_1}(1) =& \eta_A \left( 1 + {l_V\over (2m_c)^2} + {l_A\over 2m_b m_c} - {l_P\over (2m_b)^2} \right) \\ \nonumber
+  & + \mathcal{O}\left( \, {1\over m_c^n m_h^m}, \, n+m\geq 3 \, \right)\,.
 \end{align}
 where $\eta_A$ is again a matching factor between HQET and QCD, and $l_{V,A,P}$ are non-perturbative quantities.
 

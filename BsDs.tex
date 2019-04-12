@@ -252,7 +252,7 @@ These simultaneous fits are very large. For example, on set 4 (ultrafine) we fit
 
 The stability issue is likely due to the size of the covariance matrix for the data, which must be inverted to estimate $\chi^2$. We take two steps toward mitigating this. The first is to impose an svd-cut. The second step we take towards a stable fit is employing a chained-fitting approach (this was required on the superfine and ultrafine data only). We first perform an array of smaller 'individual' fits, each fitting the correlators relevant only to one $m_h$ and one $|a{\bf{p}}_{D_s}|$ value. In the case of set 4, for example, this results in 11 separate fits. Then, a full simultanious fit of all of the correlators is carried out, with priors set to the results of the smaller fits. To be conservative we multiply these priors by $1\pm 1.5$, i.e., the priors end up with over 150\% variance. This both speeds up the full fit and improves the stability of the results. We tested the validity of the results by varying the additional fractional error between 100\% and 200\%, this caused negligible changes in the results. Since we did not need to take this measure on the fine ensemble, we performed both a standard simultaneous fit and chained fits of the type above as a check for the chained fits. Tests 8, 9 and 10 on Fig. \ref{fig:corr_tests_BsDs} show the results of these chained fits in comparison to the simultaneous fit.
 
-The priors for the fine and fine-physical full fits, and individual superfine and ultrafine fits, were set up as follows. We set gaussian priors for the parameters $J_{jk}$, and log-normal priors for all other parameters. Using log-normal distributions forbids ground state energies $E_0^M$, excited energy differences $E_n^M-E_{n-1}^M$, and amplitudes $a_n^M$ from both becoming negative and moving arbitrarily close to zero, improving the stability of the fit.
+The priors for the fine and fine-physical full fits, and individual superfine and ultrafine fits, were set up as follows. We set Gaussian priors for the parameters $J_{jk}$, and log-normal priors for all other parameters. Using log-normal distributions forbids ground state energies $E_0^M$, excited energy differences $E_n^M-E_{n-1}^M$, and amplitudes $a_n^M$ from both becoming negative and moving arbitrarily close to zero, improving the stability of the fit.
 
 Priors for ground state energies $E_0^M$ and amplitudes $a_0^M$ are set according to an empirical-Bayes approach, plots of effective energies and amplitudes of the correlation functions are inspected to deduce reasonable priors. The ground-state oscillating parameters $a_0^{M,o}$, $E_0^{M,o}$, are given the same priors as the non-oscillating states, with errors inflated by 50\%. The resulting priors always have a variance of at least 10 times that of the final result. Oscillating and non-oscillating excited state energies, $E_i^{M,(o)}$, $i>0$ are given prior values $0.5\pm 0.25$. The excited state amplitudes $a_i^M$,$i>0$ are given priors of $0.15\pm 0.5$ for non-oscillating states, and $0.05\pm0.1$ for oscillating states. The ground-state non-oscillating to non-oscillating 3-point parameter, $J_{00}^{nn}$ is given a prior of $1\pm 0.5$, and the rest of the 3-point parameters $J_{jk}^{nn}$ are given $0\pm 1$.
 
@@ -353,7 +353,7 @@ The functon $z(q^2)$ maps $q^2$ to a small region inside the unit circle on the 
 \begin{align}
   z(q^2) = {\sqrt{t_+ - q^2} - \sqrt{t_+ - t_0} \over \sqrt{t_+ - q^2} + \sqrt{t_+ - t_0} },
 \end{align}
-where $t_+ = (M_{H_s}+M_{D_s})^2$, and we choose $t_0$ to be $t_0 = 0$. This $t_0$ choice means at $q^2=0$ the fit functions simplify to $\tilde{f}_{0,+}^s(0) = a_0^{0,+}$. Throughout the physical range of $q^2$, $z$ is restricted to the range $0<z<0.06$, resulting in a fast converging series in powers of $z$. We truncate at $L=3$, adding further orders of $z^l$ does not effect the results of the fit.
+where $t_+ = (M_{H_s}+M_{D_s})^2$, and we choose $t_0$ to be $t_0 = 0$. This $t_0$ choice means at $q^2=0$ the fit functions simplify to $\tilde{f}_{0,+}^s(0) = a_0^{0,+}$. Throughout the physical range of $q^2$, $z$ is restricted to the range $0<z<0.06$, resulting in a fast converging series in powers of $z$. We truncate at $L=3$, adding further orders of $z^l$ does not affect the results of the fit.
 
 The factors in front of the sums in the BCL parameterisation account for subthreshold poles in the form factors due to the production of on-shell $H_c^0$ and $H_c^*$ states in the crossed channel of the semileptonic decay.
 
@@ -374,7 +374,7 @@ To understand this form, focus first on the sum. Powers of $(\Lambda_{\text{QCD}
 
 The two scales expected to be the largest sources of discretisation effects are the heavy mass $am_{h0}^{\text{val}}$, and the energy in the $D_s$ meson, $aE_{D_s}$, especially when it is given a large spacial momentum. Adding further, smaller scales, like $a\Lambda_{\text{QCD}}$, had no effect on the results.
 
-The coefficients $d^{0,+}_{ijkn}$ are fit parameters given gaussian prior distributions of $0\pm 1$.
+The coefficients $d^{0,+}_{ijkn}$ are fit parameters given Gaussian prior distributions of $0\pm 1$.
 
 To account for any required matching between HQET and QCD, we include a log term in front of the sum. $\rho^{0,+}_n$ are fit parameters with prior distribution $0\pm 1$.
 
@@ -449,7 +449,7 @@ We first show results from the ratio method, then the direct method. In both cas
       \hline
     \end{tabular}
   \end{center}
-  \caption{Error budget for $R_0^s(q^2_{\text{max}})$.\label{ratioq2max_budget}}
+  \caption{Error budget for $R_0^s(q^2_{\text{max}})$. \label{ratioq2max_budget}}
 \end{table}
 
 We performed an isolated extrapolation of $R^s_0(q^2_{\text{max}})$ to the physical point. To do this we used a simplified fit form for $R^s_0(q^2_{\text{max}})$ consisting of the right hand side of \eqref{eq:mhfitfun},with the index $l$ discarded. We find
@@ -477,7 +477,7 @@ We perform a number of tests on this zero recoil extrapolation to test the stabi
   \caption{ $R_{0,+}^s(q^2) = f_{0,+}^s(q^2)/(f_{H_c}\sqrt{M_{H_c}})$ against $q^2$. The grey band shows the result of the extrapolation at $a=0$ and physical $l$,$s$, $c$ {\it{and}} $b$ masses. Sets listed in the legend follow the order of sets in table \ref{tab:ensembles}. \label{fig:ratiodata}}
 \end{figure}
 
-In fig. \ref{fig:ratiodata}, we show results of the full extrapolation of the ratio throughout the $q^2$ range described in section \ref{sec:extrapolation}. As the heavy mass increases, the $q^2$ range, $0 < (M_{H_s}-M_{D_s})^2$ expands.
+In Fig. \ref{fig:ratiodata}, we show results of the full extrapolation of the ratio throughout the $q^2$ range described in section \ref{sec:extrapolation}. As the heavy mass increases, the $q^2$ range, $0 < (M_{H_s}-M_{D_s})^2$ expands.
 
 To isolate the form factors, the resulting functions $R_{0,+}^s(q^2)$ were multiplied by $\sqrt{M_{B_c}}$ (using the PDG value) and $f_{B_c}$ from our determination detailed in Sec. \ref{sec:stability_BsDsstar}. The resulting form factors are shown in Fig. \ref{fig:ratiovsdirect}, against the form factors found via the direct method.
 
@@ -556,7 +556,7 @@ As when using the ratio method, we perform a number of tests on this extrapolati
 
 In Fig. \ref{fig:directdata}, we show results of the full extrapolation of the ratio throughout the $q^2$ range described in section \ref{sec:extrapolation}.
 
-In Fig. \ref{fig:directfinal}, we show the resulting form factors from the direct approach, and in Fig. \ref{fig:directerrorbudget} we give an associated error budget for these throughout $q^2$.
+In Fig. \ref{fig:directfinal}, we show the resulting form factors from the direct approach. In Fig. \ref{fig:directerrorbudget} we give an associated error budget for these throughout $q^2$. Statistical errors in $f^s_+$ grow in the $q^2\to q^2_{\text{max}}$ region due to the 'fine tuning' effect discussed in Sec. \ref{sec:fplus_divergence}. The effect is not as severe as in the NRQCD case since the lattice data we obtain for $f_+(q^2)$ is much further away from the $q^2_{\text{max}}$ point.
 
 We take the results from the direct method as our final result, and supply the ratio method results as a consistency test since the product of the direct method is more precise. In Fig. \ref{fig:ratiovsdirect}, we plot form factors from the two methods on top of each other. As one can see from this plot, the results are in good agreement.
 

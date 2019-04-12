@@ -489,6 +489,12 @@ M.~Ademollo and R.~Gatto.
   currents.
 \newblock {\em Phys. Rev. Lett.}, 13:264--266, Aug 1964.
 
+\bibitem{Falk:1992wt}
+Adam~F. Falk and Matthias Neubert.
+\newblock {Second order power corrections in the heavy quark effective theory.
+  1. Formalism and meson form-factors}.
+\newblock {\em Phys. Rev.}, D47:2965--2981, 1993.
+
 \bibitem{CASWELL1986437}
 W.E. Caswell and G.P. Lepage.
 \newblock Effective lagrangians for bound state problems in qed, qcd, and other
@@ -798,11 +804,23 @@ M.~R. Hestenes and E.~Stiefel.
 \newblock {\em Journal of research of the National Bureau of Standards},
   49:409--436, 1952.
 
+\bibitem{Shewchuk94anintroduction}
+Jonathan~Richard Shewchuk.
+\newblock An introduction to the conjugate gradient method without the
+  agonizing pain.
+\newblock Technical report, 1994.
+
 \bibitem{Guadagnoli:2005be}
 D.~Guadagnoli, F.~Mescia, and S.~Simula.
 \newblock {Lattice study of semileptonic form-factors with twisted boundary
   conditions}.
 \newblock {\em Phys. Rev.}, D73:114504, 2006.
+
+\bibitem{Weber:2013eba}
+Marc Wagner, Stefan Diehl, Till Kuske, and Johannes Weber.
+\newblock {An introduction to lattice hadron spectroscopy for students without
+  quantum field theoretical background}.
+\newblock 2013.
 
 \bibitem{CorrFitter}
 G.P.Lepage.
@@ -1002,16 +1020,17 @@ G.~C. Donald, C.~T.~H. Davies, J.~Koponen, and G.~P. Lepage.
   lattice QCD}.
 \newblock {\em Phys. Rev.}, D90(7):074506, 2014.
 
-\bibitem{Falk:1992wt}
-Adam~F. Falk and Matthias Neubert.
-\newblock {Second order power corrections in the heavy quark effective theory.
-  1. Formalism and meson form-factors}.
-\newblock {\em Phys. Rev.}, D47:2965--2981, 1993.
+\bibitem{Neubert:1997gu}
+Matthias Neubert.
+\newblock {B decays and the heavy quark expansion}.
+\newblock {\em Adv. Ser. Direct. High Energy Phys.}, 15:239--293, 1998.
+\newblock [,239(1997)].
 
-\bibitem{Mannel:1994kv}
-Thomas Mannel.
-\newblock {Higher order 1/m corrections at zero recoil}.
-\newblock {\em Phys. Rev.}, D50:428--441, 1994.
+\bibitem{tHooft1979}
+G.~'t~Hooft.
+\newblock {\em Can We Make Sense Out of ``Quantum Chromodynamics''?}, pages
+  943--982.
+\newblock Springer US, Boston, MA, 1979.
 
 \bibitem{Bazavov:2018omf}
 A.~Bazavov et~al.

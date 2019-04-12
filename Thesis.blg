@@ -136,6 +136,10 @@ Repeated entry---line 2558 of file Thesis.bib
  : @book{Peskin:1995ev
  :                    ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 2599 of file Thesis.bib
+ : @inproceedings{Weber:2013eba
+ :                             ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 2650 of file Thesis.bib
  : @article{Follana:2006rc
  :                        ,
@@ -334,6 +338,10 @@ Repeated entry---line 4714 of file Thesis.bib
  : @book{Peskin:1995ev
  :                    ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 4774 of file Thesis.bib
+ : @inproceedings{Weber:2013eba
+ :                             ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 4823 of file Thesis.bib
  : @article{Follana:2006rc
  :                        ,
@@ -439,6 +447,10 @@ I'm skipping whatever remains of this entry
 Repeated entry---line 5534 of file Thesis.bib
  : @book{Peskin:1995ev
  :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5575 of file Thesis.bib
+ : @inproceedings{Weber:2013eba
+ :                             ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 5607 of file Thesis.bib
  : @article{Follana:2006rc
@@ -634,10 +646,6 @@ Repeated entry---line 7182 of file Thesis.bib
  : @article{Bazavov:2014wgs
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7200 of file Thesis.bib
- : @article{Mannel:1994kv
- :                       ,
-I'm skipping whatever remains of this entry
 Repeated entry---line 7216 of file Thesis.bib
  : @article{Falk:1992wt
  :                     ,
@@ -742,6 +750,10 @@ Repeated entry---line 7830 of file Thesis.bib
  : @book{Peskin:1995ev
  :                    ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 7890 of file Thesis.bib
+ : @inproceedings{Weber:2013eba
+ :                             ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 7928 of file Thesis.bib
  : @misc{corrfitter
  :                 ,
@@ -842,6 +854,10 @@ I'm skipping whatever remains of this entry
 Repeated entry---line 8652 of file Thesis.bib
  : @book{Peskin:1995ev
  :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8693 of file Thesis.bib
+ : @inproceedings{Weber:2013eba
+ :                             ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 8725 of file Thesis.bib
  : @article{Follana:2006rc
@@ -947,6 +963,10 @@ Repeated entry---line 9832 of file Thesis.bib
  : @article{Scherer:2002tk
  :                        ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 9999 of file Thesis.bib
+ : @inproceedings{Weber:2013eba
+ :                             ,
+I'm skipping whatever remains of this entry
 Warning--empty author in SIRLIN198283
 Warning--empty author in Ginsberg1968
 Warning--empty title in Ginsberg1968
@@ -956,48 +976,51 @@ Warning--empty publisher in DeGrand:2006zz
 Warning--empty journal in Bazavov:2017lyh
 Warning--empty journal in Davies:2018fwg
 Warning--empty journal in Jegerlehner:1996pm
+Warning--empty institution in Shewchuk94anintroduction
+Warning--empty booktitle in Weber:2013eba
 Warning--empty journal in Monahan:2017uby
 Warning--empty journal in Abdesselam:2017kjf
 Warning--empty journal in Abdesselam:2018nnh
-You've used 189 entries,
+Warning--can't use both author and editor fields in tHooft1979
+You've used 192 entries,
             1791 wiz_defined-function locations,
-            1607 strings with 36240 characters,
-and the built_in function-call counts, 43028 in all, are:
-= -- 3715
-> -- 1905
-< -- 4
-+ -- 712
-- -- 523
-* -- 3182
-:= -- 7034
-add.period$ -- 574
-call.type$ -- 189
-change.case$ -- 184
+            1626 strings with 36780 characters,
+and the built_in function-call counts, 43699 in all, are:
+= -- 3776
+> -- 1927
+< -- 5
++ -- 721
+- -- 529
+* -- 3214
+:= -- 7133
+add.period$ -- 584
+call.type$ -- 192
+change.case$ -- 187
 chr.to.int$ -- 0
-cite$ -- 201
-duplicate$ -- 1732
-empty$ -- 4280
-format.name$ -- 523
-if$ -- 9431
+cite$ -- 207
+duplicate$ -- 1769
+empty$ -- 4350
+format.name$ -- 529
+if$ -- 9588
 int.to.chr$ -- 0
-int.to.str$ -- 189
-missing$ -- 189
-newline$ -- 955
-num.names$ -- 186
-pop$ -- 271
+int.to.str$ -- 192
+missing$ -- 192
+newline$ -- 971
+num.names$ -- 189
+pop$ -- 286
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 693
+skip$ -- 712
 stack$ -- 0
-substring$ -- 3470
-swap$ -- 217
-text.length$ -- 4
+substring$ -- 3502
+swap$ -- 229
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 12
-while$ -- 389
-width$ -- 192
-write$ -- 2071
-(There were 230 error messages)
+warning$ -- 15
+while$ -- 395
+width$ -- 195
+write$ -- 2104
+(There were 235 error messages)

@@ -233,6 +233,7 @@ These have the useful property $\gamma_{\mu}^2=1$. The full set of spin-mixing m
 We implicitly understand the product to be ordered such that $\mu=0$ is the rightmost factor and $\mu=3$ is the leftmost factor. There are 16 such matrices representing corners of the hypercube. One can also use a general site vector $x_{\mu}$ to label the matrix, then $\gamma_x = \gamma_n$ where $n_{\mu} = (x_{\mu}/a)\,\text{mod}\,2$. It is straightforward to show that for any $n$; $\gamma_n^{\dagger} \gamma_n = 1$. We also define $\gamma_{5\mu} = i\gamma_5\gamma_{\mu}$, and $\gamma_{5n} = \prod_{\mu}(\gamma_{5\mu})^n$.
 
 \subsection{The Naive Fermion Action \& the Doubling Problem}
+\label{sec:doubling_problem}
 
 The interacting Dirac action is most naively discretised with
 \begin{align}
@@ -424,10 +425,12 @@ If we interpret $(\gamma_{\mu}\otimes 1)$ as a gamma matrix acting on spin in th
     \end{align}
     where $m_{\text{tree}}$ is the tree-level pole mass given by the expansion \cite{Follana:2006rc}
     \begin{align}
-      m_{\text{tree}} &= m\Big( 1 - {3\over 80}m^4 + {23\over 2240}m^6 + {1783\over 537600 }m^8 \\ &- {76943\over 23654400} m^{10} \Big) + \order{m^{12}}. \nonumber
+      m_{\text{tree}} &= m\Big( 1 - {3\over 80}m^4 + {23\over 2240}m^6 + {1783\over 537600 }m^8 \\ &- {76943\over 23654400} m^{10} \Big) + \order{m^{12}}.
+      \label{eq:hisq_tree_mass}
     \end{align}
 
     \section{Heavy Quarks on the Lattice}
+    \label{sec:lattice_heavyquarks}
 
     The large hierarchy of different quark masses in nature present a number of further complications to lattice calculations. $u$ and $d$ quarks cause huge problems due to how light they are, this will be addressed in Sec. \ref{sec:inversions}. $s$ quarks are easy.
 
@@ -513,6 +516,6 @@ One could replace the relativistic fermion action e.g. HISQ, with a lattice vers
     \end{align}
     where $\nabla^{(2,4)}$ are the second and fourth lattice derivatives, $\sigma$ are $SU(2)$ matrices acting on spin, and ${\bf{\tilde{E}}}$ and ${\bf{\tilde{B}}}$ are the (Symanzik improved) chromoelectric and chromomagnetic fields. The form of $\nabla^{(2,4)}$,${\bf{\tilde{E}}},{\bf{\tilde{B}}}$ were defined in Sec. 4.2 of \cite{Lepage:1992tx} and improved upon in \cite{Gray:2005ur}.
 
-    The coefficients $\{c_i\}$ have been fixed via various calculations adopting a number of methods. The coefficients of the kinetic terms, $c_{1,5,6}$, were most recently fixed by comparing the lattice NRQCD dispersion relation to that of the continuum in perturbation theory \cite{Davies:2018fwg}. $c_2$ is a spin-independent term which can effect radial and orbital excitation energies, this is not expected to have as large an effect as the kinetic terms, so is set to its tree-level value of 1. The result of varying $c_2$ on relevant observables was investigated in Sec. IIIC of \cite{Dowdall:2011wh}, and the effects were very small. $c_3$ and $c_4$ are spin-dependent terms, which would have a small effect on spin-averaged observables (i.e. all observables computed in this work). $c_3$ is set to 1, and $c_4$ is tuned non-perturbatively, by matching predictions of the fine structure of the $\Upsilon$ spectrum from lattice NRQCD to experiment \cite{Dowdall:2011wh}.
+    The coefficients $\{c_i\}$ have been fixed via various calculations adopting a number of methods. The coefficients of the kinetic terms, $c_{1,5,6}$, were most recently fixed by comparing the lattice NRQCD dispersion relation to that of the continuum in perturbation theory \cite{Davies:2018fwg}. $c_2$ is a spin-independent term which can affect radial and orbital excitation energies, this is not expected to have as large an effect as the kinetic terms, so is set to its tree-level value of 1. The result of varying $c_2$ on relevant observables was investigated in Sec. IIIC of \cite{Dowdall:2011wh}, and the effects were very small. $c_3$ and $c_4$ are spin-dependent terms, which would have a small effect on spin-averaged observables (i.e. all observables computed in this work). $c_3$ is set to 1, and $c_4$ is tuned non-perturbatively, by matching predictions of the fine structure of the $\Upsilon$ spectrum from lattice NRQCD to experiment \cite{Dowdall:2011wh}.
 
 Annother Symanzik improvement is introduced in this context by multiplying the gauge links by the so-called {\textit{tadpole factor}} $u_0 = \sum_{\mu,\nu}\langle \text{Tr}\Box_{\mu\nu} /4\rangle$. This removes the tadpole diagrams proportional to $a^2$ that appear in gluon propagators.

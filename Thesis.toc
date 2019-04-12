@@ -40,7 +40,7 @@
 \contentsline {section}{\numberline {4.2}Analysis of Correlation Functions}{58}
 \contentsline {subsection}{\numberline {4.2.1}Fitting Correlation Functions}{58}
 \contentsline {subsubsection}{Oscillating States}{60}
-\contentsline {subsubsection}{Bayesian $\chi ^2$-Fitting}{61}
+\contentsline {subsubsection}{Bayesian $\chi ^2$ Fitting}{61}
 \contentsline {subsection}{\numberline {4.2.2}Signal Degredation}{62}
 \contentsline {chapter}{\numberline {5}$b$-Physics from Lattice NRQCD}{65}
 \contentsline {section}{\numberline {5.1}NRQCD-HISQ currents}{65}
@@ -66,19 +66,19 @@
 \contentsline {section}{\numberline {6.2}Calculation Details}{91}
 \contentsline {subsection}{\numberline {6.2.1}Lattice Setup}{91}
 \contentsline {subsection}{\numberline {6.2.2}Correlator Fits}{94}
-\contentsline {subsection}{\numberline {6.2.3}Normalization of Axial Current}{97}
+\contentsline {subsection}{\numberline {6.2.3}Normalization of the Axial Current}{98}
 \contentsline {subsection}{\numberline {6.2.4}Extrapolation to the Physical Point}{99}
 \contentsline {subsubsection}{Heavy Mass Dependence}{99}
 \contentsline {subsubsection}{Quark Mass Proxies}{101}
 \contentsline {subsubsection}{Implementation of $\eta _A$}{102}
-\contentsline {subsubsection}{Discretization Effects}{103}
+\contentsline {subsubsection}{Discretization Effects}{104}
 \contentsline {subsubsection}{Mass Mistunings}{104}
 \contentsline {subsubsection}{Negligable Effects}{105}
 \contentsline {section}{\numberline {6.3}Results}{105}
 \contentsline {subsection}{\numberline {6.3.1}$h^s_{A_1}(1)$}{105}
-\contentsline {subsection}{\numberline {6.3.2}Hints about $B\to D^*$}{109}
-\contentsline {subsection}{\numberline {6.3.3}HQET Low Energy Constants}{111}
-\contentsline {subsection}{\numberline {6.3.4}Extrapolation Stability}{113}
+\contentsline {subsection}{\numberline {6.3.2}Implications for $B\to D^*$}{109}
+\contentsline {subsection}{\numberline {6.3.3}HQET Low Energy Constants}{110}
+\contentsline {subsection}{\numberline {6.3.4}Extrapolation Stability}{111}
 \contentsline {subsection}{\numberline {6.3.5}$H_s$ and $D_s^*$ Masses}{114}
 \contentsline {section}{\numberline {6.4}Conclusions}{116}
 \contentsline {chapter}{\numberline {7}$B_s\to D_sl\nu $ Form Factors at All Physical $q^2$ from Heavy-HISQ}{119}
@@ -99,10 +99,10 @@
 \contentsline {subsection}{\numberline {7.3.2}Direct Method}{138}
 \contentsline {subsubsection}{Zero Recoil}{138}
 \contentsline {subsubsection}{Non-Zero Recoil}{140}
-\contentsline {subsection}{\numberline {7.3.3}Unitarity Test}{141}
-\contentsline {subsection}{\numberline {7.3.4}$R_{D_s}$}{145}
-\contentsline {section}{\numberline {7.4}Reconstructing Form Factors}{146}
-\contentsline {section}{\numberline {7.5}$h^s_+(1)$ and HQET low energy constants}{147}
+\contentsline {subsection}{\numberline {7.3.3}Unitarity Test}{143}
+\contentsline {subsection}{\numberline {7.3.4}$R_{D_s}$}{146}
+\contentsline {section}{\numberline {7.4}Reconstructing Form Factors}{147}
+\contentsline {section}{\numberline {7.5}$h^s_+(1)$ and HQET low energy constants}{148}
 \contentsline {section}{\numberline {7.6}Conclusions}{150}
-\contentsline {section}{\numberline {7.7}Numerical Values for Lattice Results}{150}
+\contentsline {section}{\numberline {7.7}Numerical Values for Lattice Results}{151}
 \contentsline {chapter}{\numberline {8}Conclusions}{155}
