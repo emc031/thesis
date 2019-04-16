@@ -1,5 +1,11 @@
 \begin{thebibliography}{100}
 
+\bibitem{McLean:2019sds}
+E.~McLean, C.~T.~H. Davies, A.~T. Lytle, and J.~Koponen.
+\newblock {Lattice QCD form factor for $B_s\to D_s^* l\nu$ at zero recoil with
+  non-perturbative current renormalisation}.
+\newblock 2019.
+
 \bibitem{PhysRevD.98.030001}
 M.~et.~al. Tanabashi.
 \newblock Review of particle physics.
@@ -1101,12 +1107,6 @@ R.~J. Dowdall, C.~T.~H. Davies, T.~C. Hammant, and R.~R. Horgan.
   lattice QCD including charm quarks in the sea}.
 \newblock {\em Phys. Rev.}, D86:094510, 2012.
 
-\bibitem{Bazavov:2014wgs}
-A.~Bazavov et~al.
-\newblock {Charmed and light pseudoscalar meson decay constants from
-  four-flavor lattice QCD with physical light quarks}.
-\newblock {\em Phys. Rev.}, D90(7):074509, 2014.
-
 \bibitem{PhysRevD.4.725}
 Susumu Okubo.
 \newblock New improved bounds for ${K}_{l3}$ parameters.
@@ -1122,10 +1122,5 @@ Thomas Becher and Richard~J. Hill.
 \newblock Comment on form-factor shape and extraction of $|v_{ub}|$ from $b\to
   \pi l\nu$.
 \newblock {\em Physics Letters B}, 633(1):61 -- 69, 2006.
-
-\bibitem{PASCHALIS1983473}
-J.E. Paschalis and G.J. Gounaris.
-\newblock Meson decays in the non-relativistic quark model.
-\newblock {\em Nuclear Physics B}, 222(3):473 -- 492, 1983.
 
 \end{thebibliography}

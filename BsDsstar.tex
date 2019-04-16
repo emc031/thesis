@@ -356,12 +356,14 @@ $d_{ijk}$ are fit parameters with prior distributions $0\pm 1$. We account here 
 We tried including extra terms of size $(a\Lqcd)^2$,$(am^{\text{val}}_{s0})^2$,$(am^{\text{val}}_{l0})^2$, but the data could not resolve effects of that size, so it made no difference to the fit. We also tested the effects of increasing the number of terms in each sum (see Fig. \ref{fig:fittests_hA1}), but the final result remained unchanged.
 
 \subsubsection{Mass Mistunings}
+\label{sec:mistuning_BsDsstar}
 
 Any possible mistuning of the charm mass is automatically accounted for in HQET part of the fit function \eqref{eq:fitform_BsDsstar}. To obtain the final result we set $M_{\eta_c}$ to the physical value given in the PDG \cite{PhysRevD.98.030001}, hence any charm mistuning is removed.
 
 The strange and light mistunings are accounted for using a formalism introduced in \cite{Chakraborty:2014aca}. To deal with possible (valence and sea) strange mistuing, we define the terms $\delta^{(\text{val})}_s = m^{(\text{val})}_{s0}- m_s^{\text{tuned}}$, where $m_s^{\text{tuned}}$ is defined by
 \begin{align}
   m_s^{\text{tuned}} = m_{s0} \left({ M^{\text{phys}}_{\eta_s} \over M_{\eta_s} }\right)^2.
+  \label{eq:strange_mistuning}
 \end{align}
 $M_{\eta_s}^{\text{phys}}$ is determined in lattice simulations from the masses of the pion and kaon \cite{Dowdall:2013rya}.
 
@@ -373,7 +375,7 @@ We set $m_l^{\text{tuned}}$ to $m_s^{\text{tuned}}$ divided by this ratio.
 
 Chiral perturbation theory dictates that perturbations in quark masses cause linear contributions to the form factor. Hence the full term we include to account for mistuning is given by
 \begin{align}
-  \mathcal{N}_{\text{mistuning}} = {c^{\text{val}}_s \delta^{\text{val}}_s + c_s \delta_s + c_l \delta_l \over 10 m_s^{\text{tuned}}}\,,
+  \mathcal{N}_{\text{mistuning}} = {c^{\text{val}}_s \delta^{\text{val}}_s + c_s \delta_s + 2 c_l \delta_l \over 10 m_s^{\text{tuned}}}\,,
   \label{eq:mistuning_BsDsstar}
 \end{align}
 where $c_s^{\text{val}}$, $c_s$ and $c_s$ are fit parameters with prior distributions $0\pm 1$. We divide all terms by $m_s^{\text{tuned}}$ to absorb any running of the quark masses in $\delta_{l,s}^{(\text{val})}$ with the cutoff, that varies between ensembles. The factor of 10 in the denominator is to bring this term close in magnitude to the chiral perturbation theory contributions that it represents. We neglect $\delta^{(\text{val})\,2}_{s,l}$ contributions since these are an order of magnitude smaller and are not resolved by the data.

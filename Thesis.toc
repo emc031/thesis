@@ -26,7 +26,7 @@
 \contentsline {subsection}{\numberline {3.3.1}Heavy-HISQ}{43}
 \contentsline {subsection}{\numberline {3.3.2}Lattice NRQCD}{44}
 \contentsline {chapter}{\numberline {4}Lattice Calculations}{47}
-\contentsline {section}{\numberline {4.1}Evaluating Lattice Correlation Functions}{47}
+\contentsline {section}{\numberline {4.1}Evaluation of Lattice Correlation Functions}{47}
 \contentsline {subsection}{\numberline {4.1.1}Generation of Gauge Ensembles}{48}
 \contentsline {subsubsection}{Quenched MCMC}{49}
 \contentsline {subsubsection}{Unquenched MCMC}{50}
@@ -42,9 +42,9 @@
 \contentsline {subsubsection}{Oscillating States}{60}
 \contentsline {subsubsection}{Bayesian $\chi ^2$ Fitting}{61}
 \contentsline {subsection}{\numberline {4.2.2}Signal Degredation}{62}
-\contentsline {chapter}{\numberline {5}$b$-Physics from Lattice NRQCD}{65}
-\contentsline {section}{\numberline {5.1}NRQCD-HISQ currents}{65}
-\contentsline {section}{\numberline {5.2}Relativistic Normalization of the $b\to c$ temporal axial current}{67}
+\contentsline {chapter}{\numberline {5}$b\to c$ Transitions from Lattice NRQCD}{65}
+\contentsline {section}{\numberline {5.1}NRQCD-HISQ Currents}{65}
+\contentsline {section}{\numberline {5.2}Relativistic Normalization of the $b\to c$ Temporal Axial Current}{67}
 \contentsline {subsection}{\numberline {5.2.1}Calculation Details}{67}
 \contentsline {subsection}{\numberline {5.2.2}Kinetic Mass}{68}
 \contentsline {subsection}{\numberline {5.2.3}Decay Amplitude Ratios}{69}
@@ -55,12 +55,12 @@
 \contentsline {subsection}{\numberline {5.3.4}Results}{76}
 \contentsline {subsubsection}{Anomalous Results}{76}
 \contentsline {subsubsection}{Large Subleading Currents}{78}
-\contentsline {subsection}{\numberline {5.3.5}Form factors from $V_0$ and $S$ in $B_{(s)}\to D_{(s)}$}{79}
-\contentsline {section}{\numberline {5.4}Non-Perturbative Renormalization using $B_c\to \eta _c$ Data}{81}
+\contentsline {subsection}{\numberline {5.3.5}Form Factors from $V_0$ and $S$}{79}
+\contentsline {section}{\numberline {5.4}Non-Perturbative Renormalization Using $B_c\to \eta _c$ Data}{81}
 \contentsline {subsection}{\numberline {5.4.1}$Z_S$}{82}
 \contentsline {subsection}{\numberline {5.4.2}$Z_{V_0}$}{84}
 \contentsline {subsection}{\numberline {5.4.3}$Z_{V_k}$}{85}
-\contentsline {section}{\numberline {5.5}Conclusion of NRQCD work}{87}
+\contentsline {section}{\numberline {5.5}Conclusion of NRQCD Work}{87}
 \contentsline {chapter}{\numberline {6}$B_s\to D_s^*l\nu $ Axial Form Factor at Zero Recoil from Heavy-HISQ}{89}
 \contentsline {section}{\numberline {6.1}Motivation}{90}
 \contentsline {section}{\numberline {6.2}Calculation Details}{91}
@@ -91,18 +91,17 @@
 \contentsline {subsubsection}{Kinematic Behaviour}{132}
 \contentsline {subsubsection}{Heavy Mass and Discretisation Effects}{133}
 \contentsline {subsubsection}{Mass Mistunings}{134}
-\contentsline {subsubsection}{Finite Volume and Isospin Breaking Effects}{135}
-\contentsline {section}{\numberline {7.3}Results and Discussion}{135}
+\contentsline {subsubsection}{Negligable Effects}{134}
+\contentsline {section}{\numberline {7.3}Results}{135}
 \contentsline {subsection}{\numberline {7.3.1}Ratio Method}{135}
 \contentsline {subsubsection}{Zero Recoil}{135}
-\contentsline {subsubsection}{Non-zero Recoil}{137}
+\contentsline {subsubsection}{Non-zero Recoil}{135}
 \contentsline {subsection}{\numberline {7.3.2}Direct Method}{138}
 \contentsline {subsubsection}{Zero Recoil}{138}
 \contentsline {subsubsection}{Non-Zero Recoil}{140}
-\contentsline {subsection}{\numberline {7.3.3}Unitarity Test}{143}
+\contentsline {subsection}{\numberline {7.3.3}Unitarity Test}{145}
 \contentsline {subsection}{\numberline {7.3.4}$R_{D_s}$}{146}
-\contentsline {section}{\numberline {7.4}Reconstructing Form Factors}{147}
-\contentsline {section}{\numberline {7.5}$h^s_+(1)$ and HQET low energy constants}{148}
-\contentsline {section}{\numberline {7.6}Conclusions}{150}
-\contentsline {section}{\numberline {7.7}Numerical Values for Lattice Results}{151}
-\contentsline {chapter}{\numberline {8}Conclusions}{155}
+\contentsline {section}{\numberline {7.4}Conclusions}{147}
+\contentsline {section}{\numberline {7.5}Reconstructing Form Factors}{148}
+\contentsline {section}{\numberline {7.6}Numerical Values for Lattice Results}{149}
+\contentsline {chapter}{\numberline {8}Conclusions}{153}

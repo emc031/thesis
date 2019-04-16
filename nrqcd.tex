@@ -1,11 +1,11 @@
-﻿\chapter{$b$-Physics from Lattice NRQCD}
+﻿\chapter{$b\to c$ Transitions from Lattice NRQCD}
 \label{chap:nrqcd}
 
 This chapter gives outlines of a number of projects attempted using the NRQCD action for the $b$ quark. Much of the discussion in this chapter will concern the NRQCD-HISQ representation of the vector and axial $b\to c$ currents, i.e, the current if one of the quarks obeys NRQCD and the other obeys HISQ. We show a number of attempts to improve the normalization of these currents (sections \ref{sec:relativistic} and \ref{sec:Bcetac}) and an attempt at a calculation of the $B\to Dl\nu$ and $B_s\to D_s l\nu$ form factors (Sec. \ref{sec:BD_BsDs_nrqcd}).
 
 None of the work in this chapter reached a particularly satisfying conclusion. The takehome is that using NRQCD for $b \to c$ currents away from zero recoil is riddled with issues.
 
-\section{NRQCD-HISQ currents}
+\section{NRQCD-HISQ Currents}
 
 Here I will define some notation used to describe the NRQCD-HISQ currents. To construct such a current, both the HISQ $c$ and NRQCD $b$ must be transformed into 4-component spinors such that they can be contracted with one-another in the current. The staggered $c-$quark $\chi_c$ is simply related to the naive spinor $\psi_c$ by $\psi_c(x)=\Omega(x) \chi_c(x)$. The NRQCD $b$, $\Psi_{b} = ( \Psi_+, 0 )$, is a 2-component spinor related to the 4-component spinor $\psi_b$ via an inverse Fouldy-Wouthuysen transform $\psi_b = \exp( - \gamma\cdot \nabla / 2am_b )\Psi_b$. ($\nabla$ is defined here by $\nabla_{\mu} \psi(x) = (U_{\mu}(x)\psi(x+a\hat{\mu})-U^{\dagger}_{\mu}(x-a\hat{\mu})\psi(x-a\hat{\mu})/2$.)
 
@@ -47,7 +47,7 @@ This definition assumes all of the spacial momentum is in the $c$ quark, this is
 
 There are a bunch of orders here to consider, however the main order in which we will be concerned with is $\alpha_s{\textbf{p}}/m_b$. The normalization of NRQCD-HISQ currents have been demonstrated to be robust at zero spacial momentum (see for example \cite{Hughes:2017spc}). However it was not yet well known (before this work) whether the $\alpha_s{\textbf{p}}/m_b$ terms were negligable.
 
-\section{Relativistic Normalization of the $b\to c$ temporal axial current}
+\section{Relativistic Normalization of the $b\to c$ Temporal Axial Current}
 \label{sec:relativistic}
 
 In this small project, we tested to see if a $B_c$ meson containing a HISQ $c$ quark and an NRQCD $b$ quark obeys a relativistic dispersion relation. The goal of this was to
@@ -537,7 +537,7 @@ $V_k^{(2,4)}$, however, have considerable magnitude. Neglecting them implies a n
 
 Since the problematic current pieces are exclusively part of the spacial vector current, we could remove this problem if we did not rely on the spacial vector current for extracting the form factors. The next section shows our attempt at such an alternative approach.
 
-\subsection{Form factors from $V_0$ and $S$ in $B_{(s)}\to D_{(s)}$}
+\subsection{Form Factors from $V_0$ and $S$}
 \label{sec:fplus_divergence}
 
 Instead of using $\langle V_0 \rangle$ and $\langle V_k \rangle$ to extract $f^{(s)}_{0,+}(q^2)$, one could in principle instead use the combination $\langle V_0 \rangle$ and $\langle S \rangle$, where $S$ is the scalar $b\to c$ density. In terms of NRQCD-HISQ currents, $S$ can be written as
@@ -567,7 +567,7 @@ Results from adopting this alternative approach (in the $B\to D$ case) is shown 
 
 A quick summary of the situation. We have 3 currents, $\langle S \rangle$, $\langle V_0 \rangle$, and $\langle V_k \rangle$. We require input from two of these currents in order to determine the form factors. Large contributions to $\langle V_k \rangle$ may be being ignored, so at the moment we do not consider $\langle V_k \rangle$ a 'trustworthy' estimation of the continuum spacial vector current. Using only $\langle S \rangle$ and $\langle V_0 \rangle$ leads to a divergence of $f_+(q^2)$ as $q^2\to q^2_{\text{max}}$, so is also untenable. In the next section, we show an approach we attempted to finding new normalizations of these three currents such that all three can be 'trusted' as good approximations to the continuum current. One could then in principle use these trustworthy $\langle V_0 \rangle$ and $\langle V_k \rangle$ currents to extract the form factors.
 
-\section{Non-Perturbative Renormalization using $B_c\to \eta_c$ Data}
+\section{Non-Perturbative Renormalization Using $B_c\to \eta_c$ Data}
 \label{sec:Bcetac}
 
 Here we define non-perturbative normalization constants $Z_J$ for the NRQCD-HISQ currents via 
@@ -694,7 +694,7 @@ One could imagine using these normalizations $Z_{V_0}$ and $Z_{V_k}$ in the $B_{
 
 If one choses to trust the normalization of the scalar current, this analysis shows that (on the fine ensemble) the extra normalization required for the vector currents beyond what is usually implemented is a large effect ($Z_{V_0}-1\sim Z_{V_k}-1\sim 7\%$). This would suggest that the currently used truncation of the NRQCD-HISQ vector current is missing $\sim 7\%$ from the neglected terms lower down in the series. 
 
-\section{Conclusion of NRQCD work}
+\section{Conclusion of NRQCD Work}
 
 As mentioned in the introduction - the main takehome of this thesis is that using NRQCD (namely NRQCD-HISQ currents) to compute form factors for $b\to c$ transitions, is far from optimal. 
 

@@ -32,6 +32,9 @@
 \usepackage{pgfplots}
 \usepackage{caption}
 \usepackage{subcaption}
+\usepackage{placeins}
+
+\usepackage{fancyhdr}
 
 \setlength{\parindent}{15pt}
 
@@ -46,6 +49,6 @@
 % centered page environment
 
 \newenvironment{vcenterpage}
-{\newpage\vspace*{\fill}\thispagestyle{empty}\
-\newcommand{\headrulewidth}{0pt}}
+{\newpage\vspace*{\fill}\thispagestyle{empty}}
+%\newcommand{\headrulewidth}{0pt}}
 {\vspace*{\fill}}

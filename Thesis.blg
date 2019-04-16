@@ -642,10 +642,6 @@ Repeated entry---line 7164 of file Thesis.bib
  : @article{Bazavov:2012xda
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7182 of file Thesis.bib
- : @article{Bazavov:2014wgs
- :                         ,
-I'm skipping whatever remains of this entry
 Repeated entry---line 7216 of file Thesis.bib
  : @article{Falk:1992wt
  :                     ,
@@ -967,6 +963,7 @@ Repeated entry---line 9999 of file Thesis.bib
  : @inproceedings{Weber:2013eba
  :                             ,
 I'm skipping whatever remains of this entry
+Warning--empty journal in McLean:2019sds
 Warning--empty author in SIRLIN198283
 Warning--empty author in Ginsberg1968
 Warning--empty title in Ginsberg1968
@@ -982,45 +979,45 @@ Warning--empty journal in Monahan:2017uby
 Warning--empty journal in Abdesselam:2017kjf
 Warning--empty journal in Abdesselam:2018nnh
 Warning--can't use both author and editor fields in tHooft1979
-You've used 192 entries,
+You've used 191 entries,
             1791 wiz_defined-function locations,
-            1626 strings with 36780 characters,
-and the built_in function-call counts, 43699 in all, are:
-= -- 3776
-> -- 1927
+            1620 strings with 36712 characters,
+and the built_in function-call counts, 43406 in all, are:
+= -- 3745
+> -- 1925
 < -- 5
-+ -- 721
++ -- 720
 - -- 529
-* -- 3214
-:= -- 7133
-add.period$ -- 584
-call.type$ -- 192
-change.case$ -- 187
+* -- 3188
+:= -- 7092
+add.period$ -- 581
+call.type$ -- 191
+change.case$ -- 186
 chr.to.int$ -- 0
 cite$ -- 207
-duplicate$ -- 1769
-empty$ -- 4350
+duplicate$ -- 1759
+empty$ -- 4315
 format.name$ -- 529
-if$ -- 9588
+if$ -- 9519
 int.to.chr$ -- 0
-int.to.str$ -- 192
-missing$ -- 192
-newline$ -- 971
-num.names$ -- 189
-pop$ -- 286
+int.to.str$ -- 191
+missing$ -- 191
+newline$ -- 966
+num.names$ -- 188
+pop$ -- 289
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 712
+skip$ -- 707
 stack$ -- 0
-substring$ -- 3502
-swap$ -- 229
+substring$ -- 3457
+swap$ -- 227
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 15
-while$ -- 395
-width$ -- 195
-write$ -- 2104
-(There were 235 error messages)
+warning$ -- 16
+while$ -- 392
+width$ -- 194
+write$ -- 2091
+(There were 234 error messages)
