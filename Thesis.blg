@@ -979,45 +979,46 @@ Warning--empty journal in Monahan:2017uby
 Warning--empty journal in Abdesselam:2017kjf
 Warning--empty journal in Abdesselam:2018nnh
 Warning--can't use both author and editor fields in tHooft1979
-You've used 191 entries,
+Warning--empty journal in Koponen:2013tua
+You've used 194 entries,
             1791 wiz_defined-function locations,
-            1620 strings with 36712 characters,
-and the built_in function-call counts, 43406 in all, are:
-= -- 3745
-> -- 1925
+            1636 strings with 37369 characters,
+and the built_in function-call counts, 43979 in all, are:
+= -- 3786
+> -- 1973
 < -- 5
-+ -- 720
-- -- 529
-* -- 3188
-:= -- 7092
-add.period$ -- 581
-call.type$ -- 191
-change.case$ -- 186
++ -- 737
+- -- 543
+* -- 3226
+:= -- 7201
+add.period$ -- 590
+call.type$ -- 194
+change.case$ -- 189
 chr.to.int$ -- 0
-cite$ -- 207
-duplicate$ -- 1759
-empty$ -- 4315
-format.name$ -- 529
-if$ -- 9519
+cite$ -- 211
+duplicate$ -- 1780
+empty$ -- 4358
+format.name$ -- 543
+if$ -- 9637
 int.to.chr$ -- 0
-int.to.str$ -- 191
-missing$ -- 191
-newline$ -- 966
-num.names$ -- 188
-pop$ -- 289
+int.to.str$ -- 194
+missing$ -- 193
+newline$ -- 981
+num.names$ -- 191
+pop$ -- 295
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 707
+skip$ -- 715
 stack$ -- 0
-substring$ -- 3457
-swap$ -- 227
+substring$ -- 3472
+swap$ -- 228
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 16
-while$ -- 392
-width$ -- 194
-write$ -- 2091
+warning$ -- 17
+while$ -- 396
+width$ -- 197
+write$ -- 2121
 (There were 234 error messages)

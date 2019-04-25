@@ -1,9 +1,9 @@
-﻿\chapter{$B_s\to D_sl\nu$ Form Factors at All Physical $q^2$ from Heavy-HISQ}
+﻿﻿\chapter{$B_s\to D_sl\nu$ Form Factors at All Physical $q^2$ from Heavy-HISQ}
 \label{chap:BsDs}
 
 In this chapter, I present the second of our two heavy-HISQ studies, the calculation of the $B_s\to D_sl\nu$ form factors $f^s_0(q^2)$ and $f^s_+(q^2)$ throughout all physical $q^2$, as defined in Sec. \ref{sec:weakdecays}. Like for $h_{A_1}^s(1)$, I'm giving this quantity the superscript $s$ to differentiate it from the more often referred to form factors for $B\to Dl\nu$ decays.
 
-I here briefly review the definition of the form factors here for ease of reading. The differential decay rate for $B_s\to D_s l \nu$ decays are given in the SM by
+I here briefly review the definition of the form factors here for ease of reading. The differential decay rate for $B_s\to D_s l \nu$ decays are given in the SM by \cite{PhysRevD.98.030001}:
 \begin{align}
   &{d\Gamma\over dq^2} = \eta_{\text{EW}} { G_F^2 |V_{cb}|^2\over 24 \pi^3 M_{B_s}^2 } \left( 1 - {m_l^2\over q^2}\right)^2 |{\bf{p}}_{D_s}| \,\,\times \\
   \label{eq:branchingfraction}
@@ -36,7 +36,7 @@ In our calculation we access the form factors by computing matrix elements of th
     &( \, \delta^M = (m_b - m_c)(M_{B_s}-E_{D_s}) \, ). \nonumber
 \end{align}
 
-Our goal is to compute $f_0^s(q^2)$ and $f_+^s(q^2)$ throughout the range of $q^2$ values $0 \leq q^2 \leq (M_{B_s}-M_{D_s})^2 \equiv q^2_{\text{max}}$. We extend the range to $q^2=0$ in order to take advantage of the constraint in Eq. \eqref{eq:q20constraint}. To acheive this, we compute $\langle D_s | S | H_s \rangle$ and $\langle D_s | V_0 | H_s \rangle$ on the lattice, where the $H_s$ meson is at rest and $D_s$ mesons are given an appropriate array of spacial momenta.
+Our goal is to compute $f_0^s(q^2)$ and $f_+^s(q^2)$ throughout the range of $q^2$ values $0 \leq q^2 \leq (M_{B_s}-M_{D_s})^2 \equiv q^2_{\text{max}}$. We extend the range to $q^2=0$ in order to take advantage of the constraint in Eq. \eqref{eq:q20constraint}. To achieve this, we compute $\langle D_s | S | H_s \rangle$ and $\langle D_s | V_0 | H_s \rangle$ on the lattice, where the $H_s$ meson is at rest and $D_s$ mesons are given an appropriate array of spatial momenta.
 
 %Those interested in simply using the form factors calculated here should refer to Sec. \ref{sec:reconstructing_formfactors}, which gives all information necessary for reconstructing our form factors.
 
@@ -50,17 +50,17 @@ $B_s\to D_s l\nu$ decays can supply a new method for precisely determining the C
 
 The $B_s\to D_s l\nu$ decay can also supply a new test of the SM, by comparing the theoretical and experimental determinations of the ratio $R_{D_s}$, defined in Eq. \eqref{eq:Rratios}. This would be especially illuminating since tension has been found in the intimately related ratios $R_{D^{(*)}}$. The presence or absence of an anomaly in $R_{D_s}$ would help to confirm or dismiss a new physics explanation for such a family of anomalies.
 
-The $B_s\to D_s l\nu$ scalar form factor is one of the theoretical inputs to predicting the branching fraction for the $B_s \to \mu^+\mu^-$ decay. Taking a ratio of the $B_s\to D_s$ and $B\to D$ scalar form factors gives the so-called fragmentation ratio, the ratio of probabilities of a $b$ quark hadronizing into a $B$ or $B_s$ meson. The $B_s\to \mu^+\mu^-$ branching fraction is directly proportional to the fragmentation ratio.
+The $B_s\to D_s l\nu$ scalar form factor is useful in the experimental extraction of $B_s \to \mu^+\mu^-$ branching fractions. Taking a ratio of the $B_s\to D_s$ and $B\to D$ scalar form factors gives the so-called fragmentation ratio, the ratio of probabilities of a $b$ quark hadronizing into a $B$ or $B_s$ meson. In analyses such as \cite{CMS:2014xfa}, $B_s \to \mu^+\mu^-$ branching fractions are measured using $B_u^+\to J/\psi(\mu^+\mu^-)K^+$ and $B_d^0\to K^+\pi_-$ as normalization channels, in this case one requires a value for the fragmentation ratio.
 
 Similar to the $B_{(s)}\to D_{(s)}^*$ case, chiral perturbation theory implies that form factors for $B_s \to D_s$ and $B \to D$ decays are insensitive to the mass of the spectator quark, implying that form factors for these two decays are approximately equal \cite{Laiho:2005ue}. This expectation has been validated by previous lattice calculations, for example in \cite{PhysRevD.85.114502} the ratio of scalar form factors for the two decays at momentum transfer $q^2=M^2_{\pi}$ was found to be $f^s_0(M_{\pi}^2)/f_0(M_{\pi}^2) = 1.054(50)$, while \cite{Monahan:2017uby} found the value $f^s_0(M_{\pi}^2)/f_0(M_{\pi}^2) = 1.006(62)$. Hence we can expect to learn about $B\to D$ form factors by studying $B_s\to D_s$. 
 
 While $B\to D$ form factors are currently more phenomenologically useful, $B_s\to D_s$ form factors are more attractive on the lattice QCD side. The absence of valence light ($u$ or $d$) quarks means lattice QCD results have smaller statistical errors, are less computationally expensive, have a more simple chiral extrapolation to the physical light mass, and negligible finite volume effects. This makes the $B_s \to D_s l\nu$ decay a useful test bed for lattice techniques that may be later used to study $B \to D l \nu$ decays.
 
-A number of lattice calculations of $B_{(s)} \to D_{(s)}$ form factors have already been performed. The FNAL/MILC collaboration produced $B\to D$ form factors on the $N_f=2+1$ MILC gluon ensembles using the Fermilab action for $b$ and $c$ valence quarks and ASQTAD light quarks \cite{Lattice:2015rga}. They also, in an earler work, computed the ratio of scalar form factors for $B_s\to D_s$ and $B\to D$ to obtain the fragmentation ratio \cite{PhysRevD.85.114502}. The HPQCD collaboration computed both $B\to D$ and $B_s\to D_s$ form factors on the $N_f=2+1$ MILC gluon ensembles using the NRQCD action for the valence $b$, and the HISQ action for all other quarks \cite{Na:2015kha,Monahan:2017uby}. Atoui et. al. also produced $B_s\to D_s$ form factors using maximally twisted Wilson quarks on $N_f=2$ gluon ensembles \cite{Atoui2014}. A calculaton of the $B_s\to D_s$ form factors by the RBC/UKQCD collaboration is currently underway.
+A number of lattice calculations of $B_{(s)} \to D_{(s)}$ form factors have already been performed. The FNAL/MILC collaboration produced $B\to D$ form factors on the $N_f=2+1$ MILC gluon ensembles using the Fermilab action for $b$ and $c$ valence quarks and ASQTAD light quarks \cite{Lattice:2015rga}. They also, in an earler work, computed the ratio of scalar form factors for $B_s\to D_s$ and $B\to D$ to obtain the fragmentation ratio \cite{PhysRevD.85.114502}. The HPQCD collaboration computed both $B\to D$ and $B_s\to D_s$ form factors on the $N_f=2+1$ MILC gluon ensembles using the NRQCD action for the valence $b$, and the HISQ action for all other quarks \cite{Na:2015kha,Monahan:2017uby}. Atoui et. al. also produced $B_s\to D_s$ form factors using maximally twisted Wilson quarks on $N_f=2$ gluon ensembles \cite{Atoui2014}. A calculaton of the $B_s\to D_s$ form factors by the RBC/UKQCD collaboration is currently underway \cite{RBCmichigan}.
 
-A considerable limitation in the FNAL/MILC and HPQCD studies is the requirement for perturbative matching between the lattice effective field theories and continuum QCD. FNAL/MILC required a matching that was only available to 1-loop, resulting in an $\mathcal{O}(\alpha_s^2)$ systematic error. In the HPQCD calculation, NRQCD-HISQ currents were truncated, prompting them to report large systemtatic errors. Besides the reported errors, as was discussed in Chapter \ref{chap:nrqcd}, parts of the NRQCD-HISQ vector current that contribute away from zero recoil have a large magnitude ($\sim 30\%$ of the leading order). The currents used in this study did not take these large subleading currents into account, so the result from this may have large uncontrolled systematic errors. On top of all this, it was not totally clear whether the matching of these currents should have a $q^2$ dependence.
+A considerable limitation in the FNAL/MILC and HPQCD studies is the requirement for perturbative matching between the lattice effective field theories and continuum QCD. FNAL/MILC required a matching that was only available to 1-loop, resulting in an $\mathcal{O}(\alpha_s^2)$ systematic error. In the HPQCD calculation, NRQCD-HISQ currents were truncated, prompting them to report large systematic errors. Besides the reported errors, as was discussed in Chapter \ref{chap:nrqcd}, parts of the NRQCD-HISQ vector current that contribute away from zero recoil have a large magnitude ($\sim 30\%$ of the leading order). The currents used in this study did not take these large subleading currents into account, so the result from this may have large uncontrolled systematic errors.
 
-Another limitation present in each of the aforementioned studies is that the lattice data is limited to a region of high $q^2$. To generate lattice points at lower $q^2$, a large spacial momentum must be given to one of the quarks on the lattice. Due to signal/noise degredation, adding momentum leads to an exponential increase of noise in correlation functions. Hence, in cases like $B_{(s)}\to D_{(s)}$, lattice data close to $q^2=0$ would be uselessly noisy. Lattice results must be limited to high $q^2$. This fact necessitates an extrapolation from the data in the high $q^2$ region to the rest of the physical range. Since there has been some controversy in choices of form factor extrapolations through $q^2$ recently (for example see \cite{Bigi:2017njr,Grinstein:2017nlq}), it would be desirable to instead have lattice data covering the entire $q^2$ range. We can acheive this with the heavy-HISQ approach.
+Another limitation present in each of the aforementioned studies is that the lattice data is limited to a region of high $q^2$. To generate lattice points at lower $q^2$, a large spatial momentum must be given to one of the quarks on the lattice. Due to signal/noise degradation, adding momentum leads to an exponential increase of noise in correlation functions. Hence, in cases like $B_{(s)}\to D_{(s)}$, lattice data close to $q^2=0$ would be uselessly noisy. Lattice results must be limited to high $q^2$. This fact necessitates an extrapolation from the data in the high $q^2$ region to the rest of the physical range. Since there has been some controversy in choices of form factor extrapolations through $q^2$ recently (for example see \cite{Bigi:2017njr,Grinstein:2017nlq}), it would be desirable to instead have lattice data covering the entire $q^2$ range. We can in fact achieve this with the heavy-HISQ approach. This is because in heavy-HISQ the $b$ quarks are lighter than physical, this shrinks the $q^2$ range, meaning smaller spatial momenta are required to cover the range.
 
 
 \section{Calculation Details}
@@ -150,19 +150,19 @@ Another limitation present in each of the aforementioned studies is that the lat
       \hline
     \end{tabular}
   \end{center}
-  \caption{Simulation details. Columns 2 and 3 give the $s$ and $c$ valence quark masses, which were tuned in \cite{Chakraborty:2014aca}. Column 4 gives the bare heavy quark masses, we use a number of heavy quark masses to assist the extrapolation to physical the $b$ mass. Column 5 gives the absolute value of the spacial momentum given to the $D_s$ meson, using a momentum twist, in lattice units. These values were chosen with the following rationale: when only 2 are used, these correspond to the $q^2=0$ and $q^2_{\text{max}}\,$ points (except on the fine-physical ensemble, where we compute at the points $q^2_{\text{max}}$ and $q^2_{\text{max}}/2$). When 3 twists are used, the momenta correspond to $q^2=0$, $q^2=q^2_{\text{max}}/2$, and $q^2_{\text{max}}$ points. When 4 are used, these are points for $q^2_{\text{max}}$, $3q^2_{\text{max}}/4$, $q^2_{\text{max}}/2$, $q^2_{\text{max}}/4$, $q^2=0$. To give the $D_s$ meson these spacial momenta we gave the charm an appropriate momentum twist in the $(1,1,1)$ direction. Column 6 gives the temporal separations between source and sink, $T$, of the 3-point correlation functions computed on each ensemble.}
+  \caption{Simulation details. Columns 2 and 3 give the $s$ and $c$ valence quark masses, which were tuned in \cite{Chakraborty:2014aca}. Column 4 gives the bare heavy quark masses, we use a number of heavy quark masses to assist the extrapolation to the physical $b$ mass. Column 5 gives the absolute value of the spatial momentum given to the $D_s$ meson, using a momentum twist, in lattice units. These values were chosen with the following rationale: when only 2 are used, these correspond to the $q^2=0$ and $q^2_{\text{max}}\,$ points (except on the fine-physical ensemble, where we compute at the points $q^2_{\text{max}}$ and $q^2_{\text{max}}/2$). When 3 twists are used, the momenta correspond to $q^2=0$, $q^2=q^2_{\text{max}}/2$, and $q^2_{\text{max}}$ points. When 4 are used, these are points for $q^2_{\text{max}}$, $3q^2_{\text{max}}/4$, $q^2_{\text{max}}/2$, $q^2_{\text{max}}/4$, $q^2=0$. To give the $D_s$ meson these spatial momenta we gave the charm an appropriate momentum twist in the $(1,1,1)$ direction. Column 6 gives the temporal separations between source and sink, $T$, of the 3-point correlation functions computed on each ensemble.}
   \label{tab:simulation}
 \end{table*}
 
-This calculation closely followed the approach employed in our calculation of the $B_s\to D_s^*$ axial form factor at zero recoil, given in the last chapter. The main modifications required for this calculation were 1) the form factors are not protected by Luke's theorem, so a more general fit form for the extrapolation in $m_h$ was required, and 2) to cover the $q^2$ range we gave the charm quark a number of spacial momentum values via a momentum twist (Sec. \ref{sec:momentum_twist}) and interpolate the results to all $q^2$.
+This calculation closely followed the approach employed in our calculation of the $B_s\to D_s^*$ axial form factor at zero recoil, given in the last chapter. The main modifications required for this calculation were 1) the form factors are not protected by Luke's theorem, so a more general fit form for the extrapolation in $m_h$ was required, and 2) to cover the $q^2$ range we gave the charm quark a number of spatial momentum values via a momentum twist (Sec. \ref{sec:momentum_twist}) and interpolate the results to all $q^2$.
 
 We used the same set of ensembles as in the $B_s\to D_s^*$ study. In three of the four ensembles (sets 2, 4 and 5), the bare light mass is set to $m_{l0}/m_{s0} = 0.2$. The fact that the $m_{l0}$ value is unphysically high is expected to have a small effect on the form factors, due to the lack of valence light quarks, and previous experience of the form factor dependence on $m_{l0}$ \cite{Monahan:2017uby}. The small effect due to the unphysical $m_{l0}$ is quantified by including a fourth ensemble (set 3) with roughly physical $m_{l0}$, and corrected for. 
 
 We used a number of different masses for the valence heavy quark $am_{h0}^{\text{val}}$. Unphysically light $h$-quarks reduce the $q^2$ range, meaning we can obtain lattice data at both ends of the range while the statistical noise remains under control, unlike previous studies of these form factors.
 
-As detailed in Sec. \ref{sec:staggeredcorrelators}, staggered correlation functions are built by a combination of staggered propagators $g(x,y)$ and staggered phases. In this calculation we only need local (non point-split) operators, this is an advantage since point-split operators lead to correlation functions noisier than local operators.
+As detailed in Sec. \ref{sec:staggeredcorrelators}, staggered correlation functions are built by a combination of staggered propagators $g(x,y)$ and staggered phases. In this calculation we only need local (non-point-split) operators, this is an advantage since point-split operators lead to correlation functions noisier than local operators.
 
-We computed a number of correlation functions on each ensemble. Valence masses, momenta and other inputs to the calculation are given in Table \ref{tab:simulation}. We used random wall sources for generating all staggered propagators. First we computed 2-point correlation functions between eigenstates of momentum ${\textbf{p}}$, objects of the form
+We computed a number of correlation functions on each ensemble. Valence masses, momenta and other inputs to the calculation are given in Table \ref{tab:simulation}. First, we computed 2-point correlation functions between eigenstates of momentum ${\textbf{p}}$, objects of the form
 \begin{align}
   C_{M}({\textbf{p}},t) =& \langle \tilde{\Phi}_M ({\bf{p}},t) \tilde{\Phi}_M^{\dagger}({\bf{p}},0) \rangle, \\ 
   &\tilde{\Phi}_M({\bf{p}},t) = \sum_{{\bf{x}}} e^{-i\bf{p}\cdot \bf{x}} \bar{q}({\bf{x}},t) \Gamma q'({\bf{x}},t), \nonumber
@@ -182,7 +182,7 @@ where $g_q(x,y)$ is a staggered propagator for flavour $q$, and the trace is ove
 \begin{align}
   C_{D_s}({\textbf{p}},t) = \sum_{\bf{x},\bf{y}} \left\langle \text{Tr}\left[ g^{\theta_{\textbf{p}}}_c(x,y) g_s^{\dagger}(x,y) \right] \right\rangle,
 \end{align}
-where $g_q^{\theta_{\textbf{p}}}(x,y)$ denotes a propagator with momentum twist $\theta_{\textbf{p}}$ correpsonding to momentum ${\textbf{p}}$. We computed this using a number of twists to produce the range of momenta given in Table \ref{tab:simulation}. We designed the $c$ propagators to have momentum $a{\bf{p}} = |a{\bf{p}}|(1,1,1)$, by imposing a twist $\theta = N_x |a{\bf{p}}| / \pi \sqrt{3}$ in each spacial direction.
+where $g_q^{\theta_{\textbf{p}}}(x,y)$ denotes a propagator with momentum twist $\theta_{\textbf{p}}$ correpsonding to momentum ${\textbf{p}}$. We computed this using a number of twists to produce the range of momenta given in Table \ref{tab:simulation}. We designed the $c$ propagators to have momentum $a{\bf{p}} = |a{\bf{p}}|(1,1,1)$, by imposing a twist $\theta = N_x |a{\bf{p}}| / \pi \sqrt{3}$ in each spatial direction.
 
 We also computed non-goldstone pseudoscalar heavy-strange mesons at rest, denoted $\hat{H}_s$. These are necessary for extracting the vector current. This has spin-taste structure $(\gamma_0\gamma_5\otimes \gamma_0\gamma_5)$. $\hat{H}_s$ correlators were computed using
 \begin{align}
@@ -208,7 +208,7 @@ To extract the temporal vector current, we required the function
 \begin{align}
   C^{{\bf{p}}_{D_s}}_{V_0}(t,T) =& \sum_{{\bf{y}}} \langle \tilde{\Phi}_{D_s}({\bf{p}},T)\, V_0({\bf{y}},t) \,\tilde{\Phi}_{\hat{H}_s}({\bf{0}},0) \rangle, \\ &V_0({\bf{y}},t) = \bar{c}({\bf{y}},t) \gamma_0 h({\bf{y}},t). \nonumber
 \end{align}
-This was generated using structures $(\gamma_0\gamma_5\otimes \gamma_0\gamma_5)$ at the $\hat{H}_s$ source, $(\gamma_5\otimes \gamma_5)$ at the $D_s$ sink, and $(\gamma_0\otimes \gamma_0)$ at the current insertion. To acheive this we evaluated
+This was generated using structures $(\gamma_0\gamma_5\otimes \gamma_0\gamma_5)$ at the $\hat{H}_s$ source, $(\gamma_5\otimes \gamma_5)$ at the $D_s$ sink, and $(\gamma_0\otimes \gamma_0)$ at the current insertion. To achieve this we evaluated
 \begin{align}
   C_{V_0}({\textbf{p}},t,T) =& \sum_{{\bf{x},\bf{y},\bf{z}}} (-1)^{\bar{x}_0+\bar{y}_0} \left\langle \text{Tr}\left[ g_h(x,y)g^{\theta_{\textbf{p}}}_c(y,z) g^{\dagger}_s(x,z) \right] \right\rangle.
 \end{align}
@@ -216,9 +216,9 @@ The non-goldstone $\hat{H}_s$, as opposed to simply $H_s$, was required here to 
 
 \subsection{Analysis of Correlation Functions}
 
-We then extracted current matrix elements from the generated correlation functions, via simultaneous Bayesian fits, as described in Sec. \ref{sec:correlator_fits}. We performed a single simultanious fit containing each correlator computed ($C_{H_s},C_{\hat{H}_s},C_{D_s},C_{\eta_h},C_{\eta_c},C_{\eta_s},C_{H_c},C_S,C_{V_0}$) at every $m_h$ and every $|a{\bf{p}}_{D_s}|$, for each ensemble. This means that our extrapolation to the physical point can take into account correlations between data at different heavy masses and $D_s$ momenta.
+We then extracted current matrix elements from the generated correlation functions, via simultaneous Bayesian fits, as described in Sec. \ref{sec:correlator_fits}. We performed a single simultaneous fit containing each correlator computed ($C_{H_s},C_{\hat{H}_s},C_{D_s},C_{\eta_h},C_{\eta_c},C_{\eta_s},C_{H_c},C_S,C_{V_0}$) at every $m_h$ and every $|a{\bf{p}}_{D_s}|$, for each ensemble. This means that our extrapolation to the physical point can take into account correlations between data at different heavy masses and $D_s$ momenta.
 
-We chose not to perform tuning on $\{t_{\text{cut}}\}$ as was performed in the $B_s\to D_s^*$ study. This is because the fits are much larger than in the $B_s\to D_s^*$ case, and tuning, which involves many serial fits, would take longer than the age of the universe to perform. The $t_{\text{cut}}$'s we set are given in table \ref{tab:tcuts}.
+We chose not to perform tuning on $\{t_{\text{cut}}\}$ as was performed in the $B_s\to D_s^*$ study. This is because the fits are much larger than in the $B_s\to D_s^*$ case, and tuning, which involves many serial fits, would take prohibitively long. The $t_{\text{cut}}$'s we set are given in table \ref{tab:tcuts}. These are set via trial-and-error, timeslices that appear to cause instability in the fit are cut out by modifying $t_{\text{cut}}$ values.
 
 \begin{table*}[htb!]
   \begin{center}
@@ -238,7 +238,7 @@ We chose not to perform tuning on $\{t_{\text{cut}}\}$ as was performed in the $
       \hline
     \end{tabular}
   \end{center}
-  \caption{$t_{\text{cut}}$ values used for each correlator on each ensemble. $S$ and $V_0$ denote the 3-point correlators with the corresponding current $S$ or $V_0$. The rest are for 2-point correlators. There is one exception to the values here: on the 3-point correlators on the ultrafine ensemble with $am^{\text{val}}_{h0}=0.8$ and $q^2=0$, the $t_{\text{cut}}$ given here is replaced with 8,10 and 12 in the $T/a=31,36,41$ cases respectively. \label{tab:tcuts}}
+  \caption{$t_{\text{cut}}$ values used for each correlator on each ensemble. $S$ and $V_0$ denote the 3-point correlators with the corresponding current $S$ or $V_0$. The rest are for 2-point correlators. There is one exception to the values here: on the 3-point correlators on the ultrafine ensemble with $am^{\text{val}}_{h0}=0.8$ and $q^2=0$, the $t_{\text{cut}}$ given here is replaced with 8,10 and 12 in the $T/a=31,36,41$ cases respectively. This is due to the signal/noise degradation from the large $D_s$ momentum causing noise that makes time-slices on the $H_s$ side useless to the fit. \label{tab:tcuts}}
   \end{table*}
 
 These simultaneous fits are very large. For example, on set 4 (ultrafine) we fit 109 correlation functions to 1080 fit parameters, taking all correlations in the data into account. Both the stability (e.g. invariance under changes of arbitrary hyperparameters such as $N_{\text{exp}}$ and $t_{\text{cut}}$) and the speed of such simultaneous fits take a hit when there is such a large amount of data and a large number of parameters.
@@ -249,11 +249,11 @@ These simultaneous fits are very large. For example, on set 4 (ultrafine) we fit
     \caption{Tests on the correlator fits on the fine ensemble. $N_{\text{test}}=1$ gives the final accepted result. $N_{\text{test}}=2$ and $3$ gives the results of setting $N_{\text{exp}}=4$ and $6$ respectively. $N_{\text{test}}=4$ gives the results when all priors are loosened by 50\%. $N_{\text{test}}=5$ gives the result of setting $t_{\text{cut}}=4$ rather than $2$ for all correlators. $N_{\text{test}}=6$ gives the result without marginalising out the $n=5$ excited state. $N_{\text{test}}=7$ gives the result of moving the svd cut from $10^{-3}$ to $10^{-2}$. $N_{\text{test}}=8,9,10$ gives the result of using a chained fit described above with priors for the full correlated fit given additional fractional errors of 100\%, 150\% and 200\% respectively. \label{fig:corr_tests_BsDs}}
 \end{figure}
 
-The stability issue is likely due to the size of the covariance matrix for the data, which must be inverted to estimate $\chi^2$. We took two steps toward mitigating this. The first is to impose an svd-cut. The second step we took was to employ a chained-fitting approach (this was required on the superfine and ultrafine data only). We first performed an array of smaller 'individual' fits, each fitting the correlators relevant only to one $m_h$ and one $|a{\bf{p}}_{D_s}|$ value. In the case of set 4, for example, this results in 11 separate fits. Then, a full simultanious fit of all of the correlators was carried out, with priors set to the results of the smaller fits. To be conservative we multiplied these priors by $1\pm 1.5$, i.e., the priors end up with over 150\% variance. This both speeds up the full fit and improves the stability of the results. We tested the validity of the results by varying the additional fractional error between 100\% and 200\%, this caused negligible changes in the results. Since we did not need to take this measure on the fine ensemble, we performed both a standard simultaneous fit and chained fits of this type as a check for the chained fits. Tests 8, 9 and 10 on Fig. \ref{fig:corr_tests_BsDs} show the results of these chained fits in comparison to the more traditional fit.
+The stability issue is likely due to the size of the covariance matrix for the data, which must be inverted to estimate $\chi^2$. We took two steps toward mitigating this. The first is to impose an svd-cut. The second step we took was to employ a chained-fitting approach (this was required on the superfine and ultrafine data only). We first performed an array of smaller 'individual' fits, each fitting the correlators relevant only to one $m_h$ and one $|a{\bf{p}}_{D_s}|$ value. In the case of set 4, for example, this results in 11 separate fits. Then, a full simultaneous fit of all of the correlators was carried out, with priors set to the results of the smaller fits. To be conservative we multiplied these priors by $1\pm 1.5$, i.e., the priors end up with over 150\% variance. This both speeds up the full fit and improves the stability of the results. We tested the validity of the results by varying the additional fractional error between 100\% and 200\%, this caused negligible changes in the results. Since we did not need to take this measure on the fine ensemble, we performed both a standard simultaneous fit and chained fits of this type as a check for the chained fits. Tests 8, 9 and 10 on Fig. \ref{fig:corr_tests_BsDs} show the results of these chained fits in comparison to the more traditional fit.
 
-The priors for the 'traditional' fits to find and fine-physical (sets 2 and 3) data, and individual chained superfine and ultrafine (sets 4 and 5) fits, were set up as follows. We set Gaussian priors for the parameters $J_{jk}$, and log-normal priors for all other parameters. Using log-normal distributions forbids ground state energies $E_0^M$, excited energy differences $E_n^M-E_{n-1}^M$, and amplitudes $a_n^M$ from both becoming negative and moving arbitrarily close to zero, improving the stability of the fit.
+The priors for the 'traditional' fits to fine and fine-physical (sets 2 and 3) data, and individual chained superfine and ultrafine (sets 4 and 5) fits, were set up as follows. We set Gaussian priors for the parameters $J_{jk}$, and log-normal priors for all other parameters. Using log-normal distributions forbids ground state energies $E_0^M$, excited energy differences $E_n^M-E_{n-1}^M$, and amplitudes $a_n^M$ from both becoming negative and moving arbitrarily close to zero, improving the stability of the fit.
 
-Priors for ground state energies log($E_0^M$) and amplitudes log($a_0^M$) are set according to an empirical-Bayes approach, plots of effective energies and amplitudes of the correlation functions are inspected to deduce reasonable priors. The ground-state oscillating parameters log($a_0^{M,o}$), log($E_0^{M,o}$), are given the same priors as the non-oscillating states, with errors inflated by 50\%. The resulting priors always have a variance of at least 10 times that of the final result. The log of oscillating and non-oscillating excited state energies, log($E_i^{M,(o)}-E_{i-1}^{M,(0)}$), $i>0$ are given prior values $-0.78\pm 0.5$. The excited state amplitudes log($a_i^M$),$i>0$ are given priors of $-1.9\pm 3.3$ for non-oscillating states, and $-3.0\pm 2.0$ for oscillating states. The ground-state non-oscillating to non-oscillating 3-point parameter, $J_{00}^{nn}$ is given a prior of $1\pm 0.5$, and the rest of the 3-point parameters $J_{jk}^{nn}$ are given $0\pm 1$.
+Priors for ground state energies log($E_0^M$) and amplitudes log($a_0^M$) are set according to an empirical-Bayes approach, plots of effective energies and amplitudes of the correlation functions are inspected to deduce reasonable priors. The ground-state oscillating parameters log($a_0^{M,o}$), log($E_0^{M,o}$), are given the same priors as the non-oscillating states, with errors inflated by 50\%. The resulting priors always have a variance of at least 10 times that of the final result. The log of oscillating and non-oscillating excited state energies, log($E_i^{M,(o)}-E_{i-1}^{M,(0)}$), $i>0$ are given prior values of log($2\Lambda_{\text{QCD}}\pm \Lambda_{\text{QCD}}$). We set $\Lambda_{\text{QCD}}=0.5$GeV. The excited state amplitudes log($a_i^M$),$i>0$ are given priors of $-1.9\pm 3.3$ for non-oscillating states, and $-3.0\pm 2.0$ for oscillating states. The ground-state non-oscillating to non-oscillating 3-point parameter, $J_{00}^{nn}$ is given a prior of $1\pm 0.5$, and the rest of the 3-point parameters $J_{jk}^{nn}$ are given $0\pm 1$.
 
 The current matrix elements we require can be extracted from the fit parameters via
 \begin{align}
@@ -266,18 +266,18 @@ The current matrix elements we require can be extracted from the fit parameters 
     \hspace{-10pt}
     \includegraphics[width=1.2\textwidth]{images/BsDs/fine_2pt_summary.pdf}
     \caption{
-Superaveraged effective energies (given by Eq. \eqref{eq:effectivemass}) and amplitudes (given by Eq. \eqref{eq:effectiveamp}) for a selection of 2-point correlators on the fine ensemble. The grey bands show the correpsonding results for these quantities from the simultaious Bayesian fits. These plots supply a further check of our correlator fits - results of the Bayesian fits are in good agreement with the effective energies and amplitudes.  \label{fig:2ptcorrs_BsDs}}
+Superaveraged effective energies (given by Eq. \eqref{eq:effectivemass}) and amplitudes (given by Eq. \eqref{eq:effectiveamp}) for a selection of 2-point correlators on the fine ensemble. The grey bands show the corresponding results for these quantities from the simultaneous Bayesian fits. These plots supply a further check of our correlator fits - results of the Bayesian fits are in good agreement with the effective energies and amplitudes.  \label{fig:2ptcorrs_BsDs}}
 \end{figure}
 
 \begin{figure}[htb!]
     \hspace{-60pt}
     \includegraphics[width=1.3\textwidth]{images/BsDs/fine_3pt_summary.pdf}
-    \caption{$\tilde{C}_3(t,T)/\tilde{C}^{H_s}(t) \tilde{C}^{D_s}(T-t)$, which should plateu at $J_{00}^{nn}$, in the fine ensemble for the $J=S$ and $J=V_0$ cases. The grey bands show the correpsonding results for these quantities from the simultaious bayesian fits.\label{fig:3ptcorrs_BsDs}}
+    \caption{$\tilde{C}_3(t,T)/\tilde{C}^{H_s}(t) \tilde{C}^{D_s}(T-t)$, which should plateau at $J_{00}^{nn}$, in the fine ensemble for the $J=S$ and $J=V_0$ cases. The grey bands show the corresponding results for these quantities from the simultaneous Bayesian fits. Unfortunately, in the $V_0$ case the oscillating component dominates the correlation function, preventing any plateau from being visible. \label{fig:3ptcorrs_BsDs}}
 \end{figure}
 
 \subsection{Vector Current Renormalization}
 
-In HISQ, the local scalar current $(1\otimes 1)$ (multiplied by the mass difference of flavours it is charged under) requires no renormalization due to its connection to the partially conserved vector current through the PCVC relation. This is not the case for the local temporal vector current $(\gamma_0\otimes \gamma_0)$. The partially conserved vector current is a complicated linear combination of many local and point-split lattice currents. In this calculation we use only the local part of the vector current, this improves the statistics of our results but creates the need for the resulting current matrix element to be multiplied by a matching factor $Z_V$ to produce the appropriate continuum current. We found $Z_V$ via a fully non-perturbative method \cite{McNeile:2011ng,Donald:2013pea}.
+In HISQ, the local scalar current $(1\otimes 1)$ (multiplied by the mass difference of flavours it is charged under) requires no renormalization due to its connection to the partially conserved vector current through the PCVC relation. This is not the case for the local temporal vector current $(\gamma_0\otimes \gamma_0)$. The partially conserved vector current is a complicated linear combination of many local and point-split lattice currents. In this calculation we use only the local part of the vector current, this improves the statistics of our results but creates the need for the resulting current matrix element to be multiplied by a matching factor $Z_V$ to produce the appropriate continuum current. We found $Z_V$ via a fully non-perturbative method \cite{Koponen:2013tua}.
 
 When both meson states in the matrix elements are at rest (the zero recoil point), the scalar and local vector matrix elements are related via the PCVC relation:
 \begin{align}
@@ -354,11 +354,11 @@ The functon $z(q^2)$ maps $q^2$ to a small region inside the unit circle on the 
 \end{align}
 where $t_+ = (M_{H_s}+M_{D_s})^2$, and we choose $t_0$ to be $t_0 = 0$. This $t_0$ choice means that at $q^2=0$ the fit functions simplify to $F_{0,+}^s(0) = a_0^{0,+}$. Throughout the physical range of $q^2$, $z$ is restricted to the range $0<z<0.06$, resulting in a fast converging series in powers of $z$. We truncate at $N=3$, adding further orders of $z^n$ does not affect the results of the fit.
 
-The factors in front of the sums in the BCL parameterisation account for subthreshold poles in the form factors due to the production of on-shell $H_c^0$ and $H_c^*$ states in the crossed channel of the semileptonic decay.
+The factors in front of the sums in the BCL parameterisation account for subthreshold poles in the form factors due to the production of on-shell $H_{c0}$ and $H_c^*$ states in the crossed channel of the semileptonic decay.
 
-To estimate $M_{H_c^0}$, the scalar heavy-charm meson mass, at each of the heavy masses we use, we leveraged the fact that the splitting $\Delta_0 = M_{H_c^0} - M_{H_c}$ is due to a radial excitation and therefore independent of the heavy quark mass. This has been calculated in \cite{Dowdall:2012ab} to be $\Delta_0 = 0.429(13)$GeV. Combined with an $H_c$ mass from our correlators, we can construct the $H_c^0$ mass: $M_{H_c^0} = M_{H_c} + \Delta_0$. We did not take the error on $\Delta_0$ into account in the fit since the precise position of the pole has a small effect on the fit results.
+To estimate $M_{H_{c0}}$, the scalar heavy-charm meson mass, at each of the heavy masses we use, we leveraged the fact that the splitting $\Delta_0 = M_{H_{c0}} - M_{H_c}$ is due to an orbital excitation and therefore independent of the heavy quark mass. This has been calculated in \cite{Dowdall:2012ab} to be $\Delta_0 = 0.429(13)$GeV. Combined with an $H_c$ mass from our correlators, we can construct the $H_{c0}$ mass: $M_{H_{c0}} = M_{H_c} + \Delta_0$. We did not take the error on $\Delta_0$ into account in the fit since the precise position of the pole has a small effect on the fit results.
 
-To estimate $M_{H^*_c}$, the vector heavy-charm mass, we use the fact that the splitting $ M_{H_c^*} - M_{H_c}$ vanishes in the infinite heavy mass limit. $M_{H_c^*}$ then takes the approximate form $M_{H_c^*} \simeq M_{H_c} + \order{1/m_h}$. To reproduce this behaviour we use the ansatz $M_{H_c^*} = M_{H_c} + x/M_{\eta_h}$, and fix $x$ at the physical point to find $x=0.508$GeV$^2$.
+To estimate $M_{H^*_c}$, the vector heavy-charm mass, we use the fact that the splitting $ M_{H_c^*} - M_{H_c}$ vanishes in the infinite heavy mass limit. $M_{H_c^*}$ then takes the approximate form $M_{H_c^*} \simeq M_{H_c} + \order{1/m_h}$. To reproduce this behaviour we use the ansatz $M_{H_c^*} = M_{H_c} + x/M_{\eta_h}$, and fix $x$ at the physical point to find $x=0.508$GeV$^2$. To do this we use the result $M_{B_c^*}-M_{B_c}=54\,$MeV from \cite{Dowdall:2012ab}.
 
 \subsubsection{Heavy Mass and Discretisation Effects}
 
@@ -371,9 +371,9 @@ To account for variation in heavy mass and discretisation effects in a general w
 
 To understand this form, focus first on the sum. Powers of $(2\Lambda_{\text{QCD}}/M_{\eta_h})$ give an HQET inspired way of quantifying the variation in the results due to the changing heavy mass. $M_{\eta_h}$ varies strongly and monotonically with the heavy quark mass, so acts as a suitable proxy. $\Lambda_{\text{QCD}}$ is the confinement scale, which we set to 0.5GeV.
 
-The two scales expected to be the largest sources of discretisation effects are the heavy mass $am_{h0}^{\text{val}}$, and the energy in the $D_s$ meson, $aE_{D_s}$, especially when it is given a large spacial momentum. Adding further, smaller scales, like $a\Lambda_{\text{QCD}}$, had no effect on the results.
+The two scales expected to be the largest sources of discretisation effects are the heavy mass $am_{h0}^{\text{val}}$, and the energy in the $D_s$ meson, $aE_{D_s}$, especially when it is given a large spatial momentum. Adding further, smaller scales, like $a\Lambda_{\text{QCD}}$, had no effect on the results.
 
-The coefficients $d^{0,+}_{ijkn}$ are fit parameters given prior distributions of $0\pm 1$. In the ratio case, these carry mass dimension GeV$^{-3/2}$, hence this prior corresponds to a prior of $0\pm (2\Lambda_{\text{QCD}})^{-3/2}$.
+The coefficients $d^{0,+}_{ijkn}$ are fit parameters given prior distributions of $0\pm 2$. In the ratio case, these carry mass dimension GeV$^{-3/2}$, hence this prior corresponds to a prior of $0\pm (2\Lambda_{\text{QCD}})^{-3/2}$.
 
 To account for any required matching between HQET and QCD, we included a log term in front of the sum. $\rho^{0,+}_n$ are fit parameters with prior distribution $0\pm 1$.
 
@@ -409,7 +409,7 @@ Finite volume effects are negligible in our calculation, we do not include any a
 
 In our simulation we set $m_u=m_d\equiv m_l$, this means our results do not account for isospin breaking. By moving the $m_l^{\text{tuned}}$ value up and down by the PDG value for $m_d-m_u$, we tested for any signs of isospin breaking having an effect on the results. The resulting effect was negligible in comparison to all other sources of error.
 
-Since we take the physical result at $M_{\eta_h}=M_{\eta_b}$, the uncertainty in $M_{\eta_b}$ will contribute an uncertainty in the final result. We use the PDG result for $M_{\eta_h}$ \cite{PhysRevD.98.030001}. However, $\bar{b}-b$ annihilation and electroweak corrections make this somewhat different to the appropriate value on the lattice. We estimate the corresponding uncertainty in $M_{\eta_b}$ to be no greater than $\pm10$MeV. To see how this changes the result of the extrapolation, we varied $M_{\eta_b}$ up and down by 10MeV and studied how our result at $f_0(q^2_{\text{max}})$ changes. The change is never greater than $10^{-4}$, which is negligable in comparison to the other errors.
+Since we take the physical result at $M_{\eta_h}=M_{\eta_b}$, the uncertainty in $M_{\eta_b}$ will contribute an uncertainty in the final result. We use the PDG result for $M_{\eta_h}$ \cite{PhysRevD.98.030001}. However, $\bar{b}-b$ annihilation and electroweak corrections make this somewhat different to the appropriate value on the lattice. We estimate the corresponding uncertainty in $M_{\eta_b}$ to be no greater than $\pm10$MeV. To see how this changes the result of the extrapolation, we varied $M_{\eta_b}$ up and down by 10MeV and studied how our result at $f_0(q^2_{\text{max}})$ changes. The change is never greater than $10^{-4}$, which is negligible in comparison to the other errors.
 
 \section{Results}
 \label{sec:results}
@@ -431,7 +431,8 @@ I will first show results from the ratio method, then the direct method. In both
     \end{center}
 \end{figure}
 
-We performed an isolated extrapolation of $R^s_0(q^2_{\text{max}})$ to the physical point. To do this we used a simplified fit form for $R^s_0(q^2_{\text{max}})$ consisting of the right hand side of \eqref{eq:mhfitfun},with the index $n$ discarded. We find
+We performed an isolated extrapolation of $R^s_0(q^2_{\text{max}})$ to the physical point. To do this we used a simplified fit form for $R^s_0(q^2_{\text{max}})$ consisting of the right hand side of \eqref{eq:mhfitfun},with the index $n$ discarded.
+We find
 \begin{align}
   R_0^s(q^2_{\text{max}}) = {f_0^s(q^2_{\text{max}})\over f_{B_c}\sqrt{M_{B_c}}} = 0.843(18) \text{GeV}^{-3/2}\,.
 \end{align}
@@ -619,11 +620,11 @@ where $M_{\text{pole}}=M_{B_c^0}$ in the $f^s_0$ case and $M_{B_c^*}$ in the $f^
 \end{align}
 where $\{\eta_n\}$ are the taylor coefficients of $\psi(z)$.
 
-$\psi(z)$ is bounded on the closed disk $|z|<1$, so its taylor coefficients are rapidly decreasing. We computed values for $B_{jk}$ by truncating the sum in its definition \eqref{eq:Bmatrix} at 100. These values are given in Table \ref{tab:Bmatrix}. With these $B_{jk}$ values, and the $a_n$ coefficients at the physical point from our fit (via the direct method), we find
+$\psi(z)$ is bounded on the closed disk $|z|<1$, so its Taylor coefficients are rapidly decreasing. We computed values for $B_{jk}$ by truncating the sum in its definition \eqref{eq:Bmatrix} at 100. These values are given in Table \ref{tab:Bmatrix}. With these $B_{jk}$ values, and the $a_n$ coefficients at the physical point from our fit (via the direct method), we find
 \begin{align}
   \nonumber
-  \mathcal{B}_0 = 0.00066(64)\,,
-  \\ \mathcal{B}_+ = 0.0244(60)\,.
+  \mathcal{B}_0 = 0.0008(15)\,,
+  \\ \mathcal{B}_+ = 0.0204(66)\,.
   \nonumber
 \end{align}
 These comfortably satisfy the unitarity bound. Additionally, as discussed in \cite{BECHER200661}, the leading contributions to $\mathcal{B}_{0,+}$ are of order $(\Lambda_{\text{QCD}}/m_b)^3 \simeq 10^{-3}$ in HQET. This expectation is approximately fulfilled by our result.
@@ -663,10 +664,10 @@ Armed with form factors from a lattice QCD calculation, one can immediately prod
 
 A lattice prediction has already been made in \cite{Monahan:2017uby} of $R_{D_s}|_{\text{SM}} = 0.301(6)$. We here report a new prediction:
 \begin{align}
-  R_{D_s}|_{\text{SM}} = 0.2959(38).
+  R_{D_s}|_{\text{SM}} = 0.2985(51).
   \label{eq:RDs}
 \end{align}
-To arrive at this prediction we averaged over the $l=e$ and $l=\mu$ cases. We give an error budget for this result in terms of errors from our lattice calculation in table \ref{RDs_budget}. As a check we also compute $R_{D_s}$ using form factors from resulting from the ratio method tofind $R_{D_s}|_{\text{SM}} = 0.2988(47)$.
+To arrive at this prediction we averaged over the $l=e$ and $l=\mu$ cases. We give an error budget for this result in terms of errors from our lattice calculation in table \ref{RDs_budget}. As a check we also compute $R_{D_s}$ using form factors from resulting from the ratio method tofind $R_{D_s}|_{\text{SM}} = 0.2999(58)$.
 
 \begin{table}[htb!]
   \begin{center}
@@ -674,14 +675,14 @@ To arrive at this prediction we averaged over the $l=e$ and $l=\mu$ cases. We gi
       \hline
       Source & \% Fractional Error \\ [0.5ex]
       \hline
-      Statistics & 1.03  \\ [1ex]
+      Statistics & 1.27  \\ [1ex]
       Scale Setting & 0.41  \\ [1ex]
-      Kinematic Interpolation & 0.49  \\ [1ex]
-      $m_h \to m_b$, & 0.52  \\ [1ex]
-      $a\to 0$ & 0.07  \\ [1ex]
-      Quark Mass Mistuning & 0.04 \\ [1ex]
+      Kinematic Interpolation & 0.85  \\ [1ex]
+      $m_h \to m_b$, & 0.74  \\ [1ex]
+      $a\to 0$ & 0.06  \\ [1ex]
+      Quark Mass Mistuning & 0.02 \\ [1ex]
       \hline
-      Total & 1.28 \\ [1ex]
+      Total & 1.70 \\ [1ex]
       \hline
     \end{tabular}
   \end{center}
@@ -739,7 +740,7 @@ To arrive at this prediction we averaged over the $l=e$ and $l=\mu$ cases. We gi
 
 We have produced a fully non-perturbative lattice QCD prediction of the scalar and vector form factors for the $B_s\to D_s l\nu$ decay throughout the entire $q^2$ range (Fig. \ref{fig:directfinal}), and a value for $R_{D_s}$ (Eq. \eqref{eq:RDs}). Our results are statistics dominated. In this calculation we used correlation functions from 3 lattice spacings, including an ensemble with an approximately physical light quark mass, and learned the $b$-mass dependence of the form factors by obtaining data at 12 different heavy quark masses.
 
-Our results supply an independent check on the NRQCD formalism for computing pseudoscalar-to-pseudoscalar form factors. Our results validate the $q^2$-extrapolation from high $q^2$ lattice data used in the NRQCD case, since our formalism produced lattice data throughout all $q^2$. We have also shown that the systematic error assigned to the NRQCD results to account for perturbative matching and truncation of the $1/m$ series in the NRQCD-HISQ current is sufficient. Our results are however considerably more precise and does not rely on the assumptions implicit in the NRQCD formalism.
+Our results supply an independent check on the NRQCD formalism for computing pseudoscalar-to-pseudoscalar form factors. Our results validate the $q^2$-extrapolation from high $q^2$ lattice data used in the NRQCD case since our formalism produced lattice data throughout all $q^2$. We have also shown that the systematic error assigned to the NRQCD results to account for perturbative matching and truncation of the $1/m$ series in the NRQCD-HISQ current is sufficient. Our results are however considerably more precise and do not rely on the assumptions implicit in the NRQCD formalism.
 
 Our calculation has shown that a heavy-HISQ determination of the $B\to Dl\nu$ form factors is very plausible. Such a calculation could use an essentially identical process as given here, with the strange valence quark simply replaced with a light one. Perhaps correlation functions from additional ensembles with smaller light quark masses would be necessary to resolve the dependence of the form factors on the light mass. Also, more statistics would likely be necessary, since the presence of a light valence quark increases the noise in the lattice data, and statistics is already the dominant uncertainty in this calculation.
 
@@ -767,19 +768,20 @@ and $t_+ = (M_{B_s}+M_{D_s})^2$ (one should take the PDG 2018 values for these m
 \hline
  & $a^0_0$ & $a^0_1$ & $a^0_2$ & $a^+_0$ & $a^+_1$ & $a^+_2$\\ [0.5ex]
 \hline
- & 0.66068 & -0.17640 & -0.08339 & 0.66068 & -3.49770 & 0.00919\\ [1ex]
+ & 0.66097 & -0.26421 & -0.26158 & 0.66097 & -3.17196 & 0.10935\\ [1ex]
 \hline
- & 0.00010 & 0.00126 & -0.00014 & 0.00010 & 0.00015 & 0.00000\\ [1ex]
- &  & 0.03478 & 0.04435 & 0.00126 & 0.00882 & 0.00003\\ [1ex]
- &  &  & 0.95201 & -0.00014 & 0.04649 & -0.00100\\ [1ex]
- &  &  &  & 0.00010 & 0.00015 & 0.00000\\ [1ex]
- &  &  &  &  & 0.21079 & 0.02185\\ [1ex]
- &  &  &  &  &  & 1.01000\\ [1ex]
+ & 0.00016 & 0.00217 & 0.00125 & 0.00016 & 0.00014 & 0.00001\\ [1ex]
+ &  & 0.06838 & 0.18373 & 0.00217 & 0.01578 & -0.00031\\ [1ex]
+ &  &  & 3.47982 & 0.00125 & 0.18432 & -0.00606\\ [1ex]
+ &  &  &  & 0.00016 & 0.00014 & 0.00001\\ [1ex]
+ &  &  &  &  & 0.27937 & 0.09825\\ [1ex]
+ &  &  &  &  &  & 4.06414\\ [1ex]
 \hline
 \end{tabular}
     \caption{Our results for $z$-coefficients in the BCL parameterization \eqref{eq:BCLappendix}. The first row gives mean values, and the rest of the table gives the covarance matrix associated with these parameters. \label{tab:coeffs}}
 \end{center}
 \end{table}
+
 
 
 

@@ -98,7 +98,7 @@ where $g_q(x,y)$ is a staggered propagator for flavour $q$, and the trace is ove
   C_{D_s^*}(t) = \sum_{\bf{x},\bf{y}} (-1)^{x_{\mu}+y_{\mu}} \left\langle \text{Tr}_c\left[ g_c(x,y) g_s^{\dagger}(x,y) \right] \right\rangle.
 \end{align}
 
-In order to non-perturbatively renormalise the axial vector current, we computed correlation functions for goldstone and non-goldstone pseudoscalar and heavy-charm mesons, denoted $H_c$ and $\hat{H}_c$ respectively. $H_c$ has spin-taste structure $(\gamma_5\otimes \gamma_5)$ and $\hat{H}_c$ has structure $(\gamma_5\gamma_0\otimes \gamma_5\gamma_0)$. $H_c$ correlators are computed using \eqref{eq:pseudoscalar_corrs_BsDsstar} (with $g_s$ replaced with $g_c$), while $\hat{H}_c$ correlators are given by
+In order to non-perturbatively renormalise the axial vector current, we computed correlation functions for goldstone and non-goldstone pseudoscalar and heavy-charm mesons, denoted $H_c$ and $\hat{H}_c$ respectively. $H_c$ has spin-taste structure $(\gamma_5\otimes \gamma_5)$ and $\hat{H}_c$ has structure $(\gamma_5\gamma_0\otimes \gamma_5\gamma_0)$. $H_c$ correlators are computed using \eqref{eq:pseudoscalar_corrs_BsDsstar} (with $g_s$ replaced with $g_c$), while $\hat{H}_c$ correlators are given by \cite{PhysRevD.98.030001}:
 \begin{align}
   C_{\hat{H}_c}(t) = \sum_{\bf{x},\bf{y}}(-1)^{\bar{x}_0+\bar{y}_0} \left\langle \text{Tr}_c\left[ g_h(x,y) g^{\dagger}_c(x,y) \right] \right\rangle,
 \end{align}
@@ -194,7 +194,7 @@ A similar approach can be applied to the 3-point correlators. The ratio $\tilde{
   \begin{center}
     \vspace{-10pt}
   \includegraphics[width=0.8\textwidth]{images/BsDsstar/3ptsummary_fine.pdf}
-  \caption{Sanity check for fits to the 3-point correlation functions. This ratio should approach $J_{00}^{nn}$ for $t>>0$ and $t<<T$. The grey band shows the result for $J_{00}^{nn}$ from the full multiexponential fit. If the $T$ values were larger, one can invision the data reaching a plateu at the same height as the grey band. \label{eq:3pt-summary_BsDsstar}}
+  \caption{Sanity check for fits to the 3-point correlation functions. This ratio should approach $J_{00}^{nn}$ for $t>>0$ and $t<<T$. The grey bands show the result for $J_{00}^{nn}$ from the full multiexponential fit for each $am_h$ (here they are all bunched up so appear as a single band). If the $T$ values were larger, one can invision the data reaching a plateu at the same height as the grey band. \label{eq:3pt-summary_BsDsstar}}
   \end{center}
   \vspace{-10pt}
 \end{figure}
@@ -312,12 +312,12 @@ $\eta_A$ accounts for matching between HQET and QCD, and has been computed to 2-
   \eta_A(m_h) = 1 - {\alpha_s \over \pi} \left( {m_h+m_c\over m_h-m_c} \ln\left({m_c\over m_h}\right) + {8\over 3} \right).
   \label{eq:etaA}
 \end{align}
-Fig. \ref{fig:etaAV} shows the variation of $\eta_A$ throughout this range, the value changes by around 1\%. The two-loop correction is an order of magnitude smaller than this \cite{PhysRevLett.76.4124}.
+Fig. \ref{fig:etaAV} shows the variation of $\eta_A$ throughout this range, the value changes by around 1.5\%. The two-loop correction is an order of magnitude smaller than this \cite{PhysRevLett.76.4124}.
 
 \begin{figure}[htb!]
   \begin{center}
   \includegraphics[width=0.6\textwidth]{images/BsDsstar/etaAV.pdf}
-  \caption{The variation of the 1-loop expression for $\eta_{A}$ \& $\eta_V$ throughout the $m_c \leq m_h \leq m_b$ range. \label{fig:etaAV}}
+  \caption{The variation of the 1-loop expression for $\eta_{A}$ \& $\eta_V$ throughout the $m_c \leq m_h \leq m_b$ range. For $m_b$ and $m_c$ values we used $m^{\overline{\text{MS}}}_b(m^{\overline{\text{MS}}}_b)$ and $m^{\overline{\text{MS}}}_c(m^{\overline{\text{MS}}}_c)$. For the coupling constant we used $\alpha_s(\sqrt{m_b m_c})$. \label{fig:etaAV}}
   \end{center}
   \vspace{-10pt}
 \end{figure}
@@ -573,7 +573,7 @@ In Fig. \ref{fig:comparison_BsDsstar}, we show all current lattice results for $
 \end{figure}
 
 \begin{figure}[htb!]
-  \vspace{-20pt}
+  \vspace{-10pt}
   \begin{center}
   \includegraphics[width=0.9\textwidth]{images/BsDsstar/fermilab_nrqcd_data.pdf}
   \caption{Lattice data and continuum extrapolated data for three studies of $h_{A_1}(1)$ and $h_{A_1}^s$, against the pion mass. Points labeled FNAL/MILC are from \cite{Bailey:2014tva}, and those labeled NRQCD are from \cite{Harrison:2017fmw}. The x-axis must be taken with a pinch of salt, the points at $M_{\pi}=M_{\eta_s}$ have pions in the sea of smaller masses than $M_{\eta_s}$, but we place them here to signify that the spectator quark as the mass of a strange quark. \label{fig:fermilab_data}}

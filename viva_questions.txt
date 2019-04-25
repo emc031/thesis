@@ -1,4 +1,25 @@
 
+sec. 5.2.3 : what are the relative sizes of A0,A1,A2? Answer - same as V0,V1,V2, see fig. 5.5.
+
+pg 68 : why does one need to fix to coulomb gauge in order to use smearings? how do you fix to coloumb gauge on the lattice?
+
+pg 71 : why is z_1 so damn precise?
+
+table 7.2 : why use the weird large t_cuts at the amh=0.5, q2=0 point?
+A: too damn noisy - some time-slices useless and only serve to destablize the fit. The high momentum D_s makes statistics blow up on the B_s side.
+
+A reasonable question around Figu 5.1. would be there relative size of the matrix elements of A^(1) and A^(2).
+
+pg. 79/80 - how do mixing between NRQCD-HISQ currents cause cancellations?
+
 Pg. 105 - you estimate +-10MeV uncertainty for M_etah, where does this come from?
+
+Pg 133 - the priors of 0+-1 for d_ijkl are maybe too tight?
+A - we know that a_0^{0,+} = f_{0,+}(0) ~ 0.6, so that's fine.
+
+Table 7.2 - 
+It seems reasonable that t-cut should depend  on the heavy quark mass but it does not seem to be doing that in your fits?
+ your t-cut values do not seem to make sense for H_C - why wou\
+ ld t_cut go down from superfine to ultrafine?
 
 why use a lattice version of NRQCD rather than a lattice version of HQET?

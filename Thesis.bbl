@@ -1076,6 +1076,12 @@ R.~Glattauer et~al.
   $|V_{cb}|$}.
 \newblock {\em Phys. Rev.}, D93(3):032006, 2016.
 
+\bibitem{CMS:2014xfa}
+Vardan Khachatryan et~al.
+\newblock {Observation of the rare $B^0_s\to\mu^+\mu^-$ decay from the combined
+  analysis of CMS and LHCb data}.
+\newblock {\em Nature}, 522:68--72, 2015.
+
 \bibitem{PhysRevD.85.114502}
 Jon~A. Bailey, A.~Bazavov, C.~Bernard, C.~M. Bouchard, C.~DeTar, Daping Du,
   A.~X. El-Khadra, J.~Foley, E.~D. Freeland, E.~G\'amiz, Steven Gottlieb, U.~M.
@@ -1093,6 +1099,20 @@ Mariam Atoui, Vincent Mor{\'e}nas, Damir Be{\v{c}}irevi{\'{c}}, and Francesco
 \newblock $b_s\to d_s l\nu_l$ near zero recoil in and beyond the standard
   model.
 \newblock {\em The European Physical Journal C}, 74(5):2861, May 2014.
+
+\bibitem{RBCmichigan}
+Witzel O., Flynn J., Juettner A., Soni A., and Tsang~J. T.
+\newblock Semi-leptonic form factors for $b_s \to k l \nu$ and $b_s \to d_s l
+  \nu$.
+\newblock 36th Annual International Symposium on Lattice Field Theory, July
+  22-28, 2018, East Lansing, MI, USA, 2018.
+
+\bibitem{Koponen:2013tua}
+J.~Koponen, C.~T.~H. Davies, G.~C. Donald, E.~Follana, G.~P. Lepage, H.~Na, and
+  J.~Shigemitsu.
+\newblock {The shape of the $D\to K$ semileptonic form factor from full lattice
+  QCD and $V_{cs}$}.
+\newblock 2013.
 
 \bibitem{Bourrely:2008za}
 Claude Bourrely, Irinel Caprini, and Laurent Lellouch.
