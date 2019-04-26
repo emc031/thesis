@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.29)  25 APR 2019 23:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.29)  26 APR 2019 15:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2133,7 +2133,7 @@ xmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on Thesis.pdf (195 pages, 7051551 bytes).
+Output written on Thesis.pdf (195 pages, 7051486 bytes).
 PDF statistics:
  6666 PDF objects out of 7423 (max. 8388607)
  1327 compressed objects within 14 object streams
