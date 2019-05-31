@@ -2,8 +2,8 @@
 
 \bibitem{McLean:2019sds}
 E.~McLean, C.~T.~H. Davies, A.~T. Lytle, and J.~Koponen.
-\newblock {Lattice QCD form factor for $B_s\to D_s^* l\nu$ at zero recoil with
-  non-perturbative current renormalisation}.
+\newblock {Lattice QCD form factor for $B_s\to D_s^* \ell\nu$ at zero recoil
+  with non-perturbative current renormalisation}.
 \newblock 2019.
 
 \bibitem{PhysRevD.98.030001}
@@ -30,6 +30,17 @@ Brian Colquhoun, Christine Davies, Jonna Koponen, Andrew Lytle, and Craig
   McNeile.
 \newblock {$B_c$ decays from highly improved staggered quarks and NRQCD}.
 \newblock {\em PoS}, LATTICE2016:281, 2016.
+
+\bibitem{Bazavov:2012xda}
+A.~Bazavov et~al.
+\newblock {Lattice QCD ensembles with four flavors of highly improved staggered
+  quarks}.
+\newblock {\em Phys. Rev.}, D87(5):054505, 2013.
+
+\bibitem{Bazavov:2010ru}
+A.~Bazavov et~al.
+\newblock {Scaling studies of QCD with the dynamical HISQ action}.
+\newblock {\em Phys. Rev.}, D82:074501, 2010.
 
 \bibitem{GLASHOW1961579}
 Sheldon~L. Glashow.
@@ -149,6 +160,11 @@ David Atwood and William~J. Marciano.
 \newblock Radiative corrections and semileptonic b decays.
 \newblock {\em Phys. Rev. D}, 41:1736--1740, Mar 1990.
 
+\bibitem{Kiselev:1999sc}
+V.~V. Kiselev, A.~K. Likhoded, and A.~I. Onishchenko.
+\newblock {Semileptonic $B_c$ meson decays in sum rules of QCD and NRQCD}.
+\newblock {\em Nucl. Phys.}, B569:473--504, 2000.
+
 \bibitem{Harrison:2017fmw}
 Judd Harrison, Christine Davies, and Matthew Wingate.
 \newblock {Lattice QCD calculation of the ${{B}_{(s)}\to D_{(s)}^{*}\ell{\nu}}$
@@ -170,7 +186,7 @@ Andre~H. Hoang, Zoltan Ligeti, and Aneesh~V. Manohar.
 \bibitem{Na:2015kha}
 Heechang Na, Chris~M. Bouchard, G.~Peter Lepage, Chris Monahan, and Junko
   Shigemitsu.
-\newblock {$B \rightarrow D l \nu$ form factors at nonzero recoil and
+\newblock {$B \rightarrow D \ell \nu$ form factors at nonzero recoil and
   extraction of $|V_{cb}|$}.
 \newblock {\em Phys. Rev.}, D92(5):054510, 2015.
 \newblock [Erratum: Phys. Rev.D93,no.11,119906(2016)].
@@ -195,25 +211,27 @@ Benjamin Grinstein and Andrew Kobach.
 
 \bibitem{BUSKULIC1995236}
 D~Buskulic et. al.
-\newblock A measurement of $|vcb|$ from $b^0 \to d^*l^-\nu_l$.
+\newblock {A measurement of $|V_{cb}|$ from $B^0 \to D^*l^-\nu_l$}.
 \newblock {\em Physics Letters B}, 359(1):236 -- 248, 1995.
 
 \bibitem{Abe:2001yf}
 Kazuo Abe et~al.
-\newblock {Measurement of B(anti-B0 ---> D+ l- anti-nu) and determination of
-  |V(cb)|}.
+\newblock {Measurement of $\mathcal{B}(\bar{B}^0 \to D^+ l^- \bar{\nu})$ and
+  determination of $|V_{cb}|$}.
 \newblock {\em Phys. Lett.}, B526:258--268, 2002.
 
 \bibitem{Aubert:2008yv}
 Bernard Aubert et~al.
-\newblock {Measurements of the Semileptonic Decays anti-B ---> D l anti-nu and
-  anti-B ---> D* l anti-nu Using a Global Fit to D X l anti-nu Final States}.
+\newblock {Measurements of the Semileptonic Decays $\bar{B} \to D \ell
+  \bar{\nu}$ and $\bar{B} \to D^* \ell \bar{\nu}$ Using a Global Fit to $D X_l
+  \bar{\nu}$ Final States}.
 \newblock {\em Phys. Rev.}, D79:012002, 2009.
 
 \bibitem{Aubert:2009ac}
 Bernard Aubert et~al.
-\newblock {Measurement of |V(cb)| and the Form-Factor Slope in B ---> D l-
-  anti-nu Decays in Events Tagged by a Fully Reconstructed B Meson}.
+\newblock {Measurement of $|V_{cb}|$ and the Form-Factor Slope in $B\to D
+  \ell^- \bar{\nu}$ Decays in Events Tagged by a Fully Reconstructed $B$
+  Meson}.
 \newblock {\em Phys. Rev. Lett.}, 104:011802, 2010.
 
 \bibitem{Bartelt:1998dq}
@@ -222,11 +240,12 @@ John~E. Bartelt et~al.
   form-factor}.
 \newblock {\em Phys. Rev. Lett.}, 82:3746, 1999.
 
-\bibitem{Caprini:1997mu}
-Irinel Caprini, Laurent Lellouch, and Matthias Neubert.
-\newblock {Dispersive bounds on the shape of anti-B ---> D(*) lepton
-  anti-neutrino form-factors}.
-\newblock {\em Nucl. Phys.}, B530:153--181, 1998.
+\bibitem{Bernlochner:2017jka}
+Florian~U. Bernlochner, Zoltan Ligeti, Michele Papucci, and Dean~J. Robinson.
+\newblock {Combined analysis of semileptonic $B$ decays to $D$ and $D^*$:
+  $R(D^{(*)})$, $|V_{cb}|$, and new physics}.
+\newblock {\em Phys. Rev.}, D95(11):115008, 2017.
+\newblock [erratum: Phys. Rev.D97,no.5,059902(2018)].
 
 \bibitem{Bigi:2017njr}
 Dante Bigi, Paolo Gambino, and Stefan Schacht.
@@ -234,10 +253,16 @@ Dante Bigi, Paolo Gambino, and Stefan Schacht.
   \ell \nu$}.
 \newblock {\em Phys. Lett.}, B769:441--445, 2017.
 
+\bibitem{Caprini:1997mu}
+Irinel Caprini, Laurent Lellouch, and Matthias Neubert.
+\newblock {Dispersive bounds on the shape of $\bar{B} \to D^* \ell \bar{\nu}$
+  form-factors}.
+\newblock {\em Nucl. Phys.}, B530:153--181, 1998.
+
 \bibitem{GLENNBOYD1996493}
 C.~Glenn Boyd, Benjamín Grinstein, and Richard~F. Lebed.
-\newblock Model-independent determinations of $b \to d l\nu, d^*l\nu$ form
-  factors.
+\newblock {Model-independent determinations of $B \to D \ell\nu, D^*\ell\nu$
+  form factors}.
 \newblock {\em Nuclear Physics B}, 461(3):493 -- 511, 1996.
 
 \bibitem{Bailey:2018feb}
@@ -312,13 +337,6 @@ R.~Aaij et~al.
 Dante Bigi and Paolo Gambino.
 \newblock {Revisiting $B\to D \ell \nu$}.
 \newblock {\em Phys. Rev.}, D94(9):094008, 2016.
-
-\bibitem{Bernlochner:2017jka}
-Florian~U. Bernlochner, Zoltan Ligeti, Michele Papucci, and Dean~J. Robinson.
-\newblock {Combined analysis of semileptonic $B$ decays to $D$ and $D^*$:
-  $R(D^{(*)})$, $|V_{cb}|$, and new physics}.
-\newblock {\em Phys. Rev.}, D95(11):115008, 2017.
-\newblock [erratum: Phys. Rev.D97,no.5,059902(2018)].
 
 \bibitem{Jaiswal:2017rve}
 Sneha Jaiswal, Soumitra Nandi, and Sunando~Kumar Patra.
@@ -411,7 +429,7 @@ R.~Aaij et~al.
 
 \bibitem{Abe:2003sx}
 Kazuo Abe et~al.
-\newblock {An Upper bound on the decay tau ---> mu gamma from Belle}.
+\newblock {An Upper bound on the decay $\tau \to \mu \gamma$ from Belle}.
 \newblock {\em Phys. Rev. Lett.}, 92:171802, 2004.
 
 \bibitem{TheMEG:2016wtm}
@@ -627,6 +645,12 @@ G.~C. Donald, C.~T.~H. Davies, R.~J. Dowdall, E.~Follana, K.~Hornbostel,
   leptonic width and radiative decay rate to ${\eta}_c$}.
 \newblock {\em Phys. Rev.}, D86:094501, 2012.
 
+\bibitem{Prelovsek:2013cta}
+Sasa Prelovsek.
+\newblock {Lattice QCD review of charmonium and open-charm spectroscopy}.
+\newblock In {\em {Proceedings, 6th International Workshop on Charm Physics
+  (Charm 2013): Manchester, UK, August 31-September 4, 2013}}, 2013.
+
 \bibitem{McNeile:2011ng}
 C.~McNeile, C.~T.~H. Davies, E.~Follana, K.~Hornbostel, and G.~P. Lepage.
 \newblock {High-Precision $f_{B_s}$ and HQET from Relativistic Lattice QCD}.
@@ -668,6 +692,12 @@ R.~J. Dowdall et~al.
   from lattice QCD including charm quarks in the sea}.
 \newblock {\em Phys. Rev.}, D85:054509, 2012.
 
+\bibitem{PhysRevD.35.2531}
+Steven Gottlieb, W.~Liu, D.~Toussaint, R.~L. Renken, and R.~L. Sugar.
+\newblock Hybrid-molecular-dynamics algorithms for the numerical simulation of
+  quantum chromodynamics.
+\newblock {\em Phys. Rev. D}, 35:2531--2542, Apr 1987.
+
 \bibitem{PhysRevLett.49.613}
 David J.~E. Callaway and Aneesur Rahman.
 \newblock Microcanonical ensemble formulation of lattice gauge theory.
@@ -699,12 +729,6 @@ Nicholas Metropolis, Arianna~W. Rosenbluth, Marshall~N. Rosenbluth, Augusta~H.
 Simon Duane, A.D. Kennedy, Brian~J. Pendleton, and Duncan Roweth.
 \newblock Hybrid monte carlo.
 \newblock {\em Physics Letters B}, 195(2):216 -- 222, 1987.
-
-\bibitem{PhysRevD.35.2531}
-Steven Gottlieb, W.~Liu, D.~Toussaint, R.~L. Renken, and R.~L. Sugar.
-\newblock Hybrid-molecular-dynamics algorithms for the numerical simulation of
-  quantum chromodynamics.
-\newblock {\em Phys. Rev. D}, 35:2531--2542, Apr 1987.
 
 \bibitem{JANSEN20043}
 K.~Jansen.
@@ -768,17 +792,6 @@ Andreas Frommer, Bertold Nockel, Stephan Gusken, Thomas Lippert, and Klaus
 Beat Jegerlehner.
 \newblock {Krylov space solvers for shifted linear systems}.
 \newblock 1996.
-
-\bibitem{Bazavov:2012xda}
-A.~Bazavov et~al.
-\newblock {Lattice QCD ensembles with four flavors of highly improved staggered
-  quarks}.
-\newblock {\em Phys. Rev.}, D87(5):054505, 2013.
-
-\bibitem{Bazavov:2010ru}
-A.~Bazavov et~al.
-\newblock {Scaling studies of QCD with the dynamical HISQ action}.
-\newblock {\em Phys. Rev.}, D82:074501, 2010.
 
 \bibitem{Chakraborty:2016mwy}
 Bipasha Chakraborty, C.~T.~H. Davies, P.~G. de~Oliviera, J.~Koponen, G.~P.
@@ -885,9 +898,9 @@ T.~C. Hammant, A.~G. Hart, G.~M. von Hippel, R.~R. Horgan, and C.~J. Monahan.
 
 \bibitem{PhysRevD.79.013008}
 Claude Bourrely, Laurent Lellouch, and Irinel Caprini.
-\newblock Model-independent description of
-  $b\ensuremath{\rightarrow}\ensuremath{\pi}l\ensuremath{\nu}$ decays and a
-  determination of $|{V}_{ub}|$.
+\newblock {Model-independent description of
+  $B\ensuremath{\rightarrow}\ensuremath{\pi}l\ensuremath{\nu}$ decays and a
+  determination of $|{V}_{ub}|$}.
 \newblock {\em Phys. Rev. D}, 79:013008, Jan 2009.
 
 \bibitem{Schroder:1994aj}
@@ -910,14 +923,11 @@ R.~Fulton et~al.
 
 \bibitem{ALBRECHT1992195}
 H.~Albrecht et~al.
-\newblock Measurement of the decay $b^0\to d^{*0}l^-\nu$.
+\newblock {Measurement of the decay $B^0\to D^{*0}l^-\nu$}.
 \newblock {\em Physics Letters B}, 275(1):195 -- 201, 1992.
 
 \bibitem{Barish:1994mu}
 B.~Barish et~al.
-\newblock {Measurement of the anti-B ---> D* lepton anti-neutrino branching
-  fractions and |V(cb)|}.
-\newblock {\em Phys. Rev.}, D51:1014--1033, 1995.
 
 \bibitem{BUSKULIC1996449}
 D.~Buskulic et~al.
@@ -931,26 +941,26 @@ D.~Buskulic et~al.
 
 \bibitem{Abbiendi:2000hk}
 G.~Abbiendi et~al.
-\newblock {Measurement of |V(cb)| using anti-B0 ---> D*+ lepton- anti-neutrino
-  decays}.
+\newblock {Measurement of $|V_{cb}|$ using $\bar{B}^0\to D^{*\,+} \ell^-
+  \bar{\nu}$}.
 \newblock {\em Phys. Lett.}, B482:15--30, 2000.
 
 \bibitem{Abreu:2001ic}
 P.~Abreu et~al.
-\newblock {Measurement of V(cb) from the decay process anti-B0 ---> D*+ lepton-
-  anti-neutrino}.
+\newblock {Measurement of $V_{cb}$ from the decay process $\bar{B}^0\to
+  D^{*\,+} \ell^- \bar{\nu}$}.
 \newblock {\em Phys. Lett.}, B510:55--74, 2001.
 
 \bibitem{Adam:2002uw}
 N.~E. Adam et~al.
-\newblock {Determination of the anti-B ---> D* l anti-nu decay width and
-  |V(cb)|}.
+\newblock {Determination of the $\bar{B}\to D^* \ell \bar{\nu}$ width and
+  $|V_{cb}|$}.
 \newblock {\em Phys. Rev.}, D67:032001, 2003.
 
 \bibitem{Abdallah:2004rz}
 J.~Abdallah et~al.
-\newblock {Measurement of |V(cb)| using the semileptonic decay anti-B0(d) --->
-  D*+ l- anti-nu(l)}.
+\newblock {Measurement of $|V_{cb}|$ using the semileptonic decay $\bar{B}^0_d
+  \to D^{*\,+} \ell^- \bar{\nu}_l$}.
 \newblock {\em Eur. Phys. J.}, C33:213--232, 2004.
 
 \bibitem{Aubert:2007rs}
@@ -966,8 +976,8 @@ Bernard Aubert et~al.
 
 \bibitem{Dungel:2010uk}
 W.~Dungel et~al.
-\newblock {Measurement of the form factors of the decay B0 -> D*- ell+ nu and
-  determination of the CKM matrix element |Vcb|}.
+\newblock {Measurement of the form factors of the decay $B^0\to D^{*\,-} \ell^+
+  \nu$ and determination of the CKM matrix element $|V_{cb}|$}.
 \newblock {\em Phys. Rev.}, D82:112007, 2010.
 
 \bibitem{Abdesselam:2017kjf}
@@ -1053,8 +1063,8 @@ Andrzej Czarnecki.
 
 \bibitem{CLOSE1984209}
 F.E. Close, G.J. Gounaris, and J.E. Paschalis.
-\newblock The ratio $\gamma(b\to dl\nu)/\gamma(b\to d^* l\nu)$ in the quark
-  model.
+\newblock {The ratio $\Gamma(B\to D\ell\nu)/\Gamma(B\to D^* \ell\nu)$ in the
+  quark model}.
 \newblock {\em Physics Letters B}, 149(1):209 -- 212, 1984.
 
 \bibitem{PhysRevD.39.799}
@@ -1064,9 +1074,9 @@ Nathan Isgur, Daryl Scora, Benjamin Grinstein, and Mark~B. Wise.
 
 \bibitem{Buskulic:1996yq}
 D.~Buskulic et~al.
-\newblock {Measurements of |V(cb)|, form-factors and branching fractions in the
-  decays anti-B0 ---> D*+ lepton- anti-lepton-neutrino and anti-B0 ---> D+
-  lepton- anti-lepton-neutrino}.
+\newblock {Measurements of $|V_{cb}|$, form-factors and branching fractions in
+  the decays $\bar{B}^0\to D^{*\,+} \ell^- \bar{\nu}_{\ell}$ and $\bar{B}^0\to
+  D^+ \ell^-\bar{\nu}_{\ell}$}.
 \newblock {\em Phys. Lett.}, B395:373--387, 1997.
 
 \bibitem{Glattauer:2015teq}
@@ -1096,14 +1106,14 @@ Jon~A. Bailey, A.~Bazavov, C.~Bernard, C.~M. Bouchard, C.~DeTar, Daping Du,
 \bibitem{Atoui2014}
 Mariam Atoui, Vincent Mor{\'e}nas, Damir Be{\v{c}}irevi{\'{c}}, and Francesco
   Sanfilippo.
-\newblock $b_s\to d_s l\nu_l$ near zero recoil in and beyond the standard
-  model.
+\newblock {$B_s\to D_s \ell\nu_l$ near zero recoil in and beyond the Standard
+  Model}.
 \newblock {\em The European Physical Journal C}, 74(5):2861, May 2014.
 
 \bibitem{RBCmichigan}
 Witzel O., Flynn J., Juettner A., Soni A., and Tsang~J. T.
-\newblock Semi-leptonic form factors for $b_s \to k l \nu$ and $b_s \to d_s l
-  \nu$.
+\newblock {Semi-leptonic form factors for $B_s \to K l \nu$ and $B_s \to D_s l
+  \nu$ }.
 \newblock 36th Annual International Symposium on Lattice Field Theory, July
   22-28, 2018, East Lansing, MI, USA, 2018.
 
@@ -1116,8 +1126,8 @@ J.~Koponen, C.~T.~H. Davies, G.~C. Donald, E.~Follana, G.~P. Lepage, H.~Na, and
 
 \bibitem{Bourrely:2008za}
 Claude Bourrely, Irinel Caprini, and Laurent Lellouch.
-\newblock {Model-independent description of B ---> pi l nu decays and a
-  determination of |V(ub)|}.
+\newblock {Model-independent description of $B\to \pi \ell \nu$ decays and a
+  determination of $|V_{ub}|$}.
 \newblock {\em Phys. Rev.}, D79:013008, 2009.
 \newblock [Erratum: Phys. Rev.D82,099902(2010)].
 
@@ -1139,8 +1149,8 @@ Susumu Okubo.
 
 \bibitem{BECHER200661}
 Thomas Becher and Richard~J. Hill.
-\newblock Comment on form-factor shape and extraction of $|v_{ub}|$ from $b\to
-  \pi l\nu$.
+\newblock {Comment on form-factor shape and extraction of $|V_{ub}|$ from $B\to
+  \pi \ell\nu$}.
 \newblock {\em Physics Letters B}, 633(1):61 -- 69, 2006.
 
 \end{thebibliography}

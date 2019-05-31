@@ -7,7 +7,7 @@ The expectation value of an observable $\mathcal{O}$ in QCD can be expressed as 
 \begin{align}
   \langle \mathcal{O} \rangle = {1\over Z}\int [dG d\psi d\bar{\psi}] \, \mathcal{O} \, e^{iS[G,\psi,\bar{\psi}]},
 \end{align}
-where $G$ is the gauge field, $\psi$($\bar{\psi}$) are the (anti)fermion fields, $S$ is the classical action, and $[dG d\psi d\bar{\psi}]$ denotes integration over all configurations of the gauge and fermion fields. $Z$ is the partition function. In the perturbative approach, we would expand $\exp(-\text{interacting part of }S )$ resulting in a power series in the gauge coupling populated by Feynman diagrams.
+where $G$ is the gauge field, $\bar{\psi}$($\psi$) are the (anti)fermion fields, $S$ is the classical action, and $[dG d\psi d\bar{\psi}]$ denotes integration over all configurations of the gauge and fermion fields. $Z$ is the partition function. In the perturbative approach, we would expand $\exp(-\text{interacting part of }S )$ resulting in a power series in the gauge coupling populated by Feynman diagrams.
 
 We must instead carry out the integral directly by numerical brute force. Since it is not numerically feasible to carry out an infinite number of integrals, one must approximate spacetime as a discrete 4-dimensional lattice with spacing $a$ between lattice sites, finite spatial volume $L_x^3=(aN_x)^3$ and finite temporal extent $L_t=aN_t$ ($N_{x,t}\in \mathbb{N}$). The functional integral can be replaced with \cite{DeGrand:2006zz}
 \begin{align}
@@ -18,9 +18,9 @@ This has a second benefit which is to naturally regularize the theory with a mom
 
 Typically one uses lattices that have periodic boundary conditions in the temporal direction, i.e $\psi(x+aN_t \hat{t}) = \psi(x)$. This reduces unwanted effects in expectation values of operators due to the finite temporal extent. In all the work in this thesis, we use periodic temporal boundary conditions.
 
-To avoid having to integrate over imaginary numbers (equivalently to avoid the scourge of the {\it{sign problem}} \cite{deForcrand:2010ys}), one also performs a {\it{Wick rotation}} \cite{PhysRev.96.1124}. This is the redefinition $t\to it$, which changes the metric from Minkowski to Euclidean, and changes the weight of the integral $\exp(iS) \to \exp(-S)$. This has the advantage that it turns the quantum path integral into simply an average in statistical mechanics, this means we can apply all of the machinery of statistical mechanics to computing expectation values.
+To avoid having to integrate over imaginary numbers (equivalently to avoid the scourge of the {\it{sign problem}} \cite{deForcrand:2010ys}), one also performs a {\it{Wick rotation}} \cite{PhysRev.96.1124}. This is the redefinition $t\to it$, which changes the metric from Minkowski to Euclidean, and changes the weight of the integral $\exp(iS) \to \exp(-S)$. This is valid since one can rotate the contour of an integral over $t$ from the real line to the imaginary line without crossing any poles. This has the advantage that it turns the quantum path integral into simply an average in statistical mechanics, this means we can apply all of the machinery of statistical mechanics to computing expectation values.
 
-To obtain the 'real world' result for some expectation value, where real world means $a=0$, one must perform the path integral at a number of different $a$ values, and then extrapolate the results to $a=0$.
+To obtain the `real world' result for some expectation value, where real world means $a=0$ and volume=$\infty$, one must perform the path integral at a number of different $a$ values, and then extrapolate the results to $a=0$.
 
 One must choose a discretized version of the QCD action, one that becomes continuum QCD in the $a\to 0$ limit. This is far from a trivial step. There is an infinite number of choices of lattice actions that become QCD in the continuum limit. There therefore is a huge literature of different choices of discrete lattice actions.
 
@@ -30,8 +30,8 @@ This chapter is dedicated to motivating and detailing the choices of discretized
 \label{sec:gaugefields}
 
 %Often the best way to introduce some sophisticated method or technique is to first show how the naive approach breaks down.
-The discussion of this section (Sec. \ref{sec:gaugefields}) follows chapter 5 of \cite{DeGrand:2006zz}.
-Imagine attempting a naive discretization of the QCD action. Derivatives can be replaced with something like
+The discussion of this section follows chapter 5 of \cite{DeGrand:2006zz}.
+Imagine attempting a naive discretization of the QCD action. Derivatives can be replaced with, for example,
 \begin{align}
   \partial_{\mu}f(x) \to {1\over 2a} \left( f(x+a\hat{\mu}) - f(x-a\hat{\mu}) \right)\,,
 \end{align}
@@ -41,11 +41,11 @@ where $\hat{\mu}$ is the unit vector in the $\mu$ direction. The quark kinetic p
 \end{align}
 This is no longer invariant under gauge trasforms \eqref{eq:quark_gauge_trans}, for example the first term would become $\bar{q}(x)\Lambda(x)^{\dagger} \gamma_{\mu} \Lambda(x+a\hat{\mu}) q(x+a\hat{\mu})$. The finite distance between lattice sites force us to think more carefully about the interpretation of gauge symmetry on a lattice.
 
-Formally speaking, a gauge field is a connection on a fibre bundle. I'll unpack what this means. At each spacetime point $x$, there is a space of possible colour vectors that a quark field $q(x)$ could be, call it $V_x$. $V_x$ is a {\it{fibre}}. Spacetime is called the {\it{base space}} in this context, there is a fibre at each point in the base space.
+Formally speaking, a gauge field is a connection on a fibre bundle. We will unpack what this means. At each spacetime point $x$, there is a space of possible colour vectors that a quark field $q(x)$ could be, call it $V_x$. $V_x$ is a {\it{fibre}}. Spacetime is called the {\it{base space}} in this context, there is a fibre at each point in the base space.
 
 The problem with our non-gauge-invariant terms above is that we are trying to compare colour vectors in different fibres. To compare colour vectors at two different fibres, one must {\it{parallel transport}} the vector from one point to another, according to some rule of how it should change. Such a rule is called a {\it{connection}}. In our case the parallel transport is a Wilson line:
 \begin{align}
-  \nonumber  &W(x,y) : V_y \to V_x, \\ &W(x,y) = Pe^{ig\int dc\,\cdot\, G }.
+  \nonumber  &W(x,y) : V_y \to V_x, \\ &W(x,y) = Pe^{ig\int dc\,\cdot\, G }\,,
 \end{align}
 where $c$ is some curve between $x$ and $y$, and $P$ orders the operation of the gauge field $G$ on the fibres, i.e. it operates at $x$ first and $y$ last. A Wilson line transforms under the gauge group like $W(x,y)\to \Lambda(x)W(x,y)\Lambda^{\dagger}(y)$. This means that operators like $\bar{q}(x)W(x,y)q(y)$ are gauge-invariant, reflecting the fact that the color vector $q(y)$ has been parallel transported into the same fibre as $\bar{q}(x)$.
 
@@ -133,9 +133,9 @@ In fact, any closed loop reduces to the Yang-Mills action in the continuum. This
 \subsection{Symanzik Improvements of the Gauge Action}
 \label{sec:symanzik_gauge}
 
-Any lattice action is admissible for a calculation as long as it reduces to the appropriate QCD action in the continuum. This gives us a lot of freedom in how we chose our lattice action. %A pure gauge action can be any combination of closed Wilson loops.
+Any lattice action is admissible for a calculation as long as it reduces to the QCD action in the continuum. This gives us a lot of freedom in how we chose our lattice action. %A pure gauge action can be any combination of closed Wilson loops.
 
-This freedom can be exploited in order to push expectation values of observables on the lattice closer to their continuum values (reduce the 'discretisation effects'). %such that if one needed to perform an extrapolation of some expectation value to the continuum, the extrapolation would be better controlled.
+This freedom can be exploited in order to push expectation values of observables on the lattice closer to their continuum values (reduce the `discretisation effects'). %such that if one needed to perform an extrapolation of some expectation value to the continuum, the extrapolation would be better controlled.
 This program is known as {\it{Symanzik improvement}} \cite{Symanzik:1981hc}.
 
 In general, a sensible lattice action can be written as \cite{WEISZ19831}
@@ -157,21 +157,21 @@ where $S_{\text{cont}}$ is the continuum action. We are free to choose any $\{c_
   then this amounts to demanding that $\langle \mathcal{O}_{1,m}(\{c_i\})\rangle = 0$, for as many $m$'s as possible.
 \end{itemize}
 
-Applying this to pure QCD, this procedure results in the L\"uscher-Weitz action \cite{luscher1985}. First consider the number of operators required. In continuum pure QCD, the only dimension 4 operator is Tr$G_{\mu\nu}G^{\mu\nu}$. There are no dimension 5 operators, hence there can be no $\order{a}$ contribution to the continuum limit of a lattice action. There are three independent dimension 6 operators:
+Applying this to pure QCD, this procedure results in the L\"uscher-Weisz action \cite{luscher1985}. First consider the number of operators required. In continuum pure QCD, the only dimension 4 operator is Tr$G_{\mu\nu}G^{\mu\nu}$. There are no dimension 5 operators, hence there can be no $\order{a}$ contribution to the continuum limit of a lattice action. There are three independent dimension 6 operators:
 \begin{gather}
   \text{Tr} J_{\mu\nu\rho} J_{\mu\nu\rho} ,\quad
   \text{Tr} J_{\mu\mu\rho} J_{\nu\nu\rho} ,\quad
   \text{Tr} J_{\mu\mu\nu} J_{\mu\mu\nu}, \\
   J_{\mu\nu\rho} = [ D_{\mu}, G_{\nu\rho} ]\,. \nonumber
 \end{gather}
-Hence we require 3 extra operators in the lattice action to be tuned in order to remove the three contributions from the $a^2$ terms in Eq. \eqref{eq:continuum_limit_action}. The simplest choice is to take the plaquette action \eqref{eq:wilson_gauge_action}, and add all possible Wilson loops contanining 6 links. This set consists of three families related by hypercubic invariance, {\it{rectangles}} (a), {\it{parallelograms}} (b) and {\it{chairs}} (c), depicted in Fig. \ref{fig:LuscherWeitz}.
+Hence we require 3 extra operators in the lattice action to be tuned in order to remove the three contributions from the $a^2$ terms in Eq. \eqref{eq:continuum_limit_action}. The simplest choice is to take the plaquette action \eqref{eq:wilson_gauge_action}, and add all possible Wilson loops contanining 6 links. This set consists of three families related by hypercubic invariance, {\it{rectangles}} (a), {\it{parallelograms}} (b) and {\it{chairs}} (c), depicted in Fig. \ref{fig:LuscherWeisz}.
 
 \begin{figure}
   \begin{center}
     \vspace{-10pt}
     \includegraphics[width=0.85\textwidth]{images/LuscherWeitz.jpg}
     \vspace{-10pt}
-    \caption{Terms additional to the elementary plaquette in the improved pure QCD action. \label{fig:LuscherWeitz}}
+    \caption{Terms additional to the elementary plaquette in the improved pure QCD action. \label{fig:LuscherWeisz}}
     \vspace{-10pt}
   \end{center}
 \end{figure}
@@ -180,9 +180,9 @@ So the new lattice action is
 \begin{align}
   \nonumber
   S_G =& - {1\over g^2} \sum_x \sum_{\mu\neq \nu}(\quad c_0 \text{Re Tr} (1-\Box_{\mu\nu}(x)) + c_1 \,\text{Re Tr} (1 - \Box^a_{\mu\nu}(x)) \\
-  & + \sum_{\rho\neq \mu,\nu}( \,c_2\, \text{Re Tr} (1 - \Box^b_{\mu\nu\rho}(x)) + c_3 \, \text{Re Tr} (1 - \Box^c_{\mu\nu\rho}(x))\quad)\quad)
+  & + \sum_{\rho\neq \mu,\nu}( \,c_2\, \text{Re Tr} (1 - \Box^b_{\mu\nu\rho}(x)) + c_3 \, \text{Re Tr} (1 - \Box^c_{\mu\nu\rho}(x))\quad)
 \end{align}
-where $\Box^{a,b,c}_{\mu\nu(\rho)}$ are the Wilson loops in fig. \ref{fig:LuscherWeitz}. Expanding this in small $a$, one finds the function $z_0(\{c_i\})$, setting this to one we find the condition \cite{WEISZ19831}:
+where $\Box^{a,b,c}_{\mu\nu(\rho)}$ are the Wilson loops in fig. \ref{fig:LuscherWeisz}. Expanding this in small $a$, one finds the function $z_0(\{c_i\})$, setting this to one we find the condition \cite{WEISZ19831}:
 \begin{align}
   c_0 + 8 (c_1 + c_2) + 16 c_3 = 1.
 \end{align}
@@ -205,7 +205,7 @@ These are tree-level relations, so will only prevent lattice artifacts up to $\o
 %%   - \ln \left( {1\over N} \langle \text{Re Tr} \Box(L,T) \rangle \right) = \sum_{n=1}^{\infty} { g_0^{2n} \over (2n)! } w_n(L,T).
 %% \end{align}
 
-This procedure is affected by the presence of fermions, so it has been performed a number of times to accommodate different fermion discretizations. In this thesis we report results using the L\"uscher-Weitz action for gauge fields and Highly Improved Staggered Quarks (defined in Sec. \ref{sec:fermions}). The coefficients $\{c_i\}$ were fixed at one-loop %via $w_1(L,T)$
+This procedure is affected by the presence of fermions, so it has been performed a number of times to accommodate different fermion discretizations. In this thesis we report results using the L\"uscher-Weisz action for gauge fields and Highly Improved Staggered Quarks (defined in Sec. \ref{sec:fermions}). The coefficients $\{c_i\}$ were fixed at one-loop %via $w_1(L,T)$
 in \cite{Hart:2008sq} in this context to be
 \begin{align}
   c_0& = {5\over 3} + ( \,0.237088(46) - 0.1008(34) N_f \,) \alpha_s + \order{\alpha_s^2},\\
@@ -218,7 +218,7 @@ Since these have been tuned to remove $a^2$ effects up to $\alpha_s$, lattice ar
 \section{Lattice Fermions}
 \label{sec:fermions}
 
-Putting fermions on the lattice supply a much larger host of complications than gauge fields do. There exist a diverse array of approaches to dealing with fermions on the lattice adopted by different collaborations. Different actions are suited to different types of applications. The plethora of fermion actions are necessitated by the famous {\textbf{doubling problem}}, which I will describe below, following \cite{Follana:2006rc}.
+Putting fermions on the lattice create a much larger host of complications than gauge fields do. There exist a diverse array of approaches to dealing with fermions on the lattice adopted by different collaborations. Different actions are suited to different types of applications. The plethora of fermion actions are necessitated by the famous {\textbf{doubling problem}}, which I will describe below, following \cite{Follana:2006rc}.
 
 %In this chapter we will focus only on the fermion actions used in this work; namely the Highly Improved Staggered Quark (HISQ) action, and the Non-Relativistic QCD (NRQCD) action.
 
@@ -276,7 +276,7 @@ Since we know $S$ is invariant under this transformation, it must be true that $
   \boxed{  \quad M^{-1}\left(k+{\pi\over a}\hat{\mu}\right) = \gamma_{5\mu} M^{-1}(k) \gamma_{5\mu}. \quad}
   \label{eq:doubling}
 \end{align}
-    {\it{This}} it the doubling problem. $M^{-1}$ is the momentum space propagator for the fermion field, so Eq. \eqref{eq:doubling} shows that the spectrum of the fermion is periodic, with a period of $\pi/a$. We expect a pole in $M^{-1}(k)$ where $k \sim m$, where $m$ is the pole mass of the fermion. But due to \eqref{eq:doubling} there will now be a second pole at $m + \pi/a$. %This will be around the natural cutoff imposed by the lattice $1/a$, and any higher poles like $m+2\pi/a$ are far above the cutoff so will not contribute.
+    {\it{This}} is the doubling problem. $M^{-1}$ is the momentum space propagator for the fermion field, so Eq. \eqref{eq:doubling} shows that the spectrum of the fermion is periodic, with a period of $\pi/a$. We expect a pole in $M^{-1}(k)$ where $k \sim m$, where $m$ is the pole mass of the fermion. But due to \eqref{eq:doubling} there will now be a second pole at $m + \pi/a$. %This will be around the natural cutoff imposed by the lattice $1/a$, and any higher poles like $m+2\pi/a$ are far above the cutoff so will not contribute.
 
     Generalizing this argument to all elements of the doubling symmetry, we see that
     \begin{align}
@@ -391,7 +391,7 @@ If we interpret $(\gamma_{\mu}\otimes 1)$ as a gamma matrix acting on spin in th
     To this end, one can change the action so that fermions only couple to {\textit{smeared}} gauge links, in which high-frequency excitations have been removed. Define the first and second covariant derivative operators:
     \begin{align}
       \nonumber
-      \delta_{\rho}U_{\mu}(x) & \equiv {1\over a} \big( U_{\rho} (x) U_{\mu} (x + a\hat{\rho}) U_{\rho}^{\dagger}(x+a\hat{\mu}) \\
+      \delta_{\rho}U_{\mu}(x)  \equiv & {1\over a} \big( U_{\rho} (x) U_{\mu} (x + a\hat{\rho}) U_{\rho}^{\dagger}(x+a\hat{\mu}) \\
       & - U_{\rho}^{\dagger}(x-a\hat{\rho})U_{\mu}(x-a\hat{\rho})U_{\rho}(x-a\hat{\rho}+a\hat{\mu})\big),  \\
       \nonumber
       \delta_{\rho}^{(2)} U_{\mu}(x) & \equiv {1\over a^2} \big( U_{\rho}(x) U_{\mu}(x+a\hat{\rho})U^{\dagger}_{\rho}(x+a\hat{\mu}) \\
@@ -406,20 +406,20 @@ If we interpret $(\gamma_{\mu}\otimes 1)$ as a gamma matrix acting on spin in th
     HISQ uses two different smeared gauge fields defined by
     \begin{align}
       X_{\mu}(x) &\equiv \mathcal{U} \mathcal{F}_{\mu} U_{\mu}(x), \\
-      W_{\mu}(x) &\equiv \left(\mathcal{F}_{\mu} - \sum_{\rho\neq\mu}{a^2(\delta_{\rho})^2\over 2} \right) \mathcal{U} \mathcal{F}_{\mu} U_{\mu}(x).
+      W_{\mu}(x) &\equiv \left(\mathcal{F}_{\mu} - \sum_{\rho\neq\mu}{a^2(\delta_{\rho})^2\over 2} \right) \mathcal{U} \mathcal{F}_{\mu} U_{\mu}(x)\,,
       \label{eq:gaugesmearing}
     \end{align}
     where $\mathcal{U}$ is a re-unitarization operator, that acts on a matrix $A$ like $\mathcal{U}A = A/\sqrt{A^{\dagger}A}$. The HISQ action can then be written as:
     \begin{align}
-{\setlength\fboxsep{10pt} \boxed{\quad      S_{\text{HISQ}} = \sum_{x} \bar{\psi}(x) \left( \sum_{\mu} \gamma_{\mu} \left( \nabla_{\mu}(W) - {a^2\over 6}(1+\epsilon_{\text{Naik}})\nabla^3_{\mu}(X) \right) + m \right) \psi(x) \quad}}
+{\setlength\fboxsep{10pt} \boxed{\quad      S_{\text{HISQ}} = \sum_{x} \bar{\psi}(x) \left( \sum_{\mu} \gamma_{\mu} \left( \nabla_{\mu}(W) - {a^2\over 6}(1+\epsilon_{\text{Naik}})\nabla^3_{\mu}(X) \right) + m \right) \psi(x)\,, \quad}}
     \end{align}
-    Where $\nabla_{\mu}(Z)$ is the covariant derivative \eqref{eq:lat_derivative} with gauge links repaced with $Z$. $\psi(x)$ are the Naive form of the fermions, i.e. $\psi(x)=\Omega(x)\chi(x)$. This action in fact not only removes tree level interactions like Fig. \ref{fig:tastemixing}, but also all taste mixing interactions at 1-loop.
+    where $\nabla_{\mu}(Z)$ is the covariant derivative \eqref{eq:lat_derivative} with gauge links repaced with $Z$. $\psi(x)$ are the naive form of the fermions, i.e. $\psi(x)=\Omega(x)\chi(x)$. This action in fact not only removes tree level interactions like Fig. \ref{fig:tastemixing}, but also all taste mixing interactions at 1-loop.
 
     The $\nabla^3_{\mu}$ term is a Symanzik improvement, it reduces the size of discretisation effects of observables computed using this action. The value of $\epsilon_{\text{Naik}}$ is fixed according to the constraint
     \begin{align}
       \lim_{{\textbf{p}}\to 0} \,\,{E^2({\textbf{p}})-m^2\over {\textbf{p}}^2} = 1.
     \end{align}
-    where $E({\textbf{p}})$ obeys the tree-level dispersion relation from the HISQ action. Tuning $\epsilon_{\text{Naik}}$ according to this constraint gives us the expression \cite{Monahan:2012dq}
+    where $E({\textbf{p}})$ obeys the tree-level dispersion relation from the HISQ action. This means HISQ fermions obey $E^2={\textbf{p}}^2+m^2$ at tree level. Tuning $\epsilon_{\text{Naik}}$ according to this constraint gives us the expression \cite{Monahan:2012dq}
     \begin{align}
       \epsilon_{\text{Naik}} = \,&{ 4 - \sqrt{ 4 + 12 {m_{\text{tree}}\over \cosh(m_{\text{tree}}) \sinh(m_{\text{tree}})} } \over \sinh^2(m_{\text{tree}}) - 1 },
     \end{align}
@@ -432,7 +432,7 @@ If we interpret $(\gamma_{\mu}\otimes 1)$ as a gamma matrix acting on spin in th
     \section{Heavy Quarks on the Lattice}
     \label{sec:lattice_heavyquarks}
 
-    The large hierarchy of different quark masses in nature present a number of further complications to lattice calculations. $u$ and $d$ quarks cause huge problems due to how light they are, this will be addressed in Sec. \ref{sec:inversions}. $s$ quarks are easy.
+    The large hierarchy of different quark masses in nature present a number of further complications to lattice calculations. $u$ and $d$ quarks cause huge problems due to how light they are, this will be addressed in Sec. \ref{sec:inversions}. $s$ quarks are easy (in the sense tha they're mass doesn't cause complications).
 
     As quarks get heavier, we begin to encounter another problem. Discretisation effects will generally grow like the largest scale in the theory. If the observable being computed on the lattice is sensitive to the dynamics of a heavy quark of mass $m_h$, this will contain discretisation effects of size $(am_h)^n$ (where $n$ depends on how improved the action is). This is essentially due to the de Broglie wavelength of the heavy quark excitations being close to the lattice spacing, the excitations 'hide' in-between lattice sites.
 
@@ -448,7 +448,7 @@ If we interpret $(\gamma_{\mu}\otimes 1)$ as a gamma matrix acting on spin in th
       \caption{Different scales relevent to non-perturbative physics, and brackets showing the range of scales that typical lattices can resolve. The larger the range of scales resolved, the more computationally expensive the calculation.}
     \end{figure}
 
-    In the past, $c$ quarks resulted in uncontrollable discretisation effects but now armed with highly improved actions like HISQ, and very fine lattices, $c$ physics has been conquered on the lattice \cite{Follana:2006rc,Allison:2008xk,Davies:2010ip,Donald:2012ga}.
+    In the past, $c$ quarks resulted in uncontrollable discretisation effects but now armed with highly improved actions like HISQ, and very fine lattices, $c$ physics has been conquered on the lattice \cite{Follana:2006rc,Allison:2008xk,Davies:2010ip,Donald:2012ga}. Other approaches besides HISQ are also capable of charm physics, see for example \cite{Prelovsek:2013cta}.
 
     Physics of the $b$ quark is less well developed since the $b$ mass is so much heavier than the $c$. The $b$ can only be resolved by the very finest of lattice spacings available, and using such fine lattices can be prohibitively costly. Putting a physical $b$ quark on coarser lattices will create uncontrollable discretization effects.
     
@@ -466,10 +466,10 @@ If we interpret $(\gamma_{\mu}\otimes 1)$ as a gamma matrix acting on spin in th
           0.55\textwidth]{images/fHs_heavyhisq.png}
       \end{center}
       \vspace{-5pt}
-      \caption{An extrapolation to $m_h=m_b$ of the $H_s$ decay constant (where $H_s$ is a pseudoscalar $\bar{h}s$ meson)\cite{McNeile:2012qf}. The colorful points are measurements of $f_{\eta_h}$ on the lattice, the color denotes lattice spacing. The $x$ axis, $M_{\eta_h}$, is a proxy for the $h$-quark mass. \label{fig:McNeile}}
+      \caption{An extrapolation to $m_h=m_b$ of the $H_s$ decay constant (where $H_s$ is a pseudoscalar $\bar{h}s$ meson)\cite{McNeile:2012qf}. The colorful points are measurements of $f_{H_s}$ on the lattice, the color denotes lattice spacing. The grey band shows the result of a continuum extrapolation of this lattice data. The $x$ axis, $M_{\eta_h}$, is a proxy for the $h$-quark mass. \label{fig:McNeile}}
     \end{figure}
 
-    Heavy-HISQ has so far been used for computing $b$ decay constants and masses \cite{McNeile:2011ng,McNeile:2012qf,Bazavov:2017lyh}. In \cite{McNeile:2010ji}, the approach was used to determine $c$ and $b$ quark masses and produce a new determination of $\alpha_s$. A number of heavy-HISQ calculations of semileptonic form factors are currently underway. The work presented in chapters \ref{chap:BsDsstar} and \ref{chap:BsDs} adopt the heavy-HISQ approach for computing $B_s\to D_s^*l\nu$ and $B_s\to D_sl\nu$ form factors. Besides these, there are also currently ongoing calculations of form factors for the $B_c\to \eta_cl\nu$, $B_c\to J/\psi l\nu$ \cite{Lytle:2016ixw}, $B_c\to B_sl\nu$, $B_s\to \eta_sl\nu$, and $B\to D^*l\nu$ decays.
+    Heavy-HISQ has so far been used for computing $b$ decay constants and masses \cite{McNeile:2011ng,McNeile:2012qf,Bazavov:2017lyh}. In \cite{McNeile:2010ji}, the approach was used to determine $c$ and $b$ quark masses and produce a new determination of $\alpha_s$. A number of heavy-HISQ calculations of semileptonic form factors are currently underway. The work presented in chapters \ref{chap:BsDsstar} and \ref{chap:BsDs} adopt the heavy-HISQ approach for computing $B_s\to D_s^*\ell\nu$ and $B_s\to D_s\ell\nu$ form factors. Besides these, there are also currently ongoing calculations of form factors for the $B_c\to \eta_c\ell\nu$, $B_c\to J/\psi \ell\nu$ \cite{Lytle:2016ixw}, $B_c\to B_s\ell\nu$, $B_s\to \eta_s\ell\nu$, and $B\to D^*\ell\nu$ decays.
 
     \subsection{Lattice NRQCD}
 
@@ -518,4 +518,6 @@ One could replace the relativistic fermion action e.g. HISQ, with a lattice vers
 
     The coefficients $\{c_i\}$ have been fixed via various calculations adopting a number of methods. The coefficients of the kinetic terms, $c_{1,5,6}$, were most recently fixed by comparing the lattice NRQCD dispersion relation to that of the continuum in perturbation theory \cite{Davies:2018fwg}. $c_2$ is a spin-independent term which can affect radial and orbital excitation energies, this is not expected to have as large an effect as the kinetic terms, so is set to its tree-level value of 1. The result of varying $c_2$ on relevant observables was investigated in Sec. IIIC of \cite{Dowdall:2011wh}, and the effects were very small. $c_3$ and $c_4$ are spin-dependent terms, which would have a small effect on spin-averaged observables (i.e. all observables computed in this work). $c_3$ is set to 1, and $c_4$ is tuned non-perturbatively, by matching predictions of the fine structure of the $\Upsilon$ spectrum from lattice NRQCD to experiment \cite{Dowdall:2011wh}.
 
-Annother Symanzik improvement is introduced in this context by multiplying the gauge links by the so-called {\textit{tadpole factor}} $u_0 = \sum_{\mu,\nu}\langle \text{Tr}\Box_{\mu\nu} /4\rangle$. This removes the tadpole diagrams proportional to $a^2$ that appear in gluon propagators.
+Another Symanzik improvement is introduced in this context by multiplying the gauge links by the so-called {\textit{tadpole factor}} $u_0 = \sum_{\mu,\nu}\langle \text{Tr}\Box_{\mu\nu} /4\rangle$. This removes the tadpole diagrams proportional to $a^2$ that appear in gluon propagators.
+
+There is a limit to how small a lattice spacing can be used while employing the Lattice NRQCD action. Lattice NRQCD relies on convergent series in inverse $b$-mass, in lattice units this becomes $1/(am_b)$. It is therefore necessary for $am_b$ to be suitably larger than one, or equivilantly $a > 1/m_b$. 

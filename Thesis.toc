@@ -1,107 +1,107 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {chapter}{\numberline {2}Motivation \& Tools from the Continuum}{3}
 \contentsline {section}{\numberline {2.1}Testing the Standard Model}{3}
-\contentsline {section}{\numberline {2.2}Flavour-Changing Charged Currents}{5}
+\contentsline {section}{\numberline {2.2}Flavor-Changing Charged Currents}{5}
 \contentsline {subsection}{\numberline {2.2.1}CKM Matrix Unitarity}{8}
-\contentsline {subsection}{\numberline {2.2.2}Weak Decays}{10}
+\contentsline {subsection}{\numberline {2.2.2}Weak Decays}{9}
 \contentsline {subsection}{\numberline {2.2.3}$b\to c$ Transitions and $|V_{cb}|$}{14}
-\contentsline {subsection}{\numberline {2.2.4}Flavour Anomalies \& Lepton Flavour Violation}{16}
+\contentsline {subsection}{\numberline {2.2.4}Flavor Anomalies \& Lepton Flavor Violation}{16}
 \contentsline {section}{\numberline {2.3}Strong Interaction Physics}{19}
 \contentsline {subsection}{\numberline {2.3.1}Quantum Chromodynamics}{19}
 \contentsline {subsection}{\numberline {2.3.2}Chiral Symmetry}{21}
 \contentsline {section}{\numberline {2.4}Heavy Quark Physics}{23}
 \contentsline {subsection}{\numberline {2.4.1}HQET}{23}
-\contentsline {subsubsection}{HQET Lagrangian}{23}
+\contentsline {subsubsection}{HQET Lagrangian}{24}
 \contentsline {subsubsection}{Luke's Theorem}{25}
 \contentsline {subsection}{\numberline {2.4.2}NRQCD}{27}
-\contentsline {chapter}{\numberline {3}Lattice Quantum Chromodynamics}{29}
-\contentsline {section}{\numberline {3.1}Lattice Gauge Fields}{30}
-\contentsline {subsection}{\numberline {3.1.1}The Gauge Action}{32}
-\contentsline {subsection}{\numberline {3.1.2}Symanzik Improvements of the Gauge Action}{33}
-\contentsline {section}{\numberline {3.2}Lattice Fermions}{36}
-\contentsline {subsection}{\numberline {3.2.1}The Naive Fermion Action \& the Doubling Problem}{37}
-\contentsline {subsection}{\numberline {3.2.2}Staggered Quarks}{38}
-\contentsline {subsection}{\numberline {3.2.3}Highly Improved Staggered Quarks}{40}
-\contentsline {section}{\numberline {3.3}Heavy Quarks on the Lattice}{42}
-\contentsline {subsection}{\numberline {3.3.1}Heavy-HISQ}{43}
-\contentsline {subsection}{\numberline {3.3.2}Lattice NRQCD}{44}
-\contentsline {chapter}{\numberline {4}Lattice Calculations}{47}
-\contentsline {section}{\numberline {4.1}Evaluation of Lattice Correlation Functions}{47}
-\contentsline {subsection}{\numberline {4.1.1}Generation of Gauge Ensembles}{48}
-\contentsline {subsubsection}{Quenched MCMC}{49}
-\contentsline {subsubsection}{Unquenched MCMC}{50}
-\contentsline {subsubsection}{The dreaded Rooting Trick}{51}
-\contentsline {subsubsection}{The $N_f=2+1+1$ MILC Ensembles}{52}
-\contentsline {subsection}{\numberline {4.1.2}Dirac Operator Inversion}{53}
-\contentsline {subsection}{\numberline {4.1.3}Staggered Correlation Functions}{54}
-\contentsline {subsubsection}{2-point Correlation Functions}{55}
-\contentsline {subsubsection}{3-point Correlation Functions}{56}
-\contentsline {subsubsection}{Momentum Twist}{57}
-\contentsline {section}{\numberline {4.2}Analysis of Correlation Functions}{58}
-\contentsline {subsection}{\numberline {4.2.1}Fitting Correlation Functions}{58}
-\contentsline {subsubsection}{Oscillating States}{60}
-\contentsline {subsubsection}{Bayesian $\chi ^2$ Fitting}{61}
-\contentsline {subsection}{\numberline {4.2.2}Signal Degredation}{62}
-\contentsline {chapter}{\numberline {5}$b\to c$ Transitions with Lattice NRQCD}{65}
-\contentsline {section}{\numberline {5.1}NRQCD-HISQ Currents}{65}
-\contentsline {section}{\numberline {5.2}Relativistic Normalization of the $b\to c$ Temporal Axial Current}{67}
-\contentsline {subsection}{\numberline {5.2.1}Calculation Details}{67}
-\contentsline {subsection}{\numberline {5.2.2}Kinetic Mass}{69}
-\contentsline {subsection}{\numberline {5.2.3}Decay Amplitude Ratios}{69}
-\contentsline {section}{\numberline {5.3}$B_{(s)}\to D_{(s)}l\nu $ Form Factors}{71}
-\contentsline {subsection}{\numberline {5.3.1}Lattice Setup}{71}
-\contentsline {subsection}{\numberline {5.3.2}Correlator Fits}{73}
-\contentsline {subsection}{\numberline {5.3.3}Form Factors}{75}
-\contentsline {subsection}{\numberline {5.3.4}Results}{76}
-\contentsline {subsubsection}{Anomalous Results}{76}
-\contentsline {subsubsection}{Large Subleading Currents}{77}
-\contentsline {subsection}{\numberline {5.3.5}Form Factors from $V_0$ and $S$}{80}
-\contentsline {section}{\numberline {5.4}Non-Perturbative Renormalization Using $B_c\to \eta _c$ Data}{82}
-\contentsline {subsection}{\numberline {5.4.1}$Z_S$}{83}
-\contentsline {subsection}{\numberline {5.4.2}$Z_{V_0}$}{84}
-\contentsline {subsection}{\numberline {5.4.3}$Z_{V_k}$}{86}
-\contentsline {section}{\numberline {5.5}Conclusion of NRQCD Work}{87}
-\contentsline {chapter}{\numberline {6}$B_s\to D_s^*l\nu $ Axial Form Factor at Zero Recoil from Heavy-HISQ}{89}
-\contentsline {section}{\numberline {6.1}Motivation}{90}
-\contentsline {section}{\numberline {6.2}Calculation Details}{91}
-\contentsline {subsection}{\numberline {6.2.1}Lattice Setup}{91}
-\contentsline {subsection}{\numberline {6.2.2}Correlator Fits}{94}
-\contentsline {subsection}{\numberline {6.2.3}Normalization of the Axial Current}{98}
-\contentsline {subsection}{\numberline {6.2.4}Extrapolation to the Physical Point}{99}
-\contentsline {subsubsection}{Heavy Mass Dependence}{99}
-\contentsline {subsubsection}{Quark Mass Proxies}{101}
-\contentsline {subsubsection}{Implementation of $\eta _A$}{102}
-\contentsline {subsubsection}{Discretization Effects}{104}
-\contentsline {subsubsection}{Mass Mistunings}{104}
-\contentsline {subsubsection}{Negligable Effects}{105}
-\contentsline {section}{\numberline {6.3}Results}{106}
-\contentsline {subsection}{\numberline {6.3.1}$h^s_{A_1}(1)$}{106}
-\contentsline {subsection}{\numberline {6.3.2}Implications for $B\to D^*$}{109}
-\contentsline {subsection}{\numberline {6.3.3}HQET Low Energy Constants}{110}
-\contentsline {subsection}{\numberline {6.3.4}Extrapolation Stability}{111}
-\contentsline {subsection}{\numberline {6.3.5}$H_s$ and $D_s^*$ Masses}{114}
-\contentsline {section}{\numberline {6.4}Conclusions}{116}
-\contentsline {chapter}{\numberline {7}$B_s\to D_sl\nu $ Form Factors at All Physical $q^2$ from Heavy-HISQ}{119}
-\contentsline {section}{\numberline {7.1}Motivation}{120}
-\contentsline {section}{\numberline {7.2}Calculation Details}{122}
-\contentsline {subsection}{\numberline {7.2.1}Lattice Setup}{122}
-\contentsline {subsection}{\numberline {7.2.2}Analysis of Correlation Functions}{126}
-\contentsline {subsection}{\numberline {7.2.3}Vector Current Renormalization}{129}
-\contentsline {subsection}{\numberline {7.2.4}Extrapolation to the Physical Point}{131}
-\contentsline {subsubsection}{Kinematic Behaviour}{132}
-\contentsline {subsubsection}{Heavy Mass and Discretisation Effects}{133}
-\contentsline {subsubsection}{Mass Mistunings}{134}
-\contentsline {subsubsection}{Negligable Effects}{134}
-\contentsline {section}{\numberline {7.3}Results}{135}
-\contentsline {subsection}{\numberline {7.3.1}Ratio Method}{135}
-\contentsline {subsubsection}{Zero Recoil}{135}
-\contentsline {subsubsection}{Non-zero Recoil}{135}
-\contentsline {subsection}{\numberline {7.3.2}Direct Method}{138}
-\contentsline {subsubsection}{Zero Recoil}{138}
-\contentsline {subsubsection}{Non-Zero Recoil}{140}
-\contentsline {subsection}{\numberline {7.3.3}Unitarity Test}{145}
-\contentsline {subsection}{\numberline {7.3.4}$R_{D_s}$}{146}
-\contentsline {section}{\numberline {7.4}Conclusions}{147}
-\contentsline {section}{\numberline {7.5}Reconstructing Form Factors}{148}
-\contentsline {section}{\numberline {7.6}Numerical Values for Lattice Results}{149}
-\contentsline {chapter}{\numberline {8}Conclusions}{153}
+\contentsline {chapter}{\numberline {3}Lattice Quantum Chromodynamics}{31}
+\contentsline {section}{\numberline {3.1}Lattice Gauge Fields}{32}
+\contentsline {subsection}{\numberline {3.1.1}The Gauge Action}{34}
+\contentsline {subsection}{\numberline {3.1.2}Symanzik Improvements of the Gauge Action}{35}
+\contentsline {section}{\numberline {3.2}Lattice Fermions}{38}
+\contentsline {subsection}{\numberline {3.2.1}The Naive Fermion Action \& the Doubling Problem}{39}
+\contentsline {subsection}{\numberline {3.2.2}Staggered Quarks}{40}
+\contentsline {subsection}{\numberline {3.2.3}Highly Improved Staggered Quarks}{42}
+\contentsline {section}{\numberline {3.3}Heavy Quarks on the Lattice}{44}
+\contentsline {subsection}{\numberline {3.3.1}Heavy-HISQ}{46}
+\contentsline {subsection}{\numberline {3.3.2}Lattice NRQCD}{47}
+\contentsline {chapter}{\numberline {4}Lattice Calculations}{49}
+\contentsline {section}{\numberline {4.1}Evaluation of Lattice Correlation Functions}{49}
+\contentsline {subsection}{\numberline {4.1.1}Generation of Gauge Ensembles}{50}
+\contentsline {subsubsection}{Quenched MCMC}{51}
+\contentsline {subsubsection}{Unquenched MCMC}{52}
+\contentsline {subsubsection}{The Rooting Trick}{53}
+\contentsline {subsubsection}{The $N_f=2+1+1$ MILC Ensembles}{54}
+\contentsline {subsection}{\numberline {4.1.2}Dirac Operator Inversion}{55}
+\contentsline {subsection}{\numberline {4.1.3}Staggered Correlation Functions}{56}
+\contentsline {subsubsection}{2-point Correlation Functions}{57}
+\contentsline {subsubsection}{3-point Correlation Functions}{58}
+\contentsline {subsubsection}{Momentum Twist}{59}
+\contentsline {section}{\numberline {4.2}Analysis of Correlation Functions}{60}
+\contentsline {subsection}{\numberline {4.2.1}Fitting Correlation Functions}{60}
+\contentsline {subsubsection}{Oscillating States}{62}
+\contentsline {subsubsection}{Bayesian $\chi ^2$ Fitting}{63}
+\contentsline {subsection}{\numberline {4.2.2}Signal Degradation}{64}
+\contentsline {chapter}{\numberline {5}$b\to c$ Transitions with Lattice NRQCD}{67}
+\contentsline {section}{\numberline {5.1}NRQCD-HISQ Currents}{67}
+\contentsline {section}{\numberline {5.2}Relativistic Normalization of the $b\to c$ Temporal Axial Current}{69}
+\contentsline {subsection}{\numberline {5.2.1}Calculation Details}{69}
+\contentsline {subsection}{\numberline {5.2.2}Kinetic Mass}{71}
+\contentsline {subsection}{\numberline {5.2.3}Decay Amplitude Ratios}{72}
+\contentsline {section}{\numberline {5.3}$B_{(s)}\to D_{(s)}\ell \nu $ Form Factors}{73}
+\contentsline {subsection}{\numberline {5.3.1}Lattice Setup}{74}
+\contentsline {subsection}{\numberline {5.3.2}Correlator Fits}{76}
+\contentsline {subsection}{\numberline {5.3.3}Form Factors}{77}
+\contentsline {subsection}{\numberline {5.3.4}Results}{78}
+\contentsline {subsubsection}{Anomalous Results}{79}
+\contentsline {subsubsection}{Large Subleading Currents}{81}
+\contentsline {subsection}{\numberline {5.3.5}Form Factors from $V_0$ and $S$}{82}
+\contentsline {section}{\numberline {5.4}Non-Perturbative Renormalization Using $B_c\to \eta _c$ Data}{85}
+\contentsline {subsection}{\numberline {5.4.1}$Z_S$}{86}
+\contentsline {subsection}{\numberline {5.4.2}$Z_{V_0}$}{87}
+\contentsline {subsection}{\numberline {5.4.3}$Z_{V_k}$}{88}
+\contentsline {section}{\numberline {5.5}Conclusion of NRQCD Work}{91}
+\contentsline {chapter}{\numberline {6}$B_s\to D_s^*\ell \nu $ Axial Form Factor at Zero Recoil from Heavy-HISQ}{93}
+\contentsline {section}{\numberline {6.1}Motivation}{94}
+\contentsline {section}{\numberline {6.2}Calculation Details}{95}
+\contentsline {subsection}{\numberline {6.2.1}Lattice Setup}{95}
+\contentsline {subsection}{\numberline {6.2.2}Correlator Fits}{98}
+\contentsline {subsection}{\numberline {6.2.3}Normalization of the Axial Current}{102}
+\contentsline {subsection}{\numberline {6.2.4}Extrapolation to the Physical Point}{105}
+\contentsline {subsubsection}{1: Heavy Mass Dependence}{105}
+\contentsline {subsubsection}{2: Quark Mass Proxies}{105}
+\contentsline {subsubsection}{3: Implementation of $\eta _A$}{106}
+\contentsline {subsubsection}{4: Discretization Effects}{108}
+\contentsline {subsubsection}{5: Mass Mistunings}{108}
+\contentsline {subsubsection}{6: Negligable Effects}{109}
+\contentsline {section}{\numberline {6.3}Results}{110}
+\contentsline {subsection}{\numberline {6.3.1}$h^s_{A_1}(1)$}{110}
+\contentsline {subsection}{\numberline {6.3.2}Implications for $B\to D^*$}{113}
+\contentsline {subsection}{\numberline {6.3.3}HQET Low Energy Constants}{115}
+\contentsline {subsection}{\numberline {6.3.4}Extrapolation Stability}{116}
+\contentsline {subsection}{\numberline {6.3.5}$H_s$ and $D_s^*$ Masses}{119}
+\contentsline {section}{\numberline {6.4}Conclusions}{121}
+\contentsline {chapter}{\numberline {7}$B_s\to D_s\ell \nu $ Form Factors at All Physical $q^2$ from Heavy-HISQ}{123}
+\contentsline {section}{\numberline {7.1}Motivation}{124}
+\contentsline {section}{\numberline {7.2}Calculation Details}{126}
+\contentsline {subsection}{\numberline {7.2.1}Lattice Setup}{126}
+\contentsline {subsection}{\numberline {7.2.2}Analysis of Correlation Functions}{130}
+\contentsline {subsection}{\numberline {7.2.3}Vector Current Renormalization}{133}
+\contentsline {subsection}{\numberline {7.2.4}Extrapolation to the Physical Point}{135}
+\contentsline {subsubsection}{Kinematic Behaviour}{137}
+\contentsline {subsubsection}{Heavy Mass and Discretisation Effects}{138}
+\contentsline {subsubsection}{Mass Mistunings}{139}
+\contentsline {subsubsection}{Negligible Effects}{139}
+\contentsline {section}{\numberline {7.3}Results}{140}
+\contentsline {subsection}{\numberline {7.3.1}Ratio Method}{140}
+\contentsline {subsubsection}{Zero Recoil}{140}
+\contentsline {subsubsection}{Non-zero Recoil}{141}
+\contentsline {subsection}{\numberline {7.3.2}Direct Method}{143}
+\contentsline {subsubsection}{Zero Recoil}{143}
+\contentsline {subsubsection}{Non-Zero Recoil}{145}
+\contentsline {subsection}{\numberline {7.3.3}Unitarity Test}{150}
+\contentsline {subsection}{\numberline {7.3.4}$R_{D_s}$}{151}
+\contentsline {section}{\numberline {7.4}Conclusions}{152}
+\contentsline {section}{\numberline {7.5}Reconstructing Form Factors}{153}
+\contentsline {section}{\numberline {7.6}Numerical Values for Lattice Results}{154}
+\contentsline {chapter}{\numberline {8}Conclusions}{159}

@@ -1,13 +1,14 @@
 ﻿\chapter{Lattice Calculations}
 \label{chap:latticecalculations}
 
-The last chapter focused on how to discretize the QCD action. This chapter is focused on the practical side of lattice QCD - given a lattice action, how does one perform the functional integral to determine expectation values?
+The previous chapter focused on how to discretize the QCD action. This chapter is focused on the practical side of lattice QCD - given a lattice action, how does one perform the functional integral to determine expectation values?
 
 \section{Evaluation of Lattice Correlation Functions}
+\label{sec:latpathint}
 
 All physics of a quantum field theory can be extracted from correlation functions. So a typical lattice calculation involves computing a correlation function (or just {\it{correlator}}) on the lattice, then extracting physical quantities from it. A typical correlator that is computed on the lattice is a 2-point meson correlator, i.e. $\langle\Phi(x)\Phi^{\dagger}(y)\rangle$ where $\Phi$ is a meson creation operator and $\Phi^{\dagger}$ is an annihilation operator. This is a good working example for showing the steps in a lattice calculation, the generalization to $N$-point correlators is reasonably natural.
 
-A creation/annihilation operator for a meson in this context can be any operator containing the same quantum numbers as the meson one studying. For example, the neutral $B$ meson is a pseudoscalar charged with a $b$ and $\bar{d}$ quark, so a suitable operator is $\Phi(x) = \bar{b}(x)\gamma_5 d(x)$. The corresponding functional can then be written as
+A creation/annihilation operator for a meson in this context can be any operator containing the same quantum numbers as the meson one is studying. For example, the neutral $B$ meson is a pseudoscalar charged with a $b$ and $\bar{d}$ quark, so a suitable operator is $\Phi(x) = \bar{b}(x)\gamma_5 d(x)$. The corresponding functional can then be written as
 \begin{align}
   \nonumber
   C(x,y) = \langle \Phi(x)\Phi^{\dagger}(y)\rangle =& \int [d\psi d\bar{\psi} dU] \left(\, \bar{b}(x)\gamma_5 d(x) \bar{d}(y)\gamma_5 b(y) \text{ }\right) \\&\times \exp\left(-S_G[U]-\sum_{w,z,i} \bar{q}_i(w)M_{q_i}(w,z)[U]q_i(z)\right),
@@ -28,10 +29,10 @@ The quantinties $M_{q_i}^{-1}(x,y)[U]$ are propagators of a quark of flavour $q$
 
 Once the ensemble is created, the path integral can be approximated by simply
 \begin{align}
-  C(x,y) \simeq {1\over N} \sum_n \text{ Tr}\left[\text{ } M^{-1}_b(y,x)[U_n] \gamma_5 M^{-1}_d(x,y)[U_n] \gamma_5 \text{ }\right]\,,
+  C(x,y) \simeq {1\over N} \sum^N_{n=1} \text{ Tr}\left[\text{ } M^{-1}_b(y,x)[U_n] \gamma_5 M^{-1}_d(x,y)[U_n] \gamma_5 \text{ }\right]\,,
   \label{eq:av_gauge}
 \end{align}
-where $N$ is the number of configurations in the ensemble. The calculation of the correlation function then is split into 3 steps:
+where $N$ is the number of configurations in the ensemble. This introduces a statistical error that scales like $1/\sqrt{N}$. The calculation of the correlation function then is split into 3 steps:
 \begin{enumerate}
 \item
   Generate an ensemble of gauge configurations $\{ U_i \}$ by MCMC (Sec. \ref{sec:MCMC}).
@@ -47,13 +48,13 @@ where $N$ is the number of configurations in the ensemble. The calculation of th
 
 The calculation requires a number of samples of gauge configurations $\{U_n\}$ sampled from the distribution $p(U)$ defined in Eq. \eqref{eq:MCweight}. In this section (Sec. \ref{sec:MCMC}) I largely follow the discussion given in \cite{DeGrand:2006zz}.
 
-The physical interpretation of the determinant in \eqref{eq:MCweight} is that it accounts for virtual quark loops in gluon propagators. In the early days of lattice calculations, this determinant was approximated to 1, since its evaluation was an insurmountable computational cost, and it was expected that sea quarks had small effects on observables (this is known as the {\it{quenched approximation}}). However, this introduced large systematic effects that could not be well controlled. These days, our computational ability has improved and sophisticated approaches to computing the determinant have been developed, so we can include it in our calculations.
+The physical interpretation of the determinant in \eqref{eq:MCweight} is that it accounts for virtual quark loops in gluon propagators. In the early days of lattice calculations, this determinant was approximated to 1, since its evaluation was an insurmountable computational cost, and it was expected that sea quarks had small effects on observables (this is known as the {\it{quenched approximation}}). However, this introduced large systematic effects that could not be well controlled. These days, our computational ability has improved and sophisticated approaches to computing the determinant have been developed (e.g. \cite{PhysRevD.35.2531}), so we can include it in our calculations.
 
 We will roughly follow the history of gauge ensemble generation, by first ignoring the determinant, and then showing how it is eventually included in the process.
 
 \subsubsection{Quenched MCMC}
 
-Gauge ensembles are generated via an MCMC, inspired by statistical mechanics. The distribution exp$(-S_G[U])$ is suggestive of something like a Boltzmann distribution for a gas of particles, each with some state $U_i$, in thermal equilibrium. The ergodic hypothesis states that a single particle in this gas will jump between possible states over time such that, at any given time, its probability of being in state $U_i$ is given by exp$(-S_G[U_i])$. In MCMC, one starts with some random state $U_0$, then repeatedly updates the state according to some update rule or 'hopping rate' $p(U_i\to U_j)$. 
+Gauge ensembles are generated via an MCMC, inspired by statistical mechanics. The distribution exp$(-S_G[U])$ is suggestive of something like a Boltzmann distribution for a gas of particles, each with some state $U_i$, in thermal equilibrium. The ergodic hypothesis states that a single particle in this gas will jump between possible states over time such that, at any given time, its probability of being in state $U_i$ is given by exp$(-S_G[U_i])$. In MCMC, one starts with some random state $U_0$, then repeatedly updates the state according to some update rule or `hopping rate' $p(U_i\to U_j)$. 
 
 The hopping rate must be designed to bring the chain into thermal equilibrium with the correct distribution. A sufficient condition for thermal equilibrium is known as {\it{detailed balance}}, where the probability of jumps between any pair of states $i$ and $j$ is equal:
 \begin{align}
@@ -79,7 +80,7 @@ Another problem that can occur in molecular dynamics is when errors in Runge-Kut
 \end{itemize}
 The metropolis step ensures detailed balance (Eq. \eqref{eq:detailed_balance}) is satisfied even in the presence of Runge-Kutta errors.
 
-The combination of molecular dynamics, refreshing steps and Metropolis steps is referred to as {\bf{Hybrid Monte Carlo}} \cite{DUANE1987216}, and is the basic structure of how the ensembles we use in this thesis were generated. I now address how the determinant det$M$ is included.
+The combination of molecular dynamics, refreshing steps and Metropolis steps is referred to as {\bf{Hybrid Monte Carlo}} \cite{DUANE1987216}, and is the basic method of how the ensembles we use in this thesis were generated. I now address how the determinant det$M$ is included.
 
 \subsubsection{Unquenched MCMC}
 
@@ -92,7 +93,7 @@ The $\Phi-$algorithm involves introducing new artificial scalar fields $\Phi(x)$
 \end{align}
 then one can add $\Phi^{\dagger} (M^{\dagger}M)^{-1}\Phi$ to $S_G$ in the Hybrid Monte Carlo algorithm. The extra functional integral over $\Phi,\Phi^{\dagger}$ is easly evaluated, by sampling a vector $\eta$ from a normal distribution exp$(-\eta^{\dagger}\eta)$, then transforming it to $\Phi = M^{\dagger} \eta$.
 
-\subsubsection{The dreaded Rooting Trick}
+\subsubsection{The Rooting Trick}
 
 We will now address how to correct for the fact that we have replaced det$M$ with det$M^{\dagger}M$ in the presence of arbitrary non-degenerate flavours. We have explicitly doubled the fermions to two degenerate flavours per physical flavour. In the case of staggered quarks, this is not a huge marginal complication since we already have four degenerate tastes which we have to deal with anyway. In order to cut down the number of tastes in the sea, the solution is to take the fourth-root of det$M$. When using the $\Phi$-algorithm, this becomes the 8th root of det$M^{\dagger}M$.
 \begin{align}
@@ -116,19 +117,19 @@ This can only be evaluated by some variation of a conjugate gradient algorithm (
 In this work, we use ensembles of gauge configurations generated by the MILC collaboration \cite{Bazavov:2012xda,Bazavov:2010ru}. The ingredients of these configurations are
 \begin{itemize}
 \item
-  Gauge fields obeying the one-loop Symanzik improved L\"uscher-Weitz action described in Sec. \ref{sec:symanzik_gauge}.
+  Gauge fields obeying the one-loop Symanzik improved L\"uscher-Weisz action described in Sec. \ref{sec:symanzik_gauge}.
 \item
-  Four flavours of quark in the sea, $u$,$d$,$s$ and $c$ (with $m_u=m_d\equiv m_l$), hence the notation $N_f=2+1+1$, obeying the HISQ action, described in sec. \ref{sec:HISQ}.
+  Four flavours of quark in the sea, $u$,$d$,$s$ and $c$ (with $m_u=m_d\equiv m_l$), hence the notation $N_f=2+1+1$, obeying the HISQ action, described in Sec. \ref{sec:HISQ}.
 \item
   Ensemble generated (mostly) using the RHMC algorithm as described earlier in this section. Some configurations on set 3 were instead generated using an RHMD algorithm - similar to RHMC except with the Metropolis accept/reject step omitted.
 \end{itemize}
-Table \ref{tab:ensembles} gives the details of the MILC ensembles that were used in this work. One may notice that for the majority of ensembles here, the light quarks are obscenely heavier than in reality. The necessity for this is explained in the next section.
+Table \ref{tab:ensembles} gives the details of the MILC ensembles that were used in this work. One may notice that for the majority of ensembles here, the light quarks are much heavier than in reality. The necessity for this is explained in the next section.
 
 \begin{table*}[t]
   \begin{center}
     \begin{tabular}{c c c c c c c c c c}
       \hline
-      set & handle & $w_0/a$  & $N_x^3\times N_t$ & $am_{l0}$ & $am_{s0}$ & $am_{c0}$  \\ [0.5ex]
+      set & name & $w_0/a$  & $N_x^3\times N_t$ & $am_{l0}$ & $am_{s0}$ & $am_{c0}$  \\ [0.5ex]
       \hline
       0 & \bf{very coarse} & 1.1119(10) & $16^3\times48$ & 0.013 & 0.067 & 0.838 \\ [1ex]
       1 & \bf{coarse} & 1.3826(11) & $24^3\times64$ & 0.0102 & 0.0509 & 0.635 \\ [1ex]
@@ -148,9 +149,9 @@ Table \ref{tab:ensembles} gives the details of the MILC ensembles that were used
 
 Once the ensemble $\{U_i\}$ has been generated, to compute the 2-point correlator \eqref{eq:av_gauge} one must compute $M^{-1}[U_i]$ for each $U_i$. We have already seen how this can be done in the case of the flavour in question being governed by the NRQCD action, one can use the recursion relation \eqref{eq:nrqcd_recursion}. In the case of relativistic actions like HISQ, there is no equivalent recursion relation.
 
-$M$ is large but sparse. It technically has $\order{\text{Vol}^2}$ elements, but for suitably local actions (like HISQ) it has only $\order{\text{Vol}}$ non-zero elements. This means it is well-suited to the {\bf{conjugate gradient}} (CG) algorithm \cite{Hestenes&Stiefel:1952} (and its variants), which has become the most successful approach to computing $M^{-1}$. However, CG requires the matrix being inverted to be hermitian and positive definate, which is not necessarily the case for $M$. We instead invert $M^{\dagger}M$, which {\it{is}} hermitian and positive definate, then we can recover $M^{-1}$ by acting $M^{\dagger}$ on $(M^{\dagger}M)^{-1}$.
+$M$ is large but sparse. It technically has $\order{\text{Vol}^2}$ elements, but for suitably local actions (like HISQ) it has only $\order{\text{Vol}}$ non-zero elements. This means it is well-suited to the {\bf{conjugate gradient}} (CG) algorithm \cite{Hestenes&Stiefel:1952} (and its variants), which has become the most successful approach to computing $M^{-1}$. However, CG requires the matrix being inverted to be hermitian and positive definite, which is not necessarily the case for $M$. We instead invert $M^{\dagger}M$, which {\it{is}} hermitian and positive definite, then we can recover $M^{-1}$ by acting $M^{\dagger}$ on $(M^{\dagger}M)^{-1}$.
 
-The design of CG requires a bunch of explanation which I will not go into here. I will instead briefly describe the philosophy behind it, and state the algorithm. For a nice review with lots of detail see \cite{Shewchuk94anintroduction}. The goal is, given some vector $b$ and matrix $A$, to find $x$ where
+The design of CG requires a lot of explanation that I will not go into here. I will instead briefly describe the philosophy behind it, and state the algorithm. For a nice review with lots of detail see \cite{Shewchuk94anintroduction}. The goal is, given some vector $b$ and matrix $A$, to find $x$ where
 \begin{align}
   Ax = b\,.
 \end{align}
@@ -187,7 +188,7 @@ For this reason, lattice calculations are often computed with unphysically heavy
 \subsection{Staggered Correlation Functions}
 \label{sec:staggeredcorrelators}
 
-We now turn to how to evaluate traces of quark propagators, like in Eq. \eqref{eq:lattice_correlator}, in the staggered formalism. %Recall in the staggered formalism we replace the Dirac spinor $\psi(x)$ with a single-component staggered quark via $\psi(x)=\gamma_x \chi(x)$. Then, we can gather up all of the spin structure in the resulting $\gamma$'s and the spin trace can be evaluated to obtain a so-called {\it{staggered phase}}.
+We now turn to how to evaluate traces of quark propagators, as in Eq. \eqref{eq:lattice_correlator}, in the staggered formalism. %Recall in the staggered formalism we replace the Dirac spinor $\psi(x)$ with a single-component staggered quark via $\psi(x)=\gamma_x \chi(x)$. Then, we can gather up all of the spin structure in the resulting $\gamma$'s and the spin trace can be evaluated to obtain a so-called {\it{staggered phase}}.
 
 Recall from Sec. \ref{sec:staggeredquarks}, propagators for naive quarks $M^{-1}$ are related to staggered propagators $g$ by
 \begin{align}
@@ -214,11 +215,11 @@ $\text{Tr}_s$ is a trace over spin and $\text{Tr}_c$ is over color. We have appl
 \begin{align}
   \Omega^{\dagger}(x)\gamma_X\Omega(x) = \phi_X(x) \gamma_X.
 \end{align}
-for example, if $X=5$, then $\gamma^{\dagger}_x\gamma_5\gamma_x = (-1)^{\sum_{\mu}x_{\mu}} \gamma^{\dagger}_x\gamma_x \gamma_5 = \phi_5(x) \gamma_5$. The map from $X$ to $\phi_X$ is structure preserving, i.e. if $\gamma_X=\gamma_A\gamma_B$, then $\phi_X(x)=\phi_A(x)\phi_B(x)$. The spin trace becomes $\phi_X(x)\phi_Y(y) \text{Tr}_s\left( \gamma_X \gamma_Y \right)$. The remaining trace will vanish unless $Y=X$, and is 4 otherwise. We end up with
+For example, if $X=5$, then $\gamma^{\dagger}_x\gamma_5\gamma_x = (-1)^{\sum_{\mu}x_{\mu}} \gamma^{\dagger}_x\gamma_x \gamma_5 = \phi_5(x) \gamma_5$. The map from $X$ to $\phi_X$ is structure preserving, i.e. if $\gamma_X=\gamma_A\gamma_B$, then $\phi_X(x)=\phi_A(x)\phi_B(x)$. The spin trace becomes $\phi_X(x)\phi_Y(y) \text{Tr}_s\left( \gamma_X \gamma_Y \right)$. The remaining trace will vanish unless $Y=X$, and is 4 otherwise. We end up with
 \begin{align}
   C(x,y) = {1\over 4} \phi_{5X}(x)\phi_{5Y}(y) \langle \,\text{Tr}_c \,g_a(x,y) g^{\dagger}_b(x,y) \,\rangle_U.
 \end{align}
-We are usually interested instead in the correlation function of a meson in a momentum eigenstate with spacial momentum ${\textbf{p}}$. This will take the form
+We are usually interested instead in the correlation function of a meson in a momentum eigenstate with spatial momentum ${\textbf{p}}$. This will take the form
 \begin{align}
   \nonumber
   C_{\textbf{p}}(t_0,t) &= {1\over N_x^3} \sum_{{\textbf{x}},{\textbf{y}}} e^{i{\textbf{p}}\cdot({\textbf{x}}-{\textbf{y}})}
@@ -243,7 +244,7 @@ Now all one has to compute is $P^{t_0}_{a/b}(y)$ for general $y$, so $2\cdot$(Vo
 
 \subsubsection{3-point Correlation Functions}
 
-The above discussion can be generalized to 3-(or $N$-)point correlation functions. Consider a 3-point correlation function, for example encoding an $X\to Y$ semileptonic decay via a current $J(y)$:
+The above discussion can be generalized to 3-(or $N$-)point correlation functions. Consider a 3-point correlation function, for example encoding an $X\to Z$ semileptonic decay via a current $J(y)$:
 \begin{align}
   C(x,y,z) = \langle \Phi^{\dagger}_X(x) J(y) \Phi_Z(z) \rangle_{\psi,U} \,,\quad \quad \Phi_X(x) &= {1\over 4} \bar{\psi}_b(x) \gamma_X \psi_s(x) \\
   \nonumber
@@ -278,7 +279,7 @@ I'll briefly connect the above discussion to the spin-taste notation introduced 
 \subsubsection{Momentum Twist}
 \label{sec:momentum_twist}
 
-The way in which spacial momentum is introduced into the correlation functions requires some explanation. The momentum space 2-point correlation function for an operator $\mathcal{O}$ with momentum ${\textbf{p}}$ is given by
+The way in which spatial momentum is introduced into the correlation functions requires some explanation. The momentum space 2-point correlation function for an operator $\mathcal{O}$ with momentum ${\textbf{p}}$ is given by
 \begin{align}
   C_{\textbf{p}}(0,t) = \sum_{{\textbf{x}}} e^{i{\textbf{p}}\cdot{\textbf{x}}} \langle \mathcal{O}^{\dagger} ({\textbf{x}},t) \mathcal{O}({\textbf{0}},0) \rangle.
 \end{align}
@@ -307,7 +308,7 @@ For example, consider the effect this has on the following operator
   \\
   = &\psi^{\dagger}(x)e^{-i{\textbf{p}\cdot\textbf{x}}}U_{\mu}(x) e^{+i{\textbf{p}\cdot(\textbf{x}}+a\hat{\mu})}\psi(x+a\hat{\mu})\,.
 \end{align}
-When computing a propagator $g_a(x,y)$, we add these phases to the gauge fields which have the effect of the flavour $a$ carrying the spacial momentum. This is how momentum is included in the work of this thesis. We report momentum twist in units of $\pi/N_x$, e.g., a twist of $\theta$ in the $k$ direction corresponds to a momentum of $ap_k = \pi\theta/N_k$.
+When computing a propagator $g_a(x,y)$, we add these phases to the gauge fields which have the effect of the flavour $a$ carrying the spatial momentum. This is how momentum is included in the work of this thesis. We report momentum twist in units of $\pi/N_x$, e.g., a twist of $\theta$ in the $k$ direction corresponds to a momentum of $ap_k = \pi\theta/N_k$.
 
 \section{Analysis of Correlation Functions}
 
@@ -333,11 +334,11 @@ where $E_n$ are the energies of each state. Inserting this into the correlation 
   \\[10pt] \equiv \sum_{n=0}^{N_{\text{exp}}} & |a_n|^2 f(\bar{E}_n,t) \quad,\quad f(E,t) = \left( e^{-E t} + e^{-E(T_{\text{lat}}-t)} \right),
   \label{eq:multiexponential}
 \end{align}
-where $T_{\text{lat}}=aN_t$ is the temporal extent of the lattice. I have here set $t_0=0$ for clarity. In practice, one would only use 'late time' data,  $t\geq t_{\text{cut}}$ for some $t_{\text{cut}}$. In the late time data the correlator is dominated by the lowest-$n$ terms, since higher $n$ terms are suppressed by faster decaying exponentials exp$(-\bar{E}_nt)$. Hence we can afford to truncate the sum at some finite number of terms, $N_{\text{exp}}$. 
+where $T_{\text{lat}}=aN_t$ is the temporal extent of the lattice. I have here set $t_0=0$ for clarity. In practice, one would only use `late time' data,  $t\geq t_{\text{cut}}$ for some $t_{\text{cut}}$. In the late time data the correlator is dominated by the lowest-$n$ terms, since higher $n$ terms are suppressed by faster decaying exponentials exp$(-\bar{E}_nt)$. Hence we can afford to truncate the sum at some finite number of terms, $N_{\text{exp}}$. 
 
 The fit results in a determination of the parameters $a_n$ and $\bar{E}_n$. The sum over $n$ will be populated only by states $|\lambda_n\rangle$ with the same quantum numbers as $\Phi$, since $\langle\Omega | \Phi | \lambda_n \rangle$ vanishes in all other cases. We can then interpret $|\lambda_0\rangle$ to be the ground state of the meson we are studying. 
 
-I'm maintaining a distinction between $\bar{E}_n$ and $E_n$ here, since these differ in calculations involving NRQCD quarks. In NRQCD $\bar{E}_n$ is the non-relativistic energy with leading-$v$ behaviour ${\textbf{p}}^2/2m$.
+We are maintaining a distinction between $\bar{E}_n$ and $E_n$ here, since these differ in calculations involving NRQCD quarks. In NRQCD $\bar{E}_n$ is the non-relativistic energy with leading-$v$ behaviour ${\textbf{p}}^2/2m$.
 
 In the HISQ case, one can safely interpret these as relativistic energies, $\bar{E}_n=E_n$. One can find the meson's mass by computing the correlation function at zero momentum $C_{{\textbf{0}}}(t)$, the fit parameter $\bar{E}_0$ will equal the mass $M$. $a_n$ can be related to the meson's decay constant. For example for a pseudoscalar meson, using the definition of a meson decay constant \eqref{eq:decay_constant_def} and the PCAC relation in \eqref{eq:axial_ward_indiv}, we find
 \begin{align}
@@ -355,7 +356,7 @@ The above discussion can be straightforwardly generalized to 3-point correlation
   \equiv& \sum_{n,m} a_{M',n} J_{nm} a^*_{M,m} \,\, f(\bar{E}_{M',m}\,,\,T-t) f(\bar{E}_{M,n}\,,\,t).
   \label{eq:3ptfitfunction}
 \end{align}
-I have suppressed spacial momentum dependence here for notational simplicity. $a_{M,n}$ will vanish for states $|\lambda_n\rangle$ that have different quantum numbers to $\Phi_{M}$, similarly for $a_{M',m}$ and $\Phi_{M'}$. Non-zero $a_{M,n}$'s will match the analagous parameters extracted from fitting a 2-point function $\langle \Phi_{M}^{\dagger} \Phi_{M} \rangle$, similarly for $a_{M',m}$'s and $\Phi_{M'}$. This carries on to the energies; $\{\bar{E}_{M,n}\}$ is the spectrum for the $M'$ meson, and $\{\bar{E}_{M'm}\}$ is the spectrum for the $M$. Therefore, we compute and fit the appropriate 2-point functions to deduce the parameters $\{a_{M^{(')},n}\}$,$\{\bar{E}_{M^{(')},n}\}$, then fitting $C(0,t,T)$ results in an accurate determination of the remaining free parameters, $J_{nm}$. This set contains the transition amplitude one is interested in $\langle M' | J | M \rangle$, recoginising that
+I have suppressed spatial momentum dependence here for notational simplicity. $a_{M,n}$ will vanish for states $|\lambda_n\rangle$ that have different quantum numbers to $\Phi_{M}$, similarly for $a_{M',m}$ and $\Phi_{M'}$. Non-zero $a_{M,n}$'s will match the analagous parameters extracted from fitting a 2-point function $\langle \Phi_{M}^{\dagger} \Phi_{M} \rangle$, similarly for $a_{M',m}$'s and $\Phi_{M'}$. This carries on to the energies; $\{\bar{E}_{M,n}\}$ is the spectrum for the $M'$ meson, and $\{\bar{E}_{M'm}\}$ is the spectrum for the $M$. Therefore, we compute and fit the appropriate 2-point functions to deduce the parameters $\{a_{M^{(')},n}\}$,$\{\bar{E}_{M^{(')},n}\}$, then fitting $C(0,t,T)$ results in an accurate determination of the remaining free parameters, $J_{nm}$. This set contains the transition amplitude one is interested in $\langle M' | J | M \rangle$, recoginising that
 \begin{align}
   J_{00} = {\langle M' | J | M \rangle \over 2\sqrt{E_{M,0} E_{M',0} } }\,.
 \end{align}
@@ -399,14 +400,14 @@ We use the \texttt{CorrFitter} package \cite{CorrFitter} for performing the $\ch
 \end{align}
 $\rho_{\alpha}^{\text{prior}}$ and $\sigma_{\alpha}^{\text{prior}}$ are the mean and standard deviations of the prior distributions given to the fit parameters. In our case, $x_i$ is the set of times $t$, $y_i$ are the correlators $C_i(t)$, and $\rho_{\alpha}$ are $a_n,E_n,J_{nm}$. Using this $\chi^2$ means we take into account all correlations between different timeslices $t$, and between different correlators.
 
-The actual parameters $\rho_{\alpha}$ of these fits are slightly reparameterized from simply the amplitudes $a_j^M$, energies $E_j^M$ and transition amplitudes $J_{jk}$. Instead of energies, the fit parameters are log$(\delta E_j^M)$, where $\delta E_0=E_0^M$ and $\delta E_j=E_j^M-E_{j-1}^M$ for $j>0$. These are the parameters $\rho$ given to Eq. \eqref{eq:chi2}, this is equivalent to giving Gaussian prior distributions to these logs. This forbids the ground state energy to become negative or go arbitrarily close to zero in the fit. Similarly, for the excited-state differences $E_j^M-E_{j-1}^M$, setting Gaussian priors for the log of these enforces $E_j^M > E_{j-1}^M$, a large reduction in the space of possible solutions to the fit. Often the fit is also given log-amplitudes rather than amplitudes as fit parameters. This also prevents the amplitudes $a_j^M$ from becoming negative or zero. This is only an option when both the source and sink of the correlators being fitted have the same operator, otherwise, $a_j^M$ are not necessarily positive.
+The actual parameters $\rho_{\alpha}$ of these fits are slightly reparameterized from simply the amplitudes $a_j^M$, energies $E_j^M$ and transition amplitudes $J_{jk}$. Instead of energies, the fit parameters are log$(\delta E_j^M)$, where $\delta E_0=E_0^M$ and $\delta E_j=E_j^M-E_{j-1}^M$ for $j>0$. These are the parameters $\rho$ given to Eq. \eqref{eq:chi2}, this is equivalent to giving Gaussian prior distributions to these logs. This forbids the ground state energy to become negative or go arbitrarily close to zero in the fit. Similarly, for the excited-state differences $E_j^M-E_{j-1}^M$, setting Gaussian priors for $\log(E_j^M-E^M_{j-1})$ enforces $E_j^M > E_{j-1}^M$, a large reduction in the space of possible solutions to the fit. Often the fit is also given log-amplitudes rather than amplitudes as fit parameters. This also prevents the amplitudes $a_j^M$ from becoming negative or zero. This is only an option when both the source and sink of the correlators being fitted have the same operator, otherwise, $a_j^M$ are not necessarily positive.
 
 A common problem for large fits involving many correlators is that the data’s covariance matrix can be somewhat singular (very large condition number) if there are strong correlations in the data. This makes the inversion of the covariance matrix (for constructing $\chi^2$) susceptible to roundoff error. To address this we impose an {\it{svd cut}} $c_{\text{svd}}$. This replaces any eigenvalue of the covariance matrix smaller than $c_{\text{svd}} x$ with $c_{\text{svd}}x$, where $x$ is the largest eigenvalue in the matrix. This makes the matrix less singular. It can be considered a conservative move when it comes to the uncertainty of the results since the only possible effect this can have is to inflate those uncertainties.
 
-\subsection{Signal Degredation}
-\label{sec:signaldegredation}
+\subsection{Signal Degradation}
+\label{sec:signaldegradation}
 
-A large obstacle in the analysis of correlation functions is \textit{signal degredation} \cite{Parisi:1983ae,Lepage:1989hd}.
+A large obstacle in the analysis of correlation functions is \textit{signal degradation} \cite{Parisi:1983ae,Lepage:1989hd}.
 
 A random variable $x$ has a mean and standard deviation
 \begin{align}
@@ -432,7 +433,7 @@ where we have assumed the ratio of matrix elements and energies are $\mathcal{O}
   {\hat{x}^2\over \sigma^2} \propto e^{-(M_{D}-(M_{\pi}+M_{\eta_c})/2)t}.
 \end{align}
 
-In general, a meson with two valence quarks of very different masses will suffer from a signal degrading exponentially with $t$. $B$-mesons suffer more than $D$-mesons. Adding spacial momentum to one of the quarks in the meson would have the effect of replacing $M_D$ in the above equation with some higher energy $E_D$, thus exacerbating the problem further.
+In general, a meson with two valence quarks of very different masses will suffer from a signal degrading exponentially with $t$. $B$-mesons suffer more than $D$-mesons. Adding spatial momentum to one of the quarks in the meson would have the effect of replacing $M_D$ in the above equation with some higher energy $E_D$, thus exacerbating the problem further.
 
 Signal degradation strongly limits the types of calculations that can be performed in lattice QCD. In the context of semileptonic decays, it can limit the region of $q^2$ that form factors can be calculated.
 
